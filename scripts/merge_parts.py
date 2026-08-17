@@ -20,6 +20,11 @@ GROUPS = {
     "st_joseph_section_1939_index.csv": ["st_joseph_index*.csv"],
     "cemetery_plots_1847.csv": ["cem1847_*.csv"],
     "interments_1847.csv": ["interments_1847_*.csv"],
+    "cemetery_1854.csv": ["cemetery_1854_*.csv"],
+    "baptism_1839.csv": ["baptism_1839_*.csv"],
+    "marriage_1840.csv": ["marriage_1840_*.csv"],
+    "first_communion_1895.csv": ["first_communion_1895_*.csv"],
+    "sick_call_1973.csv": ["sick_call_1973_*.csv"],
 }
 
 

@@ -14,19 +14,7 @@ entries are in a part CSV.
 
 ## Cemetery Plots 1847 (crops in crops/cem1847/)
 
-- [x] PAGE 1 .. PAGE 6-7 (cem1847_a.csv)
-- [ ] PAGE 8-9 .. PAGE 26-27 (10 scans) -> cem1847_i.csv
-- [x] PAGE 28-29, PAGE 30-31 (cem1847_b.csv)
-- [ ] PAGE 32-33 .. PAGE 54-55 (12 scans) -> cem1847_j.csv
-- [x] PAGE 56-57 .. PAGE 60-61 (cem1847_c.csv)
-- [ ] PAGE 62-63 .. PAGE 82-83 (11 scans) -> cem1847_k.csv
-- [ ] PAGE 84-85 .. PAGE 110-111 (14 scans) -> cem1847_l.csv
-- [x] PAGE 112-113 .. PAGE 118-119 (cem1847_e.csv)
-- [ ] PAGE 120-121 .. PAGE 138-139 (10 scans) -> cem1847_m.csv
-- [ ] PAGE 140-141 .. PAGE 158-159, PAGE 179 (11 scans) -> cem1847_n.csv
-- [x] PAGE 180-181 .. PAGE 184-185 (cem1847_g.csv)
-- [ ] PAGE 186-187 .. PAGE 210-211 (13 scans) -> cem1847_o.csv (partial through ~201)
-- [ ] PAGE 212-213 .. PAGE 244-245 (17 scans) -> cem1847_p.csv (partial through ~223)
+- [x] PAGE 1 .. PAGE 245 (113 scans) — 2,463 entries. Blank/numbered-only pages: 70, 79–81, 86–87, 92, 97, 149, 159, 179.
 
 ## Reception Into Full Communion
 
@@ -34,5 +22,7 @@ entries are in a part CSV.
 
 ## Record of Interments 1847-54 (crops in crops/interments_1847/)
 
-- [ ] TITLE / TITLE 2 / PAGE 001 (accounts page) / PAGE 002 .. PAGE 066
-
+- [x] PAGE 002 .. PAGE 020 (interments_1847_a.csv) — 88 burials
+- [x] PAGE 021 .. PAGE 040 (interments_1847_b.csv) — 66 burials
+- [x] PAGE 041 .. PAGE 066 (interments_1847_c.csv) — 71 burials. Account-only (no burial rows): PAGE 063–066. Headstone/account notes on burial pages were not entered as rows.
+- [x] TITLE / TITLE 2 / PAGE 001 — title + accounts, no burial rows

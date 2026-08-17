@@ -23,6 +23,42 @@
       "title": "Reception Into Full Communion",
       "file": "reception_full_communion.csv",
       "type": "reception"
+    },
+    {
+      "id": "interments_1847",
+      "title": "Record of Interments 1847–54",
+      "file": "interments_1847.csv",
+      "type": "interments"
+    },
+    {
+      "id": "cemetery_1854",
+      "title": "Record of Cemetery 1854–1870",
+      "file": "cemetery_1854.csv",
+      "type": "interments"
+    },
+    {
+      "id": "baptism_1839",
+      "title": "Baptism 1839–1875",
+      "file": "baptism_1839.csv",
+      "type": "baptism"
+    },
+    {
+      "id": "marriage_1840",
+      "title": "Marriage 1840–1871",
+      "file": "marriage_1840.csv",
+      "type": "marriage"
+    },
+    {
+      "id": "first_communion_1895",
+      "title": "First Communion 1895–1941",
+      "file": "first_communion_1895.csv",
+      "type": "first_communion"
+    },
+    {
+      "id": "sick_call_1973",
+      "title": "Sick Call Register 1973–2006",
+      "file": "sick_call_1973.csv",
+      "type": "sick_call"
     }
   ]
 }

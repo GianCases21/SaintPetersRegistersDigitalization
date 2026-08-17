@@ -119,6 +119,72 @@ register,source_image,page,burial_date,year,surname,given_name,age,cause_of_deat
 ```
 `register` value: `interments_1847`.
 
+### Record of Cemetery 1854–1870 (`cemetery_1854`)
+
+Continuation of the narrative burial book (starts Apr 1854). Each entry:
+date, name, age, cause of death, nativity/residence, parents, burial
+location (tier / relative to another grave), sometimes a cash fee.
+Landscape scans are two-page spreads — transcribe BOTH pages.
+
+CSV header:
+```
+register,source_image,page,burial_date,year,surname,given_name,age,cause_of_death,nativity,residence,parents,burial_location,fee,needs_review,notes
+```
+`register` value: `cemetery_1854`. Skip pure account lines.
+
+### Baptism 1839–1875 (`baptism_1839`)
+
+Chronological baptism entries (Latin early, then English). Typical fields:
+date, child name (often with age or birth note), father, mother (maiden
+when given), sponsors (`sp.` / Sponsores), officiant.
+
+CSV header:
+```
+register,source_image,page,baptism_date,year,surname,given_name,age_or_birth,father,mother,sponsors,officiant,needs_review,notes
+```
+`register` value: `baptism_1839`. Source images are already single-page
+portraits in the 2023–2024 updated folder (`PAGE 001.JPG` … `PAGE 149.JPG`).
+Read the whole page; do not split left/right.
+
+### Marriage 1840–1871 (`marriage_1840`)
+
+Chronological marriages. Early entries Latin (`Matrimonio juncti sunt`),
+later English (`Married X to Y`). Witnesses after the couple; priest signs.
+
+CSV header:
+```
+register,source_image,page,marriage_date,year,groom_surname,groom_given,bride_surname,bride_given,witnesses,officiant,needs_review,notes
+```
+`register` value: `marriage_1840`. Landscape scans are two-page spreads
+unless the filename is a single page (PAGE 1, PAGE 79–87).
+
+### First Communion 1895–1941 (`first_communion_1895`)
+
+Pages headed Communions + year. Columns: name, age. Portrait scans.
+
+CSV header:
+```
+register,source_image,page,year,surname,given_name,age,needs_review,notes
+```
+`register` value: `first_communion_1895`. INDEX.JPG is a name index
+(name + page); put page number in `notes` as `index page_no=N` and leave
+`age` blank.
+
+### Sick Call Register 1973–2006 (`sick_call_1973`)
+
+Printed ledger. Left page: DATE, NAME, RESIDENCE, ministration ticks
+(C'FES / COM. / VIAT.). Right page: more ticks (ANT'G / LAST B.), PRIEST,
+REMARKS. One row per person (or couple listed as one visit). Expand dittos.
+Letter-tab scans (PAGE AB.JPG etc.) are name indexes: surname, given_name,
+page_no in notes.
+
+CSV header:
+```
+register,source_image,page,call_date,year,surname,given_name,residence,confession,communion,viaticum,anointing,last_blessing,priest,needs_review,notes
+```
+`register` value: `sick_call_1973`. Ministration columns: `yes` if ticked,
+else blank.
+
 ## Finishing up
 
 1. Verify your part CSV parses: number of columns in every row must match
