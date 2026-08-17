@@ -7,9 +7,9 @@ entries are in a part CSV.
 
 - [ ] INDEX AB / CD / EF-GH / IJ-KL / MN-OP / QR-ST / UV-PAGE17 (7 scans) -> st_joseph_index.csv
 - [x] PAGE 018-019 (st_joseph_pages_base.csv)
-- [ ] PAGE 020-021 .. PAGE 046-047 (14 scans) -> st_joseph_pages_c.csv
+- [x] PAGE 020-021 .. PAGE 046-047 (st_joseph_pages_c*.csv)
 - [x] PAGE 048-049, PAGE 050-051 (st_joseph_pages_b.csv)
-- [ ] PAGE 052-053 .. PAGE 066, PAGE 068-069 .. PAGE 078-079, PAGE 92-93, 94-95, 96-97 (15 scans) -> st_joseph_pages_d.csv
+- [x] PAGE 052-053 .. PAGE 066, PAGE 068-069 .. PAGE 078-079 (st_joseph_pages_d.csv) - book ends at page 79
 
 ## Cemetery Plots 1847 (crops in crops/cem1847/)
 
