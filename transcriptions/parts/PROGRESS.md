@@ -25,8 +25,8 @@ entries are in a part CSV.
 - [ ] PAGE 120-121 .. PAGE 138-139 (10 scans) -> cem1847_m.csv
 - [ ] PAGE 140-141 .. PAGE 158-159, PAGE 179 (11 scans) -> cem1847_n.csv
 - [x] PAGE 180-181 .. PAGE 184-185 (cem1847_g.csv)
-- [ ] PAGE 186-187 .. PAGE 210-211 (13 scans) -> cem1847_o.csv (partial through ~201)
-- [ ] PAGE 212-213 .. PAGE 244-245 (17 scans) -> cem1847_p.csv (partial through ~223)
+- [x] PAGE 186-187 .. PAGE 210-211 (13 scans) -> cem1847_o.csv
+- [x] PAGE 212-213 .. PAGE 244-245 (17 scans) -> cem1847_p.csv
 
 ## Reception Into Full Communion
 
