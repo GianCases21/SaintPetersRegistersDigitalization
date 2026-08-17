@@ -30,7 +30,7 @@ register type, and other fields.
 | First Communion 1895–1941 | 1895–1941 | in progress (79 scans) |
 | Record of Cemetery 1854–1870 | 1854–1870 | **complete** — 686 burials |
 | Record of Interments 1847–54 | 1847–1854 | **complete** — 225 burials (pages 2–62; later pages are accounts) |
-| Sick Call Register | 1973–2006 | in progress (115 scans) |
+| Sick Call Register | 1973–2006 | **complete** — 3,213 visits + index |
 | Baptism Registers (later vols.) | 1875–2011 | pending — on Drive |
 | Confirmation Registers | 1895–2015 | pending — on Drive |
 | Death Registers | 1895–2018 | pending — on Drive |
