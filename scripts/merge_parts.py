@@ -19,6 +19,7 @@ GROUPS = {
     "st_joseph_section_1939.csv": ["st_joseph_pages_*.csv"],
     "st_joseph_section_1939_index.csv": ["st_joseph_index*.csv"],
     "cemetery_plots_1847.csv": ["cem1847_*.csv"],
+    "interments_1847.csv": ["interments_1847_*.csv"],
 }
 
 
