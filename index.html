@@ -114,6 +114,13 @@
     font-style: italic;
   }
   footer { text-align: center; padding: 20px; font-size: 0.8rem; color: var(--muted); }
+  .hint {
+    margin: 14px 4px 0;
+    font-size: 0.88rem;
+    color: var(--muted);
+    line-height: 1.45;
+  }
+  .counts { margin-top: 6px; font-size: 0.82rem; font-family: Verdana, sans-serif; }
   @media (max-width: 760px) {
     .search-card { grid-template-columns: 1fr; }
   }
@@ -138,9 +145,15 @@
       <label for="register">Register</label>
       <select id="register"><option value="">All registers</option></select>
     </div>
-    <button id="go">Search</button>
+    <button type="button" id="go">Search</button>
   </div>
-  <div class="summary" id="summary">Loading records&hellip;</div>
+  <p class="hint">
+    <strong>St. Joseph Section 1939</strong> is the full plot book (age, grave, dates, undertaker) &mdash; currently 475 entries covering pages 17&ndash;79.
+    The <strong>Name Index</strong> is the front-of-book lookup table: name + page number only, so you can jump to the matching plot-book page.
+    If a search shows only ~17 records, hard-refresh the page (Ctrl+Shift+R / Cmd+Shift+R); your browser was holding an old copy of the data.
+  </p>
+  <p id="summary" class="summary">Loading records&hellip;</p>
+  <p id="counts" class="counts"></p>
   <div class="results" id="results"></div>
 </main>
 <footer>Records transcribed from the original register scans &middot; entries marked &ldquo;needs review&rdquo; have not yet been verified against the scan</footer>
@@ -174,18 +187,25 @@ function parseCSV(text) {
 }
 
 async function loadAll() {
-  const manifest = await (await fetch('transcriptions/manifest.json')).json();
+  // cache-buster so browsers always pick up newly transcribed records
+  const v = '?v=' + Date.now();
+  const manifest = await (await fetch('transcriptions/manifest.json' + v)).json();
   const sel = document.getElementById('register');
+  const byReg = [];
   for (const reg of manifest.registers) {
+    const text = await (await fetch('transcriptions/' + reg.file + v)).text();
+    const rows = parseCSV(text);
+    for (const row of rows) { row._register = reg; allRows.push(row); }
     const opt = document.createElement('option');
     opt.value = reg.id;
-    opt.textContent = reg.title;
+    opt.textContent = reg.title + ' (' + rows.length + ')';
     sel.appendChild(opt);
-    const text = await (await fetch('transcriptions/' + reg.file)).text();
-    for (const row of parseCSV(text)) { row._register = reg; allRows.push(row); }
+    byReg.push(reg.title + ': ' + rows.length);
   }
   document.getElementById('summary').textContent =
     allRows.length + ' records loaded from ' + manifest.registers.length + ' register(s). Enter a search above, or press Search to browse everything.';
+  const countsEl = document.getElementById('counts');
+  if (countsEl) countsEl.textContent = byReg.join('  ·  ');
 }
 
 function render(rows) {
