@@ -34,5 +34,7 @@ entries are in a part CSV.
 
 ## Record of Interments 1847-54 (crops in crops/interments_1847/)
 
-- [ ] TITLE / TITLE 2 / PAGE 001 (accounts page) / PAGE 002 .. PAGE 066
+- [ ] TITLE / TITLE 2 / PAGE 001 (accounts page — skip; not burials)
+- [x] PAGE 002 .. PAGE 020 (interments_1847_a.csv) — left pages are burials; facing right pages are cemetery accounts
+- [ ] PAGE 021 .. PAGE 066
 
