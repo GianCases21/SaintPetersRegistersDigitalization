@@ -36,5 +36,6 @@ entries are in a part CSV.
 
 - [ ] TITLE / TITLE 2 / PAGE 001 (accounts page — skip; not burials)
 - [x] PAGE 002 .. PAGE 020 (interments_1847_a.csv) — left pages are burials; facing right pages are cemetery accounts
-- [ ] PAGE 021 .. PAGE 066
+- [x] PAGE 021 .. PAGE 040 (interments_1847_b.csv) — left pages are burials; facing right pages are cemetery accounts
+- [ ] PAGE 041 .. PAGE 066
 
