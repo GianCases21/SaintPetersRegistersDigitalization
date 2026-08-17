@@ -41,6 +41,18 @@
       "title": "Marriage 1840–1871",
       "file": "marriage_1840.csv",
       "type": "marriage"
+    },
+    {
+      "id": "first_communion_1895",
+      "title": "First Communion 1895–1941",
+      "file": "first_communion_1895.csv",
+      "type": "first_communion"
+    },
+    {
+      "id": "sick_call_1973",
+      "title": "Sick Call Register 1973–2006",
+      "file": "sick_call_1973.csv",
+      "type": "sick_call"
     }
   ]
 }
