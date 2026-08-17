@@ -5,6 +5,12 @@
       "title": "St. Joseph Section 1939",
       "file": "st_joseph_section_1939.csv",
       "type": "cemetery_plots"
+    },
+    {
+      "id": "cemetery_plots_1847",
+      "title": "Cemetery Plots 1847",
+      "file": "cemetery_plots_1847.csv",
+      "type": "cemetery_plots"
     }
   ]
 }
