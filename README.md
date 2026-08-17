@@ -35,13 +35,36 @@ register type, and other fields.
 | Record of Interments 1847–54 | 1847–1854 | pending |
 | Sick Call Register | 1973–2009 | pending |
 
-## Querying the records
+## Searching the records
+
+**Web interface** — the easiest way to browse. From the repo folder run:
+
+```bash
+python3 -m http.server 8000
+```
+
+then open [http://localhost:8000](http://localhost:8000) in a browser. Search
+by name, year, and register. (The page can also be hosted for free on GitHub
+Pages: repo Settings → Pages → deploy from the main branch root.)
+
+**Command line:**
 
 ```bash
 python3 scripts/query.py --name "Monaghan"
 python3 scripts/query.py --year 1940
 python3 scripts/query.py --register st_joseph_section_1939 --name "Cody"
 ```
+
+**SQL (optional)** — the CSVs are the master copy, but you can build a
+SQLite database from them at any time:
+
+```bash
+python3 scripts/export_sqlite.py
+sqlite3 registers.db "SELECT * FROM records WHERE surname LIKE '%Cody%' AND year > '1950'"
+```
+
+New registers are added to the web UI by listing their CSV in
+`transcriptions/manifest.json`.
 
 ## Setup
 
