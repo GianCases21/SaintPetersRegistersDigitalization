@@ -25,12 +25,17 @@ register type, and other fields.
 | St. Joseph 1939 name index | — | **complete** — 148 name→page pointers |
 | Cemetery Plots 1847 | ~1847–1890s | **complete** — 2,463 entries |
 | Reception Into Full Communion | 2009–2012 | **complete** — 5 entries (the whole book) |
-| Baptism 1839–1875 | 1839–1875 | pending (149 scans) |
-| Marriage 1840–1871 | 1840–1871 | pending (49 scans) |
-| First Communion 1895–1941 | 1895–1941 | pending (79 scans) |
-| Record of Cemetery 1854–1870 | 1854–1870 | pending (53 scans) |
+| Baptism 1839–1875 | 1839–1875 | in progress (149 scans) |
+| Marriage 1840–1871 | 1840–1871 | in progress (49 scans) |
+| First Communion 1895–1941 | 1895–1941 | in progress (79 scans) |
+| Record of Cemetery 1854–1870 | 1854–1870 | in progress (53 scans) |
 | Record of Interments 1847–54 | 1847–1854 | **complete** — 225 burials (pages 2–62; later pages are accounts) |
-| Sick Call Register | 1973–2006 | pending (115 scans) |
+| Sick Call Register | 1973–2006 | in progress (115 scans) |
+| Baptism Registers (later vols.) | 1875–2011 | pending — on Drive |
+| Confirmation Registers | 1895–2015 | pending — on Drive |
+| Death Registers | 1895–2018 | pending — on Drive |
+| Marriage Registers (later vols.) | 1872– | pending — on Drive |
+| First Communion (later vols.) | 1953–1970 | pending — on Drive |
 
 ## Searching the records
 
