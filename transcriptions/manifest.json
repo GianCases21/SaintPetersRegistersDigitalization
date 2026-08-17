@@ -29,6 +29,18 @@
       "title": "Record of Interments 1847–54",
       "file": "interments_1847.csv",
       "type": "interments"
+    },
+    {
+      "id": "baptism_1839",
+      "title": "Baptism 1839–1875",
+      "file": "baptism_1839.csv",
+      "type": "baptism"
+    },
+    {
+      "id": "marriage_1840",
+      "title": "Marriage 1840–1871",
+      "file": "marriage_1840.csv",
+      "type": "marriage"
     }
   ]
 }
