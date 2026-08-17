@@ -26,3 +26,7 @@ entries are in a part CSV.
 - [x] PAGE 021 .. PAGE 040 (interments_1847_b.csv) — 66 burials
 - [x] PAGE 041 .. PAGE 066 (interments_1847_c.csv) — 71 burials. Account-only (no burial rows): PAGE 063–066. Headstone/account notes on burial pages were not entered as rows.
 - [x] TITLE / TITLE 2 / PAGE 001 — title + accounts, no burial rows
+
+## Record of Cemetery 1854–1870 (crops in crops/cemetery_1854/)
+
+- [x] PAGE 001 .. PAGE 027 (cemetery_1854_a.csv) — 310 burials, Apr 1854–Jan 1863. PAGE 017.JPG is missing from the originals. PAGE 005 right and PAGE 025 right are largely covered by loose research slips (no burial rows from those sides). Skip pure account lines.
