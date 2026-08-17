@@ -25,4 +25,4 @@ entries are in a part CSV.
 - [x] PAGE 002 .. PAGE 020 (interments_1847_a.csv) — 88 burials
 - [x] PAGE 021 .. PAGE 040 (interments_1847_b.csv) — 66 burials
 - [x] PAGE 041 .. PAGE 066 (interments_1847_c.csv) — 71 burials. Account-only (no burial rows): PAGE 063–066. Headstone/account notes on burial pages were not entered as rows.
-- [ ] TITLE / TITLE 2 / PAGE 001 (accounts page)
+- [x] TITLE / TITLE 2 / PAGE 001 — title + accounts, no burial rows

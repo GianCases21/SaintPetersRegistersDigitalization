@@ -23,6 +23,12 @@ Extra columns: `tier`, `grave_no`, `plot_owner`, `surname`, `given_name`,
 `age`, `interment_type` (vault/box), `undertaker`, `date_of_death`,
 `date_of_burial`.
 
+## Record of Interments 1847–54 (`interments_1847`)
+
+Narrative burial book, chronological, Sep 1847–Mar 1854. Extra columns:
+`burial_date`, `age`, `cause_of_death`, `burial_location` (relative to
+another grave). Facing right pages are cemetery accounts, not burials.
+
 ## Reception Into Full Communion (`reception_full_communion`)
 
 Modern printed register of persons received into the Catholic Church at

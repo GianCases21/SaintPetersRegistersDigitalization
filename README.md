@@ -29,7 +29,7 @@ register type, and other fields.
 | Marriage 1840–1871 | 1840–1871 | pending (49 scans) |
 | First Communion 1895–1941 | 1895–1941 | pending (79 scans) |
 | Record of Cemetery 1854–1870 | 1854–1870 | pending (53 scans) |
-| Record of Interments 1847–54 | 1847–1854 | in progress — 88 entries so far (pages 2–20) |
+| Record of Interments 1847–54 | 1847–1854 | **complete** — 225 burials (pages 2–62; later pages are accounts) |
 | Sick Call Register | 1973–2006 | pending (115 scans) |
 
 ## Searching the records
