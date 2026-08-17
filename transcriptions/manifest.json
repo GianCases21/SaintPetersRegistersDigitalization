@@ -1,0 +1,10 @@
+{
+  "registers": [
+    {
+      "id": "st_joseph_section_1939",
+      "title": "St. Joseph Section 1939",
+      "file": "st_joseph_section_1939.csv",
+      "type": "cemetery_plots"
+    }
+  ]
+}

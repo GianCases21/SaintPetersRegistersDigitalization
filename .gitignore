@@ -1,0 +1,6 @@
+drive_sample/
+*.zip
+__pycache__/
+.venv/
+registers.db
+artifacts/
