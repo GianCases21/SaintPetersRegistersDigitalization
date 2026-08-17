@@ -5,7 +5,8 @@ entries are in a part CSV.
 
 ## St. Joseph Section 1939 (crops in crops/st_joseph/)
 
-- [ ] INDEX AB / CD / EF-GH / IJ-KL / MN-OP / QR-ST / UV-PAGE17 (7 scans) -> st_joseph_index.csv
+- [x] INDEX AB / CD / EF-GH / IJ-KL / MN-OP / QR-ST / UV-PAGE17 (7 scans) (st_joseph_index.csv)
+- [x] PAGE 17 record page (part of INDEX UV- PAGE 17 scan) (st_joseph_pages_e.csv)
 - [x] PAGE 018-019 (st_joseph_pages_base.csv)
 - [x] PAGE 020-021 .. PAGE 046-047 (st_joseph_pages_c*.csv)
 - [x] PAGE 048-049, PAGE 050-051 (st_joseph_pages_b.csv)

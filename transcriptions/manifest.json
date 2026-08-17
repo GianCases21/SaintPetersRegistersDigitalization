@@ -7,6 +7,12 @@
       "type": "cemetery_plots"
     },
     {
+      "id": "st_joseph_section_1939_index",
+      "title": "St. Joseph 1939 Name Index",
+      "file": "st_joseph_section_1939_index.csv",
+      "type": "name_index"
+    },
+    {
       "id": "cemetery_plots_1847",
       "title": "Cemetery Plots 1847",
       "file": "cemetery_plots_1847.csv",
