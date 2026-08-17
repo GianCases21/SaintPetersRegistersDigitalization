@@ -1,0 +1,32 @@
+# Register CSV schemas
+
+Every transcription CSV shares a few common columns so records can be
+searched across registers:
+
+| Column | Meaning |
+|---|---|
+| `register` | which register the row came from (matches the CSV filename) |
+| `source_image` | the scanned page image the row was transcribed from |
+| `page` | page number(s) as written in the register |
+| `year` | best-known year for the record (for search); blank if unknown |
+| `needs_review` | `yes` if any field was hard to read and should be checked against the scan |
+| `notes` | anything unusual: marginal notes, cross-outs, uncertain readings |
+
+Uncertain readings inside a field are marked with `(?)`.
+
+## Cemetery plot registers (`st_joseph_section_1939`)
+
+Organized by tier and grave number. A grave often lists the plot owner and
+one or more interments.
+
+Extra columns: `tier`, `grave_no`, `plot_owner`, `surname`, `given_name`,
+`age`, `interment_type` (vault/box), `undertaker`, `date_of_death`,
+`date_of_burial`.
+
+## Other registers (schemas added as each register is transcribed)
+
+- **Baptism**: child name, birth date, baptism date, parents, sponsors, officiant.
+- **Marriage**: groom, bride, date, witnesses, officiant.
+- **Death / interment**: name, age, death date, burial date, cause (if given).
+- **Confirmation / First Communion**: name, date, sponsor, officiant.
+- **Sick call**: name, date, location, minister.
