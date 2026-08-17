@@ -17,6 +17,12 @@
       "title": "Cemetery Plots 1847",
       "file": "cemetery_plots_1847.csv",
       "type": "cemetery_plots"
+    },
+    {
+      "id": "reception_full_communion",
+      "title": "Reception Into Full Communion",
+      "file": "reception_full_communion.csv",
+      "type": "reception"
     }
   ]
 }

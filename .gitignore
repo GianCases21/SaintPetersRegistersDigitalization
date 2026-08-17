@@ -4,3 +4,6 @@ __pycache__/
 .venv/
 registers.db
 artifacts/
+crops/reception/
+crops/interments_1847/
+crops/cemetery_1854/

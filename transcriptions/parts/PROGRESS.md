@@ -25,5 +25,14 @@ entries are in a part CSV.
 - [ ] PAGE 120-121 .. PAGE 138-139 (10 scans) -> cem1847_m.csv
 - [ ] PAGE 140-141 .. PAGE 158-159, PAGE 179 (11 scans) -> cem1847_n.csv
 - [x] PAGE 180-181 .. PAGE 184-185 (cem1847_g.csv)
-- [ ] PAGE 186-187 .. PAGE 210-211 (13 scans) -> cem1847_o.csv
-- [ ] PAGE 212-213 .. PAGE 244-245 (17 scans) -> cem1847_p.csv
+- [ ] PAGE 186-187 .. PAGE 210-211 (13 scans) -> cem1847_o.csv (partial through ~201)
+- [ ] PAGE 212-213 .. PAGE 244-245 (17 scans) -> cem1847_p.csv (partial through ~223)
+
+## Reception Into Full Communion
+
+- [x] TITLE (no data rows) + PAGE 001 (5 entries) — whole book
+
+## Record of Interments 1847-54 (crops in crops/interments_1847/)
+
+- [ ] TITLE / TITLE 2 / PAGE 001 (accounts page) / PAGE 002 .. PAGE 066
+

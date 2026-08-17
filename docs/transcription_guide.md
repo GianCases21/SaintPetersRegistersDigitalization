@@ -93,6 +93,32 @@ register,source_image,page,ground,tier,lot,burial_date,year,surname,given_name,n
 One row per person. Carry the lot number down to every row in its group.
 Expand surname dittos. `page` = printed page number of that book page.
 
+### Reception Into Full Communion (`reception_full_communion`)
+
+Printed modern register. Title page has no data rows. Record page columns:
+No., Name, Date of Reception, Father / Mother's maiden name, Sponsor,
+Priest, Date/Place/Minister of Baptism, Remarks.
+
+CSV header:
+```
+register,source_image,page,entry_no,surname,given_name,date_of_reception,year,father,mother_maiden,sponsor,priest,baptism_date,baptism_place,baptism_minister,needs_review,notes
+```
+`register` value: `reception_full_communion`. Put marriage and confirmation
+notes in `notes`.
+
+### Record of Interments 1847–54 (`interments_1847`)
+
+Narrative burial book, chronological. Each entry: date, name, age, burial
+location relative to another grave, sometimes cause of death. PAGE 001 is
+a subscription/account page (not burials). Title pages have a few stray
+entries. Two-digit years are 1800s.
+
+CSV header:
+```
+register,source_image,page,burial_date,year,surname,given_name,age,cause_of_death,burial_location,needs_review,notes
+```
+`register` value: `interments_1847`.
+
 ## Finishing up
 
 1. Verify your part CSV parses: number of columns in every row must match

@@ -23,6 +23,14 @@ Extra columns: `tier`, `grave_no`, `plot_owner`, `surname`, `given_name`,
 `age`, `interment_type` (vault/box), `undertaker`, `date_of_death`,
 `date_of_burial`.
 
+## Reception Into Full Communion (`reception_full_communion`)
+
+Modern printed register of persons received into the Catholic Church at
+St. Peter, Belleville. Extra columns: `entry_no`, `date_of_reception`,
+`father`, `mother_maiden`, `sponsor`, `priest`, `baptism_date`,
+`baptism_place`, `baptism_minister`. Marriage / confirmation notes go in
+`notes`.
+
 ## Other registers (schemas added as each register is transcribed)
 
 - **Baptism**: child name, birth date, baptism date, parents, sponsors, officiant.
