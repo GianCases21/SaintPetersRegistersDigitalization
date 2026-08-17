@@ -23,7 +23,7 @@ register type, and other fields.
 |---|---|---|
 | St. Joseph Section 1939 (plot book) | 1939–1980s | **complete** — 475 entries, pages 17–79 |
 | St. Joseph 1939 name index | — | **complete** — 148 name→page pointers |
-| Cemetery Plots 1847 | ~1847–1890s | in progress — 1400+ entries so far |
+| Cemetery Plots 1847 | ~1847–1890s | **complete** — 2,463 entries |
 | Reception Into Full Communion | 2009–2012 | **complete** — 5 entries (the whole book) |
 | Baptism 1839–1875 | 1839–1875 | pending (149 scans) |
 | Marriage 1840–1871 | 1840–1871 | pending (49 scans) |

@@ -14,6 +14,20 @@ entries are in a part CSV.
 
 ## Cemetery Plots 1847 (crops in crops/cem1847/)
 
+- [x] PAGE 1 .. PAGE 245 (113 scans) — 2,463 entries. Blank/numbered-only pages: 70, 79–81, 86–87, 92, 97, 149, 159, 179.
+
+## Reception Into Full Communion
+
+- [x] TITLE (no data rows) + PAGE 001 (5 entries) — whole book
+
+## Record of Interments 1847-54 (crops in crops/interments_1847/)
+
+- [x] PAGE 002 .. PAGE 020 (interments_1847_a.csv) — 88 burials
+- [x] PAGE 021 .. PAGE 040 (interments_1847_b.csv) — 66 burials
+- [ ] PAGE 041 .. PAGE 066
+- [ ] TITLE / TITLE 2 / PAGE 001 (accounts page)
+
+
 - [x] PAGE 1 .. PAGE 6-7 (cem1847_a.csv)
 - [x] PAGE 8-9 .. PAGE 26-27 (10 scans) -> cem1847_i.csv
 - [x] PAGE 28-29, PAGE 30-31 (cem1847_b.csv)
