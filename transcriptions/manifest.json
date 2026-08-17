@@ -31,6 +31,12 @@
       "type": "interments"
     },
     {
+      "id": "cemetery_1854",
+      "title": "Record of Cemetery 1854–1870",
+      "file": "cemetery_1854.csv",
+      "type": "interments"
+    },
+    {
       "id": "baptism_1839",
       "title": "Baptism 1839–1875",
       "file": "baptism_1839.csv",
