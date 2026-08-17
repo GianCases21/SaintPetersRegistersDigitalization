@@ -15,7 +15,7 @@ entries are in a part CSV.
 ## Cemetery Plots 1847 (crops in crops/cem1847/)
 
 - [x] PAGE 1 .. PAGE 6-7 (cem1847_a.csv)
-- [ ] PAGE 8-9 .. PAGE 26-27 (10 scans) -> cem1847_i.csv
+- [x] PAGE 8-9 .. PAGE 26-27 (10 scans) -> cem1847_i.csv
 - [x] PAGE 28-29, PAGE 30-31 (cem1847_b.csv)
 - [ ] PAGE 32-33 .. PAGE 54-55 (12 scans) -> cem1847_j.csv
 - [x] PAGE 56-57 .. PAGE 60-61 (cem1847_c.csv)
