@@ -33,6 +33,7 @@ St. Peter, Belleville. Extra columns: `entry_no`, `date_of_reception`,
 
 ## Other registers (schemas added as each register is transcribed)
 
+- **Record of Interments 1847–54** (`interments_1847`): chronological burial book. Extra columns: `burial_date`, `surname`, `given_name`, `age`, `cause_of_death`, `burial_location`. PAGE 001 is accounts (not burials); facing right-hand pages in this volume are cemetery subscription/account ledgers.
 - **Baptism**: child name, birth date, baptism date, parents, sponsors, officiant.
 - **Marriage**: groom, bride, date, witnesses, officiant.
 - **Death / interment**: name, age, death date, burial date, cause (if given).

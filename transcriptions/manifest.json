@@ -23,6 +23,12 @@
       "title": "Reception Into Full Communion",
       "file": "reception_full_communion.csv",
       "type": "reception"
+    },
+    {
+      "id": "interments_1847",
+      "title": "Record of Interments 1847–54",
+      "file": "interments_1847.csv",
+      "type": "interments"
     }
   ]
 }
