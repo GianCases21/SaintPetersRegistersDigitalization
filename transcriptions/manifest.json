@@ -131,6 +131,12 @@
       "title": "Death C 1924–1964 (fragment)",
       "file": "death_c_1924.csv",
       "type": "death"
+    },
+    {
+      "id": "baptism_2011",
+      "title": "Baptism 2011– (fragment)",
+      "file": "baptism_2011.csv",
+      "type": "baptism"
     }
   ]
 }

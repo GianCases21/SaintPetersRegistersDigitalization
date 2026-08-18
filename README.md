@@ -46,6 +46,7 @@ register type, and other fields.
 | Confirmation 1895–1944 | 1895–1944 | **complete for Drive scans** — year/page index (PAGE 000) |
 | Confirmation 1974–1990 folder | 1923 | **complete for Drive scans** — 10 baptisms (PAGE 164 is a misfiled 1923 baptism leaf) |
 | Death C 1924–1964 | 1948–1949 fragment | **complete for Drive scans** — 9 burials (PAGE 46) |
+| Baptism 2011– | 2016–2019 fragment | **complete for Drive scans** — 20 baptisms + name indexes (5 scans) |
 
 ## Searching the records
 
