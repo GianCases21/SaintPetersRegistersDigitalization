@@ -39,7 +39,7 @@ register type, and other fields.
 | First Communion 1953–1961 | 1953–1961 | **complete** — 3,749 communicants (all assigned scans) |
 | Death 1990–2001 | 1990–2001 | **complete** — 2,327 deaths + index (all 75 scans) |
 | Death 2001–2018 | 2001–2018 | **complete** — 2,605 deaths + index (all 62 scans) |
-| Confirmation 1942–1952 | 1942–1952 | pending — on Drive (transcribing) |
+| Confirmation 1942–1952 | 1942–1952 | **complete** — 1,852 communicants (all Drive scans; title page has no names) |
 | Confirmation 1957–1964 | 1964 fragment | **complete for Drive scans** — 949 confirmations + index (PAGE 96, 99 and letter tabs) |
 | Death 1895–1899 | 1895–1899 | **complete** — 346 deaths + index (all 26 scans) |
 | Death Registers name index | — | **complete** — 2,125 name→page pointers (all 30 letter-tab scans) |

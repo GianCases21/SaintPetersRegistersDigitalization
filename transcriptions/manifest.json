@@ -179,6 +179,12 @@
       "title": "Marriage 1908–1936",
       "file": "marriage_1908.csv",
       "type": "marriage"
+    },
+    {
+      "id": "confirmation_1942",
+      "title": "Confirmation / First Communion 1942–1952",
+      "file": "confirmation_1942.csv",
+      "type": "confirmation"
     }
   ]
 }
