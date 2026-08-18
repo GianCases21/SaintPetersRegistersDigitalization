@@ -25,17 +25,22 @@ register type, and other fields.
 | St. Joseph 1939 name index | — | **complete** — 148 name→page pointers |
 | Cemetery Plots 1847 | ~1847–1890s | **complete** — 2,463 entries |
 | Reception Into Full Communion | 2009–2012 | **complete** — 5 entries (the whole book) |
-| Baptism 1839–1875 | 1839–1875 | in progress (149 scans) |
+| Baptism 1839–1875 | 1839–1875 | **complete** — 2,514 baptisms |
 | Marriage 1840–1871 | 1840–1871 | **complete** — 612 marriages |
-| First Communion 1895–1941 | 1895–1941 | in progress (79 scans) |
+| First Communion 1895–1941 | 1895–1941 | **complete** — 2,377 communicants |
 | Record of Cemetery 1854–1870 | 1854–1870 | **complete** — 686 burials |
 | Record of Interments 1847–54 | 1847–1854 | **complete** — 225 burials (pages 2–62; later pages are accounts) |
 | Sick Call Register | 1973–2006 | **complete** — 3,213 visits + index |
-| Baptism Registers (later vols.) | 1875–2011 | pending — on Drive |
-| Confirmation Registers | 1895–2015 | pending — on Drive |
-| Death Registers | 1895–2018 | pending — on Drive |
-| Marriage Registers (later vols.) | 1872– | pending — on Drive |
-| First Communion (later vols.) | 1953–1970 | pending — on Drive |
+| Confirmation 2015– | 2015–2019 | in progress — 307 confirmations so far |
+| Confirmation 1991–2014 | 1991–2014 | **complete** — 3,763 confirmations (all assigned scans) |
+| Marriage 1872–1907 | 1872–1908 | **complete** — 456 marriages (all 65 scans) |
+| Marriage 2009– | 2009–2010 | in progress — first page (9 marriages) |
+| Baptism 1989–2011 | 1989–2011 | **complete** — 2,015 baptisms (all assigned scans) |
+| First Communion 1953–1961 | 1953–1961 | **complete** — 3,749 communicants (all assigned scans) |
+| Death 1990–2001 | 1990–2001 | **complete** — 2,327 deaths + index (all 75 scans) |
+| Death 2001–2018 | 2001–2018 | **complete** — 2,605 deaths + index (all 62 scans) |
+| Confirmation 1942–1952 | 1942–1952 | pending — on Drive |
+| Death 1895–1899 | 1895–1899 | pending — on Drive |
 
 ## Searching the records
 

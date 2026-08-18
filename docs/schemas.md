@@ -62,11 +62,46 @@ Extra columns: `age`. Index pages store the target page in `notes`.
 Extra columns: `call_date`, `residence`, `confession`, `communion`,
 `viaticum`, `anointing`, `last_blessing`, `priest`.
 
-## Other registers (later volumes still being transcribed)
+## Baptism 1989–2011 (`baptism_1989`)
 
-- **Record of Interments 1847–54** (`interments_1847`): chronological burial book. Extra columns: `burial_date`, `surname`, `given_name`, `age`, `cause_of_death`, `burial_location`. PAGE 001 is accounts (not burials); facing right-hand pages in this volume are cemetery subscription/account ledgers.
-- **Baptism**: child name, birth date, baptism date, parents, sponsors, officiant.
-- **Marriage**: groom, bride, date, witnesses, officiant.
-- **Death / interment**: name, age, death date, burial date, cause (if given).
-- **Confirmation / First Communion**: name, date, sponsor, officiant.
-- **Sick call**: name, date, location, minister.
+Extra columns: `entry_no`, `residence`, `birth_date`, `birth_place`,
+`baptism_date`, `father`, `mother_maiden`, `sponsors`, `priest`,
+`confirmation`. Marriage notes go in `notes`.
+
+## Confirmation 1942–1952 / 1991–2014 / 2015– (`confirmation_1942`, `confirmation_1991`, `confirmation_2015`)
+
+Extra columns: `confirmation_date`, `entry_no`, `confirmation_name`,
+`age`, `baptism_date`, `baptism_place`, `residence`, `father`, `mother`,
+`sponsor`, `minister`. The 1942–1952 book is a First Communion Register
+form; some classes are confirmation, some first communion (`notes` has
+`event=`).
+
+## Death 1895–1899 (`death_1895`)
+
+Extra columns: `death_date`, `age`, `residence`, `state_of_life`,
+`cause_of_death`, `sacraments`, `doctor`, `undertaker`, `cemetery`.
+
+## Death 1990–2001 / 2001–2018 / Section E (`death_1990`, `death_2001`, `death_section_e`)
+
+Extra columns: `entry_no`, `age`, `nearest_relative`, `relative_address`,
+`death_date`, `sacraments`, `priest`, `burial_date`, `cemetery`,
+`undertaker`.
+
+## First Communion 1953–1961 (`first_communion_1953`)
+
+Extra columns: `entry_no`, `communion_date`, `age`, `birth_date`,
+`birth_place`, `baptism_date`, `baptism_place`, `residence`, `parents`.
+
+## Marriage 1872–1907 / 1908–1936 / 2009– (`marriage_1872`, `marriage_1908`, `marriage_2009`)
+
+Extra columns: `marriage_date`, `groom_surname`, `groom_given`,
+`groom_parents`, `bride_surname`, `bride_given`, `bride_parents`,
+`witnesses`, `officiant`, `groom_age`, `bride_age`.
+
+## Other fragment volumes (indexes / stray pages)
+
+Letter-tab and one-page fragments (Baptism 1875–1903, 1904–1921,
+1965–1972, 2011; Confirmation 1895–1944, 1957–1964, 1974–1990;
+Death C 1924–1964 and SECTION D; First Communion 1962–1970;
+Marriage 1937–1963) use the matching register schema above, or a
+name-index row (`notes` = `index page_no=N`) when the scan is only a tab.

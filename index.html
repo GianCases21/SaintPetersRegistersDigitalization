@@ -158,7 +158,7 @@
 </main>
 <footer>Records transcribed from the original register scans &middot; entries marked &ldquo;needs review&rdquo; have not yet been verified against the scan</footer>
 <script>
-const NAME_COLS = ['surname','given_name','plot_owner','name','child','father','mother','groom','bride','sponsors','witnesses','officiant'];
+const NAME_COLS = ['surname','given_name','plot_owner','name','child','father','mother','mother_maiden','groom','bride','groom_surname','groom_given','bride_surname','bride_given','groom_parents','bride_parents','sponsors','sponsor','witnesses','officiant','priest','parents','nearest_relative'];
 const HIDE_COLS = ['register','source_image','needs_review'];
 let allRows = [];
 
@@ -220,7 +220,11 @@ function render(rows) {
     const div = document.createElement('div');
     div.className = 'record';
     const given = row.given_name || '', sur = row.surname || '';
-    const displayName = (given || sur) ? (given + ' ' + sur).trim() : (row.plot_owner || row.name || '(name not recorded)');
+    const groom = ((row.groom_given || '') + ' ' + (row.groom_surname || '')).trim();
+    const bride = ((row.bride_given || '') + ' ' + (row.bride_surname || '')).trim();
+    const displayName = (given || sur) ? (given + ' ' + sur).trim()
+      : (groom || bride) ? (groom + (groom && bride ? ' & ' : '') + bride)
+      : (row.plot_owner || row.name || '(name not recorded)');
     const nameEl = document.createElement('div');
     nameEl.className = 'name';
     nameEl.textContent = displayName;

@@ -185,6 +185,134 @@ register,source_image,page,call_date,year,surname,given_name,residence,confessio
 `register` value: `sick_call_1973`. Ministration columns: `yes` if ticked,
 else blank.
 
+### Baptism 1989–2011 (`baptism_1989`)
+
+Modern printed Baptismal Register, two-page spreads (~10 numbered entries
+per spread). Left leaf: No., name + address, birth place/date, baptism
+date, father / mother maiden. Right leaf: sponsors, priest, confirmation,
+marriage remarks. Letter-tab scans (PAGE GH.JPG etc.) are name indexes.
+
+CSV header:
+```
+register,source_image,page,entry_no,surname,given_name,residence,birth_date,birth_place,baptism_date,year,father,mother_maiden,sponsors,priest,confirmation,needs_review,notes
+```
+`register` value: `baptism_1989`. Put marriage notes in `notes`. Index
+rows: leave dates blank; put the target page in `notes` as `index page_no=N`.
+
+### Confirmation 1942–1952 (`confirmation_1942`)
+
+Printed First Communion Register header; some spreads are confirmation
+classes, others first communion. Columns typically: baptism date/place,
+name, age, residence. Landscape scans are two-page spreads
+(`PAGE 10-11.JPG`). Put the printed class date in `confirmation_date`
+and note `event=first_communion` or `event=confirmation` in `notes`.
+
+CSV header:
+```
+register,source_image,page,confirmation_date,year,entry_no,surname,given_name,age,baptism_date,baptism_place,father,mother,sponsor,residence,needs_review,notes
+```
+`register` value: `confirmation_1942`.
+
+### Confirmation 1991–2014 (`confirmation_1991`)
+
+Printed Confirmation Register, two-page spreads. Header has class date
+and bishop/minister. Columns: No., surname + given, confirmation name,
+age, baptism place/date, residence, father / mother maiden, sponsor.
+Letter-tab scans are name indexes.
+
+CSV header:
+```
+register,source_image,page,confirmation_date,year,entry_no,surname,given_name,confirmation_name,age,baptism_date,baptism_place,residence,father,mother,sponsor,minister,needs_review,notes
+```
+`register` value: `confirmation_1991`.
+
+### Confirmation 2015– (`confirmation_2015`)
+
+Same printed Confirmation Register format as 1991–2014.
+
+CSV header: same as `confirmation_1991`.
+`register` value: `confirmation_2015`.
+
+### Death 1895–1899 (`death_1895`)
+
+Landscape death ledger. Left leaf: name, residence, age, state of life,
+date of death. Right leaf: cause, sacraments, doctor, undertaker,
+cemetery, remarks. Expand cemetery/residence dittos. Letter-tab scans
+are name indexes.
+
+CSV header:
+```
+register,source_image,page,death_date,year,surname,given_name,age,residence,state_of_life,cause_of_death,sacraments,doctor,undertaker,cemetery,needs_review,notes
+```
+`register` value: `death_1895`.
+
+### Death 1990–2001 (`death_1990`)
+
+Printed death register, two-page spreads (~25 numbered rows). Left:
+No., name, age, nearest relative, relative address. Right: death date,
+sacraments, funeral priest, burial date/place, undertaker (Remarks).
+Letter-tab scans are name indexes.
+
+CSV header:
+```
+register,source_image,page,entry_no,surname,given_name,age,nearest_relative,relative_address,death_date,year,sacraments,priest,burial_date,cemetery,undertaker,needs_review,notes
+```
+`register` value: `death_1990`.
+
+### Death 2001–2018 (`death_2001`)
+
+Same printed death-register format as 1990–2001.
+
+CSV header: same as `death_1990`.
+`register` value: `death_2001`.
+
+### Death Section E (`death_section_e`)
+
+Later death/cemetery section, landscape spreads. Transcribe both leaves.
+Use the death_1990 columns when they fit; put extra location/plot notes
+in `notes`.
+
+CSV header: same as `death_1990`.
+`register` value: `death_section_e`.
+
+### First Communion 1953–1961 (`first_communion_1953`)
+
+Printed First Communion Register, two-page spreads. Header has class
+date and priest. Columns: No., name, birth place/date, age, baptism
+place/date, residence, parents, remarks (school grade / convert notes).
+Letter-tab scans are name indexes.
+
+CSV header:
+```
+register,source_image,page,entry_no,communion_date,year,surname,given_name,age,birth_date,birth_place,baptism_date,baptism_place,residence,parents,needs_review,notes
+```
+`register` value: `first_communion_1953`.
+
+### Marriage 1872–1907 (`marriage_1872`)
+
+Latin printed *Registrum Matrimoniorum*. Landscape spreads; some first
+pages have an unused index leaf. Narrative block: groom + parents, bride
++ parents, witnesses, priest. Right notes: bachelor/spinster, occupation,
+age. Letter-tab scans are name indexes.
+
+CSV header:
+```
+register,source_image,page,marriage_date,year,groom_surname,groom_given,groom_parents,bride_surname,bride_given,bride_parents,witnesses,officiant,groom_age,bride_age,needs_review,notes
+```
+`register` value: `marriage_1872`. Keep Latin given names as written;
+put occupation / status / Protestant / widow notes in `notes`.
+
+### Marriage 1908–1936 (`marriage_1908`)
+
+Continuation of the printed marriage register. Same CSV header as
+`marriage_1872`. `register` value: `marriage_1908`.
+
+### Marriage 2009– (`marriage_2009`)
+
+Modern printed marriage register plus letter-tab name index. Same CSV
+header as `marriage_1872`. `register` value: `marriage_2009`. Index rows:
+put target page in `notes` as `index page_no=N`.
+
 ## Finishing up
 
 1. Verify your part CSV parses: number of columns in every row must match
