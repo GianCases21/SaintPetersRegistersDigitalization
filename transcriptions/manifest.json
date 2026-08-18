@@ -149,6 +149,12 @@
       "title": "First Communion 1962–1970 (index fragment)",
       "file": "first_communion_1962.csv",
       "type": "first_communion"
+    },
+    {
+      "id": "death_section_e",
+      "title": "Death Section E (cemetery tiers)",
+      "file": "death_section_e.csv",
+      "type": "death"
     }
   ]
 }
