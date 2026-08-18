@@ -67,6 +67,24 @@
       "type": "confirmation"
     },
     {
+      "id": "baptism_1989",
+      "title": "Baptism 1989–2011",
+      "file": "baptism_1989.csv",
+      "type": "baptism"
+    },
+    {
+      "id": "first_communion_1953",
+      "title": "First Communion 1953–1961",
+      "file": "first_communion_1953.csv",
+      "type": "first_communion"
+    },
+    {
+      "id": "death_2001",
+      "title": "Death 2001–2018",
+      "file": "death_2001.csv",
+      "type": "death"
+    },
+    {
       "id": "marriage_1872",
       "title": "Marriage 1872–1907",
       "file": "marriage_1872.csv",

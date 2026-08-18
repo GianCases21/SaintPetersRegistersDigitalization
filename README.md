@@ -31,13 +31,14 @@ register type, and other fields.
 | Record of Cemetery 1854–1870 | 1854–1870 | **complete** — 686 burials |
 | Record of Interments 1847–54 | 1847–1854 | **complete** — 225 burials (pages 2–62; later pages are accounts) |
 | Sick Call Register | 1973–2006 | **complete** — 3,213 visits + index |
-| Confirmation 2015– | 2015–2019 | in progress — 248 confirmations so far |
-| Marriage 1872–1907 | 1872–c.1884 | in progress — 149 marriages so far (later pages still being read) |
+| Confirmation 2015– | 2015–2019 | in progress — 288 confirmations so far |
+| Marriage 1872–1907 | 1872–c.1884 | in progress — 149 marriages so far |
 | Marriage 2009– | 2009–2010 | in progress — first page (9 marriages) |
-| Baptism Registers (later vols.) | 1875–2011 | in progress — 1989–2011 volume being transcribed |
-| Confirmation 1942–2014 | 1942–2014 | in progress — on Drive |
-| Death Registers | 1895–2018 | in progress — on Drive |
-| First Communion 1953–1961 | 1953–1961 | in progress — on Drive |
+| Baptism 1989–2011 | 1989–2011 | in progress — 60 baptisms so far |
+| First Communion 1953–1961 | 1953–1961 | in progress — 75 communicants so far |
+| Death 2001–2018 | 2001–2018 | in progress — 52 deaths so far |
+| Confirmation 1942–2014 | 1942–2014 | pending — on Drive |
+| Death 1895–2001 | 1895–2001 | pending — on Drive |
 
 ## Searching the records
 
