@@ -155,6 +155,18 @@
       "title": "Death Section E (cemetery tiers)",
       "file": "death_section_e.csv",
       "type": "death"
+    },
+    {
+      "id": "death_index",
+      "title": "Death Registers name index",
+      "file": "death_index.csv",
+      "type": "name_index"
+    },
+    {
+      "id": "death_1895",
+      "title": "Death 1895–1899",
+      "file": "death_1895.csv",
+      "type": "death"
     }
   ]
 }

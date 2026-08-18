@@ -40,7 +40,8 @@ register type, and other fields.
 | Death 1990–2001 | 1990–2001 | **complete** — 2,327 deaths + index (all 75 scans) |
 | Death 2001–2018 | 2001–2018 | **complete** — 2,605 deaths + index (all 62 scans) |
 | Confirmation 1942–1952 | 1942–1952 | pending — on Drive (transcribing) |
-| Death 1895–1899 | 1895–1899 | pending — on Drive (transcribing) |
+| Death 1895–1899 | 1895–1899 | **complete** — 346 deaths + index (all 26 scans) |
+| Death Registers name index | — | **complete** — 2,125 name→page pointers (all 30 letter-tab scans) |
 | Marriage 1908–1936 | 1908–1936 | pending — on Drive (transcribing) |
 | Marriage 1937–1963 | 1946 fragment | **complete for Drive scans** — 20 marriages (PAGE 58, 60) |
 | Confirmation 1895–1944 | 1895–1944 | **complete for Drive scans** — year/page index (PAGE 000) |
