@@ -105,3 +105,10 @@ Letter-tab and one-page fragments (Baptism 1875–1903, 1904–1921,
 Death C 1924–1964 and SECTION D; First Communion 1962–1970;
 Marriage 1937–1963) use the matching register schema above, or a
 name-index row (`notes` = `index page_no=N`) when the scan is only a tab.
+
+## Death name index (`death_index`)
+
+Letter-tab indexes at the root of the Death Registers folder. Columns:
+`surname`, `given_name`, `page_no`. Paired names (`Austin - Romkowski`)
+store the first name in `surname` and the second in `given_name`, with
+`notes` = `index_pair`.

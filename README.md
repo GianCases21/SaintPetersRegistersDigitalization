@@ -31,7 +31,7 @@ register type, and other fields.
 | Record of Cemetery 1854–1870 | 1854–1870 | **complete** — 686 burials |
 | Record of Interments 1847–54 | 1847–1854 | **complete** — 225 burials (pages 2–62; later pages are accounts) |
 | Sick Call Register | 1973–2006 | **complete** — 3,213 visits + index |
-| Confirmation 2015– | 2015–2019 | in progress — 307 confirmations so far |
+| Confirmation 2015– | 2015–2019 | **complete** — 756 confirmations + index (all Drive scans; pages 4 and 15 were never on Drive) |
 | Confirmation 1991–2014 | 1991–2014 | **complete** — 3,763 confirmations (all assigned scans) |
 | Marriage 1872–1907 | 1872–1908 | **complete** — 456 marriages (all 65 scans) |
 | Marriage 2009– | 2009–2010 | in progress — first page (9 marriages) |
