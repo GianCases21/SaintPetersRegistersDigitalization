@@ -1,4 +1,19 @@
 register,source_image,page,confirmation_date,year,entry_no,surname,given_name,confirmation_name,age,baptism_date,baptism_place,residence,father,mother,sponsor,minister,needs_review,notes
+confirmation_1991,PAGE AB.JPG,1,,,,ACOSTA,JUAN,,,,,,,,,,,index page_no=1
+confirmation_1991,PAGE AB.JPG,1,,,,ABUS,NORMAN,,,,,,,,,,,index page_no=1
+confirmation_1991,PAGE AB.JPG,1,,,,BARNES,MARY,,,,,,,,,,,index page_no=1
+confirmation_1991,PAGE AB.JPG,1,,,,BABIS,VINCENT,,,,,,,,,,,index page_no=1
+confirmation_1991,PAGE AB.JPG,1,,,,BAUER,ROBERT,,,,,,,,,,,index page_no=1
+confirmation_1991,PAGE AB.JPG,1,,,,BOYCE,JAMIE,,,,,,,,,,,index page_no=1
+confirmation_1991,PAGE AB.JPG,1,,,,BRUELLO,DANIEL,,,,,,,,,,,index page_no=1
+confirmation_1991,PAGE AB.JPG,1,,,,BRUNO,JACQUI,,,,,,,,,,,index page_no=1
+confirmation_1991,PAGE AB2-CD.JPG,1,,,,Cerami,Jacqueline,,,,,,,,,,,index page_no=1
+confirmation_1991,PAGE AB2-CD.JPG,1,,,,Cerami,Michele,,,,,,,,,,,index page_no=1
+confirmation_1991,PAGE AB2-CD.JPG,1,,,,Capriglione,Alyse,,,,,,,,,,,index page_no=1
+confirmation_1991,PAGE AB2-CD.JPG,1,,,,Caramucci,Paul,,,,,,,,,,,index page_no=1
+confirmation_1991,PAGE CD2-EF.JPG,1,,,,FIALLOS,MARITZA,,,,,,,,,,,index page_no=1
+confirmation_1991,PAGE CD2-EF.JPG,1,,,,FOLCECE,CARLOS,,,,,,,,,,,index page_no=1
+confirmation_1991,PAGE EF2-GH.JPG,1,,,,GONZALEZ,LUCY,,,,,,,,,,,index page_no=1
 confirmation_1991,PAGE 002.JPG,2,May 15 1991,1991,20,CHESSERI,NICOLE,,13,Oct 23 1977,ST. LUKE NO. PLAINFIELD,,ROY,MARY SINICROPI,KAREN SINICROPI,Most Rev David Arias,no,
 confirmation_1991,PAGE 002.JPG,2,May 15 1991,1991,21,COLUCCI,JOSEPH,,13,Feb 12 1978,ST. PETER,,JOSEPH,ANDREA FAIELLA,SUSAN CHAKEV,Most Rev David Arias,no,
 confirmation_1991,PAGE 002.JPG,2,May 15 1991,1991,22,CORDEIRO,NIKKI ANN,,13,Feb 12 1978,IMMAC. CONC.,,EDWARD,ROSE MARIE DE ANGELIS,CHRISTINE COPPOLA,Most Rev David Arias,no,
@@ -19,6 +34,26 @@ confirmation_1991,PAGE 002.JPG,2,May 15 1991,1991,36,ESCOTT,THOMAS,,14,Mar 26 19
 confirmation_1991,PAGE 002.JPG,2,May 15 1991,1991,37,GIORDANO,JOSEPH,,14,Mar 17 1977,IMMAC. CONC.,,JOSEPH,MARY ANN ALFANO,PETER SERRATELLI,Most Rev David Arias,no,
 confirmation_1991,PAGE 002.JPG,2,May 15 1991,1991,38,GOMEZ,CHRISTOPHER,,13,Sep 25 1977,ST. PETER CLAVER MONTCLAIR,,ANGEL,BERNICE SCOFIELD,VINCENT GOMEZ,Most Rev David Arias,no,
 confirmation_1991,PAGE 002.JPG,2,May 15 1991,1991,39,GONZALEZ,JANE,,14,Aug 7 1977,QUEEN OF PEACE,,MARCELLO,ROSE ANN McCABE,NAOMI KEPLER,Most Rev David Arias,no,
+confirmation_1991,PAGE AB2-CD.JPG,2,,,,Chessari,Nicole,,,,,,,,,,,index page_no=2
+confirmation_1991,PAGE AB2-CD.JPG,2,,,,Colucci,Joseph,,,,,,,,,,,index page_no=2
+confirmation_1991,PAGE AB2-CD.JPG,2,,,,Cordeiro,Nikki Ann,,,,,,,,,,,index page_no=2
+confirmation_1991,PAGE AB2-CD.JPG,2,,,,Correa,Beverly,,,,,,,,,,,index page_no=2
+confirmation_1991,PAGE AB2-CD.JPG,2,,,,D'Angelo,Kelly,,,,,,,,,,,index page_no=2
+confirmation_1991,PAGE AB2-CD.JPG,2,,,,Davies,Kevin,,,,,,,,,,,index page_no=2
+confirmation_1991,PAGE AB2-CD.JPG,2,,,,De Brino,Carla,,,,,,,,,,,index page_no=2
+confirmation_1991,PAGE AB2-CD.JPG,2,,,,Della Vecchia,Vivian,,,,,,,,,,,index page_no=2
+confirmation_1991,PAGE AB2-CD.JPG,2,,,,De Lucia,Michael,,,,,,,,,,,index page_no=2
+confirmation_1991,PAGE AB2-CD.JPG,2,,,,De Vito,Michael,,,,,,,,,,,index page_no=2
+confirmation_1991,PAGE AB2-CD.JPG,2,,,,Di Carlo,Tony,,,,,,,,,,,index page_no=2
+confirmation_1991,PAGE AB2-CD.JPG,2,,,,Di Costa,Jason,,,,,,,,,,,index page_no=2
+confirmation_1991,PAGE AB2-CD.JPG,2,,,,Di Medica,Nicole,,,,,,,,,,,index page_no=2
+confirmation_1991,PAGE AB2-CD.JPG,2,,,,Durante,Dino,,,,,,,,,,,index page_no=2
+confirmation_1991,PAGE AB2-CD.JPG,2,,,,Dwyer,Tara,,,,,,,,,,,index page_no=2
+confirmation_1991,PAGE CD2-EF.JPG,2,,,,EGGAVIL,GEORGE,,,,,,,,,,,index page_no=2
+confirmation_1991,PAGE CD2-EF.JPG,2,,,,ESCOTT,THOMAS,,,,,,,,,,,index page_no=2
+confirmation_1991,PAGE EF2-GH.JPG,2,,,,GIORDANO,JOSEPH,,,,,,,,,,,index page_no=2
+confirmation_1991,PAGE EF2-GH.JPG,2,,,,GOMEZ,CHRISTOPHER,,,,,,,,,,,index page_no=2
+confirmation_1991,PAGE EF2-GH.JPG,2,,,,GONZALEZ,JANE,,,,,,,,,,,index page_no=2
 confirmation_1991,PAGE 003.JPG,3,May 15 1991,1991,40,GRANDE,TINA,,13,Aug 14 1977,OL OF LOURDES W. ORANGE,,THOMAS,BARBARA HAYES,CATHY HAYES,Most Rev David Arias,no,
 confirmation_1991,PAGE 003.JPG,3,May 15 1991,1991,41,GUARINO,JAMES,,13,Nov 16 1978,ST. PETER,,JAMES,IRENE PAVELCHAK,ANTHONY DE VITO,Most Rev David Arias,no,
 confirmation_1991,PAGE 003.JPG,3,May 15 1991,1991,42,HUGHES,SHERRY,,14,Apr 17 1977,ST. FRANCES XAVIER,,JACK,CHRISTINE DZEWONKOWSKI,GAYANN GEL VIVINN (?),Most Rev David Arias,yes,Sponsor surname uncertain
@@ -39,6 +74,10 @@ confirmation_1991,PAGE 003.JPG,3,May 15 1991,1991,56,RAINHA,STEVEN,,14,Aug 28 19
 confirmation_1991,PAGE 003.JPG,3,May 15 1991,1991,57,RENDON,LUIS,,14,Mar 1978,DON BOSCO GUAYAQUIL,,LUIS,MARIA AVILES,JAMIE MOLINA,Most Rev David Arias,no,
 confirmation_1991,PAGE 003.JPG,3,May 15 1991,1991,58,RODRIGUEZ,ANAIDA,,14,Jul 2 1977,ST. LUCY NWK,,ANIBAL,AIDA REYES,RAMONA VALENTIN,Most Rev David Arias,no,
 confirmation_1991,PAGE 003.JPG,3,May 15 1991,1991,59,SANTIAGO,ELIZABETH,,14,Oct 23 1976,O.C. PERP HELP,,ISMAEL,GABRIELA BEDSNA (?),LILLIAN RAMOS,Most Rev David Arias,yes,Mother maiden also read BEDOYA
+confirmation_1991,PAGE EF2-GH.JPG,3,,,,GRANDE,TINA,,,,,,,,,,,index page_no=3
+confirmation_1991,PAGE EF2-GH.JPG,3,,,,GUARINO,JAMES,,,,,,,,,,,index page_no=3
+confirmation_1991,PAGE EF2-GH.JPG,3,,,,HUGHES,SHERRY,,,,,,,,,,,index page_no=3
+confirmation_1991,PAGE GH2-IJ.JPG,3,,,,JIMENEZ,SANTIAGO,,,,,,,,,,,index page_no=3
 confirmation_1991,PAGE 004.JPG,4,May 15 1991,1991,60,SANCHELLI,MICHAEL,,13,Aug 7 1977,ST. PETER,,MICHAEL,PATRICIA HUSVAR,ALBERT SCARANO,Most Rev David Arias,no,
 confirmation_1991,PAGE 004.JPG,4,May 15 1991,1991,61,SCIACCHITANO,LINDA,,14,Jun 5 1977,ST. AMBROSE OLD BRIDGE,,RICHARD,ORNELLA DEGIDIO,THERESA CAFRARA,Most Rev David Arias,no,
 confirmation_1991,PAGE 004.JPG,4,May 15 1991,1991,62,SPINA,MICHELE,,14,May 1 1977,HOLY FAMILY,,FRANK,MARIA DE FRANCO,JUDY CAMPIONE,Most Rev David Arias,no,
@@ -58,6 +97,11 @@ confirmation_1991,PAGE 004.JPG,4,Apr 18 1992,1992,5,FISCHILLO,KIMBERLY,,18,Feb 1
 confirmation_1991,PAGE 004.JPG,4,Apr 18 1992,1992,6,GALL,MICHELLE,,23,Apr 27 1969,ST. ANDREW B. (?),"53 PARKWAY EAST, BELLEV.",EUGENE,CLAIRE REMILLARD,DINA VIOLA,Rev Raymond Holmes,yes,Easter Vigil; baptism place uncertain
 confirmation_1991,PAGE 004.JPG,4,Apr 18 1992,1992,7,KANCE,DONNA,,26,Oct 1965,ST. PETER'S,64 PRESTON ST.,JOSEPH,MARGARET SCALTRITO (?),MARION SCALTRITO (?),Rev Raymond Holmes,yes,Easter Vigil; mother and sponsor surnames uncertain
 confirmation_1991,PAGE 004.JPG,4,Apr 18 1992,1992,8,LEMBO,ISABEL,,37,1955,ST. TERESA'S ALBANY (?),58 WALLACE ST.,THOMAS,ELIZABETH CAGLIOTI,PAUL LOMBO,Rev Raymond Holmes,yes,Easter Vigil; baptism place uncertain
+confirmation_1991,PAGE AB.JPG,4,,,,ACEVEDO,ORLANDO,,,,,,,,,,,index page_no=4
+confirmation_1991,PAGE AB2-CD.JPG,4,,,,Camacho,Evelyn,,,,,,,,,,,index page_no=4
+confirmation_1991,PAGE AB2-CD.JPG,4,,,,Corsaro,Nicole,,,,,,,,,,,index page_no=4
+confirmation_1991,PAGE AB2-CD.JPG,4,,,,De Santis,Dana,,,,,,,,,,,index page_no=4
+confirmation_1991,PAGE EF2-GH.JPG,4,,,,GALL,MICHELLE,,,,,,,,,,,index page_no=4
 confirmation_1991,PAGE 005.JPG,5,Apr 18 1992,1992,9,NIXON,DAVID,,16,May 2 1976,ST. JOSEPH'S,62 PASSAIC PL.,CHARLES,ROBERTA DIGGAY,JULIENNE PEDALINO,Rev Raymond Holmes,yes,Easter Vigil; baptism city incomplete
 confirmation_1991,PAGE 005.JPG,5,Apr 18 1992,1992,10,PAGAN,VIVIAN,,23,Dec 6 1969,"ST. JOHN CHRYSOSTOM, BRONX, NY",135 GARDEN AVE. APT 2A,TOMAS,HAYDEE NEGRON,TERESA JONES,Rev Raymond Holmes,no,Easter Vigil
 confirmation_1991,PAGE 005.JPG,5,Apr 18 1992,1992,11,TANIS,PATRICIA,,35,Oct 2 1956,"ST. ANTHONY OF PADUA, TROY, N.Y.",18 N. CHANCELLOR PL. APT 3,KURT,PATRICIA FORD,SISTER PATRICIA TANIS,Rev Raymond Holmes,no,Easter Vigil
@@ -77,6 +121,35 @@ confirmation_1991,PAGE 005.JPG,5,Apr 26 1992,1992,24,CASTILLO,NANCY,,15,Oct 16 1
 confirmation_1991,PAGE 005.JPG,5,Apr 26 1992,1992,25,CHAN,ANDREW,,15,Jan 8 1978,SANTO NINO CH. MANILA,168 MALINE AVE.,ARMANDO,ANITA TAN,IMELDA CARIN,Most Rev Dominic Marconi,no,
 confirmation_1991,PAGE 005.JPG,5,Apr 26 1992,1992,26,CHAN,JULIAN,,14,Nov 18 1977,SANTO NINO CH. MANILA,168 MALINE AVE.,ARMANDO,ANITA TAN,LETY GE-SAILER,Most Rev Dominic Marconi,no,Residence and parents expanded from dittos
 confirmation_1991,PAGE 005.JPG,5,Apr 26 1992,1992,27,CICALA,JENNIFER,,15,Dec 11 1977,"IMMAC. CONCP., NEWARK",132 HORNBLOWER,GERARD,CHERYL FARIA,FRED FARIA,Most Rev Dominic Marconi,no,
+confirmation_1991,PAGE AB.JPG,5,,,,AGUIAR,CYNTHIA,,,,,,,,,,,index page_no=5
+confirmation_1991,PAGE AB.JPG,5,,,,ANDREOTCOLA,NICHOLAS,,,,,,,,,,,index page_no=5
+confirmation_1991,PAGE AB.JPG,5,,,,BARTOSIEWICZ,DANIEL,,,,,,,,,,,index page_no=5
+confirmation_1991,PAGE AB.JPG,5,,,,BEJARANO,CRISTINA,,,,,,,,,,,index page_no=5
+confirmation_1991,PAGE AB.JPG,5,,,,BEJARAND,DORIS,,,,,,,,,,,index page_no=5
+confirmation_1991,PAGE AB.JPG,5,,,,BONOMO,MARIA,,,,,,,,,,,index page_no=5
+confirmation_1991,PAGE AB.JPG,5,,,,BULDO,DANIELLE,,,,,,,,,,,index page_no=5
+confirmation_1991,PAGE AB2-CD.JPG,5,,,,Castillo,Felipe,,,,,,,,,,,index page_no=5
+confirmation_1991,PAGE AB2-CD.JPG,5,,,,Castillo,Nancy,,,,,,,,,,,index page_no=5
+confirmation_1991,PAGE AB2-CD.JPG,5,,,,Chan,Andrew,,,,,,,,,,,index page_no=5
+confirmation_1991,PAGE AB2-CD.JPG,5,,,,Chan,Juvilian,,,,,,,,,,,index page_no=5
+confirmation_1991,PAGE AB.JPG,6,,,,ALFIERI,JOHN,,,,,,,,,,,index page_no=6
+confirmation_1991,PAGE AB.JPG,6,,,,ARNOT,JENNIFER,,,,,,,,,,,index page_no=6
+confirmation_1991,PAGE AB2-CD.JPG,6,,,,Cicala,Jennifer,,,,,,,,,,,index page_no=6
+confirmation_1991,PAGE AB2-CD.JPG,6,,,,Cofone,Maria,,,,,,,,,,,index page_no=6
+confirmation_1991,PAGE AB2-CD.JPG,6,,,,D'Achille,Kimberly,,,,,,,,,,,index page_no=6
+confirmation_1991,PAGE AB2-CD.JPG,6,,,,Di Popolo,Remo,,,,,,,,,,,index page_no=6
+confirmation_1991,PAGE AB2-CD.JPG,6,,,,Durante,Noelle,,,,,,,,,,,index page_no=6
+confirmation_1991,PAGE CD2-EF.JPG,6,,,,FATONE,DAVID,,,,,,,,,,,index page_no=6
+confirmation_1991,PAGE CD2-EF.JPG,6,,,,FLANDERS,MARIA KATRINA,,,,,,,,,,,index page_no=6
+confirmation_1991,PAGE EF2-GH.JPG,6,,,,GABRIELLE,JUDY,,,,,,,,,,,index page_no=6
+confirmation_1991,PAGE EF2-GH.JPG,6,,,,GOMEZ,MONICA,,,,,,,,,,,index page_no=6
+confirmation_1991,PAGE EF2-GH.JPG,6,,,,GOMEZ,OLGA,,,,,,,,,,,index page_no=6
+confirmation_1991,PAGE EF2-GH.JPG,6,,,,GRIPPI,BEN,,,,,,,,,,,index page_no=6
+confirmation_1991,PAGE EF2-GH.JPG,6,,,,HARLOW,EVAN,,,,,,,,,,,index page_no=6
+confirmation_1991,PAGE EF2-GH.JPG,6,,,,HAWXHURST,JENNIFER,,,,,,,,,,,index page_no=6
+confirmation_1991,PAGE EF2-GH.JPG,6,,,,HU,BON,,,,,,,,,,,index page_no=6
+confirmation_1991,PAGE GH2-IJ.JPG,6,,,,IBRANYI,GUS,,,,,,,,,,,index page_no=6
+confirmation_1991,PAGE GH2-IJ.JPG,6,,,,IDROVO,MACK,,,,,,,,,,,index page_no=6
 confirmation_1991,PAGE 007.JPG,7,Apr 26 1992,1992,48,LUNELLI,JOSEPH,,14,Aug 6 1978,HOLY FAMILY NUTLEY,97 DE WITT AVE.,LUIGI,MARIA SPINA,JOHN SPINA,Most Rev Dominic Marconi,no,
 confirmation_1991,PAGE 007.JPG,7,Apr 26 1992,1992,49,MADDEN,NICOLE MARIE,,15,Oct 16 1977,ST. FRANCIS NEWARK,25 SANFORD AVE.,WILLIAM,FELICIA PIZZO,LU ANN MARTINO,Most Rev Dominic Marconi,no,
 confirmation_1991,PAGE 007.JPG,7,Apr 26 1992,1992,50,MARTINO,JACQUELINE,,14,Nov 19 1978,OL-GOOD COUNSEL NEWARK,75 MOORE PL.,MICHAEL,LU ANN KRESSLER,SONIA KASCHELAW,Most Rev Dominic Marconi,no,
@@ -132,6 +205,26 @@ confirmation_1991,PAGE 009.JPG,9,Apr 25 1993,1993,16,CHAMBERLAIN,COURTNEY,,14,Oc
 confirmation_1991,PAGE 009.JPG,9,Apr 25 1993,1993,17,CIAMPIATTIELLO,DONATO,,14,Feb 10 1980,IMMAC CONCEP NWK,18 VAN RENSSELAER,DOMENICO,CLELIA AMENDOLA,ANTHONY AMENDOLA,Most Rev. Robert Garner,no,
 confirmation_1991,PAGE 009.JPG,9,Apr 25 1993,1993,18,COLON,NORMA,,14,Feb 24 1980,"O.L. OF SOLACE BROOKLYN, NY",126 WASHINGTON AVE.,DAVID,NILSA BURGOS,MARITZA BURGOS,Most Rev. Robert Garner,no,
 confirmation_1991,PAGE 009.JPG,9,Apr 25 1993,1993,19,COLUCCI,NICHOLAS,,14,Oct 14 1979,ST. PETER'S,53 COLUMBUS AVE.,JOSEPH,ANDREA FAIELLA,DAWN COLUCCI,Most Rev. Robert Garner,no,
+confirmation_1991,PAGE AB.JPG,9,,,,ACEVEDO,YANIRA,,,,,,,,,,,index page_no=9
+confirmation_1991,PAGE AB.JPG,9,,,,ACOSTA,JANETTE,,,,,,,,,,,index page_no=9
+confirmation_1991,PAGE AB.JPG,9,,,,ANDERSON,GEORGE,,,,,,,,,,,index page_no=9
+confirmation_1991,PAGE AB.JPG,9,,,,ANDERSON,GERARD,,,,,,,,,,,index page_no=9
+confirmation_1991,PAGE AB.JPG,9,,,,BABIS,NICOLE,,,,,,,,,,,index page_no=9
+confirmation_1991,PAGE AB.JPG,9,,,,BARLETTA,WILLIAM,,,,,,,,,,,index page_no=9
+confirmation_1991,PAGE AB.JPG,9,,,,BARTOLI,NICOLE,,,,,,,,,,,index page_no=9
+confirmation_1991,PAGE AB.JPG,9,,,,BAUER,HAROLD,,,,,,,,,,,index page_no=9
+confirmation_1991,PAGE AB.JPG,9,,,,BELTRAN,PETER,,,,,,,,,,,index page_no=9
+confirmation_1991,PAGE AB.JPG,9,,,,BRADY,DARRYL,,,,,,,,,,,index page_no=9
+confirmation_1991,PAGE AB.JPG,9,,,,BRUNELLO,STEPHANIE,,,,,,,,,,,index page_no=9
+confirmation_1991,PAGE AB.JPG,9,,,,BURGOS,CHRISTINA,,,,,,,,,,,index page_no=9
+confirmation_1991,PAGE AB2-CD.JPG,9,,,,Cuccocio,Lucas,,,,,,,,,,,index page_no=9
+confirmation_1991,PAGE AB2-CD.JPG,9,,,,Campbell,Kathleen,,,,,,,,,,,index page_no=9
+confirmation_1991,PAGE AB2-CD.JPG,9,,,,Caputo,Robert,,,,,,,,,,,index page_no=9
+confirmation_1991,PAGE AB2-CD.JPG,9,,,,Caruso,Mario,,,,,,,,,,,index page_no=9
+confirmation_1991,PAGE AB2-CD.JPG,9,,,,Chamberlain,Courtney,,,,,,,,,,,index page_no=9
+confirmation_1991,PAGE AB2-CD.JPG,9,,,,Ciammetillo,Donato,,,,,,,,,,,index page_no=9
+confirmation_1991,PAGE AB2-CD.JPG,9,,,,Colon,Norma,,,,,,,,,,,index page_no=9
+confirmation_1991,PAGE AB2-CD.JPG,9,,,,Colucci,Nicholas,,,,,,,,,,,index page_no=9
 confirmation_1991,PAGE 010.JPG,10,Apr 25 1993,1993,20,CONSTANTINO,MARK,,14,Dec 9 1984,ST. PETER'S,20 OVERLOOK AVE.,FRED,MARY ANN BLEARY,RICHARD CONSTANTINO,Most Rev. Robert Garner,no,
 confirmation_1991,PAGE 010.JPG,10,Apr 25 1993,1993,21,DELIMON,DIANNON,,15,Jun 25 1978,ST. STEPHEN'S KEARNY,150 HOLMES ST.,DAVID,CAROL WHITE,NANCY ROMEO,Most Rev. Robert Garner,no,
 confirmation_1991,PAGE 010.JPG,10,Apr 25 1993,1993,22,DI POPOLO,THERESA,,14,May 6 1979,O.L. OF GOOD COUNSEL NWK,17 VAN REYPER PL.,REMO,DOLORES CALDERONE,ELIZABETH ANN MERCADANTE,Most Rev. Robert Garner,no,
@@ -152,6 +245,19 @@ confirmation_1991,PAGE 010.JPG,10,Apr 25 1993,1993,36,MAHONEY,KIMBERLY,,14,Jul 2
 confirmation_1991,PAGE 010.JPG,10,Apr 25 1993,1993,37,MASONE,MARIA,,14,Jun 2 1979,ST. THOMAS THE APOSTLE BLMFD,411 HIGHLAND AVE NWK,JOSEPH,KATHLEEN ESPOSITO,BERNICE SNYDER,Most Rev. Robert Garner,no,
 confirmation_1991,PAGE 010.JPG,10,Apr 25 1993,1993,38,MATULEWICZ,ROBIN,,14,Nov 11 1979,ST. PETER'S,10 VAN RENSSELAER ST,DAVID,LORETTA ZOZIARSKI,ROXANNE MESSANO,Most Rev. Robert Garner,no,
 confirmation_1991,PAGE 010.JPG,10,Apr 25 1993,1993,39,MESSANO,LESLIE,,13,Mar 23 1980,ST. PETER'S,219 HOLMES ST.,LOUIS,CARMELA BONITO,,Most Rev. Robert Garner,no,
+confirmation_1991,PAGE AB2-CD.JPG,10,,,,Constantino,Mark,,,,,,,,,,,index page_no=10
+confirmation_1991,PAGE AB2-CD.JPG,10,,,,Delimon,Diannon,,,,,,,,,,,index page_no=10
+confirmation_1991,PAGE AB2-CD.JPG,10,,,,Di Popolo,Theresa,,,,,,,,,,,index page_no=10
+confirmation_1991,PAGE AB2-CD.JPG,10,,,,Dobies,Jason,,,,,,,,,,,index page_no=10
+confirmation_1991,PAGE AB2-CD.JPG,10,,,,Dugan,Shannon,,,,,,,,,,,index page_no=10
+confirmation_1991,PAGE CD2-EF.JPG,10,,,,FISHER,MARIE CHRISTINE,,,,,,,,,,,index page_no=10
+confirmation_1991,PAGE EF2-GH.JPG,10,,,,GALVAN,PEGGY CATHERINE,,,,,,,,,,,index page_no=10
+confirmation_1991,PAGE EF2-GH.JPG,10,,,,GAMBINO,ALICIA,,,,,,,,,,,index page_no=10
+confirmation_1991,PAGE EF2-GH.JPG,10,,,,GARCIA,JENNIFER,,,,,,,,,,,index page_no=10
+confirmation_1991,PAGE EF2-GH.JPG,10,,,,GOMEZ,CAROLINE,,,,,,,,,,,index page_no=10
+confirmation_1991,PAGE EF2-GH.JPG,10,,,,HICKMAN,PETER,,,,,,,,,,,index page_no=10
+confirmation_1991,PAGE EF2-GH.JPG,10,,,,HU,HSIANG,,,,,,,,,,,index page_no=10
+confirmation_1991,PAGE GH2-IJ.JPG,10,,,,JOHNSON,JUSTIN,,,,,,,,,,,index page_no=10
 confirmation_1991,PAGE 011.JPG,11,Apr 25 1993,1993,40,MORGAN,MICHAEL,,14,Nov 11 1979,ST. LUCY'S NWK,47 COLUMBUS AVE.,MICHAEL,PHYLLIS FERRENTINO,KEVIN MORGAN,Most Rev. Robert Garner,no,
 confirmation_1991,PAGE 011.JPG,11,Apr 25 1993,1993,41,MORRI,CARRIE ANN,,14,Aug 26 1979,O.L. OF MT. CARMEL NUTLEY,77 CORTLANDT ST.,KEVIN,CATHERINE GIAMBATTISTA,LUCILLE SASSO,Most Rev. Robert Garner,no,
 confirmation_1991,PAGE 011.JPG,11,Apr 25 1993,1993,42,NEJMAN,RICHARD,,14,Apr 29 1979,ST. PETER'S,242 NEW ST.,EDWARD,LOIS DANIELS,EDWARD NEJMAN III,Most Rev. Robert Garner,no,
@@ -190,6 +296,23 @@ confirmation_1991,PAGE 012.JPG,12,Apr 26 1994,1994,17,JARAMILLO,PIERRE,,15,Nov 1
 confirmation_1991,PAGE 012.JPG,12,Apr 26 1994,1994,18,LAGOA,ANTHONY,,13,Jun 1981,"O.L. OF FATIMA, ELIZABETH, NJ","276 RIDGE ST., NEWARK",ANTONIO,MARIA MORGADO,JOSE RICHA,,no,
 confirmation_1991,PAGE 012.JPG,12,Apr 26 1994,1994,19,LUNELLI,JOSEPH,,14,May 25 1980,ST. PETER'S,"15 DE WITT AVE., BELLEVILLE",ANGELO,DORA TURANO,JOSEPH LUNELLI,,no,
 confirmation_1991,PAGE 012.JPG,12,Apr 26 1994,1994,20,MALAVARCA,BERNADETTE,,15,Feb 10 1980,"ST. PAUL, APOSTLE, IRVINGTON","83 DE WITT AVE, BELLEVILLE",EDMUND,CATHERINE TATTARINO,MARIA BETTONI,,yes,Mother maiden also read TATARINO
+confirmation_1991,PAGE AB.JPG,12,,,,AYALA,LEO,,,,,,,,,,,index page_no=12
+confirmation_1991,PAGE AB.JPG,12,,,,BUONO PANE,JOAN,,,,,,,,,,,index page_no=12
+confirmation_1991,PAGE AB2-CD.JPG,12,,,,Castro,Jennifer,,,,,,,,,,,index page_no=12
+confirmation_1991,PAGE AB2-CD.JPG,12,,,,Coron,John,,,,,,,,,,,index page_no=12
+confirmation_1991,PAGE AB2-CD.JPG,12,,,,Cesario,Elena,,,,,,,,,,,index page_no=12
+confirmation_1991,PAGE AB2-CD.JPG,12,,,,Chumas,Daria,,,,,,,,,,,index page_no=12
+confirmation_1991,PAGE AB2-CD.JPG,12,,,,Conway,Brian,,,,,,,,,,,index page_no=12
+confirmation_1991,PAGE AB2-CD.JPG,12,,,,Correa,Irwin,,,,,,,,,,,index page_no=12
+confirmation_1991,PAGE AB2-CD.JPG,12,,,,Criollo,Amparito,,,,,,,,,,,index page_no=12
+confirmation_1991,PAGE AB2-CD.JPG,12,,,,Di Popolo,Joseph,,,,,,,,,,,index page_no=12
+confirmation_1991,PAGE CD2-EF.JPG,12,,,,FEUERBACH,LOUIS,,,,,,,,,,,index page_no=12
+confirmation_1991,PAGE EF2-GH.JPG,12,,,,GARZON,EVELYN,,,,,,,,,,,index page_no=12
+confirmation_1991,PAGE EF2-GH.JPG,12,,,,GARZON,GIOVANNY,,,,,,,,,,,index page_no=12
+confirmation_1991,PAGE EF2-GH.JPG,12,,,,GENOVESE,ANGELA,,,,,,,,,,,index page_no=12
+confirmation_1991,PAGE EF2-GH.JPG,12,,,,GHOVACA,SILVIA,,,,,,,,,,,index page_no=12
+confirmation_1991,PAGE GH2-IJ.JPG,12,,,,INSUA,MARIA,,,,,,,,,,,index page_no=12
+confirmation_1991,PAGE GH2-IJ.JPG,12,,,,JARAMILLO,PIERRE,,,,,,,,,,,index page_no=12
 confirmation_1991,PAGE 013.JPG,13,Apr 26 1994,1994,21,MELENDEZ,LIZETTE,,14,Feb 2 1980,"O.L. Good Counsel, Newark","735 Summer Ave, Newark",FRANCISCO,ANA TERESA FLORES,NERAMA SIERRA,,no,
 confirmation_1991,PAGE 013.JPG,13,Apr 26 1994,1994,22,MONAGHAN,TERRENCE,,14,Oct 12 1980,ST. PETER,"22 HINKELE ST, BELLEVILLE",TERENCE,JANET BRODOWINSKI,MICHAEL MONAGHAN,,no,
 confirmation_1991,PAGE 013.JPG,13,Apr 26 1994,1994,23,MORGAN,JUSTIN,,14,Jul 20 1980,ST. PETER,"26 RIVERDALE AVE, BELLEVILLE",JOHN,DIANE VIVIANNI,ROBERT PAGLISI,,no,
@@ -227,6 +350,18 @@ confirmation_1991,PAGE 014.JPG,14,Apr 25 1995,1995,9,DOMBROWSKI,STEPHEN,,14,Dec 
 confirmation_1991,PAGE 014.JPG,14,Apr 25 1995,1995,10,DZENDZERA,MONIQUE,,14,Dec 27 1981,ST. STANISLAUS NEWARK,123 RUTGERS ST. BELV.,JOHN,BARBARA LIPINSKI,SR. ANNE ROBERTA SCOTT,,no,
 confirmation_1991,PAGE 014.JPG,14,Apr 25 1995,1995,11,FALLANO,DONNIE,,14,Jan 25 1981,ST. LUCY NEWARK,1 RUTGERS CT. BELV.,DONALD,FLORENCE DE LUCIA,ARLENE DE COSTA,,no,
 confirmation_1991,PAGE 014.JPG,14,Apr 25 1995,1995,12,GARCIA,NICHOLAS,,14,Jun 13 1982,IMMAC. CONCEP. NEWARK,49 MANCHESTER PL. NEWARK,SANTOS,MARIA PONCE,DELVIS MATOS,,no,
+confirmation_1991,PAGE AB.JPG,14,,,,ARNOT,LAUREN,,,,,,,,,,,index page_no=14
+confirmation_1991,PAGE AB.JPG,14,,,,BOCCHINO,DANA,,,,,,,,,,,index page_no=14
+confirmation_1991,PAGE AB.JPG,14,,,,BRUNO,MELISSA,,,,,,,,,,,index page_no=14
+confirmation_1991,PAGE AB2-CD.JPG,14,,,,Calia,Michael,,,,,,,,,,,index page_no=14
+confirmation_1991,PAGE AB2-CD.JPG,14,,,,Caramucci,Christopher,,,,,,,,,,,index page_no=14
+confirmation_1991,PAGE AB2-CD.JPG,14,,,,Cocus,Rachel,,,,,,,,,,,index page_no=14
+confirmation_1991,PAGE AB2-CD.JPG,14,,,,De Angelis,Nicholas,,,,,,,,,,,index page_no=14
+confirmation_1991,PAGE AB2-CD.JPG,14,,,,De Lucia,Erin,,,,,,,,,,,index page_no=14
+confirmation_1991,PAGE AB2-CD.JPG,14,,,,Demuskowski,Stephen,,,,,,,,,,,index page_no=14
+confirmation_1991,PAGE AB2-CD.JPG,14,,,,Digenova,Monique,,,,,,,,,,,index page_no=14
+confirmation_1991,PAGE CD2-EF.JPG,14,,,,FALCONE,DONNA,,,,,,,,,,,index page_no=14
+confirmation_1991,PAGE EF2-GH.JPG,14,,,,GARCIA,NICHOLAS,,,,,,,,,,,index page_no=14
 confirmation_1991,PAGE 015.JPG,15,Apr 25 1995,1995,13,GARCIA,RAMON,,14,Jul 26 1981,ST. PETER BELV.,279 LITTLE ST. BELV.,RAMON,MARIANNE JACANGELO,LOUIS REPOSO,,no,
 confirmation_1991,PAGE 015.JPG,15,Apr 25 1995,1995,14,GOMEZ,ALEX,,14,May 11 1982,"ST. AGATHA MIAMI, FL.",398 GREYLOCK PKWY. BELV.,MAXIMO,ISABEL SANCHEZ,RAFAELA MIRANDA,,no,
 confirmation_1991,PAGE 015.JPG,15,Apr 25 1995,1995,15,IBRANYI,CHRISTOPHER,,14,May 14 1982,ST. ANTHONY EAST NEWARK,197A HOOVER AVE. BLOOMFIELD,GUSTAV,FRANCINE BARCELLONA,RICHARD IBRANYI,,no,
@@ -247,6 +382,12 @@ confirmation_1991,PAGE 015.JPG,15,Apr 25 1995,1995,29,PEREZ,CATHERINE,,14,Jun 16
 confirmation_1991,PAGE 015.JPG,15,Apr 25 1995,1995,30,PIZARRO,EUGENE,,14,Aug 16 1981,O.L. ALL SOULS EAST ORANGE,109 SMALLWOOD AVE BELV.,SERGIO,MARIA ROTUNDO,MICHAEL PIZZO,,no,
 confirmation_1991,PAGE 015.JPG,15,Apr 25 1995,1995,31,POLUKARD,GARY,,14,Nov 29 1981,ST. ANTHONY EAST NEWARK,133 WILLIAM ST. BELV.,FRANK,ANN DOHERTY,PAMELA DOHERTY,,no,
 confirmation_1991,PAGE 015.JPG,15,Apr 25 1995,1995,32,RANUCCI,DAVID,,14,Feb 8 1981,SACRED HEART BLOOMFIELD,35 HORNBLOWER AVE. BELV.,THOMAS,ANGELA DE NICHOLAS,PAUL DE NICOLAS,,no,
+confirmation_1991,PAGE EF2-GH.JPG,15,,,,GARCIA,RAYMON,,,,,,,,,,,index page_no=15
+confirmation_1991,PAGE EF2-GH.JPG,15,,,,GOMEZ,ALEX,,,,,,,,,,,index page_no=15
+confirmation_1991,PAGE GH2-IJ.JPG,15,,,,IBRANYI,CHRISTOPHER,,,,,,,,,,,index page_no=15
+confirmation_1991,PAGE GH2-IJ.JPG,15,,,,IDROVO,JENNIFER,,,,,,,,,,,index page_no=15
+confirmation_1991,PAGE GH2-IJ.JPG,15,,,,IDROVO,MICHELLE,,,,,,,,,,,index page_no=15
+confirmation_1991,PAGE GH2-IJ.JPG,15,,,,JIMENEZ,ALBERTO,,,,,,,,,,,index page_no=15
 confirmation_1991,PAGE 016.JPG,16,Apr 25 1995,1995,33,RENNA,SEBASTIANO,,14,Jul 19 1981,ST. ANTHONY BELV.,39 HORNBLOWER AVE BELV.,SEBASTIANO,CHRISTINE DZWONKOWSKI,ROSEMARIE CARLO,,no,
 confirmation_1991,PAGE 016.JPG,16,Apr 25 1995,1995,34,ROBINSON,SEAN MICHAEL,,14,Nov 1 1981,ST. MARY NUTLEY,136 DIVISION AVE BELV.,,EILEEN,ROBERT DE FILIPPIS,,no,
 confirmation_1991,PAGE 016.JPG,16,Apr 25 1995,1995,35,RODRIGUEZ,JOSE,,15,Dec 21 1980,ARCHDIOCESIS DE SANTO DOMINGO DOMINICAN REPUBLIC,307 WILLIAM ST. BELV.,MANUEL,BELKIS QUEZADA,MARTA MUSTAFA,,no,
@@ -267,6 +408,8 @@ confirmation_1991,PAGE 016.JPG,16,Apr 6 1996,1996,4,LACHENAUER,SUSANNE,,31,Feb 1
 confirmation_1991,PAGE 016.JPG,16,Apr 6 1996,1996,5,LEVY,COVY,,26,Apr 6 1996,ST PETERS,"56 GROVE ST NO. PLAINFIELD, NJ",HARRIS LEVY,KYONG CHANG,CARLA MARQUES,,no,
 confirmation_1991,PAGE 016.JPG,16,Apr 6 1996,1996,6,MATOS,IRENE,,29,Sep 5 1970,"ST ROCH NEWARK, NJ","583 MT. PROSPECT AVE NEWARK, NJ",EDELMIRO GARCIA,IRMA PONCE,LISSETTE MUNIZ,,no,
 confirmation_1991,PAGE 016.JPG,16,Apr 6 1996,1996,7,SANTOS,ROGERIO,,30,Oct 30 1966,"N. S. DA PIEDADE ANGDIA, PORTUGAL","340 ELM ST. NEWARK, NJ",OSCAR SANTOS,CREMALDA CARVALLA,ADOLLY ALMODOVAR,,no,
+confirmation_1991,PAGE AB.JPG,16,,,,ACUNA,MICHAEL,,,,,,,,,,,index page_no=16
+confirmation_1991,PAGE AB2-CD.JPG,16,,,,Cuervza,Lauren,,,,,,,,,,,index page_no=16
 confirmation_1991,PAGE 017.JPG,17,Apr 6 1996,1996,8,SANCHEZ,SANDRA,,16,Apr 25 1981,"St. Columba's Newark, NJ","16 Hornblower Ave Belleville, NJ",Eduardo Sanchez,Salvadora Figuero,Celine S. Figuero,,no,
 confirmation_1991,PAGE 017.JPG,17,Apr 6 1996,1996,9,SANTOS,SERGIO,,34,Dec 25 1962,"Ol Holy of Incarnations Porto Alegre, Brazil","109 Smallwood Ave Belleville, NJ",Oscar Santos,Bremilda Paralla,Maria Santos,,yes,Baptism place reading uncertain
 confirmation_1991,PAGE 017.JPG,17,Apr 6 1996,1996,10,WYND,MICHAEL,,30,Apr 6 1996,St. Peter's,"47 Rossmore Place Belleville, NJ",James Wynd,Carol Alario,Anayanci Pitti,,no,
@@ -286,6 +429,17 @@ confirmation_1991,PAGE 017.JPG,17,Apr 14 1996,1996,22,COXSON,BRIAN,,14,Jan 5 198
 confirmation_1991,PAGE 017.JPG,17,Apr 14 1996,1996,23,COZZARELLI,VINCENT,,14,Nov 14 1982,St. Peter's,"345 Washington Ave Belleville, N.J.",Vincent Cozzarelli,Georgette Pitrelli,Raymond Cozzarelli,Archbishop T. McCarrick,no,
 confirmation_1991,PAGE 017.JPG,17,Apr 14 1996,1996,24,CRIOLLO,JASMIN,,14,Jul 20 1985,"O.L. of Good Counsel Newark, N.J.","292 Union Ave. Belleville, N.J.",John Criollo,Elizabeth Toledo,Mary Toledo,Archbishop T. McCarrick,no,
 confirmation_1991,PAGE 017.JPG,17,Apr 14 1996,1996,25,DE ANGELIS,MICHELE,,14,Dec 5 1982,"Holy Name of Jesus East Orange, N.J.","78 Clinton St. Bloomfield, N.J.",Fred De Angelis,Christine Fantin,Claudette D'Addezio,Archbishop T. McCarrick,no,
+confirmation_1991,PAGE AB.JPG,17,,,,ANDREWS,JILLIAN,,,,,,,,,,,index page_no=17
+confirmation_1991,PAGE AB.JPG,17,,,,BIFANO,DIANE,,,,,,,,,,,index page_no=17
+confirmation_1991,PAGE AB.JPG,17,,,,BOYCE,CHRISTIAN,,,,,,,,,,,index page_no=17
+confirmation_1991,PAGE AB2-CD.JPG,17,,,,Cabezas,Polymarie,,,,,,,,,,,index page_no=17
+confirmation_1991,PAGE AB2-CD.JPG,17,,,,Calia,Tina,,,,,,,,,,,index page_no=17
+confirmation_1991,PAGE AB2-CD.JPG,17,,,,Caron,Wendy,,,,,,,,,,,index page_no=17
+confirmation_1991,PAGE AB2-CD.JPG,17,,,,Chrobocinski,Roy,,,,,,,,,,,index page_no=17
+confirmation_1991,PAGE AB2-CD.JPG,17,,,,Correa,Jennie,,,,,,,,,,,index page_no=17
+confirmation_1991,PAGE AB2-CD.JPG,17,,,,Coxson,Brian,,,,,,,,,,,index page_no=17
+confirmation_1991,PAGE AB2-CD.JPG,17,,,,Criollo,Jasmin,,,,,,,,,,,index page_no=17
+confirmation_1991,PAGE AB2-CD.JPG,17,,,,De Angelis,Michael,,,,,,,,,,,index page_no=17
 confirmation_1991,PAGE 018.JPG,18,Apr 14 1996,1996,26,ESPOSITO,PASQUALE,,14,May 16 1982,"ST. FRANCIS XAVIER NEWARK, NJ","66 DEWITT AVENUE BELLEVILLE, NJ",CARLO ESPOSITO,GIOCONDA SCARPA,NICOLA SCARPA,Archbishop T. McCarrick,no,
 confirmation_1991,PAGE 018.JPG,18,Apr 14 1996,1996,27,EVANGELISTA,RYAN JAMES,,14,Dec 18 1982,"ST. LUCY'S JERSEY CITY, NJ","14 ROSSMORE PLACE BELLEVILLE, NJ",OSCAR EVANGELISTA,LORETA NOGOY,DIONICIA NOGOY,Archbishop T. McCarrick,no,
 confirmation_1991,PAGE 018.JPG,18,Apr 14 1996,1996,28,GIBNEY,KATE,,15,Apr 24 1988,ST. PETER'S,"31 PERRY STREET BELLEVILLE, NJ",WILLIAM GIBNEY,THERESA PAJUK,MARY ANN GIBNEY,Archbishop T. McCarrick,no,
@@ -306,6 +460,14 @@ confirmation_1991,PAGE 018.JPG,18,Apr 14 1996,1996,42,PASTRANA,DANYE,,16,Nov 29 
 confirmation_1991,PAGE 018.JPG,18,Apr 14 1996,1996,43,PERCARIO,ROBERT,,14,Jul 18 1982,"ST. ANTHONY'S BELLEVILLE, NJ","31 HOWARD PLACE BELLEVILLE, NJ",ARTHUR PERCARIO,JEAN MONTALBANO,FRANK SNYDER,Archbishop T. McCarrick,no,
 confirmation_1991,PAGE 018.JPG,18,Apr 14 1996,1996,44,PERINOTTI,KRISTEN,,14,Sep 5 1982,"HOLY FAMILY CH. NUTLEY, NJ","98 CONTINENTAL AVE BELLEVILLE, NJ",GUY PERINOTTI,ELAINE MANGO,NIKKI PERINOTTI,Archbishop T. McCarrick,no,
 confirmation_1991,PAGE 018.JPG,18,Apr 14 1996,1996,45,PICHARDO,MARISA,,14,Sep 25 1983,"ST. MICHAEL'S NEWARK, NJ","133 MT. PROSPECT AVE NEWARK, NJ",DOMINGO PICHARDO,JUSTA SANTOS,ROSA WADIC,Archbishop T. McCarrick,no,
+confirmation_1991,PAGE CD2-EF.JPG,18,,,,ESPOSITO,PASQUALE,,,,,,,,,,,index page_no=18
+confirmation_1991,PAGE CD2-EF.JPG,18,,,,EVANGELISTA,RYAN JAMES,,,,,,,,,,,index page_no=18
+confirmation_1991,PAGE EF2-GH.JPG,18,,,,GIBNEY,KATY,,,,,,,,,,,index page_no=18
+confirmation_1991,PAGE EF2-GH.JPG,18,,,,GIESSINGER,NICHOLAS,,,,,,,,,,,index page_no=18
+confirmation_1991,PAGE EF2-GH.JPG,18,,,,HERRERA,WILSON,,,,,,,,,,,index page_no=18
+confirmation_1991,PAGE EF2-GH.JPG,18,,,,HICKMAN,JESSICA,,,,,,,,,,,index page_no=18
+confirmation_1991,PAGE EF2-GH.JPG,18,,,,HOLGUIN,MANUEL,,,,,,,,,,,index page_no=18
+confirmation_1991,PAGE EF2-GH.JPG,18,,,,HUPALO,ELKE,,,,,,,,,,,index page_no=18
 confirmation_1991,PAGE 019.JPG,19,Apr 14 1996,1996,46,REILLY,MARIAH,,14,Sep 12 1982,ST. PETER'S,"79 BALDWIN PLACE, BELLEVILLE, N.J.",JAMES REILLY,MARY McCORMACK,ANNA MAI REILLY,Archbishop T. McCarrick,no,
 confirmation_1991,PAGE 019.JPG,19,Apr 14 1996,1996,47,REILLY,PHILIP,,14,Nov 21 1982,"ST. LUCY'S, NEWARK, NJ","109 MANCHESTER ST., NEWARK, NJ",PHILIP REILLY,DONNA CHARRON,VICTOR DI MEO,Archbishop T. McCarrick,no,
 confirmation_1991,PAGE 019.JPG,19,Apr 14 1996,1996,48,RENDON,MARLON,,14,Jun 3 1983,"ST. JOHN BOSCO, TEANECK, NJ","102 E. SYLVAN AVENUE, NEWARK, NJ",LUIS RENDON,MARIA AVILES,LINDA ARNDT,Archbishop T. McCarrick,no,
@@ -324,6 +486,10 @@ confirmation_1991,PAGE 019.JPG,19,Mar 29 1997,1997,1,BARAHONA,BYRON,BYRON,14,Apr
 confirmation_1991,PAGE 019.JPG,19,Mar 29 1997,1997,2,BARAHONA,LORENA,LORENA,17,Feb 22 1981,ECUADOR,"261 WILLIAM ST, BELLEVILLE, NJ",VICENTE BARAHONA,AIDA FLORES,SORAIDA DE HON (?),,yes,Easter Vigil; sponsor uncertain
 confirmation_1991,PAGE 019.JPG,19,Mar 29 1997,1997,3,BELL,LETRICIA,LETRICIA,37,Mar 29 1997,ST. PETER'S,"15 CHURCH ST., BLOOMFIELD, NJ",HARCOURT BELL,BRENDA WILLIAMS,BETTY VALLADARES,,no,Easter Vigil
 confirmation_1991,PAGE 019.JPG,19,Mar 29 1997,1997,4,BROWN,WILLIE,WILLIE,60,Mar 29 1997,ST. PETER'S,"15 CHURCH ST., BLOOMFIELD, NJ","WILLIE BROWN, SR.",HATTIE FAREWELL,GUILLERMO VALLADARES,,no,Easter Vigil
+confirmation_1991,PAGE AB.JPG,19,,,,BARAHONA,BYRON,,,,,,,,,,,index page_no=19
+confirmation_1991,PAGE AB.JPG,19,,,,BARAHONA,LORENA,,,,,,,,,,,index page_no=19
+confirmation_1991,PAGE AB.JPG,19,,,,BELL,LETRIENA,,,,,,,,,,,index page_no=19
+confirmation_1991,PAGE AB.JPG,19,,,,BROWN,WILLIE,,,,,,,,,,,index page_no=19
 confirmation_1991,PAGE 020.JPG,20,Mar 29 1997,1997,5,CAMPORA,FABIANA,FABIANA,27,Mar 29 1997,ST. PETER'S,"321 GREYLOCK PARKWAY, BELLEVILLE, NJ",NICHOLAS PALMICI,LEANDRA CABELLO,"JULIO ROIG, MAXIMILA ROIG",,no,Easter Vigil; two sponsors listed
 confirmation_1991,PAGE 020.JPG,20,Mar 29 1997,1997,6,CERVALLOS,MARIA,MARIA,15,Mar 29 1997,ST. PETER'S,"47 SCHUYLER ST., BELLEVILLE, NJ",[illegible],[illegible],[illegible],,yes,Easter Vigil; parents and sponsor marked with question marks
 confirmation_1991,PAGE 020.JPG,20,Mar 29 1997,1997,7,CHAN,ANTHONY,JOSEPH,15,Jul 10 1982,ST. ANTHONY'S NEW YORK,"168 MALONE AVE., BELLEVILLE, NJ",ARMANDO CHAN,ANITA TAN,NESSY DAAN,,no,Easter Vigil
@@ -344,6 +510,13 @@ confirmation_1991,PAGE 020.JPG,20,Mar 29 1997,1997,21,VU,THINH,THINH,16,Sep 8 19
 confirmation_1991,PAGE 020.JPG,20,Mar 29 1997,1997,22,BERARDI,ROSANNA,,26,Sep 2 1973,"SACRED HEART PARISH, NEWARK, NJ","161 NEW STREET, BELLEVILLE, NJ",FRANK,EVA MONTICELLO,ANTOINETTE MINIECHIELLO,,no,Easter Vigil
 confirmation_1991,PAGE 020.JPG,20,Mar 29 1997,1997,23,CASALE,NICOLE MICHELLE,ANGELINA,20,Mar 6 1977,ST. ANTHONY BELLEVILLE,"750 MILL STREET, BELLEVILLE, NJ",MICHAEL,KATHLEEN GIORDANO,LINDA MAZUR,,no,Easter Vigil
 confirmation_1991,PAGE 020.JPG,20,Mar 29 1997,1997,24,MANN,RAYMOND CLIFFORD,,21,Mar 28 1976,"HOLY NAME OF JESUS, WOODBURY, N.Y.","93 BALDWIN PLACE, BELLEVILLE, NJ",RAYMOND,DEBORAH JACQUES,RUSSELL MANN,,no,Easter Vigil
+confirmation_1991,PAGE AB.JPG,20,,,,BERARDI,ROSANNA,,,,,,,,,,,index page_no=20
+confirmation_1991,PAGE AB2-CD.JPG,20,,,,Cozzarelli,Vincent,,,,,,,,,,,index page_no=20
+confirmation_1991,PAGE AB2-CD.JPG,20,,,,Campora,Fabiana,,,,,,,,,,,index page_no=20
+confirmation_1991,PAGE AB2-CD.JPG,20,,,,Cevallos,Maria,,,,,,,,,,,index page_no=20
+confirmation_1991,PAGE AB2-CD.JPG,20,,,,Chan,Anthony,,,,,,,,,,,index page_no=20
+confirmation_1991,PAGE AB2-CD.JPG,20,,,,Cortes,Angel,,,,,,,,,,,index page_no=20
+confirmation_1991,PAGE AB2-CD.JPG,20,,,,Davila,Jose,,,,,,,,,,,index page_no=20
 confirmation_1991,PAGE 021.JPG,21,Mar 29 1997,1997,25,MEJIA,JACQUELINE,,25,Feb 9 1981,ST. ANTHONY ORTHODOX CH. DOMINICAN REP.,"8 PATTON DRIVE BLOOMFIELD, N.J.",DANIEL,NIDIA DUARTE,MARY TERRERO,,no,Easter Vigil
 confirmation_1991,PAGE 021.JPG,21,Mar 29 1997,1997,26,NERI,PAULA,,31,Feb 20 1966,ST. PETER'S BELLEVILLE,"139 FAIRWAY AVE. BELLEVILLE, NJ",DOMINICK,THERESA LOPEZ,JEAN BROO,,no,Easter Vigil
 confirmation_1991,PAGE 021.JPG,21,Mar 29 1997,1997,27,SALAS,WILLIAM,,27,Oct 12 1969,"OL OF MIRACLES MOUNT HOLY AGONY NEW YORK, N.Y.","290 WINFIELD AVE. JERSEY CITY, NJ",WILLIAM,HILDA VELEZ,RUTH ORTEGA,,no,Easter Vigil
@@ -363,6 +536,19 @@ confirmation_1991,PAGE 021.JPG,21,Apr 13 1997,1997,40,DIAZ,RICARDO,RICARDO,14,Se
 confirmation_1991,PAGE 021.JPG,21,Apr 13 1997,1997,41,GABAT,AVERY,AVERY,15,Dec 31 1982,O.L. OF GUIMBA PHILIPPINES,"167 CEDAR HILL AVE BELLEVILLE, NJ",FIDEL,LILIAN TINIO,MARIETTA SUNGA,Bishop Charles J. McDonnell,no,
 confirmation_1991,PAGE 021.JPG,21,Apr 13 1997,1997,42,GABAT,IGMAR,IGMAR,14,Dec 30 1983,ST. JOHN THE EVANGELIST PHILIPPINES,"2 MAPLE AVENUE BELLEVILLE, NJ",FIDEL,LILIAN TINIO,FELISA CANDELARIA,Bishop Charles J. McDonnell,no,
 confirmation_1991,PAGE 021.JPG,21,Apr 13 1997,1997,43,GAMBINO,JACQUELYN,JACQUELYN,14,Nov 28 1983,ST. ANTHONY'S BELLEVILLE,"BELLEVILLE, NJ",JACK,ANNA RAMBALDI,GERRY RAMBALDI,Bishop Charles J. McDonnell,no,
+confirmation_1991,PAGE AB.JPG,21,,,,AMBROSINO,GERARD,,,,,,,,,,,index page_no=21
+confirmation_1991,PAGE AB.JPG,21,,,,AMBROSINO,TRISTEN,,,,,,,,,,,index page_no=21
+confirmation_1991,PAGE AB.JPG,21,,,,ARANA,YOLANDA,,,,,,,,,,,index page_no=21
+confirmation_1991,PAGE AB.JPG,21,,,,BUCKLEY,CHRISTOPHER,,,,,,,,,,,index page_no=21
+confirmation_1991,PAGE AB2-CD.JPG,21,,,,Casale,Nicole Michelle,,,,,,,,,,,index page_no=21
+confirmation_1991,PAGE AB2-CD.JPG,21,,,,Carrera,Dawn Marie,,,,,,,,,,,index page_no=21
+confirmation_1991,PAGE AB2-CD.JPG,21,,,,Cobian,Katiria,,,,,,,,,,,index page_no=21
+confirmation_1991,PAGE AB2-CD.JPG,21,,,,Cubellis,Tiffany,,,,,,,,,,,index page_no=21
+confirmation_1991,PAGE AB2-CD.JPG,21,,,,Delgado,Ivanessa,,,,,,,,,,,index page_no=21
+confirmation_1991,PAGE AB2-CD.JPG,21,,,,Diaz,Ricardo,,,,,,,,,,,index page_no=21
+confirmation_1991,PAGE EF2-GH.JPG,21,,,,GARAT,AVERY,,,,,,,,,,,index page_no=21
+confirmation_1991,PAGE EF2-GH.JPG,21,,,,GABAT,IGMAR,,,,,,,,,,,index page_no=21
+confirmation_1991,PAGE EF2-GH.JPG,21,,,,GAMBINO,JACQUELYN,,,,,,,,,,,index page_no=21
 confirmation_1991,PAGE 022.JPG,22,Apr 13 1997,1997,44,GIBNEY,SARAH,OLIVE,14,Oct 29 1983,ST. PETER'S,"31 PERRY ST., BELLEVILLE, NJ",WILLIAM,THERESA PAJUK,KATE E. GIBNEY,Bishop Charles J. McDonnell,no,Alternate baptism date 5- -88 also written
 confirmation_1991,PAGE 022.JPG,22,Apr 13 1997,1997,45,GUANCI,NICOLE,PERPETUA,14,Jun 29 1983,"ST. MICHAEL'S, NEWARK, NJ","421 EAST PASSAIC AVE., BLOOMFIELD, NJ",NICK,VIRGINIA ROSSI,FLORA MONDELLI,Bishop Charles J. McDonnell,no,
 confirmation_1991,PAGE 022.JPG,22,Apr 13 1997,1997,46,HELFRICH,JACQUELINE,ELIZABETH,14,Jun 9 1984,"ST. ROSE of LIMA, NEWARK, NJ","45 UNION AVENUE, BELLEVILLE, NJ",JOHN,DEBBIE CRAGIN,BEVERLY BEDNAREZYK,Bishop Charles J. McDonnell,no,
@@ -383,6 +569,14 @@ confirmation_1991,PAGE 022.JPG,22,Apr 13 1997,1997,60,POLITANO,VINCENT,VINCENT,1
 confirmation_1991,PAGE 022.JPG,22,Apr 13 1997,1997,61,POSSUMATO,MICHAEL,MICHAEL,14,Jul 31 1983,"ST. PHILOMENA'S, LIVINGSTON, NJ","102 MALONE AVENUE, BELLEVILLE, NJ",RICHARD,ANNA ESPOSITO,RICHARD POSSUMATO,Bishop Charles J. McDonnell,no,
 confirmation_1991,PAGE 022.JPG,22,Apr 13 1997,1997,62,QUINN,JENNIFER,ANN,16,,"ST. MICHAEL'S, NEWARK, NJ","485 UNION AVE., BELLEVILLE, NJ",ALBERTO SOTO,KATHLEEN QUINN,LISA REISCH,Bishop Charles J. McDonnell,no,
 confirmation_1991,PAGE 022.JPG,22,Apr 13 1997,1997,63,RAMOS,EDUARDO,MARIA,,,,"BELLEVILLE, NJ",,,FERNANDO RAMOS,Bishop Charles J. McDonnell,yes,"Age, baptism, and parents blank"
+confirmation_1991,PAGE EF2-GH.JPG,22,,,,GIBNEY,SARAH,,,,,,,,,,,index page_no=22
+confirmation_1991,PAGE EF2-GH.JPG,22,,,,GUANCI,NICOLE,,,,,,,,,,,index page_no=22
+confirmation_1991,PAGE EF2-GH.JPG,22,,,,HELFRICH,JACQUELINE,,,,,,,,,,,index page_no=22
+confirmation_1991,PAGE EF2-GH.JPG,22,,,,HERRERA,DEISY,,,,,,,,,,,index page_no=22
+confirmation_1991,PAGE EF2-GH.JPG,22,,,,HINTON,GARY,,,,,,,,,,,index page_no=22
+confirmation_1991,PAGE EF2-GH.JPG,22,,,,HYLER,MICHAEL,,,,,,,,,,,index page_no=22
+confirmation_1991,PAGE GH2-IJ.JPG,22,,,,IDROVO,FERNANDO,,,,,,,,,,,index page_no=22
+confirmation_1991,PAGE GH2-IJ.JPG,22,,,,JACKSON,LISA,,,,,,,,,,,index page_no=22
 confirmation_1991,PAGE 023.JPG,23,Apr 13 1997,1997,64,RAMOS,ERICA,,,May 22 1983,"ST. ANTHONY'S BELLEVILLE, NJ","607 BELLEVILLE AVE., BELLEVILLE, N.J.",ROBERT,MARY MOORE,SUSAN CAPALBO,Bishop Charles J. McDonnell,no,
 confirmation_1991,PAGE 023.JPG,23,Apr 13 1997,1997,65,RUSSOMANO,ROCCO,PATRICK,14,Dec 12 1982,O.L. OF SORROWS PASAY CITY PHILIPPINES,"4 HIGHLAND AVE. #12, BELLEVILLE, N.J.",MANUEL,JUDITH MIRANDA,PATRICK RUSSOMANO,Bishop Charles J. McDonnell,yes,Baptism place also read Jersey City
 confirmation_1991,PAGE 023.JPG,23,Apr 13 1997,1997,66,SAN LUIS,ANA,ANA,15,Oct 31 1982,"O.L. OF THE LIGHT MANILA, PHILIPPINES","27 HUNKELE ST., BELLEVILLE, N.J.",ALFREDO,PATRICIA MANABO,ARIEL ESCOBINAS,Bishop Charles J. McDonnell,no,
@@ -413,6 +607,11 @@ confirmation_1991,PAGE 024.JPG,24,Apr 11 1998,1998,16,CERON,Christian,,13,Apr 11
 confirmation_1991,PAGE 024.JPG,24,Apr 11 1998,1998,17,HERNANDEZ,Cynthia,,16,May 8 1982,St. Peter's,"132 William St. Belleville, NJ",Marcos,Ana Flores,Cesar Portillo / Edin Tufino (?),Rev. Joseph Girone,yes,Easter Vigil; second sponsor uncertain
 confirmation_1991,PAGE 024.JPG,24,Apr 11 1998,1998,18,PEREZ,Samanda,,16,Apr 16 1988,Ecuador,"380 Washington Ave Belleville, NJ",Marco,Yolanda Tufino,Imelda Lajones,Rev. Joseph Girone,no,Easter Vigil
 confirmation_1991,PAGE 024.JPG,24,Apr 11 1998,1998,19,PEREZ,Marcos,,12,,"Quito, Ecuador","380 Washington Ave Belleville, NJ",Marco,Yolanda Tufino,,Rev. Joseph Girone,no,Easter Vigil; residence and parents expanded from dittos
+confirmation_1991,PAGE AB2-CD.JPG,24,,,,Ceron,Alex,,,,,,,,,,,index page_no=24
+confirmation_1991,PAGE AB2-CD.JPG,24,,,,Ceron,Christian,,,,,,,,,,,index page_no=24
+confirmation_1991,PAGE EF2-GH.JPG,24,,,,GONZALEZ,BARBARA,,,,,,,,,,,index page_no=24
+confirmation_1991,PAGE EF2-GH.JPG,24,,,,HONORAS,IRENE,,,,,,,,,,,index page_no=24
+confirmation_1991,PAGE EF2-GH.JPG,24,,,,HERNANDEZ,CYNTHIA,,,,,,,,,,,index page_no=24
 confirmation_1991,PAGE 025.JPG,25,May 3 1998,1998,1,AGOSTO,ANGIE,DIANE,14,Apr 6 1986,ST. PETER'S,"34 ROSSMORE PL., BELLEVILLE, NJ",VINCENT FERRIOLE,DEANNE DALY,DIANE LANIGAN,Bishop Nicholas DiMarzio,no,
 confirmation_1991,PAGE 025.JPG,25,May 3 1998,1998,2,ALICEA,ROBERTO,,14,Aug 3 1985,"ST. MICHAEL'S, NEWARK, NJ","239 GREYLOCK PKWY., BELLEVILLE, NJ",ROBERTO,LISA RAMDEEN,RICHARD RAMDEEN,Bishop Nicholas DiMarzio,no,
 confirmation_1991,PAGE 025.JPG,25,May 3 1998,1998,3,ARAUJO,DANIEL,,14,Jul 29 1984,"O.L. OF FATIMA, ELIZABETH, NJ","71 BREMOND ST., BELLEVILLE, NJ",MANUEL,MARIA PINTO,MARIA OLIVEIRA,Bishop Nicholas DiMarzio,no,
@@ -433,6 +632,27 @@ confirmation_1991,PAGE 025.JPG,25,May 3 1998,1998,17,GONZALEZ,JUSTIN,LUIS,14,Mar
 confirmation_1991,PAGE 025.JPG,25,May 3 1998,1998,18,HEALY,JAMES,,14,Jan 15 1984,"O.L. OF LOURDES, WEST ORANGE, NJ","100 WILLIAM ST., BELLEVILLE, NJ",JAMES,CHRISTINE KLOSINSKI,RALPH ESPOSITO,Bishop Nicholas DiMarzio,no,
 confirmation_1991,PAGE 025.JPG,25,May 3 1998,1998,19,HICKMAN,RACHEL,ANN,15,Jul 15 1983,"O.L. OF FATIMA, PISCATAWAY, NJ","3 UNION TERRACE, BELLEVILLE, NJ",THOMAS,DIANE BOVE,JENNIFER ARNDT,Bishop Nicholas DiMarzio,no,
 confirmation_1991,PAGE 025.JPG,25,May 3 1998,1998,20,HYLER,JAMIE LEIGH,ZOE,14,May 20 1984,"O.L. OF SORROWS, KEARNY, NJ","95 CARPENTER ST., BELLEVILLE, NJ",THOMAS MC DERMOTT,CHRISTINE HERON,JAMES R. HERON,Bishop Nicholas DiMarzio,no,
+confirmation_1991,PAGE AB.JPG,25,,,,AGOSTO,ANGIE,,,,,,,,,,,index page_no=25
+confirmation_1991,PAGE AB.JPG,25,,,,ALICIA,ROBERTO,,,,,,,,,,,index page_no=25
+confirmation_1991,PAGE AB.JPG,25,,,,ARAUJO,DANIEL,,,,,,,,,,,index page_no=25
+confirmation_1991,PAGE AB.JPG,25,,,,AYALA,ELENA,,,,,,,,,,,index page_no=25
+confirmation_1991,PAGE AB.JPG,25,,,,BATISTA,DIANE,,,,,,,,,,,index page_no=25
+confirmation_1991,PAGE AB.JPG,25,,,,BAUER,WAYNE,,,,,,,,,,,index page_no=25
+confirmation_1991,PAGE AB.JPG,25,,,,BOLAND,TIMOTHY,,,,,,,,,,,index page_no=25
+confirmation_1991,PAGE AB2-CD.JPG,25,,,,Calip,Winsley K.,,,,,,,,,,,index page_no=25
+confirmation_1991,PAGE AB2-CD.JPG,25,,,,Caputo,Kevin,,,,,,,,,,,index page_no=25
+confirmation_1991,PAGE AB2-CD.JPG,25,,,,Cartagena,Lorena,,,,,,,,,,,index page_no=25
+confirmation_1991,PAGE AB2-CD.JPG,25,,,,Chumas,George,,,,,,,,,,,index page_no=25
+confirmation_1991,PAGE AB2-CD.JPG,25,,,,Dzendzera,Danielle,,,,,,,,,,,index page_no=25
+confirmation_1991,PAGE CD2-EF.JPG,25,,,,EDWARDS,SCOTT,,,,,,,,,,,index page_no=25
+confirmation_1991,PAGE CD2-EF.JPG,25,,,,EROSA,MARCELO,,,,,,,,,,,index page_no=25
+confirmation_1991,PAGE CD2-EF.JPG,25,,,,EROSA,SARAH,,,,,,,,,,,index page_no=25
+confirmation_1991,PAGE CD2-EF.JPG,25,,,,FLORES,LISA,,,,,,,,,,,index page_no=25
+confirmation_1991,PAGE EF2-GH.JPG,25,,,,GERONIMO,KATHERINE,,,,,,,,,,,index page_no=25
+confirmation_1991,PAGE EF2-GH.JPG,25,,,,GONZALEZ,JUSTIN,,,,,,,,,,,index page_no=25
+confirmation_1991,PAGE EF2-GH.JPG,25,,,,HEALY,JAMES,,,,,,,,,,,index page_no=25
+confirmation_1991,PAGE EF2-GH.JPG,25,,,,HICKMAN,RACHEL,,,,,,,,,,,index page_no=25
+confirmation_1991,PAGE EF2-GH.JPG,25,,,,HYLER,JAMIE LEIGH,,,,,,,,,,,index page_no=25
 confirmation_1991,PAGE 026.JPG,26,May 3 1998,1998,21,JACKSON,JOSEPH,JAMES,14,Aug 15 1985,"ST. FRANCIS XAVIER, NEWARK, NJ","690 MILL STREET, BELLEVILLE, NJ",ROBERT,SADIE CANDURA,FRANK BIELLO,Bishop Nicholas DiMarzio,no,
 confirmation_1991,PAGE 026.JPG,26,May 3 1998,1998,22,JARMAN,JASON,JOSEPH,15,Mar 26 1983,"CHURCH OF THE HOLY NAME, E. ORANGE, NJ","18 BRIDGE STREET, BELLEVILLE, NJ",,JANET JARMAN,FLORENCE JARMAN,Bishop Nicholas DiMarzio,no,
 confirmation_1991,PAGE 026.JPG,26,May 3 1998,1998,23,LEZCANO,MANDY,JUDE,14,Aug 11 1985,"ST. MICHAEL'S, NEWARK, NJ","592 PARKER ST., NEWARK, NJ",MANUEL,JULIANA HODGE,MIRYAN VELASCO CARTAGENA,Bishop Nicholas DiMarzio,no,
@@ -453,6 +673,12 @@ confirmation_1991,PAGE 026.JPG,26,May 3 1998,1998,37,SANTIAGO,GABRIEL,,14,Dec 23
 confirmation_1991,PAGE 026.JPG,26,May 3 1998,1998,38,SANTINELLI,JESSICA,MICHELLE,14,Oct 14 1984,ST. PETER'S,"147 DE WITTY AVE, BELLEVILLE, NJ",JOHN,MARYANNE CARHART,THERESA ANN SANTINELLI,Bishop Nicholas DiMarzio,no,
 confirmation_1991,PAGE 026.JPG,26,May 3 1998,1998,39,SCOTT,MICHAEL,,14,,"ST. LUCY'S, NEWARK, NJ","29 WOODLAND ROAD, BLOOMFIELD, NJ",GEORGE,JEANETTE MIRO,EDWIN MIRO,Bishop Nicholas DiMarzio,no,
 confirmation_1991,PAGE 026.JPG,26,May 3 1998,1998,40,SMILEY,JENNIFER,RITA,14,Aug 5 1984,"QUEEN OF PEACE, NO. ARLINGTON, NJ","27 PROSPECT PLACE, BELLEVILLE, NJ",CHARLES,CELESTE BROWN,RITA BROWN,Bishop Nicholas DiMarzio,no,
+confirmation_1991,PAGE GH2-IJ.JPG,26,,,,JACKSON,JOSEPH,,,,,,,,,,,index page_no=26
+confirmation_1991,PAGE GH2-IJ.JPG,26,,,,JARMAN,JASON,,,,,,,,,,,index page_no=26
+confirmation_1991,PAGE AB.JPG,27,,,,BUTTACAVOLI,GINA,,,,,,,,,,,index page_no=27
+confirmation_1991,PAGE AB.JPG,27,,,,BENNETT,JESSIE,,,,,,,,,,,index page_no=27
+confirmation_1991,PAGE AB2-CD.JPG,27,,,,Campbell,Mary,,,,,,,,,,,index page_no=27
+confirmation_1991,PAGE CD2-EF.JPG,27,,,,CARABALLO,EDGAR,,,,,,,,,,,index page_no=27
 confirmation_1991,PAGE 028.JPG,28,Apr 3 1999,1999,9,KAMPE,DIANNA,MARGARET,29,Jun 29 1969,ST. PETER BELLEVILLE,"64 PRESTON STREET BELLEVILLE, NJ",JOSEPH,MARGARET SCULTHORPE,DEANA KAMPE,Rev. Joseph D. Girone,no,Easter Vigil
 confirmation_1991,PAGE 028.JPG,28,Apr 3 1999,1999,10,LAPORTE,KATHERINE,,16,Nov 16 1985,"ST. JOSEPH PATERSON, NJ","223 BRANCH BROOK DRIVE BELLEVILLE, NJ",JOSE LUIS,LUZ NEREIDA MEDINA,BIBIANA MARTICORENA,Rev. Joseph D. Girone,no,Easter Vigil
 confirmation_1991,PAGE 028.JPG,28,Apr 3 1999,1999,11,HERRERA,JORGE DANIEL,,14,Oct 21 1984,"O.L. OF VICTORIES PATERSON, NJ","223 BRANCH BROOK DRIVE BELLEVILLE, NJ",JORGE E.,CONCHITA FIGUEROA,ALFRIDO SANTOS,Rev. Joseph D. Girone,no,Easter Vigil
@@ -471,6 +697,19 @@ confirmation_1991,PAGE 028.JPG,28,May 2 1999,1999,23,CANDELARIA,STEVEN,STEVEN,15
 confirmation_1991,PAGE 028.JPG,28,May 2 1999,1999,24,CAYLI,DURIYE,DURIYE,14,Apr 11 1998,ST. PETER'S BELLEVILLE,"15 LINCOLN TERRACE BELLEVILLE, NJ",OSMAN,KATHLEEN VAN TASSELL,ANGELA MARINO,Bishop Paul G. Bootkoski,no,
 confirmation_1991,PAGE 028.JPG,28,May 2 1999,1999,25,CERON,CINDY,Veronica,14,May 30 1987,ST. PETER'S BELLEVILLE,"120 RUTGERS ST. BELLEVILLE, NJ",MARCELO,MIRIAM CORNEJO,GALO CERON,Bishop Paul G. Bootkoski,no,
 confirmation_1991,PAGE 028.JPG,28,May 2 1999,1999,26,CESARIO,MARIO,GERADO,14,Nov 10 1985,ST. PETER'S BELLEVILLE,"20 AGNES ST. BELLEVILLE, NJ",MARIO,MARIELA ECHEVARRIA,ELENA CESARIO,Bishop Paul G. Bootkoski,no,
+confirmation_1991,PAGE AB.JPG,28,,,,ANDREOTCOLA,MARISA,,,,,,,,,,,index page_no=28
+confirmation_1991,PAGE AB.JPG,28,,,,ATENDIDO,JEREMY,,,,,,,,,,,index page_no=28
+confirmation_1991,PAGE AB.JPG,28,,,,BIS,MARK,,,,,,,,,,,index page_no=28
+confirmation_1991,PAGE AB.JPG,28,,,,BLANCHARD,KRYSTLE,,,,,,,,,,,index page_no=28
+confirmation_1991,PAGE AB.JPG,28,,,,BRADY,MEGHAN,,,,,,,,,,,index page_no=28
+confirmation_1991,PAGE AB.JPG,28,,,,BURGOS,JAMES,,,,,,,,,,,index page_no=28
+confirmation_1991,PAGE CD2-EF.JPG,28,,,,CABRERA,HERIBERTO,,,,,,,,,,,index page_no=28
+confirmation_1991,PAGE CD2-EF.JPG,28,,,,CALLAHAN,ALEXIS,,,,,,,,,,,index page_no=28
+confirmation_1991,PAGE CD2-EF.JPG,28,,,,CANDELARIA,STEVEN,,,,,,,,,,,index page_no=28
+confirmation_1991,PAGE CD2-EF.JPG,28,,,,CAYLI,DURIYE,,,,,,,,,,,index page_no=28
+confirmation_1991,PAGE CD2-EF.JPG,28,,,,CERON,CINDY,,,,,,,,,,,index page_no=28
+confirmation_1991,PAGE CD2-EF.JPG,28,,,,CESARIO,MARIO,,,,,,,,,,,index page_no=28
+confirmation_1991,PAGE EF2-GH.JPG,28,,,,HERRERA,JORGE DANIEL,,,,,,,,,,,index page_no=28
 confirmation_1991,PAGE 029.JPG,29,May 2 1999,1999,27,COBA,GENESIS,BERNADETTE,14,Mar 30 1990,ST. LUCY'S NEWARK,"24 MORTON ST. BLOOMFIELD, NJ",MIGUEL,MABEL RODRIGUEZ,ADELA BELL,Bishop Paul G. Bootkoski,no,
 confirmation_1991,PAGE 029.JPG,29,May 2 1999,1999,28,COLON,DAVID,LUKE,16,Dec 1 1985,ST. PETER'S BELLEVILLE,"126 WASHINGTON AVE. BELLEVILLE, NJ",DAVID,NILSA BURGOS,NORMA COLON,Bishop Paul G. Bootkoski,no,
 confirmation_1991,PAGE 029.JPG,29,May 2 1999,1999,29,COTTINO,ROBERT,JOSEPH,14,May 12 1985,ST. PETER'S BELLEVILLE,"131 NEW STREET BELLEVILLE, NJ",ROBERT,ROSARIA VILLANI,JOSEPH NALLEN,Bishop Paul G. Bootkoski,no,
@@ -490,6 +729,24 @@ confirmation_1991,PAGE 029.JPG,29,May 2 1999,1999,42,GONZALEZ,ANTONIO,ANTONIO,15
 confirmation_1991,PAGE 029.JPG,29,May 2 1999,1999,43,GUEVARA,IRENE,IRENE,24,Oct 7 1979,ECUADOR,"11 WASHINGTON ST BELLEVILLE, NJ",JUAN,HILDA FLORES,CARMEN ALVERADO,Bishop Paul G. Bootkoski,no,
 confirmation_1991,PAGE 029.JPG,29,May 2 1999,1999,44,GUSSIE,FRANK,MICHAEL,16,Dec 17 1983,"ST. ALOYSIUS JERSEY CITY, NJ","120 RUTGERS ST. BELLEVILLE, NJ",FRANCIS,GERMAINE JACK,FR. LEO J. BUTLER,Bishop Paul G. Bootkoski,no,
 confirmation_1991,PAGE 029.JPG,29,May 2 1999,1999,45,HERRERA,CHRISTIAN,CHRISTIAN,14,,"ST. JOHN'S ORANGE, NJ","259 HORNBLOWER AVE BELLEVILLE, NJ",VICTOR,MARLENE,JORGE ARMANGOT,Bishop Paul G. Bootkoski,no,
+confirmation_1991,PAGE AB2-CD.JPG,29,,,,De Jesus,Daniella,,,,,,,,,,,index page_no=29
+confirmation_1991,PAGE AB2-CD.JPG,29,,,,De La Rosa,Jenelle,,,,,,,,,,,index page_no=29
+confirmation_1991,PAGE AB2-CD.JPG,29,,,,De La Torre,Fernando,,,,,,,,,,,index page_no=29
+confirmation_1991,PAGE AB2-CD.JPG,29,,,,Diaz,Cynthia,,,,,,,,,,,index page_no=29
+confirmation_1991,PAGE AB2-CD.JPG,29,,,,Di Carlo,Daniela,,,,,,,,,,,index page_no=29
+confirmation_1991,PAGE AB2-CD.JPG,29,,,,Dombrowski,Lisa,,,,,,,,,,,index page_no=29
+confirmation_1991,PAGE AB2-CD.JPG,29,,,,Dominguez,Jose E.,,,,,,,,,,,index page_no=29
+confirmation_1991,PAGE AB2-CD.JPG,29,,,,Dubourg,Sammy,,,,,,,,,,,index page_no=29
+confirmation_1991,PAGE CD2-EF.JPG,29,,,,COBA,GENESIS,,,,,,,,,,,index page_no=29
+confirmation_1991,PAGE CD2-EF.JPG,29,,,,COLON,DAVID,,,,,,,,,,,index page_no=29
+confirmation_1991,PAGE CD2-EF.JPG,29,,,,COTTINO,ROBERT,,,,,,,,,,,index page_no=29
+confirmation_1991,PAGE CD2-EF.JPG,29,,,,CRUZ,JENNIFER,,,,,,,,,,,index page_no=29
+confirmation_1991,PAGE CD2-EF.JPG,29,,,,FLORES,MERVIN,,,,,,,,,,,index page_no=29
+confirmation_1991,PAGE EF2-GH.JPG,29,,,,GARCIA,VICTORIA,,,,,,,,,,,index page_no=29
+confirmation_1991,PAGE EF2-GH.JPG,29,,,,GONZALEZ,ANTONIO,,,,,,,,,,,index page_no=29
+confirmation_1991,PAGE EF2-GH.JPG,29,,,,GUEVARA,IRENE,,,,,,,,,,,index page_no=29
+confirmation_1991,PAGE EF2-GH.JPG,29,,,,GUSSIE,FRANK,,,,,,,,,,,index page_no=29
+confirmation_1991,PAGE EF2-GH.JPG,29,,,,HERRERA,CHRISTIAN,,,,,,,,,,,index page_no=29
 confirmation_1991,PAGE 030.JPG,30,May 2 1999,1999,46,IAVARONE,DERRICK,THOMAS,14,Nov 10 1985,ST. PETER'S BELLEVILLE,"345 UNION AVE. BELLEVILLE, NJ",ANTHONY,ANNE BRODOWSKI,RONALD CZOCHANSKI,Bishop Paul G. Bootkoski,no,
 confirmation_1991,PAGE 030.JPG,30,May 2 1999,1999,47,IDROVO,ANDRES,ANDREW,14,Aug 1 1987,ECUADOR,"116 WASHINGTON BELLEVILLE, NJ",JOSE GOMEZ,RUTH MERINO,FERNANDO IDROVO,Bishop Paul G. Bootkoski,no,
 confirmation_1991,PAGE 030.JPG,30,May 2 1999,1999,48,KHONG,DAT,JOSEPH,15,Oct 1984,"ST. NICHOLAS BRONX, NY","244 GREYLOCK PKWY. BELLEVILLE, NJ",HUNG,THU CHU,JOSEPH HUNG VU,Bishop Paul G. Bootkoski,no,
@@ -509,6 +766,8 @@ confirmation_1991,PAGE 030.JPG,30,May 2 1999,1999,61,MUNOZ,ANA,LOURDES,15,Aug 20
 confirmation_1991,PAGE 030.JPG,30,May 2 1999,1999,62,NGUYEN,PHUONG,PHUONG,15,Dec 23 1984,VIETNAM,"566 UNION AVE. BELLEVILLE, NJ",DUNG,HOA PHAM,NGA PHAM,Bishop Paul G. Bootkoski,no,
 confirmation_1991,PAGE 030.JPG,30,May 2 1999,1999,63,OCHOA,CLAUDIA,MARIA,13,,ECUADOR,"540 UNION AVE. BELLEVILLE, NJ",JOSE,ROSA JIMENEZ,MARIA IDROVO,Bishop Paul G. Bootkoski,no,
 confirmation_1991,PAGE 030.JPG,30,May 2 1999,1999,64,PASTRANA,YASMILA,CECILIA,14,Mar 23 1991,ECUADOR,"206 UNION AVE. BELLEVILLE, NJ",HUMBERTO,ROSARIA MOLINA,DORIS MOLINA,Bishop Paul G. Bootkoski,no,
+confirmation_1991,PAGE GH2-IJ.JPG,30,,,,IAVARONE,DERRICK,,,,,,,,,,,index page_no=30
+confirmation_1991,PAGE GH2-IJ.JPG,30,,,,IDROVO,ANDRES,,,,,,,,,,,index page_no=30
 confirmation_1991,PAGE 031.JPG,31,May 2 1999,1999,65,PENNETTI,MICHELE,TERESA,14,May 12 1985,"ST. PETER'S, BELLEVILLE, NJ","46 CONTINENTAL AVE., BELLEVILLE, NJ",RAYMOND,JOAN CASSIN,JOHN MCMANUS,Bishop Paul G. Bootkoski,no,
 confirmation_1991,PAGE 031.JPG,31,May 2 1999,1999,66,PERINOTTI,MICHAEL,JOHN,14,May 12 1985,"ST. PETER'S, BELLEVILLE, NJ","98 CONTINENTAL AVE., BELLEVILLE, NJ",GUY,ELAINE MANGO,JOHN PERINOTTI,Bishop Paul G. Bootkoski,no,
 confirmation_1991,PAGE 031.JPG,31,May 2 1999,1999,67,PICHARDO,GUILLERMO,GUILLERMO,14,Apr 10 1988,SANTO DOMINGO,"16 LINCOLN TERRACE, BELLEVILLE, NJ",GUILLERMO,GLORIA GONZALEZ,AMERICA,Bishop Paul G. Bootkoski,no,
@@ -542,6 +801,12 @@ confirmation_1991,PAGE 032.JPG,32,May 7 2000,2000,4,AGUILAR,JASON,JASON,14,Jun 2
 confirmation_1991,PAGE 032.JPG,32,May 7 2000,2000,5,ARANA,JENNIFER,VERONICA,13,Jun 20 1987,"St. Michael's Newark, NJ","12 Coeyman St. Newark, NJ",Leonardo,Evelyn Rosado,Yolanda Arana,Most Rev. David Arias,no,
 confirmation_1991,PAGE 032.JPG,32,May 7 2000,2000,6,ARMSTRONG,MICHAEL,GERARD,13,Nov 9 1986,"St. Anthony's Belleville, NJ","114 Floyd St. Belleville, NJ",Sally Ann Armstrong,,Lisa Copozie,Most Rev. David Arias,no,
 confirmation_1991,PAGE 032.JPG,32,May 7 2000,2000,7,BELLO,RACHEL,ADELAIDE,13,Mar 22 1987,"St. Anne's Jersey City, NJ","4 Rutgers Court Belleville, NJ",Sergio,Robyn Wilson,Adelaide Panza,Most Rev. David Arias,no,
+confirmation_1991,PAGE AB.JPG,32,,,,AGUILAR,JASON,,,,,,,,,,,index page_no=32
+confirmation_1991,PAGE AB.JPG,32,,,,ARANA,JENNIFER,,,,,,,,,,,index page_no=32
+confirmation_1991,PAGE AB.JPG,32,,,,ARMSTRONG,MICHAEL,,,,,,,,,,,index page_no=32
+confirmation_1991,PAGE AB.JPG,32,,,,BELLO,RACHEL,,,,,,,,,,,index page_no=32
+confirmation_1991,PAGE EF2-GH.JPG,32,,,,HOFFMAN,EDWARD,,,,,,,,,,,index page_no=32
+confirmation_1991,PAGE EF2-GH.JPG,32,,,,HINTON,GARY,,,,,,,,,,,index page_no=32
 confirmation_1991,PAGE 033.JPG,33,May 7 2000,2000,8,BINI,ERICA MARIE,VERONICA,13,Jul 13 1986,"ST. PETERS BELLEVILLE, NJ","425 CORTLANDT ST. BELLEVILLE, NJ",JOHN,SHARON DONNELLY,CHRISTINE WIENEKE,Most Rev. David Arias,no,
 confirmation_1991,PAGE 033.JPG,33,May 7 2000,2000,9,BRODO,STEPHANIE,NICOLE,14,Jan 12 1986,"HOLY NAME OF JESUS E. ORANGE, NJ","30 CRESCENT TERRACE BELLEVILLE, NJ",DANIEL,PATRICIA NOLAN,DANIELLE BRODO,Most Rev. David Arias,no,
 confirmation_1991,PAGE 033.JPG,33,May 7 2000,2000,10,CIRICILLO,ANTHONY,DOMINIC,13,Oct 1986,"ST. ANTHONY'S BELLEVILLE, NJ","22 MORSE PLACE BELLEVILLE, NJ",ANTHONY,BARBARA MACIOCI,ARMAND MACIOCI,Most Rev. David Arias,no,
@@ -561,6 +826,25 @@ confirmation_1991,PAGE 033.JPG,33,May 7 2000,2000,23,EGUEZ,ANTONIO,ANTONIO,12,,,
 confirmation_1991,PAGE 033.JPG,33,May 7 2000,2000,24,ESPOSITO,JAMES,JOSEPH,14,Nov 3 1985,"ST. LUCY'S NEWARK, NJ","10 CUOZZO ST. BELLEVILLE, NJ",GERARDO,JANET D. PASQUALE,JAMES ESPOSITO,Most Rev. David Arias,no,
 confirmation_1991,PAGE 033.JPG,33,May 7 2000,2000,25,FIGUEREO,FATIMA,FATIMA,22,Aug 25 1979,"O.L. OF GOOD COUNSEL NEWARK, NJ","85 CORTLANDT ST. BELLEVILLE, NJ",LEONARDO,FELICITA COSTELLO,FELICITA FRICKEO,Most Rev. David Arias,no,
 confirmation_1991,PAGE 033.JPG,33,May 7 2000,2000,26,FIGUEROA,IVAN,IVAN,15,Sep 21 1985,"O.L. OF GOOD COUNSEL NEWARK, NJ","18 SECOND ST BLOOMFIELD, NJ",LUIS,ANA LOPEZ,HERIBERTO BARBOSA,Most Rev. David Arias,no,
+confirmation_1991,PAGE AB.JPG,33,,,,BINI,ERICA MARIE,,,,,,,,,,,index page_no=33
+confirmation_1991,PAGE AB.JPG,33,,,,BRODO,STEPHANIE,,,,,,,,,,,index page_no=33
+confirmation_1991,PAGE AB2-CD.JPG,33,,,,David,Michael,,,,,,,,,,,index page_no=33
+confirmation_1991,PAGE AB2-CD.JPG,33,,,,De Jesus,Jessah,,,,,,,,,,,index page_no=33
+confirmation_1991,PAGE AB2-CD.JPG,33,,,,De La Torre,Sharira,,,,,,,,,,,index page_no=33
+confirmation_1991,PAGE AB2-CD.JPG,33,,,,Del Grosso,David,,,,,,,,,,,index page_no=33
+confirmation_1991,PAGE AB2-CD.JPG,33,,,,Dominguez,Jose A.,,,,,,,,,,,index page_no=33
+confirmation_1991,PAGE CD2-EF.JPG,33,,,,CIRICILLO,ANTHONY,,,,,,,,,,,index page_no=33
+confirmation_1991,PAGE CD2-EF.JPG,33,,,,COBA,LUIS,,,,,,,,,,,index page_no=33
+confirmation_1991,PAGE CD2-EF.JPG,33,,,,COSTA,STACY,,,,,,,,,,,index page_no=33
+confirmation_1991,PAGE CD2-EF.JPG,33,,,,COTUGNO,VINCENT,,,,,,,,,,,index page_no=33
+confirmation_1991,PAGE CD2-EF.JPG,33,,,,COUCE,KRISTEN,,,,,,,,,,,index page_no=33
+confirmation_1991,PAGE CD2-EF.JPG,33,,,,CRESPO,RAPHAEL,,,,,,,,,,,index page_no=33
+confirmation_1991,PAGE CD2-EF.JPG,33,,,,CRITCHLEY,JASON,,,,,,,,,,,index page_no=33
+confirmation_1991,PAGE CD2-EF.JPG,33,,,,CRITCHLEY,LAWRENCE,,,,,,,,,,,index page_no=33
+confirmation_1991,PAGE CD2-EF.JPG,33,,,,EGUEZ,ANTONIO,,,,,,,,,,,index page_no=33
+confirmation_1991,PAGE CD2-EF.JPG,33,,,,ESPOSITO,JAMES,,,,,,,,,,,index page_no=33
+confirmation_1991,PAGE CD2-EF.JPG,33,,,,FIGUEREO,FATIMA,,,,,,,,,,,index page_no=33
+confirmation_1991,PAGE CD2-EF.JPG,33,,,,FIGUEROA,IVAN,,,,,,,,,,,index page_no=33
 confirmation_1991,PAGE 034.JPG,34,May 7 2000,2000,27,FIGUEROA,LUIS,LUIS,17,Jun 25 1983,"O.L. OF GOOD COUNSEL, NEWARK, NJ","18 SECOND ST. BLOOMFIELD, NJ",LUIS,ANA LOPEZ,SHEILA ROMANO-BARBOSA,Most Rev. David Arias,no,
 confirmation_1991,PAGE 034.JPG,34,May 7 2000,2000,28,GALAMBOS,AARON,ANTHONY,14,Apr 13 1986,"ST. PAULS, CLIFTON, NJ","19 MACLEOD LANE BLOOMFIELD, NJ",RANDY NAJARIAN,ELIZABETH GALAMBOS,JUDY GALAMBOS,Most Rev. David Arias,no,
 confirmation_1991,PAGE 034.JPG,34,May 7 2000,2000,29,GALL,EMMA,MONICA,13,Aug 13 1988,"ST. PETER'S, BELLEVILLE, NJ","89 LINDEN AVE. BELLEVILLE, NJ",ROGELIO,ISABEL EGOAVIL,MARIA SALVADOR,Most Rev. David Arias,no,
@@ -580,6 +864,17 @@ confirmation_1991,PAGE 034.JPG,34,May 7 2000,2000,42,LOAIZA,CLAUDIA,HELEN,13,Jul
 confirmation_1991,PAGE 034.JPG,34,May 7 2000,2000,43,MENDEZ,JESSICA,JESSICA,13,Jul 1987,"ST. LUCY'S, NEWARK, NJ","74 BEECH ST. BELLEVILLE, NJ",ORLANDO,MARIA VEGA,ALAIN NOBOLA,Most Rev. David Arias,no,
 confirmation_1991,PAGE 034.JPG,34,May 7 2000,2000,44,MESSINA,CHRISTINE,LUCY,13,Aug 10 1986,"ST. PETER'S, BELLEVILLE, NJ","58 OVERHILL ROAD, BELLEVILLE, NJ",JAMES,MARIA MINEARDI,SANDI FINNEGAN,Most Rev. David Arias,no,
 confirmation_1991,PAGE 034.JPG,34,May 7 2000,2000,45,MONTOYA,ALEXANDER,ALEXANDER,16,Apr 20 1985,ECUADOR,"15 WASHINGTON ST. BELLEVILLE, NJ",WALDIMIR,RITA RAMIREZ,MARICELA MONROY,Most Rev. David Arias,no,
+confirmation_1991,PAGE CD2-EF.JPG,34,,,,FIGUEROA,LUIS,,,,,,,,,,,index page_no=34
+confirmation_1991,PAGE EF2-GH.JPG,34,,,,GALAMBOS,AARON,,,,,,,,,,,index page_no=34
+confirmation_1991,PAGE EF2-GH.JPG,34,,,,GALL,EMMA,,,,,,,,,,,index page_no=34
+confirmation_1991,PAGE EF2-GH.JPG,34,,,,GARAY,LUIS,,,,,,,,,,,index page_no=34
+confirmation_1991,PAGE EF2-GH.JPG,34,,,,GRAD,JACQUELINE,,,,,,,,,,,index page_no=34
+confirmation_1991,PAGE EF2-GH.JPG,34,,,,GONZALEZ,JOEL,,,,,,,,,,,index page_no=34
+confirmation_1991,PAGE EF2-GH.JPG,34,,,,HERNANDEZ,GUY,,,,,,,,,,,index page_no=34
+confirmation_1991,PAGE EF2-GH.JPG,34,,,,HURTADO,MARIA,,,,,,,,,,,index page_no=34
+confirmation_1991,PAGE EF2-GH.JPG,34,,,,HURTADO,PATRICIA,,,,,,,,,,,index page_no=34
+confirmation_1991,PAGE GH2-IJ.JPG,34,,,,IMPERIALE,ANTHONY,,,,,,,,,,,index page_no=34
+confirmation_1991,PAGE GH2-IJ.JPG,34,,,,JORGE,IDAMAR,,,,,,,,,,,index page_no=34
 confirmation_1991,PAGE 035.JPG,35,May 7 2000,2000,46,MOSQUERA,DANIA,DANIA,23,Aug 25 1979,"O.L. OF GOOD COUNSEL, NEWARK, NJ","150 MILL STREET, BELLEVILLE, NJ",SEVERINO DIAZ,DANIA ROSARIO,FELICITA FIGUEREO,Most Rev. David Arias,no,
 confirmation_1991,PAGE 035.JPG,35,May 7 2000,2000,47,NAGAMINE,YOSHIO,ANTHONY,13,Jun 16 1987,"ST. LUCY'S, NEWARK, NJ","819 MT. PROSPECT AVE., NEWARK, NJ",JAVIER,DORIS HIOA,MARIA NAGAMINE,Most Rev. David Arias,no,
 confirmation_1991,PAGE 035.JPG,35,May 7 2000,2000,48,NIEVES,CHRISTOPHER,CHRISTOPHER,14,Oct 18 1986,"ST. ALOYSIUS, NEWARK, NJ","42 UNION AVE., BELLEVILLE, NJ",LUIS,HILDA BERRIOS,WANDA ORTIZ,Most Rev. David Arias,no,
@@ -613,6 +908,7 @@ confirmation_1991,PAGE 036.JPG,36,May 7 2000,2000,75,WOOLLEY,JANINE,ELENA,15,Sep
 confirmation_1991,PAGE 036.JPG,36,May 7 2000,2000,76,YASCARIBAY,WALTER,WALTER,14,Jul 5 1986,ECUADOR,"141 HOLMES ST. BELLEVILLE, NJ",JUAN,CARMEN MARQUEZ,JUAN ALTAMIRANO,Most Rev. David Arias,no,
 confirmation_1991,PAGE 036.JPG,36,Jul 9 2000,2000,77,VAZQUEZ,JEAN,,51,May 14 1955,"MEMORIAL PRESB. CHURCH NEWARK, NJ","70 DIVISION AVE. BELLEVILLE, NJ",EUGENE SMITH,MILDRED EBERHARDT,REV. MARK O'CONNELL,Rev. Joseph D. Girone,no,Full prof. St. Peter 7-9-2000
 confirmation_1991,PAGE 036.JPG,36,Apr 14 2001,2001,1,GONZALEZ,TIMOTHY,,31,Apr 14 2001,"ST. PETER, BELLEVILLE","190 WILLIAM ST. BELLEVILLE, NJ",ADOLPH,VICKIE LAICK,LIDIETH CERVATES,,no,Easter Vigil
+confirmation_1991,PAGE EF2-GH.JPG,36,,,,GONZALEZ,TIMOTHY,,,,,,,,,,,index page_no=36
 confirmation_1991,PAGE 037.JPG,37,May 6 2001,2001,2,ACEVEDO,DAVID,DAVID,13,Aug 7 1988,"ST. LUCY'S, NEWARK","718 No. 8th ST., NEWARK, NJ",GUILLERMO,NELLY GUZMAN,JOSE ACEVEDO,Bishop Arthur Serratelli,no,
 confirmation_1991,PAGE 037.JPG,37,May 6 2001,2001,3,ARNDT,CAITLIN,FELICITY,14,Apr 18 1987,"ST. PETER'S, BELV.","3 UNION TERRACE, BELV.",WILLIAM,LINDA HICKMAN,LAUREN ARNDT,Bishop Arthur Serratelli,no,
 confirmation_1991,PAGE 037.JPG,37,May 6 2001,2001,4,ATUNCAR,CARLOS,CARLOS,13,1988,"ST. MICHAEL'S, NWK.","10 DAVIDSON ST., BELV.",CARLOS,MARISOL HERNANDEZ,MARIBEL CARDONA,Bishop Arthur Serratelli,no,
@@ -632,6 +928,25 @@ confirmation_1991,PAGE 037.JPG,37,May 6 2001,2001,17,CEBALLOS,MARTIN,MARTIN,19,A
 confirmation_1991,PAGE 037.JPG,37,May 6 2001,2001,18,COLON,JESSICA,MARY,14,Mar 28 1987,O.L. OF GOOD COUNSEL NEWARK,"4 COPPER PLACE, BELV.",ANGEL,CARMEN OCASIO,NEREIDA HERNANDEZ,Bishop Arthur Serratelli,no,
 confirmation_1991,PAGE 037.JPG,37,May 6 2001,2001,19,DAO,NGUYEN,NGUYEN,15,1985,VIETNAM,"51 OVERHILL ROAD, BELV.",VINH,QUAT PHAM,MARTIN DUY DAO,Bishop Arthur Serratelli,no,
 confirmation_1991,PAGE 037.JPG,37,May 6 2001,2001,20,DELIMON,ERIC,DAVID,16,Jul 1 1984,"ST. ANTHONY'S EAST NEWARK, NJ","150 HOLMES ST., BELV.",DAVID,CAROL WHITE,NANCY ROMEO,Bishop Arthur Serratelli,no,
+confirmation_1991,PAGE AB.JPG,37,,,,ACEVEDO,DAVID,,,,,,,,,,,index page_no=37
+confirmation_1991,PAGE AB.JPG,37,,,,ARNDT,CAITLIN,,,,,,,,,,,index page_no=37
+confirmation_1991,PAGE AB.JPG,37,,,,ATUNCAR,CARLOS,,,,,,,,,,,index page_no=37
+confirmation_1991,PAGE AB.JPG,37,,,,BATISTA,JORGE,,,,,,,,,,,index page_no=37
+confirmation_1991,PAGE AB.JPG,37,,,,BENEMILE,GERMAINE,,,,,,,,,,,index page_no=37
+confirmation_1991,PAGE AB.JPG,37,,,,BEZERRA,MARISSA,,,,,,,,,,,index page_no=37
+confirmation_1991,PAGE AB.JPG,37,,,,BIFANO,ROBERT,,,,,,,,,,,index page_no=37
+confirmation_1991,PAGE AB.JPG,37,,,,BUI,PHONG,,,,,,,,,,,index page_no=37
+confirmation_1991,PAGE AB2-CD.JPG,37,,,,Dao,Nguyen,,,,,,,,,,,index page_no=37
+confirmation_1991,PAGE AB2-CD.JPG,37,,,,Delimon,Eric,,,,,,,,,,,index page_no=37
+confirmation_1991,PAGE CD2-EF.JPG,37,,,,CABERES,CHRISTOPHER,,,,,,,,,,,index page_no=37
+confirmation_1991,PAGE CD2-EF.JPG,37,,,,CALUMGCAGUIN,RYAN,,,,,,,,,,,index page_no=37
+confirmation_1991,PAGE CD2-EF.JPG,37,,,,CARDONA,JESSICA,,,,,,,,,,,index page_no=37
+confirmation_1991,PAGE CD2-EF.JPG,37,,,,CARLSON,ADAM,,,,,,,,,,,index page_no=37
+confirmation_1991,PAGE CD2-EF.JPG,37,,,,CARRION,ROXANA,,,,,,,,,,,index page_no=37
+confirmation_1991,PAGE CD2-EF.JPG,37,,,,CASTILLO,JENNIFER,,,,,,,,,,,index page_no=37
+confirmation_1991,PAGE CD2-EF.JPG,37,,,,CEBALLOS,ANABEL,,,,,,,,,,,index page_no=37
+confirmation_1991,PAGE CD2-EF.JPG,37,,,,CEBALLOS,MARTIN,,,,,,,,,,,index page_no=37
+confirmation_1991,PAGE CD2-EF.JPG,37,,,,COLON,JESSICA,,,,,,,,,,,index page_no=37
 confirmation_1991,PAGE 038.JPG,38,May 6 2001,2001,21,DIZON,JOEY MAC,JOSEPH,14,Jun 2 1987,"SACRED HEART, BLOOMFIELD, NJ","256 LINDEN AVE., BELV.",RUSSELL,EVELYN GALVEZ,LIZA GALVEZ,Bishop Arthur Serratelli,no,
 confirmation_1991,PAGE 038.JPG,38,May 6 2001,2001,22,GABAT,LIANNE FAITH,LIANNE,15,Dec 31 1986,"ST. JOHN THE EVANGELIST, SAN JOSE","167 CEDAR HILL AVE., BELV.",FIDEL,LILIAN TINIO,LEA SAMSON,Bishop Arthur Serratelli,no,
 confirmation_1991,PAGE 038.JPG,38,May 6 2001,2001,23,GARCIA,DOMINIC,VICTOR,13,Sep 13 1987,"ST. PETER, BELV.","279 LITTLE ST., BELV.",RAMON,MARIANNE JACANGELO,VICTOR JACANGELO,Bishop Arthur Serratelli,no,
@@ -651,6 +966,17 @@ confirmation_1991,PAGE 038.JPG,38,May 6 2001,2001,36,NGUYEN,XUAN,TERESA,14,Apr 5
 confirmation_1991,PAGE 038.JPG,38,May 6 2001,2001,37,NIEVES,STEVEN,EMMANUEL,14,Sep 26 1987,"ST. LUCY'S, NEWARK, NJ","128 BELMONT AVE., BELV.",PEDRO,VIVIAN SOSA,MIRIAM ACEVEDO,Bishop Arthur Serratelli,no,
 confirmation_1991,PAGE 038.JPG,38,May 6 2001,2001,38,OSPINA,EDGAR,ANDREW,13,Dec 10 1988,"ST. MICHAEL'S, NEWARK, NJ","194 ASHLAND AVE., BLOOMFIELD, NJ",EDGAR,LUZ CARDONA,NELSON R. CARDONA,Bishop Arthur Serratelli,no,
 confirmation_1991,PAGE 038.JPG,38,May 6 2001,2001,39,PANSINI,PAUL,PAUL,13,Sep 13 1987,"ST. PETER'S, BELV.","723 DE GRAW AVE., NEWARK, NJ",SAVERIO,PATRICIA GRACI,RAFFAELE PANSINI,Bishop Arthur Serratelli,no,
+confirmation_1991,PAGE AB2-CD.JPG,38,,,,Dizon,Joey Mae,,,,,,,,,,,index page_no=38
+confirmation_1991,PAGE EF2-GH.JPG,38,,,,GABAT,LIANNE,,,,,,,,,,,index page_no=38
+confirmation_1991,PAGE EF2-GH.JPG,38,,,,GARCIA,DOMINIC,,,,,,,,,,,index page_no=38
+confirmation_1991,PAGE EF2-GH.JPG,38,,,,GESUDEN,LIZETTE,,,,,,,,,,,index page_no=38
+confirmation_1991,PAGE EF2-GH.JPG,38,,,,GONZALES,PAULINE,,,,,,,,,,,index page_no=38
+confirmation_1991,PAGE EF2-GH.JPG,38,,,,GOTTO,JOHN,,,,,,,,,,,index page_no=38
+confirmation_1991,PAGE EF2-GH.JPG,38,,,,GUEVARA,VINCENT,,,,,,,,,,,index page_no=38
+confirmation_1991,PAGE EF2-GH.JPG,38,,,,HUGHES,JOSEPH,,,,,,,,,,,index page_no=38
+confirmation_1991,PAGE GH2-IJ.JPG,38,,,,IMPERIALE,MICHAEL,,,,,,,,,,,index page_no=38
+confirmation_1991,PAGE EF2-GH.JPG,39,,,,GASALBERTI,CHRISTINE,,,,,,,,,,,index page_no=39
+confirmation_1991,PAGE EF2-GH.JPG,39,,,,GUEVARA,AYDEE,,,,,,,,,,,index page_no=39
 confirmation_1991,PAGE 040.JPG,40,May 20 2001,2001,59,RODRIQUEZ,EVELYN J.,,38,Dec 31 1972,"IMMACULATE CONCEPTION, MONTCLAIR, NJ",141 UNION AVE. BELV.,RODOLFO,VIRGINIA LODEZANO,SANTIAGO NEGREN,Rev. Joseph Girone,no,
 confirmation_1991,PAGE 040.JPG,40,May 20 2001,2001,60,ROMANO,TONI ANN,VICTORIA,26,Oct 27 1974,"ST. LUCY'S NEWARK, NJ",211 FOREST ST. BELV.,CARMINE,MARY JANE FEELEY,JILL MANSONIALLO,Rev. Joseph Girone,no,
 confirmation_1991,PAGE 040.JPG,40,May 27 2001,2001,61,HENRIQUEZ,CARMEN,,33,Jul 26 1969,"SAN JUAN BOSCO, CALLAO, PERU",53 FAIRWAY AVE. BELV.,VICTOR HUGO HERNANDEZ,DOMINGA FLORES ABRIL,MAXIMINA ROIG,Rev. Joseph Girone,no,
@@ -662,6 +988,9 @@ confirmation_1991,PAGE 040.JPG,40,May 27 2001,2001,66,MENA,KAREN,,14,Aug 3 1986,
 confirmation_1991,PAGE 040.JPG,40,May 27 2001,2001,67,SALAZAR,GEORGE,,17,Jun 14 1987,"ST. LEO THE GREAT, HOUSTON, TEXAS",59 DEWEY AVE. BELV.,JOSE SALAZAR,HILDA CAMPOS,MAYELA MENA,Rev. Joseph Girone,no,
 confirmation_1991,PAGE 040.JPG,40,May 27 2001,2001,68,SANTIAGO,JOSE,,44,Apr 21 1957,"SAN FELIPE APOSTOL, ARECIBO, PUERTO RICO",47 CENTER ST. BELV.,JULIO SANTIAGO,LONGINA ROMAN,JULIO ROIG,Rev. Joseph Girone,no,
 confirmation_1991,PAGE 040.JPG,40,Jun 22 2001,2001,69,HERNANDEZ,AWILDA,,25,May 27 1978,"IMMACULATE HEART OF MARY, ELIZABETH","468 BROUGHTON AVE. BLOOMFIELD, NJ 07003",FELIX HERNANDEZ,AURORA DETREL,KARLA HERRERA,"Rev. Joseph Girone, delegated",no,
+confirmation_1991,PAGE EF2-GH.JPG,40,,,,HENRIQUEZ,CARMEN,,,,,,,,,,,index page_no=40
+confirmation_1991,PAGE EF2-GH.JPG,40,,,,HERRERA,KARLA,,,,,,,,,,,index page_no=40
+confirmation_1991,PAGE GH2-IJ.JPG,40,,,,JUAREZ,SAMUEL,,,,,,,,,,,index page_no=40
 confirmation_1991,PAGE 041.JPG,41,Mar 30 2002,2002,1,ORTIZ,DAISY,,33,Mar 30 2002,"ST. PETER, BELLEVILLE, NJ","548 JORALEMON ST., BELLEVILLE, NJ 07109",EMILIO LOPEZ,MILAGRO FALCON,DEISY TRIH,Rev. Joseph D. Girone,no,Easter Vigil
 confirmation_1991,PAGE 041.JPG,41,Mar 30 2002,2002,2,WION,MATTHEW,,29,Oct 1 1972,"COLONIAL UNITED METHODIST CHURCH, HARRISBURG, PA","68 BERKELEY AVENUE, BELLEVILLE, NJ 07109",DAVID WION,NANCY O'HARA,GRACIELA CALVACHE,Rev. Joseph D. Girone,no,Easter Vigil
 confirmation_1991,PAGE 041.JPG,41,Apr 28 2002,2002,3,MARTINEZ,AZUCENA,,60,May 25 1942,"NUESTRA SRA DEL CARAVU (?), MANABI, ECUADOR","169 ACADEMY ST., BELLEVILLE, NJ",BELIVAR MARTINEZ,EMMA ISABEL CHAVEZ,RAQUEL CEBALLO,Rev. Joseph D. Girone,yes,Spanish Rite; baptism place uncertain
@@ -679,6 +1008,15 @@ confirmation_1991,PAGE 041.JPG,41,May 5 2002,2002,14,BARBACCIA,LETICIA,MARIA,13,
 confirmation_1991,PAGE 041.JPG,41,May 5 2002,2002,15,BASTIDAS,LILIAN,,17,Dec 31 1984,"ST. NICHOLAS, TULCAN, ECUADOR","665 BELLEVILLE AVE., BELLEVILLE, NJ",ALONSO BASTIDAS,MARCIA DELGADO,ERIKE ORGE,Bishop David Arias,no,
 confirmation_1991,PAGE 041.JPG,41,May 5 2002,2002,16,BELLO,JESSICA,ANNA MARIE,14,Jun 26 1988,"ST. ANNE'S, JERSEY CITY, NJ","4 RUTGERS CT., BELLEVILLE, NJ",SERGIO BELLO,ROBYN WILSON,ALBERT CATENA,Bishop David Arias,no,
 confirmation_1991,PAGE 041.JPG,41,May 5 2002,2002,17,BERRIOS,TABITHA,ANGEL,14,1988,"STS. PETER & PAUL, BROOKLYN, NY","292 HOLMES ST., BELLEVILLE, NJ",,EVELYN BERRIOS,INES RAMOS,Bishop David Arias,no,
+confirmation_1991,PAGE AB.JPG,41,,,,ACEVEDO,SIEGFREDO,,,,,,,,,,,index page_no=41
+confirmation_1991,PAGE AB.JPG,41,,,,AMATO,ROBERT,,,,,,,,,,,index page_no=41
+confirmation_1991,PAGE AB.JPG,41,,,,ATENDIDO,ANGELICA,,,,,,,,,,,index page_no=41
+confirmation_1991,PAGE AB.JPG,41,,,,BARBACCIA,LETICIA,,,,,,,,,,,index page_no=41
+confirmation_1991,PAGE AB.JPG,41,,,,BASTIDAS,LILIAN,,,,,,,,,,,index page_no=41
+confirmation_1991,PAGE AB.JPG,41,,,,BELLO,JESSICA,,,,,,,,,,,index page_no=41
+confirmation_1991,PAGE AB.JPG,41,,,,BERRIOS,TABITHA,,,,,,,,,,,index page_no=41
+confirmation_1991,PAGE EF2-GH.JPG,41,,,,GOMEZ,GILBERTO,,,,,,,,,,,index page_no=41
+confirmation_1991,PAGE EF2-GH.JPG,41,,,,GONZALES,MARIELA,,,,,,,,,,,index page_no=41
 confirmation_1991,PAGE 042.JPG,42,May 5 2002,2002,18,BIS,JUSTIN,VINCENT,13,Nov 27 1988,"ST. ANNE'S, JERSEY CITY, NJ","55 MALONE AVE., BELLEVILLE, NJ",JAMES,SUZANNE FLATE,ROBERT ARTIFICIO,Bishop David Arias,no,
 confirmation_1991,PAGE 042.JPG,42,May 5 2002,2002,19,CAJIGA,CARLOS BRIAN,MATTHEW,14,Jul 16 1988,"SACRED HEART CATHEDRAL, NEWARK, NJ","12 PARKSIDE DRIVE, BELLEVILLE, NJ",CARLOS,CARMEN ROSADO,JANET RUIZ,Bishop David Arias,no,
 confirmation_1991,PAGE 042.JPG,42,May 5 2002,2002,20,CALIA,MICHELLE,ELIZABETH,13,Apr 9 1989,"ST. NICHOLAS, NEWARK, NJ","152 BREMOND ST., BELLEVILLE, NJ",MICHAEL,CONSTANTINA TATAKIS,TINA CALIA,Bishop David Arias,no,
@@ -699,6 +1037,26 @@ confirmation_1991,PAGE 042.JPG,42,May 5 2002,2002,34,DZENDZERA,CATHERINE,ANNE,14
 confirmation_1991,PAGE 042.JPG,42,May 5 2002,2002,35,ELAMPARO,ALDAN,ANTHONY,14,May 1988,"ST. ALOYSIUS, JERSEY CITY, NJ","203 LITTLE ST., BELLEVILLE, NJ",DANIEL,OFELIA MARCELO,ROMULO MAMARIL,Bishop David Arias,no,
 confirmation_1991,PAGE 042.JPG,42,May 5 2002,2002,36,FERRAIOLO,TONI ANN,ANASTASIA,13,Nov 13 1988,"HOLY FAMILY, NUTLEY, NJ","24 VAN HOUTEN PL., BELLEVILLE, NJ",ANTHONY,CARMELA CURTO,SALVATORE GIORNO,Bishop David Arias,no,
 confirmation_1991,PAGE 042.JPG,42,May 5 2002,2002,37,GALL,ROGER,,14,Aug 13 1988,"ST. PETER, BELLEVILLE, NJ","280 DE WITT AVE., BELLEVILLE, NJ",ROGELIO,ISABEL EGORVIL,MICHAEL GUZMAN,Bishop David Arias,no,
+confirmation_1991,PAGE AB.JPG,42,,,,BIS,JUSTIN,,,,,,,,,,,index page_no=42
+confirmation_1991,PAGE AB2-CD.JPG,42,,,,De Jesus,Ruben,,,,,,,,,,,index page_no=42
+confirmation_1991,PAGE AB2-CD.JPG,42,,,,Delle Fave,Angela,,,,,,,,,,,index page_no=42
+confirmation_1991,PAGE AB2-CD.JPG,42,,,,Diaz,Erika,,,,,,,,,,,index page_no=42
+confirmation_1991,PAGE AB2-CD.JPG,42,,,,Dones,Amanda,,,,,,,,,,,index page_no=42
+confirmation_1991,PAGE AB2-CD.JPG,42,,,,Dzendzera,Catherine,,,,,,,,,,,index page_no=42
+confirmation_1991,PAGE CD2-EF.JPG,42,,,,CAJIGA,CARLOS BRIAN,,,,,,,,,,,index page_no=42
+confirmation_1991,PAGE CD2-EF.JPG,42,,,,CALIA,MICHELLE,,,,,,,,,,,index page_no=42
+confirmation_1991,PAGE CD2-EF.JPG,42,,,,CASTILLO,JEAN,,,,,,,,,,,index page_no=42
+confirmation_1991,PAGE CD2-EF.JPG,42,,,,CAYLI,LEYLA,,,,,,,,,,,index page_no=42
+confirmation_1991,PAGE CD2-EF.JPG,42,,,,CESARIO,EMILIO,,,,,,,,,,,index page_no=42
+confirmation_1991,PAGE CD2-EF.JPG,42,,,,CHUMAS,ALEXANDRA,,,,,,,,,,,index page_no=42
+confirmation_1991,PAGE CD2-EF.JPG,42,,,,CIMMET,BRIAN,,,,,,,,,,,index page_no=42
+confirmation_1991,PAGE CD2-EF.JPG,42,,,,CONTRERAS,ALEJANDRO,,,,,,,,,,,index page_no=42
+confirmation_1991,PAGE CD2-EF.JPG,42,,,,COTTINO,MATTHEW,,,,,,,,,,,index page_no=42
+confirmation_1991,PAGE CD2-EF.JPG,42,,,,CRUZ,JONATHAN,,,,,,,,,,,index page_no=42
+confirmation_1991,PAGE CD2-EF.JPG,42,,,,CRUZ,ROBERTO,,,,,,,,,,,index page_no=42
+confirmation_1991,PAGE CD2-EF.JPG,42,,,,ELAMPARO,AEDAN,,,,,,,,,,,index page_no=42
+confirmation_1991,PAGE CD2-EF.JPG,42,,,,FERRAIOLO,TONI ANN,,,,,,,,,,,index page_no=42
+confirmation_1991,PAGE EF2-GH.JPG,42,,,,GALL,ROGER,,,,,,,,,,,index page_no=42
 confirmation_1991,PAGE 043.JPG,43,May 5 2002,2002,38,GALLANT,JOSEPH,MICHAEL,13,Sep 25 1988,"SACRED HEART CATHEDRAL, NEWARK, NJ","25 TIFFANY BLVD., NEWARK, NJ",JOSEPH,MARIA SUPPA,DALIA ARONCIBIA,Bishop David Arias,no,
 confirmation_1991,PAGE 043.JPG,43,May 5 2002,2002,39,GERONIMO,BYRON,,13,Dec 18 1988,"ST. PAUL'S, JERSEY CITY, NJ","73 SMALLWOOD AVE., BELLEVILLE, NJ",ROMARICO,LEILANI ARBAN,MARIA ARBAN,Bishop David Arias,no,
 confirmation_1991,PAGE 043.JPG,43,May 5 2002,2002,40,GIULIANO,ANTHONY,JOSEPH,14,Feb 14 1988,"ST. PETER'S, BELLEVILLE, NJ","99 CARPENTER ST., BELLEVILLE, NJ",JAMES,DONNA DEFROSCIA,JOSEPH GUILIANO,Bishop David Arias,no,
@@ -719,6 +1077,13 @@ confirmation_1991,PAGE 043.JPG,43,May 5 2002,2002,54,MASSIEU,CHRISTOPHER,ISAIAH,
 confirmation_1991,PAGE 043.JPG,43,May 5 2002,2002,55,MOREIRA,IRMA,CLAUDETTE,14,Aug 1988,"ST. FRANCIS XAVIER, NEWARK, NJ","51 PROSPECT PLACE, BELLEVILLE, NJ",JOAQUIN,MARIA GARCIA,LUVIA LEMUS,Bishop David Arias,no,
 confirmation_1991,PAGE 043.JPG,43,May 5 2002,2002,56,MUNOZ,DIEGO,,14,Feb 26 1989,"SACRED HEART CATHEDRAL, NEWARK, NJ","138 OVERLOOK AVE., BELLEVILLE, NJ",ORLANDO,MARIA CECILIA CALDERONE,JUAN MUNOZ,Bishop David Arias,no,
 confirmation_1991,PAGE 043.JPG,43,May 5 2002,2002,57,MUNOZ,JENNIFER,MARIA,15,Feb 26 1989,"SACRED HEART CATHEDRAL, NEWARK, NJ","138 OVERLOOK AVE., BELLEVILLE, NJ",ORLANDO,MARIA CECILIA CALDERONE,SANDRA MUNOZ,Bishop David Arias,no,"Baptism, residence, parents expanded from dittos"
+confirmation_1991,PAGE EF2-GH.JPG,43,,,,GALLANT,JOSEPH,,,,,,,,,,,index page_no=43
+confirmation_1991,PAGE EF2-GH.JPG,43,,,,GERONIMO,BYRON,,,,,,,,,,,index page_no=43
+confirmation_1991,PAGE EF2-GH.JPG,43,,,,GIULIANO,ANTHONY,,,,,,,,,,,index page_no=43
+confirmation_1991,PAGE EF2-GH.JPG,43,,,,GONZALEZ,JOVAN,,,,,,,,,,,index page_no=43
+confirmation_1991,PAGE EF2-GH.JPG,43,,,,HAHN,CAITLYN,,,,,,,,,,,index page_no=43
+confirmation_1991,PAGE EF2-GH.JPG,43,,,,HOOD,CHARLES,,,,,,,,,,,index page_no=43
+confirmation_1991,PAGE GH2-IJ.JPG,43,,,,INSUA,JENNIFER,,,,,,,,,,,index page_no=43
 confirmation_1991,PAGE 044.JPG,44,May 5 2002,2002,58,NARANJO,AZUCENA,,15,Aug 8 1987,"La Merced, Ecuador","15 King St., Belleville, NJ",Elias,Mercedes De Jesus,Jennifer Segovia,Bishop David Arias,no,
 confirmation_1991,PAGE 044.JPG,44,May 5 2002,2002,59,NAZARIO,TYARAH,ALEXIS,13,Mar 30 1989,"St. Michael's, Newark, NJ","273 Parker St., Newark, NJ",,Idalia Bonet,Irma Rodriguez,Bishop David Arias,no,
 confirmation_1991,PAGE 044.JPG,44,May 5 2002,2002,60,NEGRON,CAROL,,14,May 28 1989,"St. Cecilia's, Arecibo, Puerto Rico","67 Bellavista Ave., Belleville, NJ",Victor,Rosalinda Zeda,Anabel Viruet,Bishop David Arias,no,
@@ -758,6 +1123,10 @@ confirmation_1991,PAGE 045.JPG,45,May 19 2002,2002,93,CATANIA,TERESA MARGARET,,2
 confirmation_1991,PAGE 045.JPG,45,May 19 2002,2002,94,COLANDRO,JEAN MARIE,,39,Jul 1 1962,"CHURCH OF HOLY NAME E. ORANGE, NJ","84 CHESTNUT ST. BELLEVILLE, NJ 07109",ROBERT HUMPHRIES,MARY MURRAY,JOSEPH MURRAY,Rev. Joseph D. Girone,no,RCIA
 confirmation_1991,PAGE 045.JPG,45,May 19 2002,2002,95,GARZON,JENNIE PATRICIA,,30,Aug 12 1972,"O.L. OF PERPETUAL HELP NEWARK, NJ","15 JEFFERSON ST. BELLEVILLE, NJ 07109",EDGAR,FLOR CORREDOR,GEORGE ESCOBAR,Rev. Joseph D. Girone,no,RCIA
 confirmation_1991,PAGE 045.JPG,45,May 19 2002,2002,96,GONZALEZ,MICHAEL JOSEPH,,28,Jun 2 1974,"SACRED HEART BLOOMFIELD, NJ","84 CHESTNUT ST. BELLEVILLE, NJ 07109",MANUEL GONZALEZ,WINIFRED MURRAY,JESSICA CONKLIN,Rev. Joseph D. Girone,no,RCIA
+confirmation_1991,PAGE CD2-EF.JPG,45,,,,CATANIA,TERESA MARGARET,,,,,,,,,,,index page_no=45
+confirmation_1991,PAGE CD2-EF.JPG,45,,,,COLANDREO,JEAN MARIE,,,,,,,,,,,index page_no=45
+confirmation_1991,PAGE EF2-GH.JPG,45,,,,GARZON,JENNIE,,,,,,,,,,,index page_no=45
+confirmation_1991,PAGE EF2-GH.JPG,45,,,,GONZALEZ,MICHAEL,,,,,,,,,,,index page_no=45
 confirmation_1991,PAGE 046.JPG,46,May 19 2002,2002,97,MUNNO,ANTHONY SANTO,,17,Oct 20 1985,"ST MARIA LA PINTA, AMANTEA, ITALY","19 BEVERLY CT, BELLEVILLE, NJ",ANTONIO,ROSA MARIA AURELIANO,GIORGIA MUIA,Rev. Joseph D. Girone,no,RCIA
 confirmation_1991,PAGE 046.JPG,46,May 19 2002,2002,98,MUNNO,FELICIA,,26,Jul 20 1975,"ST. PATRICK CHURCH, HUNTINGTON, LI, NY","19 BEVERLY CT, BELLEVILLE, NJ",ANTONIO,ROSA MARIA AURELIANO,MELISSA BERNSTEIN,Rev. Joseph D. Girone,no,RCIA
 confirmation_1991,PAGE 046.JPG,46,May 19 2002,2002,99,SANCHEZ,BRENDA,MARY,32,May 19 1970,"ST. AUGUSTINE, NEWARK, NJ","P.O. Box 357, BELLEVILLE, NJ",ANGEL,TERESA MARTINEZ,ARITZA DONES,Rev. Joseph D. Girone,no,RCIA
@@ -774,6 +1143,18 @@ confirmation_1991,PAGE 046.JPG,46,May 4 2003,2003,9,CABAHUG,KENT,,15,1987,"SACRE
 confirmation_1991,PAGE 046.JPG,46,May 4 2003,2003,10,CAMACHO,DANIEL,,23,Dec 15 1979,"CATHEDRAL OF ST. JOHN THE BAPTIST, PATERSON, NJ","234 MONTCLAIR AVE. NEWARK, NJ",CARLOS,MILAGROS SERRANO,OLGA SERRANO,Most Rev. Dominic Marconi,no,
 confirmation_1991,PAGE 046.JPG,46,May 4 2003,2003,11,CHANG,TIFFANY,JOAN,13,Dec 29 1989,"ST. JOSEPH & ST. MICHAEL, UNION CITY, NJ","62 HORNBLOWER AVE. BELLEVILLE, NJ",FRANK,MARIA MUNOZ,PATRICIA R. ARTICLES,Most Rev. Dominic Marconi,no,
 confirmation_1991,PAGE 046.JPG,46,May 4 2003,2003,12,CHIAPPINELLI,ALYSSA,ELIZABETH,14,Jul 9 1989,"ST. PETER, BELLEVILLE, NJ","10 RIVERDALE AVE, BELLEVILLE, NJ",ALBERT,LISA BROWN,MICHAEL PANNULLO,Most Rev. Dominic Marconi,no,
+confirmation_1991,PAGE AB.JPG,46,,,,ARANEO,FRANK,,,,,,,,,,,index page_no=46
+confirmation_1991,PAGE AB.JPG,46,,,,ARMIJOS,DARWIN,,,,,,,,,,,index page_no=46
+confirmation_1991,PAGE AB.JPG,46,,,,BARREIROS,MARIA,,,,,,,,,,,index page_no=46
+confirmation_1991,PAGE AB.JPG,46,,,,BENAVIDES,BRIAN,,,,,,,,,,,index page_no=46
+confirmation_1991,PAGE AB.JPG,46,,,,BENEMILE,JULIE,,,,,,,,,,,index page_no=46
+confirmation_1991,PAGE AB.JPG,46,,,,BUCHINSKI,STEVEN,,,,,,,,,,,index page_no=46
+confirmation_1991,PAGE CD2-EF.JPG,46,,,,CUNNINGHAM,CRYSTAL,,,,,,,,,,,index page_no=46
+confirmation_1991,PAGE CD2-EF.JPG,46,,,,CUNNINGHAM,TARA,,,,,,,,,,,index page_no=46
+confirmation_1991,PAGE CD2-EF.JPG,46,,,,CABAHUG,KENT,,,,,,,,,,,index page_no=46
+confirmation_1991,PAGE CD2-EF.JPG,46,,,,CAMACHO,DANIEL,,,,,,,,,,,index page_no=46
+confirmation_1991,PAGE CD2-EF.JPG,46,,,,CHANG,TIFFANY,,,,,,,,,,,index page_no=46
+confirmation_1991,PAGE CD2-EF.JPG,46,,,,CHIAPPANELLI,ALYSSA,,,,,,,,,,,index page_no=46
 confirmation_1991,PAGE 047.JPG,47,May 4 2003,2003,13,COBA,BRITTANY,BERNADETTE,14,May 1990,"St. Lucy's Newark, NJ","24 Morton St. Bloomfield, NJ",Miguel,Mabel Rodriguez,Sandra Carloth Coba,Most Rev. Dominic Marconi,no,
 confirmation_1991,PAGE 047.JPG,47,May 4 2003,2003,14,COLLAZO,MALYSSA,,13,Sep 6 1993,"O.L. of Good Counsel Newark, NJ","87 Rossmore Pl. Belleville, NJ",Carlos,Carmen Pitre,Diane Kulakowski,Most Rev. Dominic Marconi,no,
 confirmation_1991,PAGE 047.JPG,47,May 4 2003,2003,15,CRUZ,CHRISTIAN,,14,Mar 26 1989,"Sacred Heart Cathedral Newark, NJ","99 William St. Nutley, NJ",Angelo,Milagros Cardinales,Michael A. McGuire,Most Rev. Dominic Marconi,no,
@@ -794,6 +1175,26 @@ confirmation_1991,PAGE 047.JPG,47,May 4 2003,2003,29,FREITAG,BRITTANY ANNE,MARIE
 confirmation_1991,PAGE 047.JPG,47,May 4 2003,2003,30,FUNK,NICHOLAS,,14,Jun 18 1989,"Most Sacred Heart Wallington, NJ","260 Maple Ave. Wallington, NJ",Christopher,Elinore Piarut,Ryan Meyers,Most Rev. Dominic Marconi,no,
 confirmation_1991,PAGE 047.JPG,47,May 4 2003,2003,31,GERONIMO,GERARD,,14,Oct 23 1988,"St. Anthony's Belleville, NJ","83 Ralph St. Belleville, NJ",Genaro,Ruby Apolinario,Arnel Cardenas (Proxy: Priscilla O'Daniel),Most Rev. Dominic Marconi,no,
 confirmation_1991,PAGE 047.JPG,47,May 4 2003,2003,32,GOMEZ,ERIC,PATRICK,13,Aug 19 1990,"St. Peter's Haverstraw, NY","621 Belleville Ave. Belleville, NJ",Noel,Marleny Fuentes,Rosa Ester Menes De Argueta,Most Rev. Dominic Marconi,no,
+confirmation_1991,PAGE AB2-CD.JPG,47,,,,Davila,Paul,,,,,,,,,,,index page_no=47
+confirmation_1991,PAGE AB2-CD.JPG,47,,,,De Angelis,Gabrielle,,,,,,,,,,,index page_no=47
+confirmation_1991,PAGE AB2-CD.JPG,47,,,,De Franco,Ashley,,,,,,,,,,,index page_no=47
+confirmation_1991,PAGE AB2-CD.JPG,47,,,,De Medici,Stephanie,,,,,,,,,,,index page_no=47
+confirmation_1991,PAGE AB2-CD.JPG,47,,,,De Pasquale,Nelson,,,,,,,,,,,index page_no=47
+confirmation_1991,PAGE AB2-CD.JPG,47,,,,Diaz,Jose,,,,,,,,,,,index page_no=47
+confirmation_1991,PAGE AB2-CD.JPG,47,,,,Diaz,Natalie,,,,,,,,,,,index page_no=47
+confirmation_1991,PAGE AB2-CD.JPG,47,,,,Diaz,Octavio,,,,,,,,,,,index page_no=47
+confirmation_1991,PAGE CD2-EF.JPG,47,,,,COBA,BRITTANY,,,,,,,,,,,index page_no=47
+confirmation_1991,PAGE CD2-EF.JPG,47,,,,COLLAZO,MALYSSA,,,,,,,,,,,index page_no=47
+confirmation_1991,PAGE CD2-EF.JPG,47,,,,CRUZ,CHRISTIAN,,,,,,,,,,,index page_no=47
+confirmation_1991,PAGE CD2-EF.JPG,47,,,,ECHEVARRIA,ANTHONY J.,,,,,,,,,,,index page_no=47
+confirmation_1991,PAGE CD2-EF.JPG,47,,,,FELIX,JANNA,,,,,,,,,,,index page_no=47
+confirmation_1991,PAGE CD2-EF.JPG,47,,,,FERRAIOLO,CHRISTINA,,,,,,,,,,,index page_no=47
+confirmation_1991,PAGE CD2-EF.JPG,47,,,,FLOR,MARKO,,,,,,,,,,,index page_no=47
+confirmation_1991,PAGE CD2-EF.JPG,47,,,,FRANK,KRISTEN,,,,,,,,,,,index page_no=47
+confirmation_1991,PAGE CD2-EF.JPG,47,,,,FREITAG,BRITTANY ANNE,,,,,,,,,,,index page_no=47
+confirmation_1991,PAGE CD2-EF.JPG,47,,,,FUNK,NICHOLAS,,,,,,,,,,,index page_no=47
+confirmation_1991,PAGE GH2-IJ.JPG,47,,,,GERONIMO,GERARD,,,,,,,,,,,index page_no=47
+confirmation_1991,PAGE GH2-IJ.JPG,47,,,,GOMEZ,ERIC,,,,,,,,,,,index page_no=47
 confirmation_1991,PAGE 048.JPG,48,May 4 2003,2003,33,GOMEZ,VANESSA,,14,1988,"ST. LUCY'S NEWARK, NJ","195 RIDGE ST. NEWARK, NJ",FRANCISCO,JACQUELINE CAMACHO,YVETTE CATALA,Most Rev. Dominic Marconi,no,
 confirmation_1991,PAGE 048.JPG,48,May 4 2003,2003,34,GONZALEZ,JENNIFER,,15,1988,"QUITO, ECUADOR","6 LINCOLN TERR BELLEVILLE, NJ",JOEL,MONICA ROSERO,EDWIN BERMEO,Most Rev. Dominic Marconi,no,
 confirmation_1991,PAGE 048.JPG,48,May 4 2003,2003,35,HERNANDEZ,MATTHEW J.,,13,Feb 18 1990,"ST. JOHN ORANGE, NJ","192 BERGEN BLVD. WEST PATERSON, NJ",,NORMA HERNANDEZ,EVELYN COLON,Most Rev. Dominic Marconi,no,
@@ -814,6 +1215,11 @@ confirmation_1991,PAGE 048.JPG,48,May 4 2003,2003,49,NAGAMINE,KAORI,MARIA,13,Nov
 confirmation_1991,PAGE 048.JPG,48,May 4 2003,2003,50,NARVAEZ,EDGAR,,14,1988,ECUADOR,"760 CLIFTON AVE NEWARK, NJ",EDGAR,MARIA SAN MARTIN,WENDY NARVAEZ,Most Rev. Dominic Marconi,no,
 confirmation_1991,PAGE 048.JPG,48,May 4 2003,2003,51,NIEVES,STEPHANIE,MARY,13,Jun 13 1990,"ST. LUCY'S NEWARK, NJ","128 BELMONT AVE. NEWARK, NJ",PEDRO,VIVIAN SOSA,NELLIE ACEVEDO,Most Rev. Dominic Marconi,no,
 confirmation_1991,PAGE 048.JPG,48,May 4 2003,2003,52,ORTIZ,PEDRO,,14,Sep 3 1989,"O.L. OF MT. CARMEL NEWARK, NJ","7 FERDINAND ST. NEWARK, NJ",PEDRO,MAGGIE MATOS,CYNTHIA MATOS,Most Rev. Dominic Marconi,no,
+confirmation_1991,PAGE EF2-GH.JPG,48,,,,HERNANDEZ,MATTHEW JR.,,,,,,,,,,,index page_no=48
+confirmation_1991,PAGE EF2-GH.JPG,48,,,,HRUBASH,ALYSSA,,,,,,,,,,,index page_no=48
+confirmation_1991,PAGE GH2-IJ.JPG,48,,,,GOMEZ,VANESSA,,,,,,,,,,,index page_no=48
+confirmation_1991,PAGE GH2-IJ.JPG,48,,,,GONZALEZ,JENNIFER,,,,,,,,,,,index page_no=48
+confirmation_1991,PAGE GH2-IJ.JPG,48,,,,JUGO,SUSAN LIZETTE,,,,,,,,,,,index page_no=48
 confirmation_1991,PAGE 049.JPG,49,May 4 2003,2003,53,PARILLA,SAMANTHA,JULIANNA,14,Mar 24 1990,"ST. MALACHY'S BROOKLYN, NY","276 RIDGE ST. NEWARK, NJ",SAMUEL,CLAUDIA TORRES,JESSENIA RAMIREZ,Most Rev. Dominic Marconi,no,
 confirmation_1991,PAGE 049.JPG,49,May 4 2003,2003,54,PASQUA,ADOLPH,,16,Oct 26 1986,"ST. ANTHONY NEWARK, NJ","212 BALLANTINE PARKWAY NEWARK, NJ",VINCENT,MARIA AGUSTINA,DEACON BILL VALLADARES,Most Rev. Dominic Marconi,no,
 confirmation_1991,PAGE 049.JPG,49,May 4 2003,2003,55,PASTRANA,ELAINA,,13,Aug 27 1994,"ST. FRANCIS XAVIER BELLEVILLE, NJ","206 UNION AVE. BELLEVILLE, NJ",HUMBERTO,ROSARIO MOLINA,LAURA MOLINA,Most Rev. Dominic Marconi,no,"Note under name: PATINO, NICOLE - SEE BELOW # 72"
@@ -853,6 +1259,7 @@ confirmation_1991,PAGE 050.JPG,50,May 4 2003,2003,88,VIVAR,JOSE MIGUEL,,14,May 1
 confirmation_1991,PAGE 050.JPG,50,May 4 2003,2003,89,VIZUETE,ANTHONY,,15,1988,"O.L. OF GOOD COUNSEL NEWARK, NJ","279 PARKER ST. NEWARK, NJ",ANTONIO,FANNY NARVAEZ,MIGUEL SANTIAGO CABALLERO,Most Rev. Dominic Marconi,no,
 confirmation_1991,PAGE 050.JPG,50,May 25 2003,2003,90,ALESSIO,JENNIFER E.,,28,May 4 1975,"HOLY FAMILY NUTLEY, NJ","140 ADELAIDE ST. BELLEVILLE, NJ",FRANK,ELAINE MARCOGLIESE,MICHELLE GABRIELLE,Rev. Joseph D. Girone,no,RCIA
 confirmation_1991,PAGE 050.JPG,50,May 25 2003,2003,91,BONILLA,MARK ANTHONY,,15,May 15 1988,"ST. FRANCIS XAVIER NEWARK, NJ","19 VAN RENSSELAER ST. BELLEVILLE, NJ",LUIS,MARY ANN BETZ,IDA BETZ,Rev. Joseph D. Girone,no,RCIA
+confirmation_1991,PAGE AB.JPG,50,,,,ALESSIO,JENNIFER E.,,,,,,,,,,,index page_no=50
 confirmation_1991,PAGE 051.JPG,51,May 25 2003,2003,92,BONILLA,TIANA MARY,,17,Jun 15 1986,"ST. FRANCIS XAVIER NEWARK, NJ","19 VAN RENSSELAER ST BELLEVILLE, NJ",LUIS,MARY ANN BETZ,GERARD BETZ,Rev. Joseph D. Girone,no,RCIA
 confirmation_1991,PAGE 051.JPG,51,May 25 2003,2003,93,BANDAYREL,MICHELLE G.,,25,Nov 6 1983,"MARY HELP OF CHRISTIANS MANILA, PHILIPPINES","47 ROSSMORE PL BELLEVILLE, NJ",JULIO,CARMENCITA GOMEZ,NANCY BRUNO,Rev. Joseph D. Girone,no,RCIA
 confirmation_1991,PAGE 051.JPG,51,May 25 2003,2003,94,CABRERA,EFRAIN ANTONIO JR.,,27,Apr 3 1976,"CATH. OF ST. JOHN THE BAPTIST, PATERSON, NJ","336 BELLEVILLE AVE BELLEVILLE, NJ",EFRAIN,NORA TORRES,NANCY BRUNO,Rev. Joseph D. Girone,no,RCIA
@@ -871,6 +1278,17 @@ confirmation_1991,PAGE 051.JPG,51,May 25 2003,2003,106,PERALTA,ANNY,,27,Feb 7 19
 confirmation_1991,PAGE 051.JPG,51,Apr 10 2004,2004,1,MALLOY,LAVELL,,28,Apr 10 2004,"ST. PETER BELLEVILLE, NJ","291 BRANCH BROOK DR. BELLEVILLE, NJ",LEE MALLOY,BRENDA GRIER,MELINDA MOLINA,Rev. Joseph D. Girone,no,Easter Vigil
 confirmation_1991,PAGE 051.JPG,51,May 2 2004,2004,2,ALMARZOH,LEILA,MARIA,14,1990,"GOOD SHEPHERD NEW YORK CITY, NY","26 MYRTLE AVE. BELLEVILLE, NJ",PAUL,LAURA BAROLIN,REGINA ALMARZOH,Bishop David Arias,no,
 confirmation_1991,PAGE 051.JPG,51,May 2 2004,2004,3,ALONSO,VIVIANA,FAITH,14,1990,"ST. JOSEPH WEST NEW YORK, NJ","275 HORNBLOWER AVE BELLEVILLE, NJ",MANUEL,ESPERANZA ALVAREZ,ADA MARIE FERNANDEZ,Bishop David Arias,no,
+confirmation_1991,PAGE AB.JPG,51,,,,ALMARZOH,LEILA,,,,,,,,,,,index page_no=51
+confirmation_1991,PAGE AB.JPG,51,,,,ALONSO,VIVIANA,,,,,,,,,,,index page_no=51
+confirmation_1991,PAGE AB.JPG,51,,,,BONILLA,MARK ANTHONY,,,,,,,,,,,index page_no=51
+confirmation_1991,PAGE AB.JPG,51,,,,BONILLA,TIANA MARY,,,,,,,,,,,index page_no=51
+confirmation_1991,PAGE AB.JPG,51,,,,BANDATREL,MICHELLE GOMEZ,,,,,,,,,,,index page_no=51
+confirmation_1991,PAGE CD2-EF.JPG,51,,,,CABRERA,EFRAIN ANTONIO JR.,,,,,,,,,,,index page_no=51
+confirmation_1991,PAGE CD2-EF.JPG,51,,,,CAMACHO,LISETTE,,,,,,,,,,,index page_no=51
+confirmation_1991,PAGE CD2-EF.JPG,51,,,,CHALLENGER,ANDREA ANA C.,,,,,,,,,,,index page_no=51
+confirmation_1991,PAGE CD2-EF.JPG,51,,,,CAMACHO,MARIA MILAGROS,,,,,,,,,,,index page_no=51
+confirmation_1991,PAGE CD2-EF.JPG,51,,,,CARVAJAL,GIOVANNI H.,,,,,,,,,,,index page_no=51
+confirmation_1991,PAGE EF2-GH.JPG,51,,,,HERNANDEZ,ANA,,,,,,,,,,,index page_no=51
 confirmation_1991,PAGE 052.JPG,52,May 2 2004,2004,4,ALVES,STEPHEN,,14,Jul 1 1990,"O.L. QUEEN OF PEACE, NO. ARLINGTON, NJ","57 TIFFANY BLVD., NEWARK, NJ",JOSE,MARIA FERRAZ,ROGERIO SANTOS,Bishop David Arias,no,
 confirmation_1991,PAGE 052.JPG,52,May 2 2004,2004,5,ARANA,CHRISTOPHER,PAUL,15,Jul 27 1991,"ST. MICHAEL'S, NEWARK, NJ","12 COEYMAN ST., NEWARK, NJ",LEONARDO,EVELYN ROSADO,EFRAIN ROSADO,Bishop David Arias,no,
 confirmation_1991,PAGE 052.JPG,52,May 2 2004,2004,6,ARDHASSERIL,ROSHAN ANN,JOAN,14,Feb 25 1990,ST. MICHAEL'S ~ INDIA,"82 ROSSMORE PL., BELLEVILLE, NJ",SEBASTIAN,MARY J. MATHEW,THANKAMONEY THARAYIL,Bishop David Arias,no,
@@ -891,6 +1309,25 @@ confirmation_1991,PAGE 052.JPG,52,May 2 2004,2004,20,CORTUGNO,JOVANNA ASHLEY,NIC
 confirmation_1991,PAGE 052.JPG,52,May 2 2004,2004,21,DE LA TORRE,AMANDA,JANE,14,1991,"ST. MICHAEL, NEWARK, NJ","215 WILLIAM ST., BELLEVILLE, NJ",MARCELO,EDAENA SANTIAGO,MARY VARGAS,Bishop David Arias,no,
 confirmation_1991,PAGE 052.JPG,52,May 2 2004,2004,22,DE SOUZA,CHRISTIAN,,13,Dec 1990,"ST. JOHN'S, ORANGE, NJ","22 VAN RENSSELAER ST., BELLEVILLE, NJ",ANDERSON,ADA ORELLANA,ROSA SALINAS,Bishop David Arias,no,
 confirmation_1991,PAGE 052.JPG,52,May 2 2004,2004,23,DOHERTY,DANNY,DANIEL,13,Feb 21 1998,"ST. PETER, BELLEVILLE, NJ","214 BALLANTINE PARKWAY, NEWARK, NJ",WILLIAM DOHERTY,ROBERT MORGAN (PARTNER),FR. KEVIN JONES,Bishop David Arias,yes,Bottom parent line lists ROBERT MORGAN (PARTNER)
+confirmation_1991,PAGE AB.JPG,52,,,,ALVES,STEPHEN,,,,,,,,,,,index page_no=52
+confirmation_1991,PAGE AB.JPG,52,,,,ARANA,CHRISTOPHER,,,,,,,,,,,index page_no=52
+confirmation_1991,PAGE AB.JPG,52,,,,ARDHASPERIL,ROSHAN HENRY,,,,,,,,,,,index page_no=52
+confirmation_1991,PAGE AB.JPG,52,,,,BALDONADO,MICHAEL DAVID,,,,,,,,,,,index page_no=52
+confirmation_1991,PAGE AB2-CD.JPG,52,,,,Benavides,Valerie,,,,,,,,,,,index page_no=52
+confirmation_1991,PAGE AB2-CD.JPG,52,,,,Benemile,Jacklyn,,,,,,,,,,,index page_no=52
+confirmation_1991,PAGE AB2-CD.JPG,52,,,,Bishop,Karyn,,,,,,,,,,,index page_no=52
+confirmation_1991,PAGE AB2-CD.JPG,52,,,,Boldero,Alison,,,,,,,,,,,index page_no=52
+confirmation_1991,PAGE AB2-CD.JPG,52,,,,Bosea,Lester,,,,,,,,,,,index page_no=52
+confirmation_1991,PAGE AB2-CD.JPG,52,,,,Boutsikaris,Joseph,,,,,,,,,,,index page_no=52
+confirmation_1991,PAGE AB2-CD.JPG,52,,,,Bui,Lisa,,,,,,,,,,,index page_no=52
+confirmation_1991,PAGE AB2-CD.JPG,52,,,,De La Torre,Amanda,,,,,,,,,,,index page_no=52
+confirmation_1991,PAGE AB2-CD.JPG,52,,,,De Souza,Christian,,,,,,,,,,,index page_no=52
+confirmation_1991,PAGE CD2-EF.JPG,52,,,,CASTRO,XIOMARA,,,,,,,,,,,index page_no=52
+confirmation_1991,PAGE CD2-EF.JPG,52,,,,CERNA,LUIS,,,,,,,,,,,index page_no=52
+confirmation_1991,PAGE CD2-EF.JPG,52,,,,CHIMENTI,ALBERT,,,,,,,,,,,index page_no=52
+confirmation_1991,PAGE CD2-EF.JPG,52,,,,CIUBA,ANTHONY,,,,,,,,,,,index page_no=52
+confirmation_1991,PAGE CD2-EF.JPG,52,,,,CORDASCO,JOSEPH,,,,,,,,,,,index page_no=52
+confirmation_1991,PAGE CD2-EF.JPG,52,,,,DOHERTY,DANNY,,,,,,,,,,,index page_no=52
 confirmation_1991,PAGE 053.JPG,53,May 2 2004,2004,24,DONO,ALISHA,ANN,13,Jan 1991,"ST. JAMES NEWARK, N.J.","421 DEWITT AVE. BELLEVILLE, N.J.",MANUEL,ROSEANN WOOSTER,RENEE MADAIL,Bishop David Arias,no,
 confirmation_1991,PAGE 053.JPG,53,May 2 2004,2004,25,DULANTO,MADELINE,ELIZABETH,13,Jan 16 1992,"ST. RITA CASIA LIMA, PERU","15 MERTZ AVE. BELLEVILLE, N.J.",PEDRO,ROSA BAZAN,MARJORIET BAZAN,Bishop David Arias,no,
 confirmation_1991,PAGE 053.JPG,53,May 2 2004,2004,26,DURR,ASHLEY,GIANNA,13,Feb 28 1992,"ST. STEPHEN KEARNY, N.J.","318 HICKORY ST. KEARNY, N.J.",THOMAS,DAWN CAMERON,ELIZABETH CAMERON,Bishop David Arias,no,
@@ -911,6 +1348,20 @@ confirmation_1991,PAGE 053.JPG,53,May 2 2004,2004,40,LENAHAN,BRIAN,PATRICK,14,Oc
 confirmation_1991,PAGE 053.JPG,53,May 2 2004,2004,41,LOZANO,DANIEL,PETER,14,Apr 15 1990,"O.L. OF MT. CARMEL NUTLEY, NJ","85 BERNIDE ROAD BELLEVILLE, NJ",CLEMENTE,MARIA ROMAN,LORNA ARBOLEDA,Bishop David Arias,no,
 confirmation_1991,PAGE 053.JPG,53,May 2 2004,2004,42,LUNA,JENNIFER,MONICA,13,Oct 5 1991,ECUADOR,"18 LESLIE TERRACE BELLEVILLE, NJ",ANGEL,ISABEL MARIE GYANO,ABRAHAM ELIAS,Bishop David Arias,no,
 confirmation_1991,PAGE 053.JPG,53,May 2 2004,2004,43,MANAQUIL,ANDREW,,14,May 12 1990,"SACRED HEART JERSEY CITY, NJ","99 CARPENTER ST. BELLEVILLE, NJ",ARTURO,MILAGROS TIONGSON,FERNANDO LACARO,Bishop David Arias,no,
+confirmation_1991,PAGE CD2-EF.JPG,53,,,,DONO,ALISHA,,,,,,,,,,,index page_no=53
+confirmation_1991,PAGE CD2-EF.JPG,53,,,,DULANTO,MADELINE,,,,,,,,,,,index page_no=53
+confirmation_1991,PAGE CD2-EF.JPG,53,,,,DURR,RACHEL,,,,,,,,,,,index page_no=53
+confirmation_1991,PAGE CD2-EF.JPG,53,,,,EGUEZ,LIZBETH,,,,,,,,,,,index page_no=53
+confirmation_1991,PAGE EF2-GH.JPG,53,,,,HAHN,CHRISTIAN,,,,,,,,,,,index page_no=53
+confirmation_1991,PAGE EF2-GH.JPG,53,,,,HALL,KRISTA,,,,,,,,,,,index page_no=53
+confirmation_1991,PAGE EF2-GH.JPG,53,,,,HOGENBIRK,HEATHER,,,,,,,,,,,index page_no=53
+confirmation_1991,PAGE EF2-GH.JPG,53,,,,HOOD,JOAN,,,,,,,,,,,index page_no=53
+confirmation_1991,PAGE GH2-IJ.JPG,53,,,,GENCARELLI,JESSICA,,,,,,,,,,,index page_no=53
+confirmation_1991,PAGE GH2-IJ.JPG,53,,,,GENCARELLI,STEFANIA,,,,,,,,,,,index page_no=53
+confirmation_1991,PAGE GH2-IJ.JPG,53,,,,GERONIMO,JERICA,,,,,,,,,,,index page_no=53
+confirmation_1991,PAGE GH2-IJ.JPG,53,,,,GESUDEN,JOSEPH,,,,,,,,,,,index page_no=53
+confirmation_1991,PAGE GH2-IJ.JPG,53,,,,GOMEZ,JENNIFER,,,,,,,,,,,index page_no=53
+confirmation_1991,PAGE GH2-IJ.JPG,53,,,,GOMEZ,STEVEN,,,,,,,,,,,index page_no=53
 confirmation_1991,PAGE 054.JPG,54,May 2 2004,2004,44,MARTINEZ,ANDREA,RITA,14,Nov 26 1990,"O.L. OF THE CENACLE, RICHMOND HILL, NY","272 VERONA AVE., NEWARK, NJ",JAIME,JOSEFINA MARTINEZ,ELENA AYALA,Bishop David Arias,no,
 confirmation_1991,PAGE 054.JPG,54,May 2 2004,2004,45,MARTINEZ,JEREMY,JERAMIAH,14,1990,"O.L. OF GOOD COUNSEL, NEWARK, NJ","70 DIVISION AVE., BELLEVILLE, NJ",HECTOR,LINDA SMITH,BENITA SMITH,Bishop David Arias,no,
 confirmation_1991,PAGE 054.JPG,54,May 2 2004,2004,46,MARTINEZ,VANESSA,MONICA,14,Nov 26 1990,"O.L. OF GOOD COUNSEL, NEWARK, NJ","272 VERONA AVE., NEWARK, NJ",JAIME,JOSEFINA MARTINEZ,LEO AYALA,Bishop David Arias,no,
@@ -951,6 +1402,8 @@ confirmation_1991,PAGE 055.JPG,55,May 23 2004,2004,80,CZAR,TERENCE F.,,36,Jul 12
 confirmation_1991,PAGE 055.JPG,55,May 23 2004,2004,81,FREITAS,SUSANA,GABRIELLE,39,Mar 17 1965,"TIERRA SANTA, MONTEVIDEO, URUGUAY","204 OAKWOOD AVE, KEARNY, NJ",JUAN,DELTA MUTFES,IRIA GAGLIANO,Rev. Joseph D. Girone,yes,Mother surname MUTFES uncertain
 confirmation_1991,PAGE 055.JPG,55,May 23 2004,2004,82,PENA,SUSAN,,19,May 26 1985,"BLESSED SACRAMENT, JACKSON HEIGHTS, NY","14 MT. PLEASANT AVE, BELLEVILLE, NJ",PEDRO,IRENE MORAN,IRENE PENA,Rev. Joseph D. Girone,no,
 confirmation_1991,PAGE 055.JPG,55,May 23 2004,2004,83,PROCACCINO,JUSTIN S.,,17,Feb 8 1987,"ST. FRANCIS, HOBOKEN, NJ","52 PARKVIEW AVE, BELLEVILLE, NJ",PHILIP,DENISE LINDERMANN,PHILIP PROCACCINO,Rev. Joseph D. Girone,no,
+confirmation_1991,PAGE AB.JPG,55,,,,AGRESTA,JACQUELINE,,,,,,,,,,,index page_no=55
+confirmation_1991,PAGE CD2-EF.JPG,55,,,,FREITAS,SUSANNA,,,,,,,,,,,index page_no=55
 confirmation_1991,PAGE 056.JPG,56,Mar 26 2005,2005,1,Breton,Gilda Victoria,,31,Mar 26 2005,"St. Peter, Belleville, NJ","153 Brighton Ave., Belleville, NJ",Jose Breton,Gilda Robles,Lonia Wisniowski,Rev. Joseph D. Girone,yes,Easter Vigil; sponsor also listed Drest Fedun(?); Wisniowski/Wisniewski uncertain
 confirmation_1991,PAGE 056.JPG,56,Mar 26 2005,2005,2,Moran,Ayesha,,14,Mar 26 2005,"St. Peter, Belleville, NJ","33 Division Ave., Belleville, NJ",Pedro Moran,Raquel Perez,Edna Moran,Rev. Joseph D. Girone,,Easter Vigil
 confirmation_1991,PAGE 056.JPG,56,Apr 24 2005,2005,3,Barletta,Sarah,,38,May 7 1967,"O.L. of Good Counsel, Newark, NJ","476 Joralemon St., Unit C3, Belleville, NJ",John Barletta,Patricia Rouette,Dorothy Spera,Rev. Joseph D. Girone,,RCIA 8:30 Mass
@@ -969,6 +1422,13 @@ confirmation_1991,PAGE 056.JPG,56,May 1 2005,2005,15,Amaya,Bryan,,14,,"St. Antho
 confirmation_1991,PAGE 056.JPG,56,May 1 2005,2005,16,Aneses,Raphael,,14,Oct 28 1990,"O.L. of Good Counsel, Newark, NJ","41 Perry Street, Belleville, NJ",Rafael Aneses,Yolanda Moreno,Roberto Aneses,Bishop Edgar da Cunha,,3PM Mass
 confirmation_1991,PAGE 056.JPG,56,May 1 2005,2005,17,Barragan,Carlos Andres,,13,,"St. Anthony, Ecuador","264 Watchung Ave, West Orange, NJ",Leonardo Barragan,Nancy Villalba,Diana Maria Ortega,Bishop Edgar da Cunha,yes,3PM Mass; baptism year 1992 only
 confirmation_1991,PAGE 056.JPG,56,May 1 2005,2005,18,Barragan,Dennys,,16,,"St. Anthony, Ecuador","264 Watchung Ave, West Orange, NJ",Leonardo Barragan,Nancy Villalba,Diego Ruben Ortega,Bishop Edgar da Cunha,yes,3PM Mass; baptism year 1990 only
+confirmation_1991,PAGE AB.JPG,56,,,,ACEVEDO,ZULEYKA,,,,,,,,,,,index page_no=56
+confirmation_1991,PAGE AB.JPG,56,,,,AMAYA,BRYAN,,,,,,,,,,,index page_no=56
+confirmation_1991,PAGE AB.JPG,56,,,,ANESES,RAPHAEL,,,,,,,,,,,index page_no=56
+confirmation_1991,PAGE AB2-CD.JPG,56,,,,Breton,Gilda Victoria,,,,,,,,,,,index page_no=56
+confirmation_1991,PAGE AB2-CD.JPG,56,,,,Barletta,Sarah,,,,,,,,,,,index page_no=56
+confirmation_1991,PAGE AB2-CD.JPG,56,,,,Barragan,Carlos Andres,,,,,,,,,,,index page_no=56
+confirmation_1991,PAGE AB2-CD.JPG,56,,,,Barragan,Dennys,,,,,,,,,,,index page_no=56
 confirmation_1991,PAGE 057.JPG,57,May 1 2005,2005,19,Barrera,Stephanie,Elizabeth,13,Jul 19 1992,"O.L. of Jersey City, NJ","11 Morgan Place, N. Arlington, NJ",Jesus Barrera,Merci Iracuma,Robert Sbarra,Bishop Edgar da Cunha,yes,3PM Mass; baptism place O.L. of Jersey City uncertain
 confirmation_1991,PAGE 057.JPG,57,May 1 2005,2005,20,Benavides,Michelle,Catherine,13,Aug 15 1991,"La Florista Church, Quito, Ecuador","351 Division Ave., Belleville, NJ",Carlos Benavides,Kristina Martinez,Ursula Capasso,Bishop Edgar da Cunha,,3PM Mass
 confirmation_1991,PAGE 057.JPG,57,May 1 2005,2005,21,Beniquez,Jessica,Teresa,13,Mar 30 2002,"St. Peter, Belleville, NJ","35 Clinton St., Belleville, NJ",Albert Beniquez,Evette Soto,Nancy Perez,Bishop Edgar da Cunha,,3PM Mass
@@ -989,6 +1449,22 @@ confirmation_1991,PAGE 057.JPG,57,May 1 2005,2005,35,Echevarria,Alfonso,,13,Dec 
 confirmation_1991,PAGE 057.JPG,57,May 1 2005,2005,36,Elamairo,George,,13,Sep 1991,"O.L. of Victories, Jersey City, NJ","203 Little St, Belleville, NJ",Daniel Elamairo,Ofelia Marcelo,Consolacion Asuncion,Bishop Edgar da Cunha,yes,3PM Mass; surname Elamairo/Elamparo; baptism month/year only
 confirmation_1991,PAGE 057.JPG,57,May 1 2005,2005,37,Estrella,Jorge,Juan,14,Feb 4 1995,"Iglesia Rosario de Riobamba, Ecuador","196 Newark Ave, Apt #2, Bloomfield, NJ",Viscente Estrella,Ana Gavith Aguirre,Flavio Aguirre,Bishop Edgar da Cunha,yes,3PM Mass; baptism place Rosario vs Riobamba
 confirmation_1991,PAGE 057.JPG,57,May 1 2005,2005,38,Fiala,Peter,,13,Nov 1991,"St. Mary, Nutley, NJ","268 Greylock Parkway #1, Belleville, NJ",Peter Fiala,Joanne Garguilo,Nicola Cristofaro,Bishop Edgar da Cunha,yes,3PM Mass; baptism month/year only
+confirmation_1991,PAGE AB2-CD.JPG,57,,,,Barrera,Stephanie,,,,,,,,,,,index page_no=57
+confirmation_1991,PAGE AB2-CD.JPG,57,,,,Benavides,Michelle,,,,,,,,,,,index page_no=57
+confirmation_1991,PAGE AB2-CD.JPG,57,,,,Beniquez,Jessica,,,,,,,,,,,index page_no=57
+confirmation_1991,PAGE AB2-CD.JPG,57,,,,Beniquez,Michael,,,,,,,,,,,index page_no=57
+confirmation_1991,PAGE AB2-CD.JPG,57,,,,Boldero,Ariel,,,,,,,,,,,index page_no=57
+confirmation_1991,PAGE AB2-CD.JPG,57,,,,Bongiovanni,Kristine,,,,,,,,,,,index page_no=57
+confirmation_1991,PAGE AB2-CD.JPG,57,,,,Bosea,Kristoffer,,,,,,,,,,,index page_no=57
+confirmation_1991,PAGE AB2-CD.JPG,57,,,,Bustamante,Nivaldo,,,,,,,,,,,index page_no=57
+confirmation_1991,PAGE CD2-EF.JPG,57,,,,DEFRANCO,LUCIA,,,,,,,,,,,index page_no=57
+confirmation_1991,PAGE CD2-EF.JPG,57,,,,DEGIROLAMO,MICHAEL,,,,,,,,,,,index page_no=57
+confirmation_1991,PAGE CD2-EF.JPG,57,,,,DEL GROSSO,DIANA,,,,,,,,,,,index page_no=57
+confirmation_1991,PAGE CD2-EF.JPG,57,,,,DOHERTY,CHRISTOPHER,,,,,,,,,,,index page_no=57
+confirmation_1991,PAGE CD2-EF.JPG,57,,,,ECHEVARRIA,ALFONSO,,,,,,,,,,,index page_no=57
+confirmation_1991,PAGE CD2-EF.JPG,57,,,,ELAMPARO,GEORGE,,,,,,,,,,,index page_no=57
+confirmation_1991,PAGE CD2-EF.JPG,57,,,,ESTRELLA,JORGE,,,,,,,,,,,index page_no=57
+confirmation_1991,PAGE CD2-EF.JPG,57,,,,FIALA,PETER,,,,,,,,,,,index page_no=57
 confirmation_1991,PAGE 058.JPG,58,May 1 2005,2005,39,Filgueiras,Anthony,,13,Jan 26 1992,"Immac Heart of Mary, Newark, NJ","4 Elmwood Avenue, Belleville, NJ",Abelardo Filgueiras,Rose Ann Suppa,Juan Filgueiras,Bishop Edgar da Cunha,,3PM Mass
 confirmation_1991,PAGE 058.JPG,58,May 1 2005,2005,40,Garcia,Kellianne,Cecilia,14,Aug 18 1991,"Sacred Heart Cathedral, Newark, NJ","194 Ashland Avenue, Bloomfield, NJ",Farith Garcia,Beatrice Cardona,Nelson Cardona,Bishop Edgar da Cunha,,3PM Mass
 confirmation_1991,PAGE 058.JPG,58,May 1 2005,2005,41,Gomez,Patricia,Gina,13,,"Virgen Candelaria, Santo Domingo, Dominican Republic","134 Belleville Avenue, Belleville, NJ",Victor Gomez,Leticia Perez Carrasco,Flor Daliza Reynoso Rodriguez,Bishop Edgar da Cunha,yes,3PM Mass; baptism year 1996 only; given name Patricia/Patrisia
@@ -1009,6 +1485,19 @@ confirmation_1991,PAGE 058.JPG,58,May 1 2005,2005,55,Lopez,Amanda,Elizabeth,13,J
 confirmation_1991,PAGE 058.JPG,58,May 1 2005,2005,56,Lozano,Jeffrey,Peter,13,Mar 1 1992,"O.L. of Mt. Carmel, Nutley, NJ","85 Bernice Road, Belleville, NJ",Clemente Lozano,Maria Roman,Frederic Belen,Bishop Edgar da Cunha,,3PM Mass
 confirmation_1991,PAGE 058.JPG,58,May 1 2005,2005,57,Lunelli,David,,13,Sep 29 1991,"St. Peter's, Belleville, NJ","15 Dewitt Ave., Belleville, NJ",Angelo Lunelli,Dora Turano,Ettore Turano,Bishop Edgar da Cunha,,3PM Mass
 confirmation_1991,PAGE 058.JPG,58,May 1 2005,2005,58,Lynch,Jessica,Frances,13,Aug 25 1991,"St. Peter's, Belleville, NJ","17 Springer St., Belleville, NJ",Kevin Lynch,Eva Turano,Frances Petracco,Bishop Edgar da Cunha,,3PM Mass
+confirmation_1991,PAGE CD2-EF.JPG,58,,,,FILGUEIRAS,ANTHONY,,,,,,,,,,,index page_no=58
+confirmation_1991,PAGE EF2-GH.JPG,58,,,,HERNANDEZ,EDISON,,,,,,,,,,,index page_no=58
+confirmation_1991,PAGE EF2-GH.JPG,58,,,,HERNANDEZ,MICHAEL,,,,,,,,,,,index page_no=58
+confirmation_1991,PAGE EF2-GH.JPG,58,,,,HERNANDEZ,NOEL,,,,,,,,,,,index page_no=58
+confirmation_1991,PAGE EF2-GH.JPG,58,,,,HOOD,CHRISTOPHER,,,,,,,,,,,index page_no=58
+confirmation_1991,PAGE EF2-GH.JPG,58,,,,HORNA,ERIKA,,,,,,,,,,,index page_no=58
+confirmation_1991,PAGE GH2-IJ.JPG,58,,,,GARCIA,KELLIANNE,,,,,,,,,,,index page_no=58
+confirmation_1991,PAGE GH2-IJ.JPG,58,,,,GOMEZ,PATRISIA,,,,,,,,,,,index page_no=58
+confirmation_1991,PAGE GH2-IJ.JPG,58,,,,GONZALEZ,JORDAN,,,,,,,,,,,index page_no=58
+confirmation_1991,PAGE GH2-IJ.JPG,58,,,,GROSCH,DANIEL,,,,,,,,,,,index page_no=58
+confirmation_1991,PAGE GH2-IJ.JPG,58,,,,GUSSIE,KRYSTIN,,,,,,,,,,,index page_no=58
+confirmation_1991,PAGE GH2-IJ.JPG,58,,,,GUZMAN,BRYAN,,,,,,,,,,,index page_no=58
+confirmation_1991,PAGE GH2-IJ.JPG,58,,,,IMPARATO,SALVATORE,,,,,,,,,,,index page_no=58
 confirmation_1991,PAGE 059.JPG,59,May 1 2005,2005,59,Manaquil,Melissa,Maria,14,Jul 16 1991,"St. Cecelia's, Kearny, NJ","97 Carpenter St., Belleville, NJ",Arturo Manaquil,Milagros Tiongson,Lydia Flores,Bishop Edgar da Cunha,yes,3PM Mass; Cecelia vs Cecilia
 confirmation_1991,PAGE 059.JPG,59,May 1 2005,2005,60,Mendez,Emily,Rita,13,Nov 1991,"Blessed Sacrament, Bronx, NY","51 Cleveland St., Belleville, NJ",Ruben Mendez,Ana Calle,Zaisriette Melendez,Bishop Edgar da Cunha,yes,3PM Mass; baptism month/year only; sponsor spelling
 confirmation_1991,PAGE 059.JPG,59,May 1 2005,2005,61,Monroig,Luis M.,Michael,14,May 11 1991,"St. Michael's, Newark, NJ","30 Columbus Ave., Belleville, NJ",Louis Monroig,Carmen Castro,Margarita Cosme,Bishop Edgar da Cunha,,3PM Mass
@@ -1065,6 +1554,14 @@ confirmation_1991,PAGE 061.JPG,61,May 7 2006,2006,12,Atuncar,Tamara,Teresa,14,Fe
 confirmation_1991,PAGE 061.JPG,61,May 7 2006,2006,13,Barreiros,Beatriz,Beatrice,13,Aug 30 1992,"Immaculate Heart of Mary, Newark, NJ","234 Brighton Ave., Belleville, NJ",Jose Barreiros,Ana Serans,Maria Barreiros,"Rev. Msgr. Robert E. Emery, V.G.",,3PM Mass
 confirmation_1991,PAGE 061.JPG,61,May 7 2006,2006,14,Barros,Valeria,,15,May 18 1991,"Parroquia de Banos, Cuenca, Ecuador","191 Highland Ave, Kearny, NJ",Rene Barros,Zomia Brito,Ninfa Morales,"Rev. Msgr. Robert E. Emery, V.G.",yes,3PM Mass; also entered as no. 20 on p.62 with confirmation name Monica
 confirmation_1991,PAGE 061.JPG,61,May 7 2006,2006,15,Bautista,Joben,Francis,13,May 30 1993,"St. Peter, Belleville, NJ","60 Ugham St., Belleville, NJ",Sabino Bautista,Flora Tabing,Neil Castillo,"Rev. Msgr. Robert E. Emery, V.G.",yes,3PM Mass; given Joben vs Joren; street Ugham
+confirmation_1991,PAGE AB.JPG,61,,,,AQUINO,ADRIAN AIDAN,,,,,,,,,,,index page_no=61
+confirmation_1991,PAGE AB.JPG,61,,,,ALBERT,EMILY,,,,,,,,,,,index page_no=61
+confirmation_1991,PAGE AB.JPG,61,,,,ARBOLEDA,DANIELA,,,,,,,,,,,index page_no=61
+confirmation_1991,PAGE AB.JPG,61,,,,ATUNCAR,TAMARA,,,,,,,,,,,index page_no=61
+confirmation_1991,PAGE AB2-CD.JPG,61,,,,Barreiros,Beatriz,,,,,,,,,,,index page_no=61
+confirmation_1991,PAGE AB2-CD.JPG,61,,,,Barros,Valeria,,,,,,,,,,,index page_no=61
+confirmation_1991,PAGE AB2-CD.JPG,61,,,,Bautista,Joren,,,,,,,,,,,index page_no=61
+confirmation_1991,PAGE GH2-IJ.JPG,61,,,,GAMBOA,CARLOS,,,,,,,,,,,index page_no=61
 confirmation_1991,PAGE 062.JPG,62,May 7 2006,2006,16,Bedoya,Javier,Pedro,14,Jul 19 1992,"Senora de la Paz (?), Bogota, Columbia","212 Overlook Ave., Belleville, NJ",Dario Bedoya,Sandra Ayala,Luz Iguera,"Rev. Msgr. Robert E. Emery, V.G.",yes,3PM Mass; baptism parish uncertain
 confirmation_1991,PAGE 062.JPG,62,May 7 2006,2006,17,Boldero,Olga,Therese,13,Jan 1993,"St. Joseph, Taneytown, MD","15 Delia Terrace, Belleville, NJ",Alfredo Boldero,Maria Rivera,Marilou Pelham,"Rev. Msgr. Robert E. Emery, V.G.",yes,3PM Mass; baptism month/year only
 confirmation_1991,PAGE 062.JPG,62,May 7 2006,2006,18,Bonghanoy,Roland,Jude,13,Dec 23 1992,"O.L. of Solace, Bronx, NY","43 Baldwin Place, Belleville, NJ",Rolando Bonghanoy,Edna Paloma,Eduardo Rey Sentina,"Rev. Msgr. Robert E. Emery, V.G.",yes,3PM Mass; surname Bonghanoy/Bongiovanni
@@ -1085,6 +1582,23 @@ confirmation_1991,PAGE 062.JPG,62,May 7 2006,2006,32,Ferreira,Dorian,,13,May 28 
 confirmation_1991,PAGE 062.JPG,62,May 7 2006,2006,33,Furtado,Christina,Cecilia,16,Jul 28 1990,"Corpus Christi, Mineola, L.I. NY","71 High Street, 2nd Fl., Belleville, NJ",Sergio Furtado,Regina Andrade,Fatimo Andrade,"Rev. Msgr. Robert E. Emery, V.G.",,3PM Mass
 confirmation_1991,PAGE 062.JPG,62,May 7 2006,2006,34,Gabriel,Jeremy,Gerard,13,,"O.L. of Victories, Jersey City, NJ","118 Smallwood Ave., Belleville, NJ",Samuel Gabriel,Tina Gabriel,Vanessa Hardenburg,"Rev. Msgr. Robert E. Emery, V.G.",yes,3PM Mass; baptism year 1992; day/month partial
 confirmation_1991,PAGE 062.JPG,62,May 7 2006,2006,35,Gencarelli,Nicholas,,14,Feb 23 1992,"St. Peter, Belleville, NJ","40 Jefferson St., Nutley, NJ",Frank Gencarelli,Anna Alfieri,Charles Dotro,"Rev. Msgr. Robert E. Emery, V.G.",,3PM Mass
+confirmation_1991,PAGE AB2-CD.JPG,62,,,,Bedoya,Javier,,,,,,,,,,,index page_no=62
+confirmation_1991,PAGE AB2-CD.JPG,62,,,,Boldero,Olga,,,,,,,,,,,index page_no=62
+confirmation_1991,PAGE AB2-CD.JPG,62,,,,Bongiovanni,Roland,,,,,,,,,,,index page_no=62
+confirmation_1991,PAGE AB2-CD.JPG,62,,,,Bui,John,,,,,,,,,,,index page_no=62
+confirmation_1991,PAGE AB2-CD.JPG,62,,,,Barros,Valeria,,,,,,,,,,,index page_no=62
+confirmation_1991,PAGE CD2-EF.JPG,62,,,,DAO,CATHERINE,,,,,,,,,,,index page_no=62
+confirmation_1991,PAGE CD2-EF.JPG,62,,,,DAO,TRAM,,,,,,,,,,,index page_no=62
+confirmation_1991,PAGE CD2-EF.JPG,62,,,,DE LA TORRE,JONATHAN,,,,,,,,,,,index page_no=62
+confirmation_1991,PAGE CD2-EF.JPG,62,,,,DE PALMA,DOMINICK,,,,,,,,,,,index page_no=62
+confirmation_1991,PAGE CD2-EF.JPG,62,,,,DIAZ,LESLIE,,,,,,,,,,,index page_no=62
+confirmation_1991,PAGE CD2-EF.JPG,62,,,,DILIBERTO,MICHELLE,,,,,,,,,,,index page_no=62
+confirmation_1991,PAGE CD2-EF.JPG,62,,,,DURAN,DIEGO,,,,,,,,,,,index page_no=62
+confirmation_1991,PAGE CD2-EF.JPG,62,,,,ECHEVARRIA,JOSE,,,,,,,,,,,index page_no=62
+confirmation_1991,PAGE CD2-EF.JPG,62,,,,FERREIRA,DORIAN,,,,,,,,,,,index page_no=62
+confirmation_1991,PAGE CD2-EF.JPG,62,,,,FURTADO,CHRISTINA,,,,,,,,,,,index page_no=62
+confirmation_1991,PAGE GH2-IJ.JPG,62,,,,GABRIEL,JEREMY,,,,,,,,,,,index page_no=62
+confirmation_1991,PAGE GH2-IJ.JPG,62,,,,GENCARELLI,NICHOLAS,,,,,,,,,,,index page_no=62
 confirmation_1991,PAGE 063.JPG,63,May 7 2006,2006,36,Gerbino,Joseph,Leo,14,Feb 2 1992,"Holy Family, Nutley, NJ","146 Floyd St., 3rd Fl., Belleville, NJ 07109",Joseph Gerbino,Natalie Di Gangi,Margaret Marrer,"Rev. Msgr. Robert E. Emery, V.G.",,3PM Mass
 confirmation_1991,PAGE 063.JPG,63,May 7 2006,2006,37,Gomez,Christopher,,13,May 8 1993,"La Monserrat, Brooklyn, NY","15 Raymond St., Belleville, NJ",Emilio Gomez,Wanda Miranda,Gloria Miranda,"Rev. Msgr. Robert E. Emery, V.G.",,3PM Mass
 confirmation_1991,PAGE 063.JPG,63,May 7 2006,2006,38,Gomez,Edwin,Francis,14,Jun 16 1993,"St. Peter, Haverstraw, NY","621 Belleville Ave., Belleville, NJ",Noel Gomez,Marleny Fuentes Varela,Raquel De Santis,"Rev. Msgr. Robert E. Emery, V.G.",,3PM Mass
@@ -1105,6 +1619,18 @@ confirmation_1991,PAGE 063.JPG,63,May 7 2006,2006,52,Luna,Silvana,Katherin,14,Ja
 confirmation_1991,PAGE 063.JPG,63,May 7 2006,2006,53,McNish,Danielle,Mary,15,Mar 29 1992,"St. Peter, Belleville, NJ","324 Jeralemon St., Belleville, NJ",Mark McNish,Mary Lou Doyle,Mary McNish,"Rev. Msgr. Robert E. Emery, V.G.",,3PM Mass
 confirmation_1991,PAGE 063.JPG,63,May 7 2006,2006,54,Maldonado,Krystle,Teresa,14,Feb 20 1993,"St. Michael, Newark, NJ","186 Union Ave., Belleville, NJ",Santiago Maldonado,Migdalia Lozada,Josephine Perri DiLiberto,"Rev. Msgr. Robert E. Emery, V.G.",,3PM Mass
 confirmation_1991,PAGE 063.JPG,63,May 7 2006,2006,55,Manalang,Jerekah,Mary Magdalene,13,Oct 24 1992,"St. Francis of Assisi, Hackensack, NJ","276 New Street, Belleville, NJ",Jeremy Manalang,Kahren Garcia,Lovelyn Esqueta,"Rev. Msgr. Robert E. Emery, V.G.",yes,3PM Mass; given Jerekah vs Jeremiah in index
+confirmation_1991,PAGE EF2-GH.JPG,63,,,,HIGUERA,ANDRES,,,,,,,,,,,index page_no=63
+confirmation_1991,PAGE EF2-GH.JPG,63,,,,HORNA,THALIA,,,,,,,,,,,index page_no=63
+confirmation_1991,PAGE GH2-IJ.JPG,63,,,,GERBINO,JOSEPH,,,,,,,,,,,index page_no=63
+confirmation_1991,PAGE GH2-IJ.JPG,63,,,,GOMEZ,CHRISTOPHER,,,,,,,,,,,index page_no=63
+confirmation_1991,PAGE GH2-IJ.JPG,63,,,,GOMEZ,EDWIN,,,,,,,,,,,index page_no=63
+confirmation_1991,PAGE GH2-IJ.JPG,63,,,,GONZALEZ,DYLAN,,,,,,,,,,,index page_no=63
+confirmation_1991,PAGE GH2-IJ.JPG,63,,,,GOROSITO,CAROLINA,,,,,,,,,,,index page_no=63
+confirmation_1991,PAGE GH2-IJ.JPG,63,,,,GROSCH,JOSEPH MICHAEL,,,,,,,,,,,index page_no=63
+confirmation_1991,PAGE GH2-IJ.JPG,63,,,,GUERRA,DAVID,,,,,,,,,,,index page_no=63
+confirmation_1991,PAGE GH2-IJ.JPG,63,,,,GUERRERO,EDGAR,,,,,,,,,,,index page_no=63
+confirmation_1991,PAGE GH2-IJ.JPG,63,,,,JARAMILLO,SHAWNA,,,,,,,,,,,index page_no=63
+confirmation_1991,PAGE GH2-IJ.JPG,63,,,,JAVIER,IRIS MARIA,,,,,,,,,,,index page_no=63
 confirmation_1991,PAGE 064.JPG,64,May 7 2006,2006,56,Mangual,Jonathan,Tito,16,,"St. Lucy, Newark, NJ","186 William St., Belleville, NJ",Carlos Mangual,Jacqueline Mangual,Edacna Delatorre,"Rev. Msgr. Robert E. Emery, V.G.",yes,3PM Mass; baptism year 1991 only; mother surname not given
 confirmation_1991,PAGE 064.JPG,64,May 7 2006,2006,57,Maruri,Michelle,Isabel,14,Apr 17 1993,"La Floresta Church, Quito, Ecuador","9 Stone St., Bloomfield, NJ",Romel Maruri,Maria Lourdes Tufino,Gabriel Maruri,"Rev. Msgr. Robert E. Emery, V.G.",,3PM Mass
 confirmation_1991,PAGE 064.JPG,64,May 7 2006,2006,58,Melo,Maria Isabel,Anastasia,14,Apr 19 1992,"St. Aloysius, Newark, NJ","200 Mill St., Apt. A-3, Belleville, NJ",Jose Melo,Patricia Martinez,James Xavier Vizuete,"Rev. Msgr. Robert E. Emery, V.G.",,3PM Mass
@@ -1125,6 +1651,12 @@ confirmation_1991,PAGE 064.JPG,64,May 7 2006,2006,72,Sentina,Rey Emmanuel,Franci
 confirmation_1991,PAGE 064.JPG,64,May 7 2006,2006,73,Soto,Andrea,Monika,14,Mar 1994,"St. Michael, Newark, NJ","51 Prospect Place, Belleville, NJ",Robert Soto,Brenda Garcia,Yessenia Sosa,"Rev. Msgr. Robert E. Emery, V.G.",yes,3PM Mass; baptism month/year only
 confirmation_1991,PAGE 064.JPG,64,May 7 2006,2006,74,Soto,Samantha,Catherine,14,Nov 22 1992,"St. Peter, Belleville, NJ","8 Hornblower Ave., Belleville, NJ",Victor Soto,Enid Montalvo,Maria La Porte,"Rev. Msgr. Robert E. Emery, V.G.",,3PM Mass
 confirmation_1991,PAGE 064.JPG,64,May 7 2006,2006,75,Valencia,Johanna,Angela,14,Apr 21 2002,"St. Peter, Belleville, NJ","97 Manchester Pl., Newark, NJ",Ruben Valencia,Jessica Hyacon,Cindy Coron,"Rev. Msgr. Robert E. Emery, V.G.",yes,3PM Mass; mother Hyacon
+confirmation_1991,PAGE AB.JPG,65,,,,ARGUDO,WALTER,,,,,,,,,,,index page_no=65
+confirmation_1991,PAGE CD2-EF.JPG,65,,,,DAVID,JASON,,,,,,,,,,,index page_no=65
+confirmation_1991,PAGE CD2-EF.JPG,65,,,,DAVID,JAY,,,,,,,,,,,index page_no=65
+confirmation_1991,PAGE CD2-EF.JPG,65,,,,FIFO,ADENRE,,,,,,,,,,,index page_no=65
+confirmation_1991,PAGE EF2-GH.JPG,65,,,,HERNANDEZ,NILS,,,,,,,,,,,index page_no=65
+confirmation_1991,PAGE GH2-IJ.JPG,65,,,,GARCIA,BRIAN LINO,,,,,,,,,,,index page_no=65
 confirmation_1991,PAGE 066.JPG,66,Apr 7 2007,2007,1,Quitto,Kimberly Evita,,17,Apr 7 2007,"St. Peter, Belleville, NJ","250 River Rd., No. Arlington, NJ",Marco Quitto,Laurie Holfelder,Laurie Holfelder Quitto,Rev. Joseph D. Girone,,Easter Vigil
 confirmation_1991,PAGE 066.JPG,66,Apr 7 2007,2007,2,Uribe,Jesus,,45,Apr 7 2007,"St. Peter, Belleville, NJ","412 No 3rd St., East Newark, NJ",Dimas Uribe,Eduarta Pireta,Mary Robles,Rev. Joseph D. Girone,yes,Easter Vigil; mother Pireta
 confirmation_1991,PAGE 066.JPG,66,Apr 29 2007,2007,3,Abanto,Indira,Rose,13,Apr 15 2006,"St. Peter, Belleville, NJ","611 Mt. Prospect Ave., Newark, NJ",Jose Abanto,Carmen Trujillo,Gladys Artieda Maldonado,Most Rev. David Arias,,
@@ -1144,6 +1676,15 @@ confirmation_1991,PAGE 066.JPG,66,Apr 29 2007,2007,16,Cruz,Maria,Mary,13,Jul 30 
 confirmation_1991,PAGE 066.JPG,66,Apr 29 2007,2007,17,Cueva,Andrew M.,,15,Mar 24 1992,"St. Teresa, Quito, Ecuador","41 Crescent Terrace, Belleville, NJ",Rene Cueva,Paulina Cruz,Blanca Lucia Galarza,Most Rev. David Arias,,
 confirmation_1991,PAGE 066.JPG,66,Apr 29 2007,2007,18,Cueva,Erik R.,Joseph,14,Jan 15 1994,"St. Teresa, Quito, Ecuador","41 Crescent Terrace, Belleville, NJ",Rene Cueva,Paulina Cruz,Miriam E. Duque Cueva,Most Rev. David Arias,,residence/parents expanded from ditto
 confirmation_1991,PAGE 066.JPG,66,Apr 29 2007,2007,19,Cunas,Bryan,John,14,Jan 29 1994,"St. Michael, Newark, NJ","139 New St., Belleville, NJ",Freddy Cunas,Lupe Urgilés,Joffre Andrade,Most Rev. David Arias,,
+confirmation_1991,PAGE AB.JPG,66,,,,ABANTO,INDIRA,,,,,,,,,,,index page_no=66
+confirmation_1991,PAGE AB.JPG,66,,,,ALVARADO,JUAN,,,,,,,,,,,index page_no=66
+confirmation_1991,PAGE AB.JPG,66,,,,ANAYA,BRYAN,,,,,,,,,,,index page_no=66
+confirmation_1991,PAGE AB.JPG,66,,,,ANCHETA,APRIL JOY,,,,,,,,,,,index page_no=66
+confirmation_1991,PAGE AB.JPG,66,,,,ANDREOLA,VICTORIA,,,,,,,,,,,index page_no=66
+confirmation_1991,PAGE AB.JPG,66,,,,ARNDT,ALEXANDER,,,,,,,,,,,index page_no=66
+confirmation_1991,PAGE AB2-CD.JPG,66,,,,Bermeo,Ronald,,,,,,,,,,,index page_no=66
+confirmation_1991,PAGE AB2-CD.JPG,66,,,,Burgos,Michael,,,,,,,,,,,index page_no=66
+confirmation_1991,PAGE AB2-CD.JPG,66,,,,Burgos,Michelle,,,,,,,,,,,index page_no=66
 confirmation_1991,PAGE 067.JPG,67,Apr 29 2007,2007,20,Doherty,Shannon,Theresa,13,Jul 1994,"St. Cecilia's, Kearny, NJ","141 Delavan Ave., Belleville, NJ",Gerald Doherty,Pamela Byers,Anne Polukord,Most Rev. David Arias,yes,index Shannen; baptism month/year only
 confirmation_1991,PAGE 067.JPG,67,Apr 29 2007,2007,21,Dormeville,Reginald,Raphael,14,Aug 29 1993,"Sacred Heart Cathedral, Newark, NJ","257 Parker St., Newark, NJ",Dieusifort Dormeville,Amelle Dormeville,Cassandra Dorvil,Most Rev. David Arias,,
 confirmation_1991,PAGE 067.JPG,67,Apr 29 2007,2007,22,Durr,Rachel,Frances,13,Aug 22 1993,"St. Stephen's, Kearny, NJ","38 Hickory St., Kearny, NJ",Thomas Durr,Dawn Cameron,Ashley Durr,Most Rev. David Arias,,
@@ -1164,6 +1705,23 @@ confirmation_1991,PAGE 067.JPG,67,Apr 29 2007,2007,36,Idrovo,Victor M.,Joseph,16
 confirmation_1991,PAGE 067.JPG,67,Apr 29 2007,2007,37,Iturburo,Amy,Mary Ann,14,Jan 8 1994,"Ntra Sra de Montserrat, Guayaquil, Ecuador","452 Highland Ave., Newark, NJ",Johnny Iturburo,Tania Burbano,Carolina Musiakit Torres,Most Rev. David Arias,yes,sponsor Musiakit
 confirmation_1991,PAGE 067.JPG,67,Apr 29 2007,2007,38,Krusznis,Daniel,Michael,13,Oct 2 1993,"St. Mary's, Nutley, NJ","75 Van Houten Pl, Belleville, NJ",George Krusznis,Anne Marie Hood,William Hood,Most Rev. David Arias,yes,index Krusenis
 confirmation_1991,PAGE 067.JPG,67,Apr 29 2007,2007,39,Lopez,Gabrielle,Gabriel,14,Jun 27 1993,"St. Peter, Belleville, NJ","19 Elmwood Ave., Belleville, NJ",Hector Lopez,Wendy Cox,Alyssia Lopez,Most Rev. David Arias,,
+confirmation_1991,PAGE CD2-EF.JPG,67,,,,DOHERTY,SHANNEN,,,,,,,,,,,index page_no=67
+confirmation_1991,PAGE CD2-EF.JPG,67,,,,DORMEVILLE,REGINALD,,,,,,,,,,,index page_no=67
+confirmation_1991,PAGE CD2-EF.JPG,67,,,,DURR,RACHEL,,,,,,,,,,,index page_no=67
+confirmation_1991,PAGE CD2-EF.JPG,67,,,,FLORES,SAMANTHA,,,,,,,,,,,index page_no=67
+confirmation_1991,PAGE EF2-GH.JPG,67,,,,HERNANDEZ,NICOLE,,,,,,,,,,,index page_no=67
+confirmation_1991,PAGE EF2-GH.JPG,67,,,,HIGA,AYUMI,,,,,,,,,,,index page_no=67
+confirmation_1991,PAGE EF2-GH.JPG,67,,,,HOOD,MARYKATE,,,,,,,,,,,index page_no=67
+confirmation_1991,PAGE GH2-IJ.JPG,67,,,,GAGUANCELA,WILSON,,,,,,,,,,,index page_no=67
+confirmation_1991,PAGE GH2-IJ.JPG,67,,,,GANDARA,JUSTIN,,,,,,,,,,,index page_no=67
+confirmation_1991,PAGE GH2-IJ.JPG,67,,,,GARCIA,ANGELICA,,,,,,,,,,,index page_no=67
+confirmation_1991,PAGE GH2-IJ.JPG,67,,,,GASBARRO,ALEX,,,,,,,,,,,index page_no=67
+confirmation_1991,PAGE GH2-IJ.JPG,67,,,,GONZALEZ,ANGELA,,,,,,,,,,,index page_no=67
+confirmation_1991,PAGE GH2-IJ.JPG,67,,,,GONZALEZ,JOSEPH,,,,,,,,,,,index page_no=67
+confirmation_1991,PAGE GH2-IJ.JPG,67,,,,GUERRA,MARIA,,,,,,,,,,,index page_no=67
+confirmation_1991,PAGE GH2-IJ.JPG,67,,,,IDROVO,KATHERINE E.,,,,,,,,,,,index page_no=67
+confirmation_1991,PAGE GH2-IJ.JPG,67,,,,IDROVO,VICTOR M.,,,,,,,,,,,index page_no=67
+confirmation_1991,PAGE GH2-IJ.JPG,67,,,,ITURBURO,AMY,,,,,,,,,,,index page_no=67
 confirmation_1991,PAGE 068.JPG,68,Apr 29 2007,2007,40,McLane,James,Daniel,14,Sep 13 1992,"St. Theresa of the Child Jesus, Linden, NJ","311 Stephens St, Belleville, NJ",Daniel McLane,Lisa Farsang Munarik,Daniel McLane,Most Rev. David Arias,,
 confirmation_1991,PAGE 068.JPG,68,Apr 29 2007,2007,41,McNish,Alexandria,Anne,13,Nov 21 1993,"St. Thomas, Bloomfield, NJ","324 Joralemon St, Belleville, NJ",Mark McNish,Mary Lou Doyle,Ryan McNish,Most Rev. David Arias,,
 confirmation_1991,PAGE 068.JPG,68,Apr 29 2007,2007,42,Maldonado,Carla,Christina,14,Jun 19 2004,"Maria Auxiliadora, Quito, Ecuador","611 Mt. Prospect Ave, Newark, NJ",Celso Maldonado,Gladys Artieda,Carmen Trujillo Cordova,Most Rev. David Arias,,
@@ -1219,6 +1777,9 @@ confirmation_1991,PAGE 070.JPG,70,Apr 27 2008,2008,4,Fernandez,Howard C.,,37,Dec
 confirmation_1991,PAGE 070.JPG,70,Apr 27 2008,2008,5,Garcia,Roger Beymar,,25,May 5 1984,"San Jose, Cochabamba, Bolivia","26 New St., Belleville, NJ",Francisco Cardoso,Carmen Garcia,Elena Ayala,Rev. Joseph D. Girone,yes,1PM; index Roger Baymar
 confirmation_1991,PAGE 070.JPG,70,Apr 27 2008,2008,6,Mogollon,Miriam,,43,Apr 25 1968,"Al Carmen Ventanilla, Callao, Peru","83 Malone Ave, Belleville, NJ",Filiberto Mogollon,Lidia Mogollon,Yolanda Ramirez,Rev. Joseph D. Girone,yes,1PM; mother maiden not given
 confirmation_1991,PAGE 070.JPG,70,Apr 27 2008,2008,7,Paulino,Juan Javier,,25,Oct 23 1982,"Catedral Santa Ana, San Francisco de Macoris, Dominican Republic","4201 Palisadus Ave., Union City, NJ 07087",Juan Javier Reyes,Luz Paulino,Rosie Velasquez,Rev. Joseph D. Girone,yes,1PM; street Palisadus/Palisades
+confirmation_1991,PAGE CD2-EF.JPG,70,,,,FERNANDEZ,HOWARD,,,,,,,,,,,index page_no=70
+confirmation_1991,PAGE GH2-IJ.JPG,70,,,,GINORIO,CARLOS,,,,,,,,,,,index page_no=70
+confirmation_1991,PAGE GH2-IJ.JPG,70,,,,GARCIA,ROGER BAYMAR,,,,,,,,,,,index page_no=70
 confirmation_1991,PAGE 071.JPG,71,Apr 27 2008,2008,8,Pinzon,Juliana Alejandra,,22,Dec 21 1985,"O.L. of Consolation, Medellin, Colombia","194 Overlook Ave., Belleville, NJ",Cezar Pinzon,Gloria Rios,Alvaro Mejia,Rev. Joseph D. Girone,,1PM
 confirmation_1991,PAGE 071.JPG,71,May 4 2008,2008,9,Bielski,Kevin Michael,Matthew,33,Sep 8 1974,"Holy Name Slovak Catholic, Passaic, NJ","134 Jerome Pl., Bloomfield, NJ 07003",Dennis Bielski,Patricia Liptak,Lauren Griffith,Rev. Joseph D. Girone,,8:30 AM
 confirmation_1991,PAGE 071.JPG,71,May 4 2008,2008,10,Mendel,Mary Ellen,Elizabeth,54,May 9 1954,"Sacred Heart, Bloomfield, NJ","595 Mt. Prospect Ave., Apt. 4D, Newark, NJ 07104",Sigmund Mendel,Beatrice Sandford,Roy Chreborowski,Rev. Joseph D. Girone,yes,8:30 AM; sponsor Chreborowski
@@ -1237,6 +1798,15 @@ confirmation_1991,PAGE 071.JPG,71,May 4 2008,2008,22,Baldwin,Carlos Martin,Nicho
 confirmation_1991,PAGE 071.JPG,71,May 4 2008,2008,23,Benalcazar,Damaris,Mary,13,Jun 26 1994,"St. Michael, Newark, NJ","64 Columbus Ave, Belleville, NJ",Jorge Benalcazar,Miriam Frias,Sonia Rivera,Most Rev. David Arias,,3PM
 confirmation_1991,PAGE 071.JPG,71,May 4 2008,2008,24,Bermeo,Ronnie,James,14,Jan 8 1994,"O.L. of Monserrat, Guayaquil, Ecuador","750 Highland Ave, Newark, NJ",Holger Bermeo,Pilar Alvarez,Marcia Flor Bermeo,Most Rev. David Arias,,3PM
 confirmation_1991,PAGE 071.JPG,71,May 4 2008,2008,25,Bono,Jamie,Clare,13,May 28 1994,"Sacred Heart, Bloomfield, NJ","101 Sanford Ave., Belleville, NJ",Emanuele Bono,Carol Volpe,Carol Volpe,Most Rev. David Arias,,3PM
+confirmation_1991,PAGE AB.JPG,71,,,,ALBANESE,MARY ELLEN,,,,,,,,,,,index page_no=71
+confirmation_1991,PAGE AB.JPG,71,,,,ALMEIDA,RICARDO,,,,,,,,,,,index page_no=71
+confirmation_1991,PAGE AB.JPG,71,,,,ALVES,DYLAN,,,,,,,,,,,index page_no=71
+confirmation_1991,PAGE AB.JPG,71,,,,AUCAY,JAMY JOSHUA,,,,,,,,,,,index page_no=71
+confirmation_1991,PAGE AB2-CD.JPG,71,,,,Bielski,Kevin Michael,,,,,,,,,,,index page_no=71
+confirmation_1991,PAGE AB2-CD.JPG,71,,,,Baldwin,Carlos Martin,,,,,,,,,,,index page_no=71
+confirmation_1991,PAGE AB2-CD.JPG,71,,,,Benalcazar,Damaris,,,,,,,,,,,index page_no=71
+confirmation_1991,PAGE AB2-CD.JPG,71,,,,Bermeo,Ronnie,,,,,,,,,,,index page_no=71
+confirmation_1991,PAGE AB2-CD.JPG,71,,,,Bono,Jamie,,,,,,,,,,,index page_no=71
 confirmation_1991,PAGE 072.JPG,72,May 4 2008,2008,26,Bono,Kristy,Rose,14,May 28 1994,"Sacred Heart, Bloomfield, NJ","101 Sanford Ave., Belleville, NJ",Emanuele Bono,Carol Volpe,Antonio Volpe,Most Rev. David Arias,,3PM
 confirmation_1991,PAGE 072.JPG,72,May 4 2008,2008,27,Briganti,Nicholas,Joshua,14,May 15 1994,"St. Francis Xavier, Newark, NJ","419 Dewitt Ave, Belleville, NJ",Mark Briganti,Toni Briganti,Ernest Paul Sicari,Most Rev. David Arias,yes,3PM; index Breganti
 confirmation_1991,PAGE 072.JPG,72,May 4 2008,2008,28,Bunay,Rodrigo,Roderic,14,Dec 2002,"Our Lady of Sorrows, Kearny, NJ","129 Union Ave, Belleville, NJ",Angel Bunay,Zoila Inga,John Inga,Most Rev. David Arias,yes,3PM; baptism month/year only
@@ -1257,6 +1827,21 @@ confirmation_1991,PAGE 072.JPG,72,May 4 2008,2008,42,Gandara,Jonathan,Victor,14,
 confirmation_1991,PAGE 072.JPG,72,May 4 2008,2008,43,Garrido,Jonathan,Gerard,14,Mar 14 1998,"St Roch, Union City, NJ","11 Ralph St, Belleville, NJ",Jose Quireno,Hilda Garrido,Alexander Valentin,Most Rev. David Arias,,3PM
 confirmation_1991,PAGE 072.JPG,72,May 4 2008,2008,44,Gaybor,Carlos,Alexander,13,Aug 1997,"Resurrection, Duran, Ecuador","452 Highland Ave, Newark, NJ",Jaime Gaybor,Marcia Bermeo,Johnny Iturburo,Most Rev. David Arias,yes,3PM; index Gaynor; baptism month/year only
 confirmation_1991,PAGE 072.JPG,72,May 4 2008,2008,45,Granja,Karla,Elizabeth,14,Aug 1 1998,"San Isidro, Quito, Ecuador","31 Wilson Pl, Belleville, NJ",Eduardo Granja,Mayra Morales,Myra Granja,Most Rev. David Arias,,3PM
+confirmation_1991,PAGE AB2-CD.JPG,72,,,,Bono,Kristy,,,,,,,,,,,index page_no=72
+confirmation_1991,PAGE AB2-CD.JPG,72,,,,Breganti,Nicholas,,,,,,,,,,,index page_no=72
+confirmation_1991,PAGE AB2-CD.JPG,72,,,,Bunay,Rodrigo,,,,,,,,,,,index page_no=72
+confirmation_1991,PAGE CD2-EF.JPG,72,,,,DE GIACOMO,ISABELLA R,,,,,,,,,,,index page_no=72
+confirmation_1991,PAGE CD2-EF.JPG,72,,,,DESAI,PRIA MARIE,,,,,,,,,,,index page_no=72
+confirmation_1991,PAGE CD2-EF.JPG,72,,,,DIAZ,ALEXANDRA,,,,,,,,,,,index page_no=72
+confirmation_1991,PAGE CD2-EF.JPG,72,,,,ECHEVARRIA,JANICE,,,,,,,,,,,index page_no=72
+confirmation_1991,PAGE CD2-EF.JPG,72,,,,FERRAIOLO,NICOLE,,,,,,,,,,,index page_no=72
+confirmation_1991,PAGE CD2-EF.JPG,72,,,,FIGUEROA,JEREMY,,,,,,,,,,,index page_no=72
+confirmation_1991,PAGE CD2-EF.JPG,72,,,,FREITAG,SEAMUS,,,,,,,,,,,index page_no=72
+confirmation_1991,PAGE GH2-IJ.JPG,72,,,,GABINO,PABLO,,,,,,,,,,,index page_no=72
+confirmation_1991,PAGE GH2-IJ.JPG,72,,,,GANDARA,JONATHAN VICTOR,,,,,,,,,,,index page_no=72
+confirmation_1991,PAGE GH2-IJ.JPG,72,,,,GARRIDO,JONATHAN,,,,,,,,,,,index page_no=72
+confirmation_1991,PAGE GH2-IJ.JPG,72,,,,GAYNOR,CARLOS,,,,,,,,,,,index page_no=72
+confirmation_1991,PAGE GH2-IJ.JPG,72,,,,GRANJA,KARLA,,,,,,,,,,,index page_no=72
 confirmation_1991,PAGE 073.JPG,73,May 4 2008,2008,46,Guanoquiza,Brandon,Gabriel,15,Oct 24 1993,"St. Peter, Belleville, NJ","101 William St, Belleville, NJ",Edgar Guanoquiza,Erika Rodriguez,Alex Perez,Most Rev. David Arias,,3PM
 confirmation_1991,PAGE 073.JPG,73,May 4 2008,2008,47,Guevara,Brandon,Leo,13,May 12 2001,"St. Lucy, Newark, NJ","274 Greylock Pkwy, Belleville, NJ",Vincent Guevara,Maria Esther Villamarin,Aydee Guevara,Most Rev. David Arias,,3PM
 confirmation_1991,PAGE 073.JPG,73,May 4 2008,2008,48,Gutierrez,Nicole,Briel,13,May 1995,"St Boniface, Jersey City, NJ","410 De Witt Ave, Belleville, NJ",Edwin Gutierrez,Elizabeth Valentin,Janet Miranda Valentin,Most Rev. David Arias,yes,3PM; baptism month/year only
@@ -1277,6 +1862,12 @@ confirmation_1991,PAGE 073.JPG,73,May 4 2008,2008,62,Manalo,Laila Andrea,Mary,15
 confirmation_1991,PAGE 073.JPG,73,May 4 2008,2008,63,Martinez,Nicholas,Nicholas,13,Apr 1995,"St. Ambrose, Brooklyn, NY","172 Malone Ave, Belleville, NJ",Alfred Martinez,Elizabeth Cruz,Marina Cruz,Most Rev. David Arias,yes,3PM; baptism month/year only
 confirmation_1991,PAGE 073.JPG,73,May 4 2008,2008,64,Masker,Brendan James,Francis,17,Apr 28 1991,"St. Peter, Belleville, NJ","59 Quimby Pl, West Orange, NJ",James F. Masker Jr.,Mary Beth Maffey,"James Masker, Sr.",Most Rev. David Arias,,3PM
 confirmation_1991,PAGE 073.JPG,73,May 4 2008,2008,65,Masker,Brigid Elizabeth,Kathryn,13,Sep 18 1994,"St. Cecilia, Kearny, NJ","59 Quimby Pl, West Orange, NJ",James F. Masker Jr.,Mary Beth Maffey,Kathleen Hennessey,Most Rev. David Arias,,3PM; parents/residence expanded from ditto
+confirmation_1991,PAGE EF2-GH.JPG,73,,,,HENRY,KELSEY ANNE,,,,,,,,,,,index page_no=73
+confirmation_1991,PAGE GH2-IJ.JPG,73,,,,GUANOQUIZA,BRANDON,,,,,,,,,,,index page_no=73
+confirmation_1991,PAGE GH2-IJ.JPG,73,,,,GUEVARA,BRANDON,,,,,,,,,,,index page_no=73
+confirmation_1991,PAGE GH2-IJ.JPG,73,,,,GUTIERREZ,NICOLE,,,,,,,,,,,index page_no=73
+confirmation_1991,PAGE GH2-IJ.JPG,73,,,,JAUREGUI,BRIAN LUIS,,,,,,,,,,,index page_no=73
+confirmation_1991,PAGE GH2-IJ.JPG,73,,,,JAUREGUI,GIOVANNA ISABEL,,,,,,,,,,,index page_no=73
 confirmation_1991,PAGE 074.JPG,74,May 4 2008,2008,66,Martinez,Victor,Nicholas,13,Jul 1995,"St. Boniface, Jersey City, NJ","215 Dewitt Ave, Belleville, NJ",Victor Martinez,Evelyn Rios,Miosotty Martinez,Most Rev. David Arias,yes,3PM; baptism month/year only
 confirmation_1991,PAGE 074.JPG,74,May 4 2008,2008,67,Miranda,Claudia,Rose,13,Jul 24 1994,"Capilla Hogar Boca Madre, Miraflores, Peru","108 Chestnut St 2nd Fl, Belleville, NJ",Jose Miranda,Maria Del Pilar,Lottow Oviedo,Most Rev. David Arias,yes,3PM; sponsor Lottow
 confirmation_1991,PAGE 074.JPG,74,May 4 2008,2008,68,Mora,Marjorie,Mary Magdalen,16,Aug 21 1993,"Nino Jesus, Ecuador","16 Lake St, Nutley, NJ",Arturo Mora,Blanca Mieles,Pilar Mera,Most Rev. David Arias,,3PM
@@ -1334,6 +1925,10 @@ confirmation_1991,PAGE 076.JPG,76,Apr 26 2009,2009,11,Alejandro,Dennys,,15,,,"70
 confirmation_1991,PAGE 076.JPG,76,Apr 26 2009,2009,12,Belen,Jose Francisco,,59,Dec 18 1955,"San Pedro De Macoris, Dominican Republic","485 Broadway, Apt. 3, Newark, NJ 07104",Jose At. Belen,Zoila Gonzales,Claudia Lockward,Rev. Joseph D. Girone,,1PM
 confirmation_1991,PAGE 076.JPG,76,Apr 26 2009,2009,13,Ceballo,Alejandra,,30,Dec 24 1978,"San Pedro Apostol, Montevideo, Uruguay","25 Emmet Street, Belleville, NJ 07109",Jorge Chagas,Doris Papa,Maria Acosta,Rev. Joseph D. Girone,,1PM
 confirmation_1991,PAGE 076.JPG,76,Apr 26 2009,2009,14,Ceballo,Rafael,,35,Mar 15 1974,"Iglesia Episcopal Dominicana, Santo Domingo, Dominican Republic","25 Emmet Street, Belleville, NJ 07109",Rafael Ceballo,Mariana Brooks,Maria Acosta,Rev. Joseph D. Girone,,1PM; residence expanded from ditto
+confirmation_1991,PAGE AB2-CD.JPG,76,,,,Alejandro,Dennys,,,,,,,,,,,index page_no=76
+confirmation_1991,PAGE AB2-CD.JPG,76,,,,Belen,Jose Francisco,,,,,,,,,,,index page_no=76
+confirmation_1991,PAGE CD2-EF.JPG,76,,,,FIALLOS,ALEXANDRA,,,,,,,,,,,index page_no=76
+confirmation_1991,PAGE EF2-GH.JPG,76,,,,HUANG,VICKI,,,,,,,,,,,index page_no=76
 confirmation_1991,PAGE 077.JPG,77,Apr 26 2009,2009,15,Pesantez,Byron,,26,Sep 28 1983,"Parroquia San Jose, Cañar, Ecuador","27 Honiss Street, Belleville, NJ 07109",Victor Pesantez,Eulalia Viruña,Luis Urdiles,Rev. Joseph D. Girone,yes,1PM; baptism date uncertain
 confirmation_1991,PAGE 077.JPG,77,Apr 26 2009,2009,16,Romero,Hector Freddy,,29,Mar 1 1980,"Iglesia Sagrado Corazon Jesus, Chunchi, Ecuador","130 Joralemon St., Belleville, NJ 07109",Luis Romero,Maria Romero,Jose Romero,Rev. Joseph D. Girone,,1PM
 confirmation_1991,PAGE 077.JPG,77,Apr 26 2009,2009,17,Shumi,Edison,,22,Feb 28 1987,"Iglesia Santo Domingo, Chunchi, Ecuador","130 Joralemon St., Belleville, NJ 07109",Jose Shumi,Maria Palaguachi,Tomas Romero,Rev. Joseph D. Girone,yes,1PM; index Jhumi
@@ -1353,6 +1948,15 @@ confirmation_1991,PAGE 077.JPG,77,May 3 2009,2009,30,De Palma,Dana,Marie,14,Dec 
 confirmation_1991,PAGE 077.JPG,77,May 3 2009,2009,31,Cueva,Johanna Nickol,,15,Mar 7 1998,"St. Michael, Newark, NJ","305 Greylock Parkway, Belleville, NJ",Efren Cueva,Cecilia Narvaez,Cheryl Bustamente,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 077.JPG,77,May 3 2009,2009,32,Diaz,Ashley Christina,Elizabeth,13,Oct 15 1995,"Holy Cross, Harrison, NJ","67 Tiffany Blvd., Newark, NJ",Jose Diaz,Margarida Pires,Sandra Santos,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 077.JPG,77,May 3 2009,2009,33,Diaz,Jorge Raul,,15,Apr 20 2002,"St. Patrick, Elizabeth, NJ","149 Brighton Ave., Belleville, NJ",Fernando Diaz,Patricia Huapaya,Jorge Penetta,Bishop Edgar da Cunha,,
+confirmation_1991,PAGE AB2-CD.JPG,77,,,,Acevedo,Emily Marie,,,,,,,,,,,index page_no=77
+confirmation_1991,PAGE AB2-CD.JPG,77,,,,Alvarado,Koritza,,,,,,,,,,,index page_no=77
+confirmation_1991,PAGE AB2-CD.JPG,77,,,,Angamarca,Luis,,,,,,,,,,,index page_no=77
+confirmation_1991,PAGE AB2-CD.JPG,77,,,,Beade,Janely,,,,,,,,,,,index page_no=77
+confirmation_1991,PAGE AB2-CD.JPG,77,,,,Benalcazar,Bryan,,,,,,,,,,,index page_no=77
+confirmation_1991,PAGE AB2-CD.JPG,77,,,,Benavides,Nicole,,,,,,,,,,,index page_no=77
+confirmation_1991,PAGE CD2-EF.JPG,77,,,,DEPALMA,DANA,,,,,,,,,,,index page_no=77
+confirmation_1991,PAGE CD2-EF.JPG,77,,,,DIAZ,ASHLEY,,,,,,,,,,,index page_no=77
+confirmation_1991,PAGE CD2-EF.JPG,77,,,,DIAZ,JORGE,,,,,,,,,,,index page_no=77
 confirmation_1991,PAGE 078.JPG,78,May 3 2009,2009,34,Diaz,Fernando,,16,Jan 16 1993,"Iglesia San Juan Bautista, Lima, Peru","149 Brighton Ave., Belleville, NJ",Fernando Diaz,Patricia Huapaya,Wilber Chavez,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 078.JPG,78,May 3 2009,2009,35,Diaz,Jose,Alexis,14,Sep 21 1997,"St. Fidelis, College Point, NY","12 E. Sylvan Ave., Newark, NJ",Jose Diaz,Sonia Moscoso,Miguel Rodriguez,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 078.JPG,78,May 3 2009,2009,36,Diaz,Sylvester,,13,Jun 1 1996,"St. James, New York, NY","86 Union Ave., Nutley, NJ",,Maria Diaz,Marcelino Chicaza,Bishop Edgar da Cunha,yes,father blank
@@ -1373,6 +1977,22 @@ confirmation_1991,PAGE 078.JPG,78,May 3 2009,2009,50,Krusznis,Tara,Genevieve,13,
 confirmation_1991,PAGE 078.JPG,78,May 3 2009,2009,51,Kuffo,Leonard,Bruno,13,,"Holy Family, Union City, NJ","47 Schuyler St., Belleville, NJ",Leonard Kuffo,Maria Alvarado,Ana Kuffo,Bishop Edgar da Cunha,yes,index Ruffo; baptism year 2002 only
 confirmation_1991,PAGE 078.JPG,78,May 3 2009,2009,52,Lacunza,Traudi Enrique,Peter,13,Apr 15 2006,"St. Peter, Belleville, NJ","77 Newark Place, Belleville, NJ",Traudi Lacunza,Wendy Acuna,Juan Alvarez,Bishop Edgar da Cunha,yes,index La Cunza Traydi
 confirmation_1991,PAGE 078.JPG,78,May 3 2009,2009,53,Llerena,Allison,Barbara,13,Mar 17 1996,"St. Peter, Belleville, NJ","86 Beech St., Belleville, NJ",Rolando Llerena,Marisol Mercado,Wilson Valentine,Bishop Edgar da Cunha,,
+confirmation_1991,PAGE CD2-EF.JPG,78,,,,DIAZ,FERNANDO,,,,,,,,,,,index page_no=78
+confirmation_1991,PAGE CD2-EF.JPG,78,,,,DIAZ,JOSE,,,,,,,,,,,index page_no=78
+confirmation_1991,PAGE CD2-EF.JPG,78,,,,DIAZ,SYLVESTER,,,,,,,,,,,index page_no=78
+confirmation_1991,PAGE CD2-EF.JPG,78,,,,EGCAVIL,ELIZABETH,,,,,,,,,,,index page_no=78
+confirmation_1991,PAGE CD2-EF.JPG,78,,,,FELICIANO,IVAN,,,,,,,,,,,index page_no=78
+confirmation_1991,PAGE EF2-GH.JPG,78,,,,HARRIS,DORIAN JAMES,,,,,,,,,,,index page_no=78
+confirmation_1991,PAGE EF2-GH.JPG,78,,,,HERNANDEZ,EMILY,,,,,,,,,,,index page_no=78
+confirmation_1991,PAGE EF2-GH.JPG,78,,,,HERNANDEZ,LOIDA LIZ,,,,,,,,,,,index page_no=78
+confirmation_1991,PAGE EF2-GH.JPG,78,,,,HIGA,SAORI,,,,,,,,,,,index page_no=78
+confirmation_1991,PAGE GH2-IJ.JPG,78,,,,GABRIEL,MICHAEL,,,,,,,,,,,index page_no=78
+confirmation_1991,PAGE GH2-IJ.JPG,78,,,,GARCIA,AMANDA,,,,,,,,,,,index page_no=78
+confirmation_1991,PAGE GH2-IJ.JPG,78,,,,GAVENAS,STEPHEN,,,,,,,,,,,index page_no=78
+confirmation_1991,PAGE GH2-IJ.JPG,78,,,,GILLIGAN,JACOB,,,,,,,,,,,index page_no=78
+confirmation_1991,PAGE GH2-IJ.JPG,78,,,,GIRON,ADONIS,,,,,,,,,,,index page_no=78
+confirmation_1991,PAGE GH2-IJ.JPG,78,,,,GONZALEZ,LILIANA,,,,,,,,,,,index page_no=78
+confirmation_1991,PAGE GH2-IJ.JPG,78,,,,GOTTO,JOHN,,,,,,,,,,,index page_no=78
 confirmation_1991,PAGE 079.JPG,79,May 3 2009,2009,54,Malva,Cristina,,17,Oct 16 1993,"St. James, Newark, NJ","77 Perry St., Belleville, NJ",Mario Malva,Reynalda Paulino,Yanet Malva,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 079.JPG,79,May 3 2009,2009,55,Melendez,Jose,Joseph,13,,"Monserrate Church, Peru","130 Overlook Ave., Belleville, NJ",Jose Melendez,Livia Melosevich,Guillermo Melendez,Bishop Edgar da Cunha,yes,baptism year 1998 only
 confirmation_1991,PAGE 079.JPG,79,May 3 2009,2009,56,Mendez,Natalie,Elizabeth,13,Apr 21 1996,"St. Peter, Belleville, NJ","51 Cleveland St., Belleville, NJ",Ruben Mendez,Ana Calle,Vanessa Perez,Bishop Edgar da Cunha,,
@@ -1411,6 +2031,11 @@ confirmation_1991,PAGE 080.JPG,80,Apr 3 2010,2010,4,De Jesus,Desiree,,15,Apr 3 2
 confirmation_1991,PAGE 080.JPG,80,Apr 3 2010,2010,5,Hernandez,Cristhian,,20,Apr 3 2010,"St. Peter, Belleville, NJ","357 Hoover Ave, Bloomfield, NJ",,Sonia Hernandez,Juan Quiñones,Fr. Ivan Sciberras,yes,Easter Vigil; father blank/struck; baptism place expanded from ditto
 confirmation_1991,PAGE 080.JPG,80,Apr 3 2010,2010,6,Ramirez,Brayan,,14,Apr 3 2010,"St. Peter, Belleville, NJ","119 Mt. Prospect Ave, Belleville, NJ",Alcides Vega,Sara Berrocal,Igor Berrocal,Fr. Ivan Sciberras,yes,Easter Vigil; index Romero Brayan p.80; baptism place expanded from ditto
 confirmation_1991,PAGE 080.JPG,80,May 2 2010,2010,7,Alcantara,Alexandria,,14,Feb 25 1996,"Immaculate Heart of Mary, Newark, NJ","10 Village Drive, Wayne, NJ",Javier Alcantara,Ana Gonzalez,Jerica Young,Bishop Edgar da Cunha,,
+confirmation_1991,PAGE AB2-CD.JPG,80,,,,Atariguana,Robert,,,,,,,,,,,index page_no=80
+confirmation_1991,PAGE AB2-CD.JPG,80,,,,Alcantara,Alexandria,,,,,,,,,,,index page_no=80
+confirmation_1991,PAGE AB2-CD.JPG,80,,,,Ballard,Barbara,,,,,,,,,,,index page_no=80
+confirmation_1991,PAGE CD2-EF.JPG,80,,,,DE JESUS,DESIREÉ,,,,,,,,,,,index page_no=80
+confirmation_1991,PAGE EF2-GH.JPG,80,,,,HERNANDEZ,CRISTHIAN,,,,,,,,,,,index page_no=80
 confirmation_1991,PAGE 081.JPG,81,May 2 2010,2010,8,Alvarez,Nohely,,16,Oct 7 1993,"St. Michael's, Newark, NJ","8 Carolyn Road, Belleville, NJ",Ignacio Alvarez,Rosa Barahona,Andrea Espinar,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 081.JPG,81,May 2 2010,2010,9,Alvarez,Wendy,Frances,15,Oct 7 1995,"St. Michael's, Newark, NJ","8 Carolyn Road, Belleville, NJ",Ignacio Alvarez,Rosa Barahona,Nancy Barros,Bishop Edgar da Cunha,,parents/residence expanded from ditto
 confirmation_1991,PAGE 081.JPG,81,May 2 2010,2010,10,Atariguana,Erika,Katherine,13,Jun 14 1998,"Sacred Heart C.B., Newark, NJ","36 Overlook Ave., Belleville, NJ",Wilfrido Atariguana,Maria Pastuizaca,Marlene C. Andrade,Bishop Edgar da Cunha,yes,index Erna
@@ -1431,6 +2056,23 @@ confirmation_1991,PAGE 081.JPG,81,May 2 2010,2010,24,Gonzalez,Bryan,,16,Jan 23 1
 confirmation_1991,PAGE 081.JPG,81,May 2 2010,2010,25,Gonzalez,Kevin,,14,Mar 23 1997,"St. Michael the Archangel, Utuado, Puerto Rico","39 Schuyler St., 1st Fl., Belleville, NJ",Jose A. Olmo,Caroline Vazquez,Ernesto Rigabal,Bishop Edgar da Cunha,,parents/residence expanded from ditto
 confirmation_1991,PAGE 081.JPG,81,May 2 2010,2010,26,Gonzalez,Stephanie,,13,Mar 23 1997,"St. Michael the Archangel, Utuado, Puerto Rico","39 Schuyler St., 1st Fl., Belleville, NJ",Jose A. Olmo,Caroline Vazquez,Linda Rostagal,Bishop Edgar da Cunha,,parents/residence expanded from ditto
 confirmation_1991,PAGE 081.JPG,81,May 2 2010,2010,27,Hernandez,Alexander,,18,Aug 20 1995,"Arquidiocesis de Santo Domingo, D.R.","35 Tappan St., Kearny, NJ",Gregory Hernandez,Ana M. Ferreras,Marcial Pellicia,Bishop Edgar da Cunha,,
+confirmation_1991,PAGE AB2-CD.JPG,81,,,,Alvarez,Nohely,,,,,,,,,,,index page_no=81
+confirmation_1991,PAGE AB2-CD.JPG,81,,,,Alvarez,Wendy,,,,,,,,,,,index page_no=81
+confirmation_1991,PAGE AB2-CD.JPG,81,,,,Atariguana,Erna,,,,,,,,,,,index page_no=81
+confirmation_1991,PAGE AB2-CD.JPG,81,,,,Barros,Thomas,,,,,,,,,,,index page_no=81
+confirmation_1991,PAGE AB2-CD.JPG,81,,,,Binag,Jazmine E.,,,,,,,,,,,index page_no=81
+confirmation_1991,PAGE CD2-EF.JPG,81,,,,DOHERTY,EDWARD M.,,,,,,,,,,,index page_no=81
+confirmation_1991,PAGE CD2-EF.JPG,81,,,,DOWNEY,DANIELLE,,,,,,,,,,,index page_no=81
+confirmation_1991,PAGE CD2-EF.JPG,81,,,,DUARTE,ARMANDO,,,,,,,,,,,index page_no=81
+confirmation_1991,PAGE CD2-EF.JPG,81,,,,FELIX,ETHAN LUIS,,,,,,,,,,,index page_no=81
+confirmation_1991,PAGE CD2-EF.JPG,81,,,,FLORES,IVAN,,,,,,,,,,,index page_no=81
+confirmation_1991,PAGE EF2-GH.JPG,81,,,,HERNANDEZ,ALEXANDER,,,,,,,,,,,index page_no=81
+confirmation_1991,PAGE GH2-IJ.JPG,81,,,,GABRIEL,GABRIELLE,,,,,,,,,,,index page_no=81
+confirmation_1991,PAGE GH2-IJ.JPG,81,,,,GARCIA,JACKELINE,,,,,,,,,,,index page_no=81
+confirmation_1991,PAGE GH2-IJ.JPG,81,,,,GIRALDO,ARLEY,,,,,,,,,,,index page_no=81
+confirmation_1991,PAGE GH2-IJ.JPG,81,,,,GONZALEZ,BRYAN,,,,,,,,,,,index page_no=81
+confirmation_1991,PAGE GH2-IJ.JPG,81,,,,GONZALEZ,KEVIN,,,,,,,,,,,index page_no=81
+confirmation_1991,PAGE GH2-IJ.JPG,81,,,,GONZALEZ,STEPHANIE,,,,,,,,,,,index page_no=81
 confirmation_1991,PAGE 082.JPG,82,May 2 2010,2010,28,Hernandez,Carlos,Peter,14,Feb 18 2001,"St. Peter, Belleville, NJ","26 Park Dr., Nutley, NJ",Noe Hernandez,Ana Martin,Pauline Gonzalez,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 082.JPG,82,May 2 2010,2010,29,Hernandez,Greimy,,15,Aug 20 1995,"Archdiocese of Santo Domingo, DR","35 Tappan St., Kearny, NJ",Gregory Hernandez,Ana M. Ferreras,Lucila Pellicia,Bishop Edgar da Cunha,yes,index Griffy
 confirmation_1991,PAGE 082.JPG,82,May 2 2010,2010,30,Hood,Jennifer,Ruth,14,Mar 30 1996,"St. Peter, Belleville, NJ","35 De Witt Ave., Belleville, NJ",Charles Hood,Kathleen Ellis,Anne Marie Kruczan,Bishop Edgar da Cunha,yes,sponsor Kruczan/Krusznis
@@ -1451,6 +2093,10 @@ confirmation_1991,PAGE 082.JPG,82,May 2 2010,2010,44,Ribau,Paul,Peter,14,Nov 24 
 confirmation_1991,PAGE 082.JPG,82,May 2 2010,2010,45,Ricca,Bianca,Felicity,14,Aug 25 1996,"St. Lucy, Newark, NJ","262 Fairway Ave., Belleville, NJ",Nicholas Ricca,Cynthia Estrella,William Allison,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 082.JPG,82,May 2 2010,2010,46,Ricca,Nicole,Alexandria,14,Aug 25 1996,"St. Lucy, Newark, NJ","262 Fairway Ave., Belleville, NJ",Nicholas Ricca,Cynthia Estrella,Danielle Downey,Bishop Edgar da Cunha,,baptism/parents/residence expanded from ditto
 confirmation_1991,PAGE 082.JPG,82,May 2 2010,2010,47,Rodriguez,Crystal A.,,13,Mar 23 1997,"Immaculate Heart of Mary, Newark, NJ","58 Campbell Ave., Belleville, NJ",Oscar Rodriguez,Maria Gonzalez,Olga Gonzalez,Bishop Edgar da Cunha,,
+confirmation_1991,PAGE EF2-GH.JPG,82,,,,HERNANDEZ,CARLOS,,,,,,,,,,,index page_no=82
+confirmation_1991,PAGE EF2-GH.JPG,82,,,,HERNANDEZ,GRIFFY,,,,,,,,,,,index page_no=82
+confirmation_1991,PAGE GH2-IJ.JPG,82,,,,HOOD,JENNIFER,,,,,,,,,,,index page_no=82
+confirmation_1991,PAGE GH2-IJ.JPG,82,,,,ISIP,RUANNE MAY,,,,,,,,,,,index page_no=82
 confirmation_1991,PAGE 083.JPG,83,May 2 2010,2010,48,Ruiz,Julianna,,13,Oct 19 1996,"Guardian Angels, Allendale, NJ","33 Floyd St, Belleville, NJ",George Ruiz,Kimberly Lisboa,Melba Molina Joy,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 083.JPG,83,May 2 2010,2010,49,Salazar,Vincent J.,Francis,14,Apr 6 1996,"St. Peter, Belleville, NJ","71 Dayton St, Elizabeth, NJ",Vincent Salazar,Sandra Vivas,Dean Salazar,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 083.JPG,83,May 2 2010,2010,50,Solis,Alia J.,Genevieve,13,,"O.L. of Fatima, North Bergen, NJ","366 Union Ave, Belleville, NJ",Joaquin Solis,Yolanda Acosta,Lisa Acosta,Bishop Edgar da Cunha,yes,index Alla J; baptism year 1997 only
@@ -1470,6 +2116,9 @@ confirmation_1991,PAGE 083.JPG,83,May 2 2010,2010,63,Ramirez,Yorlan,,16,May 6 19
 confirmation_1991,PAGE 083.JPG,83,May 23 2010,2010,64,Alba,Angely,,24,Apr 30 1984,"O.L. of Good Counsel, Newark, NJ","353 Washington Ave, Apt #8, Belleville, NJ",Rafael Alba,Lina Castillo,Jimmy Rivera,Fr. Ivan Sciberras,,10AM
 confirmation_1991,PAGE 083.JPG,83,May 23 2010,2010,65,Alcantara,Carlin,,23,Jul 12 1982,"Parroquia San Simon Apostol, Sto Domingo, RD","98 Holland St, Newark, NJ 07103",Luis Alcantara,Maura Alcantara,Maura Alcantara,Fr. Ivan Sciberras,,10AM
 confirmation_1991,PAGE 083.JPG,83,May 23 2010,2010,66,Aucatle,Walter,,30,Feb 5 1981,"Parroquia Señor de la Milagros, Chiclayo, Peru","1 Branch Brook Dr, Belleville, NJ",Walter Aucatle,Eumelia Monteverde,Dayna Puryear,Fr. Ivan Sciberras,yes,10AM; index Aucaylle
+confirmation_1991,PAGE AB2-CD.JPG,83,,,,Alba,Angely,,,,,,,,,,,index page_no=83
+confirmation_1991,PAGE AB2-CD.JPG,83,,,,Alcantara,Carlin,,,,,,,,,,,index page_no=83
+confirmation_1991,PAGE AB2-CD.JPG,83,,,,Aucaylle,Walter,,,,,,,,,,,index page_no=83
 confirmation_1991,PAGE 084.JPG,84,May 23 2010,2010,67,Lopez,Christina Maria,Angel,28,Jun 19 1982,"St. Michael, Newark, NJ","13 Linden Ave., Belleville, NJ",Alberto Lopez,Maria Alvarado,Rose Grathales,Fr. Ivan Sciberras,,10AM
 confirmation_1991,PAGE 084.JPG,84,May 23 2010,2010,68,Lopez,Janice Delia,,37,Sep 7 1972,"O.L. of Fatima, Passaic, NJ","167 Franklin Ave., Nutley, NJ",German Pinero,Janice Moret,Fannie Vargas,Fr. Ivan Sciberras,yes,10AM; baptism date uncertain
 confirmation_1991,PAGE 084.JPG,84,May 23 2010,2010,69,Melendez,Anette,,18,Mar 26 1993,"Parroquia San Antonio, Moncion, D.R.","95 Warren St., Apt 1D, Nutley, NJ",Edgar Melendez,Rosa Rojas,Rosa Hard,Fr. Ivan Sciberras,yes,10AM; index Menendez
@@ -1488,6 +2137,9 @@ confirmation_1991,PAGE 084.JPG,84,Apr 23 2011,2011,1,Brake,Michael Anthony,,16,A
 confirmation_1991,PAGE 084.JPG,84,Apr 23 2011,2011,2,Moran,Michael Augusto,,20,Apr 23 2011,"St. Peters, Belleville, NJ","29 Minker Pl, Belleville, NJ",Cesar Moran,Janneth Rocio,Juan Rodriguez / Vicki Rodriguez,Fr. Ivan Sciberras,yes,Easter Vigil; two sponsors listed
 confirmation_1991,PAGE 084.JPG,84,Apr 23 2011,2011,3,Petrillo,Anthony,,37,Apr 23 2011,"St. Peter's, Belleville, NJ","430 Union Ave, Belleville, NJ",Michael Petrillo,Patricia Yacaviarello (?),Joseph Tafo (?),Fr. Ivan Sciberras,yes,Easter Vigil; mother and sponsor uncertain
 confirmation_1991,PAGE 084.JPG,84,Apr 23 2011,2011,4,Quitto,Christopher,,16,Apr 23 2011,"St. Peters, Belleville, NJ","250 River Rd, North Arlington, NJ",Marco Quitto,Loraine Reiger (?),Benito Lamek (?) / Kathryn Quitto,Fr. Ivan Sciberras,yes,Easter Vigil; mother/sponsor uncertain; two sponsors listed
+confirmation_1991,PAGE AB2-CD.JPG,84,,,,Andrade,Ginger,,,,,,,,,,,index page_no=84
+confirmation_1991,PAGE AB2-CD.JPG,84,,,,Brake,Michael Anthony,,,,,,,,,,,index page_no=84
+confirmation_1991,PAGE CD2-EF.JPG,84,,,,FERREIRA,ANA MILCA,,,,,,,,,,,index page_no=84
 confirmation_1991,PAGE 085.JPG,85,May 13 2011,2011,5,Allison,Bridget,Margaret,14,Aug 18 2002,St. Peter's,"707 E. 25th St, Paterson, NJ",William Allison,Ursula Burgisser,Trish Gerard,Most Rev. David Arias,,7PM
 confirmation_1991,PAGE 085.JPG,85,May 13 2011,2011,6,Alvarado,Joshua,Matthew,13,Feb 18 2001,St. Peter's,"17 Washington St., Belleville, NJ",Guillermo Alvarado,Carmen Guevarado,Victoria Rodriguez,Most Rev. David Arias,,7PM
 confirmation_1991,PAGE 085.JPG,85,May 13 2011,2011,7,Alvarado,Tommy,Maximilian,15,Feb 18 2001,St. Peter's,"17 Washington St., Belleville, NJ",Guillermo Alvarado,Carmen Guevarado,Irene Guevara Quezada,Most Rev. David Arias,,7PM; parents/residence expanded from ditto
@@ -1508,6 +2160,16 @@ confirmation_1991,PAGE 085.JPG,85,May 13 2011,2011,21,Castro,Michael,,13,Oct 27 
 confirmation_1991,PAGE 085.JPG,85,May 13 2011,2011,22,Celi,Elizabeth,,12,Dec 22 2001,"St. Michael's, Newark","198 Heckel St., Belleville, NJ",Aurelio Celi,Ana Patricia Celi,Carmen Celi,Most Rev. David Arias,,7PM
 confirmation_1991,PAGE 085.JPG,85,May 13 2011,2011,23,Cunas,Rodney,,13,Mar 13 1999,"St. Michael's, Newark","139 New St., Belleville, NJ",Freddy Cunas,Lupe Urgiles,Bryan Cunas,Most Rev. David Arias,,7PM
 confirmation_1991,PAGE 085.JPG,85,May 13 2011,2011,24,De Palma,Deanna,Elizabeth,14,Oct 1996,"Notre Dame Church, North Caldwell","64 Naples Ave., Belleville, NJ",Dominick De Palma,Debbie Cataldo,Brillie De Palma,Most Rev. David Arias,yes,7PM; baptism month/year only
+confirmation_1991,PAGE AB2-CD.JPG,85,,,,Allison,Bridget,,,,,,,,,,,index page_no=85
+confirmation_1991,PAGE AB2-CD.JPG,85,,,,Alvarado,Joshua,,,,,,,,,,,index page_no=85
+confirmation_1991,PAGE AB2-CD.JPG,85,,,,Alvarado,Tommy,,,,,,,,,,,index page_no=85
+confirmation_1991,PAGE AB2-CD.JPG,85,,,,Aneses,Jessica Megan,,,,,,,,,,,index page_no=85
+confirmation_1991,PAGE AB2-CD.JPG,85,,,,Bautista,Juan,,,,,,,,,,,index page_no=85
+confirmation_1991,PAGE AB2-CD.JPG,85,,,,Bono,Bobby,,,,,,,,,,,index page_no=85
+confirmation_1991,PAGE AB2-CD.JPG,85,,,,Bono,Sarah,,,,,,,,,,,index page_no=85
+confirmation_1991,PAGE AB2-CD.JPG,85,,,,Borges,Gabriella,,,,,,,,,,,index page_no=85
+confirmation_1991,PAGE AB2-CD.JPG,85,,,,Button,Fiona-Irish,,,,,,,,,,,index page_no=85
+confirmation_1991,PAGE CD2-EF.JPG,85,,,,DE PALMA,DEANNA,,,,,,,,,,,index page_no=85
 confirmation_1991,PAGE 086.JPG,86,May 13 2011,2011,25,Gladney,Charles III,,15,May 26 1996,St. Peters,"21 Lincoln Terr., Belleville, NJ",Charles Gladney II,Carlotta Rodriguez,Ursula Starks,Most Rev. David Arias,,7PM
 confirmation_1991,PAGE 086.JPG,86,May 13 2011,2011,26,Gomez,Tatiana,Elizabeth,15,Sep 10 1996,"St. Francis Xavier, Newark","235 William St., Belleville, NJ",Carlos Gomez,Yorlady Vinasco,Gloria Vinasco,Most Rev. David Arias,,7PM
 confirmation_1991,PAGE 086.JPG,86,May 13 2011,2011,27,Gonzalez,Efren,John,14,Sep 10 1996,"Santa Maria de la Natividad, Atlixco, Mexico","53 Joralemon St., Belleville, NJ",Manuel Tinizaray,Beatriz Gonzalez,Carmen Sinti,Most Rev. David Arias,,7PM
@@ -1528,6 +2190,11 @@ confirmation_1991,PAGE 086.JPG,86,May 13 2011,2011,41,Ocaya,Abigail Andaya,Rose,
 confirmation_1991,PAGE 086.JPG,86,May 13 2011,2011,42,Oliveira,Edward,Peter,14,Jun 21 1997,"St. Michael's, Newark","28 Highland Ave., Newark, NJ",Edward Oliveira,Jasmin Cruz,Marisol Gonzalez,Most Rev. David Arias,,7PM
 confirmation_1991,PAGE 086.JPG,86,May 13 2011,2011,43,Ortiz,Alexander Hector,,13,Nov 22 1997,"O.L. Queen of Peace, N. Arlington","273 Ralph St., Belleville, NJ",Hector Ortiz,Diorchinie Perez,Sean A. Ortiz,Most Rev. David Arias,,7PM
 confirmation_1991,PAGE 086.JPG,86,May 13 2011,2011,44,Pereira,Jennifer,Clare,14,Apr 1996,"O.L. Fatima, Newark","12 Morris Pl., Nutley, NJ",Luciano Pereira,Maria Briones,Laura Mendoza,Most Rev. David Arias,yes,7PM; baptism month/year only
+confirmation_1991,PAGE GH2-IJ.JPG,86,,,,Gladney,Charles III,,,,,,,,,,,index page_no=86
+confirmation_1991,PAGE GH2-IJ.JPG,86,,,,Gomez,Tatiana,,,,,,,,,,,index page_no=86
+confirmation_1991,PAGE GH2-IJ.JPG,86,,,,Hidalgo,Andre Eduardo,,,,,,,,,,,index page_no=86
+confirmation_1991,PAGE GH2-IJ.JPG,86,,,,Jaramillo,Barbara,,,,,,,,,,,index page_no=86
+confirmation_1991,PAGE GH2-IJ.JPG,86,,,,Jozwicki,Michelle Angelika,,,,,,,,,,,index page_no=86
 confirmation_1991,PAGE 087.JPG,87,May 13 2011,2011,45,Perez,Adriana,Frances,14,Apr 5 1997,"St. Lucys, Newark","39 Little St., Belleville, NJ",Ruben Perez,Maria Peralta,Narciza Loja,Most Rev. David Arias,,7PM
 confirmation_1991,PAGE 087.JPG,87,May 13 2011,2011,46,Quezada,Andrew Steve,Nicholas,13,Nov 13 1999,"St. Michael's, Newark","20 Cedar Hill Ave., Belleville, NJ",Manuel Quezada,Martha Valdibieso,Pablo Quezada,Most Rev. David Arias,,7PM
 confirmation_1991,PAGE 087.JPG,87,May 13 2011,2011,47,Talban,Clara Marie,Clare,14,Apr 27 1997,St. Peter's,"47 Walnut St., Belleville, NJ",Rodrigo Talban,Liberty DeGuzman,Maria Buena Ibarrola BiCo,Most Rev. David Arias,yes,7PM; index Talman
@@ -1567,6 +2234,11 @@ confirmation_1991,PAGE 088.JPG,88,Jun 12 2011,2011,80,Martinez,Gisela,,39,Jan 14
 confirmation_1991,PAGE 088.JPG,88,Jun 12 2011,2011,81,Martinez,Yomaira,,28,Jun 1 1985,"St. Michael, Newark, NJ 07104","29 Minker Pl., Belleville, NJ 07109",Cesario Martinez,Carmen Ortiz,Ahren Toro,Fr. Ivan Sciberras,yes,10AM; index Yovanna
 confirmation_1991,PAGE 088.JPG,88,Jun 12 2011,2011,82,Peterson,Kristen Mary,,29,Oct 12 1980,"St. John, Orange, NJ","932 Pleasant Valley Way, West Orange, NJ 07052",Paul Peterson,Patricia Alice Muir,Patricia Peterson,Fr. Ivan Sciberras,,10AM
 confirmation_1991,PAGE 088.JPG,88,Jun 12 2011,2011,83,Quitto,Marco Antonio,,30,Feb 7 1985,"Parroquia Eclesiastica San Jose de Anzman, Diocesis de Loja","250 River Rd, North Arlington, NJ 07031",Marco Quitto,Lorraine Reiger,Lori Quitto,Fr. Ivan Sciberras,,10AM
+confirmation_1991,PAGE AB2-CD.JPG,88,,,,Almonte,Nohely,,,,,,,,,,,index page_no=88
+confirmation_1991,PAGE AB2-CD.JPG,88,,,,Alvarez,Barbara,,,,,,,,,,,index page_no=88
+confirmation_1991,PAGE AB2-CD.JPG,88,,,,Alba,Cindy,,,,,,,,,,,index page_no=88
+confirmation_1991,PAGE CD2-EF.JPG,88,,,,DA SILVA,JULIANE,,,,,,,,,,,index page_no=88
+confirmation_1991,PAGE GH2-IJ.JPG,88,,,,Herrera,Gloria,,,,,,,,,,,index page_no=88
 confirmation_1991,PAGE 089.JPG,89,Jun 12 2011,2011,84,Viera,Carmen Maria,,33,Dec 23 1979,"Our Lady of Fatima, Perth Amboy, NJ","211 Franklin Ave., Belleville, NJ 07109",Jose Viera,Aida Quiñones,Donna Hood,Fr. Ivan Sciberras,yes,10AM leftover; 2011 class leftover on p.89; page also headed Apr 20 2012 da Cunha
 confirmation_1991,PAGE 089.JPG,89,Apr 7 2012,2012,1,Guzman,Bryan Josue,,17,Apr 7 2012,"St. Peter, Belleville","150 Mill St., Belleville, NJ 07109",Robert Cuadrado,Reyna Guzman,Wilson Valentin / Carolina Espejo,Fr. Ivan Sciberras,yes,Easter Vigil; two sponsors
 confirmation_1991,PAGE 089.JPG,89,Apr 7 2012,2012,2,Roa,Amanda Daniela,,27,Apr 7 2012,"St. Peter, Belleville","70 Washington St., Apt. C, Red Bank, NJ 07701",Enrique Roa,Gloria Rosales,Paul Valenzuela,Fr. Ivan Sciberras,,Easter Vigil
@@ -1585,6 +2257,18 @@ confirmation_1991,PAGE 089.JPG,89,Apr 20 2012,2012,11,Bungay,Christopher,Adrian,
 confirmation_1991,PAGE 089.JPG,89,Apr 20 2012,2012,12,Caban,Christian Ramon,Christopher,15,Feb 15 1998,"Our Lady of Mt. Carmel, Newark","805 Parker St., Newark, NJ 07104",Leonardo Caban,Libriada Perez,Victoria Caban,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 089.JPG,89,Apr 20 2012,2012,13,Cabrera,Jose,Jose,16,Feb 14 1999,"Sacred Heart Cathedral, Newark","408 No. 5th St., Newark, NJ 07104",Anstru Cabrera,Leonor Cabrera,Diana C. Narvaez,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 089.JPG,89,Apr 20 2012,2012,14,Carpio,Jormarie Elizabeth,Jormarie,14,Jun 5 1999,"St. Mary's, Pompton Lakes, NJ","133 Smallwood Ave., Belleville, NJ 07109",Jorge Carpio,Marlela Primo,Estella Soto,Bishop Edgar da Cunha,yes,index Jarmarie
+confirmation_1991,PAGE AB2-CD.JPG,89,,,,Almonte,Nayeli,,,,,,,,,,,index page_no=89
+confirmation_1991,PAGE AB2-CD.JPG,89,,,,Alvarado,Alexis,,,,,,,,,,,index page_no=89
+confirmation_1991,PAGE AB2-CD.JPG,89,,,,Alvarado,Veronica,,,,,,,,,,,index page_no=89
+confirmation_1991,PAGE AB2-CD.JPG,89,,,,Andrade,Dianna Giselle,,,,,,,,,,,index page_no=89
+confirmation_1991,PAGE AB2-CD.JPG,89,,,,Andrade,Nelson,,,,,,,,,,,index page_no=89
+confirmation_1991,PAGE AB2-CD.JPG,89,,,,Andrade,Stephanie,,,,,,,,,,,index page_no=89
+confirmation_1991,PAGE AB2-CD.JPG,89,,,,Aucay,Shelly Nicole,,,,,,,,,,,index page_no=89
+confirmation_1991,PAGE AB2-CD.JPG,89,,,,Brez-Hampstead,Lucero,,,,,,,,,,,index page_no=89
+confirmation_1991,PAGE AB2-CD.JPG,89,,,,Barillo,Bernard,,,,,,,,,,,index page_no=89
+confirmation_1991,PAGE AB2-CD.JPG,89,,,,Barreiros,Luis Miguel,,,,,,,,,,,index page_no=89
+confirmation_1991,PAGE AB2-CD.JPG,89,,,,Bunay,Christopher,,,,,,,,,,,index page_no=89
+confirmation_1991,PAGE GH2-IJ.JPG,89,,,,Hernandez,Michelle,,,,,,,,,,,index page_no=89
 confirmation_1991,PAGE 090.JPG,90,Apr 20 2012,2012,15,Castano,Daniel,Joseph,14,,"San Vicente De Paul, Columbia","103 Malone Ave, Belleville, NJ 07109",John Fredy Castaneda,Claudia Castano,Gustavo Castano,Bishop Edgar da Cunha,yes,baptism year 1997 only
 confirmation_1991,PAGE 090.JPG,90,Apr 20 2012,2012,16,Donato,Dennis Ray II,John,15,Aug 18 1996,"St. James, Newark","19 So. Weber St., Belleville, NJ 07109",Dennis Ray Donato,Carmelita Nacion,Rene N. Senilla,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 090.JPG,90,Apr 20 2012,2012,17,Coronel,Kevin,Nicholas,14,Jun 20 2004,St. Peter's,"10 Campbell Ave., Belleville, NJ 07109",Jorge Coronel,Jeannet Castillo,Fabian Vasconez,Bishop Edgar da Cunha,yes,index Cornel
@@ -1605,6 +2289,12 @@ confirmation_1991,PAGE 090.JPG,90,Apr 20 2012,2012,31,Guzman,Kenneth,Theodore,17
 confirmation_1991,PAGE 090.JPG,90,Apr 20 2012,2012,32,Herrera,David,Joseph,14,Jan 30 1999,"St. Augustine's, Union City","27 Wallace St., Belleville, NJ",Irineo Herrera,Alba Berec,Marlene Yano,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 090.JPG,90,Apr 20 2012,2012,33,Herrera,Kimberly Patricia,Monica,14,Jan 20 1999,St. Peter's,"171 Franklin Ave., Belleville, NJ 07109",Fabian Herrera,Marcella Ortiz (Deceased),Gloria Herrera,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 090.JPG,90,Apr 20 2012,2012,34,Hidalgo,Maylied,Marina,13,Dec 11 1999,"Immaculate Conception, Peru","100 Tappan Ave., Belleville, NJ 07109",Eduardo Hidalgo,Milagros Liliane Perez,Rosa Maria & Rolando Ramirez,Bishop Edgar da Cunha,yes,index Maylired; two sponsors
+confirmation_1991,PAGE CD2-EF.JPG,90,,,,DEL PLATA,MICHAEL,,,,,,,,,,,index page_no=90
+confirmation_1991,PAGE CD2-EF.JPG,90,,,,Elliot-Dolor,Taylor,,,,,,,,,,,index page_no=90
+confirmation_1991,PAGE CD2-EF.JPG,90,,,,Francisco,Edrian,,,,,,,,,,,index page_no=90
+confirmation_1991,PAGE CD2-EF.JPG,90,,,,Fraone,Jakob,,,,,,,,,,,index page_no=90
+confirmation_1991,PAGE GH2-IJ.JPG,90,,,,Herrera,David,,,,,,,,,,,index page_no=90
+confirmation_1991,PAGE GH2-IJ.JPG,90,,,,Herrera,Kimberly,,,,,,,,,,,index page_no=90
 confirmation_1991,PAGE 091.JPG,91,Apr 20 2012,2012,35,Lento,Nicholas,Luke,13,,"Holy Family, Nutley","30 Melwex St., Belleville, NJ 07109",Thomas Lento,Sonia Medina,Mario Medina,Bishop Edgar da Cunha,yes,baptism year 1998 only
 confirmation_1991,PAGE 091.JPG,91,Apr 20 2012,2012,36,Loaiza,Joseph,Michael,13,Jun 10 2000,"St. Michael's, Newark","32 Hornblower Ave., Belleville, NJ 07109",Darwin Loaiza,Belgica Castillo,Freddy A. Velin,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 091.JPG,91,Apr 20 2012,2012,37,Luna,Maricruz,Maricruz,15,Oct 22 1998,"San Pedro de Gumbay, Ecuador","175 Mt. Prospect Ave, Belleville, NJ 07109",Jorge Luna,Lady Mencias,Angel Luna,Bishop Edgar da Cunha,yes,index Mariluz
@@ -1625,6 +2315,7 @@ confirmation_1991,PAGE 091.JPG,91,Apr 20 2012,2012,51,Rodriguez,Amanda Ashley,Am
 confirmation_1991,PAGE 091.JPG,91,Apr 20 2012,2012,52,Rosas,Bryant,Francis,14,Jul 18 1998,"Santa Cruz De Monjas, Ecuador","58 Osborne St, Bloomfield, NJ 07003",Armando Rosas,Adela Jimenez,Lorena Patricia Jimenez,Bishop Edgar da Cunha,yes,baptism place Monjas
 confirmation_1991,PAGE 091.JPG,91,Apr 20 2012,2012,53,Ruales,Carlos Rodrigo,John,17,Jan 27 1998,"Senor de la Buena Esperanza, Ecuador","29 Parkview Ave, Belleville, NJ 07109",Carlos Ruales,Tathiana Godoy,Anthony Villano,Bishop Edgar da Cunha,yes,index Rivales
 confirmation_1991,PAGE 091.JPG,91,Apr 20 2012,2012,54,Salazar,Chelsea Lynn,Catherine,13,Oct 25 1998,St. Peter's,"71 Dayton St., Elizabeth, NJ",Vincent Salazar,Sandra Vives,Meghan Burbank,Bishop Edgar da Cunha,,
+confirmation_1991,PAGE GH2-IJ.JPG,91,,,,Hidalgo,Maylired,,,,,,,,,,,index page_no=91
 confirmation_1991,PAGE 092.JPG,92,Apr 20 2012,2012,55,Salazar,Christopher Fernando,Christopher,13,Oct 22 2005,"St Lucy's, Newark","121 Rutgers St. #2, Belleville, NJ 07109",Romulo Salazar,Flor Vera,Wilson Vera,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 092.JPG,92,Apr 20 2012,2012,56,Sayson,Carl Dominic,Lorenzo,14,Apr 26 1998,"Our Lady of Mercy, Jersey City","509 Joralemon St., Belleville, NJ 07109",Francisco Sayson,Mia Deferio,John Olega,Bishop Edgar da Cunha,yes,index Saxon Carl Dennis
 confirmation_1991,PAGE 092.JPG,92,Apr 20 2012,2012,57,Sejuela,Christian,Michael,15,Jul 27 1997,St Peter's,"54 Brighton Ave, Belleville, NJ 07109",Gabriel Sejuela,Jacqueline Guzman,Gabriel Sejuela,Bishop Edgar da Cunha,,
@@ -1645,6 +2336,9 @@ confirmation_1991,PAGE 092.JPG,92,Apr 20 2012,2012,71,Zuniga,Brandon Giovanni,Lu
 confirmation_1991,PAGE 092.JPG,92,Apr 20 2012,2012,72,Bravo,Maria Christina,,15,Apr 1 1997,"Transfiguration, St. Ann, St. Rocco, Newark, NJ","47 DeWitt St., Belleville, NJ 07109",Walter Bravo,Christina Benavides,Adriana Guachaman,Bishop Edgar da Cunha,yes,index Maria Cristina; triplet
 confirmation_1991,PAGE 092.JPG,92,Apr 20 2012,2012,73,Bravo,Maria Daniela,,15,Apr 1 1997,"Transfiguration, St. Ann, St. Rocco, Newark, NJ","47 DeWitt St., Belleville, NJ 07109",Walter Bravo,Christina Benavides,Paulina Tilinchana,Bishop Edgar da Cunha,,triplet; expanded from ditto
 confirmation_1991,PAGE 092.JPG,92,Apr 20 2012,2012,74,Bravo,Maria Michelle,,15,Apr 1 1997,"Transfiguration, St. Ann, St. Rocco, Newark, NJ","47 DeWitt St., Belleville, NJ 07109",Walter Bravo,Christina Benavides,Paulina Vaca,Bishop Edgar da Cunha,,triplet; expanded from ditto
+confirmation_1991,PAGE AB2-CD.JPG,92,,,,Bravo,Maria Cristina,,,,,,,,,,,index page_no=92
+confirmation_1991,PAGE AB2-CD.JPG,92,,,,Bravo,Maria Daniela,,,,,,,,,,,index page_no=92
+confirmation_1991,PAGE AB2-CD.JPG,92,,,,Bravo,Maria Michelle,,,,,,,,,,,index page_no=92
 confirmation_1991,PAGE 093.JPG,93,Apr 20 2012,2012,75,Nguyen,Michelle,,16,Jul 15 1995,"Our Lady of Victories, Jersey City, NJ","238 Greylock Pkwy, Belleville, NJ 07109",Joseph Nguyen Cong Binh,Mary Nguyen Thi Kim Loan,Adriana Calado,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 093.JPG,93,Apr 20 2012,2012,76,Orejola,Mae Bernadine,,17,Jun 19 1994,"Our Lady of Perpetual Help, Quezon City, Philippine","102 Harrison St., Bloomfield, NJ 07003",Basilio Orejola,Bernardita Colinares,Milagros Holt,Bishop Edgar da Cunha,yes,index Orellala Mae Bernardine
 confirmation_1991,PAGE 093.JPG,93,Apr 20 2012,2012,77,Orejola,Mia Jeraldine,,16,Dec 30 1995,"Sto. Niño Parish, Quezon City, Phil.","102 Harrison St., Bloomfield, NJ 07003",Basilio Orejola,Bernardita Colinares,Reynaldo Templora,Bishop Edgar da Cunha,,parents/residence expanded from ditto
@@ -1663,6 +2357,8 @@ confirmation_1991,PAGE 093.JPG,93,May 27 2012,2012,89,Bussanich,Dayna Marie,,15,
 confirmation_1991,PAGE 093.JPG,93,Mar 30 2013,2013,1,Correa,Max Andre,,16,Mar 30 2013,"St. Peter, Belleville","370 Union Ave, Belleville, NJ 07109",Max Correa,Angelica Vasconez,Santiago Correa & Maritza Condolo,Fr. Ivan Sciberras,yes,Easter Vigil; two sponsors
 confirmation_1991,PAGE 093.JPG,93,Mar 30 2013,2013,2,Chevres,Zujey,,26,Mar 30 2013,"St. Peter, Belleville","356 3rd Ave West 1st Fl, Newark, NJ 07104",Juan Chevres,Daisy Gonzalez,Elena Sanchez,Fr. Ivan Sciberras,yes,Easter Vigil; index Zuey
 confirmation_1991,PAGE 093.JPG,93,Mar 30 2013,2013,3,Ortiz,Reynaldo Jr.,,20,Mar 30 2013,"St. Peter, Belleville","53 Mount Ave, Belleville, NJ 07109",Reynaldo Ortiz,Cecilia Morales,Benedict Albanese,Fr. Ivan Sciberras,,Easter Vigil
+confirmation_1991,PAGE CD2-EF.JPG,93,,,,Figueroa,Desiree,,,,,,,,,,,index page_no=93
+confirmation_1991,PAGE GH2-IJ.JPG,93,,,,Hernandez,Ivan,,,,,,,,,,,index page_no=93
 confirmation_1991,PAGE 094.JPG,94,Mar 30 2013,2013,4,Roman,Cristina,,,Mar 30 2013,"St. Peter, Belleville","22 Lincoln Ter. 2nd Fl, Belleville, NJ 07109",Jose Roman,Magdalena Quinones,Michael Hernandez / Desiree Hernandez,Fr. Ivan Sciberras,yes,Easter Vigil; age blank; two sponsors
 confirmation_1991,PAGE 094.JPG,94,Mar 30 2013,2013,5,Viteri,Cindy Elizabeth,,,Mar 30 2013,"St. Peter, Belleville","816 Mt. Prospect Ave., Belleville, NJ 07109",Luis Viteri,Monica Acosta,Byron Villacunda / Monica Villacunda,Fr. Ivan Sciberras,yes,Easter Vigil; age blank; two sponsors
 confirmation_1991,PAGE 094.JPG,94,Mar 30 2013,2013,6,Wong,Barry Lee,,,Mar 30 2013,"St. Peter, Belleville","333 E. 34th St. Apt 10 J, New York City, NY",Erwin Wong,Shaon Lee,Joseph Tran,Fr. Ivan Sciberras,yes,Easter Vigil; age blank
@@ -1682,6 +2378,11 @@ confirmation_1991,PAGE 094.JPG,94,May 3 2013,2013,13,Carrera,Dayanna,Dayanna,15,
 confirmation_1991,PAGE 094.JPG,94,May 3 2013,2013,14,Ceballo,Adrian Rafael,Rafael,13,Aug 26 2000,"St. Michael's, Newark","23 Emmet St., Belleville, NJ 07109",Rafael Ceballo,Alejandra Ceballo,Jorge Chagas,Bishop Edgar da Cunha,yes,index Ceballos; mother maiden not given
 confirmation_1991,PAGE 094.JPG,94,May 3 2013,2013,15,Cuadrado,Gabriel,Gabriel,13,Apr 7 2012,St. Peter's,"60 Mill St. Apt 4, Belleville, NJ 07109",Robert Cuadrado,Reyna Guzman,Bryan Guzman,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 094.JPG,94,May 3 2013,2013,16,Doria,Angelle Gabriel,Acacius,14,Mar 8 1998,"Parish of the Hearts of Jesus and Mary, Quezon City, Philippines","32 King Pl., Belleville, NJ 07109",Angel Doria,Benilda Diez,Rev Dave Sison,Bishop Edgar da Cunha,yes,index Dono Arielle Gabriel
+confirmation_1991,PAGE AB2-CD.JPG,94,,,,Alarcon,Elizabeth,,,,,,,,,,,index page_no=94
+confirmation_1991,PAGE AB2-CD.JPG,94,,,,Alban,Anthony Javier,,,,,,,,,,,index page_no=94
+confirmation_1991,PAGE AB2-CD.JPG,94,,,,Andros,Michael George,,,,,,,,,,,index page_no=94
+confirmation_1991,PAGE AB2-CD.JPG,94,,,,Arango,Brianna,,,,,,,,,,,index page_no=94
+confirmation_1991,PAGE CD2-EF.JPG,94,,,,DONO,ARIELLE GABRIEL,,,,,,,,,,,index page_no=94
 confirmation_1991,PAGE 095.JPG,95,May 3 2013,2013,17,Espinoza,Janice Elizabeth,Elizabeth,15,Mar 16 1999,"La Sma. Trinidad, Quito, Ecuador","1 Delia Terr., Belleville, NJ 07109",Edison Espinoza,Eleanor Rodriguez,Sara Espinoza,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 095.JPG,95,May 3 2013,2013,18,Espinoza,Luis Ricardo,Philip,15,Aug 10 1999,"La Sma. Trinidad, Quito, Ecuador","1 Delia Terr., Belleville, NJ 07109",Edison Espinoza,Eleanor Rodriguez,Daniel Espinoza,Bishop Edgar da Cunha,,parents/residence expanded from ditto
 confirmation_1991,PAGE 095.JPG,95,May 3 2013,2013,19,Estrella,Jose,John,14,Feb 16 2003,St. Peter's,"190 Newark Ave., Bloomfield, NJ",Vicente Estrella,Ana Aguirre,Jose Marin,Bishop Edgar da Cunha,,
@@ -1702,6 +2403,15 @@ confirmation_1991,PAGE 095.JPG,95,May 3 2013,2013,33,Levin,Yaxel,Peter,13,May 6 
 confirmation_1991,PAGE 095.JPG,95,May 3 2013,2013,34,Logranio,Bethany Buniel,Therese,15,May 3 1998,"Queen of Peace, N. Arlington","31 Stephens St., Belleville, NJ 07109",Luisito Logranio,Lourdes Buniel,Juanita Welenofsky,Bishop Edgar da Cunha,yes,index Logronio
 confirmation_1991,PAGE 095.JPG,95,May 3 2013,2013,35,Logranio,Louise Jade,Lois,15,May 3 1998,"Queen of Peace, N. Arlington","31 Stephens St., Belleville, NJ 07109",Luisito Logranio,Lourdes Buniel,Juanita Welenofsky,Bishop Edgar da Cunha,,siblings; expanded from ditto
 confirmation_1991,PAGE 095.JPG,95,May 3 2013,2013,36,Lopez,Jocelyn,Julia,13,Jul 21 2002,St. Peter's,"443 Centre St., Nutley, NJ 07110",Dositeo Lopez,Janice Pinero,Leeza Lema,Bishop Edgar da Cunha,,
+confirmation_1991,PAGE CD2-EF.JPG,95,,,,Espinoza,Janice Elizabeth,,,,,,,,,,,index page_no=95
+confirmation_1991,PAGE CD2-EF.JPG,95,,,,Espinoza,Luis Ricardo,,,,,,,,,,,index page_no=95
+confirmation_1991,PAGE CD2-EF.JPG,95,,,,Estrella,Jose,,,,,,,,,,,index page_no=95
+confirmation_1991,PAGE CD2-EF.JPG,95,,,,Feneque,Michael,,,,,,,,,,,index page_no=95
+confirmation_1991,PAGE GH2-IJ.JPG,95,,,,Hernandez,Natalia,,,,,,,,,,,index page_no=95
+confirmation_1991,PAGE GH2-IJ.JPG,95,,,,Iturburo,Annette,,,,,,,,,,,index page_no=95
+confirmation_1991,PAGE GH2-IJ.JPG,95,,,,Jacho,Evelyn Caroline,,,,,,,,,,,index page_no=95
+confirmation_1991,PAGE GH2-IJ.JPG,95,,,,Jacho,Jessica Lisette,,,,,,,,,,,index page_no=95
+confirmation_1991,PAGE GH2-IJ.JPG,95,,,,Jaramillo,Nicholas,,,,,,,,,,,index page_no=95
 confirmation_1991,PAGE 096.JPG,96,May 3 2013,2013,37,Lozada,Alejandro,Rafael,16,Sep 13 1998,"Sacred Heart Cathedral, Newark","24 Pleasant Ave, Belleville, NJ 07109",Rafael Lozada,Denny Valdez,Wilson Valentin,Bishop Edgar da Cunha,yes,index Alejandro Rafael
 confirmation_1991,PAGE 096.JPG,96,May 3 2013,2013,38,Lugo,Natasha,Natasha,16,Feb 28 1999,"Sacred Heart Cathedral, Newark","32 DeWitt Ave, Belleville, NJ 07109",Axel Lugo,Maria Maldonado,Natasha Rodriguez,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 096.JPG,96,May 3 2013,2013,39,Macatangay,Andrew Louis,Lorenzo,14,Feb 13 1999,"St. Francis of Assisi, Manila, Philippines","34 Carmella Ct, Newark, NJ",Armand Macatangay,Mercedes Nalaunan,Catherine Cardio,Bishop Edgar da Cunha,yes,index Mocatingay
@@ -1742,6 +2452,9 @@ confirmation_1991,PAGE 097.JPG,97,May 3 2013,2013,73,Vintayen,Mark Ulysses,Bened
 confirmation_1991,PAGE 097.JPG,97,May 3 2013,2013,74,Cabezas,Alyza,Alyza,17,Feb 2 1996,"Holy Cross, Harrison","5 Plenge Dr., Belleville, NJ 07109",Wellington Cabezas,Sandra Malave,Nicolle Gross,Bishop Edgar da Cunha,yes,index Cabrezos Alyze
 confirmation_1991,PAGE 097.JPG,97,May 3 2013,2013,75,Cruz,Stephanie Cristine,Agnes,17,Oct 26 1997,"Sacred Heart, Newark","211 Franklin Ave., Belleville, NJ 07109",Ricardo Cruz,Christina Sablon,Madeline Torres,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 097.JPG,97,May 3 2013,2013,76,Herminie-Diaz,Manuel,Nicholas,16,Sep 20 1998,"St. Peter, Belleville","71 Willet St., Bloomfield, NJ 07003",Manuel Diaz,Segunda Basisko,Miguel Caranza,Bishop Edgar da Cunha,yes,index Herminio-Diaz
+confirmation_1991,PAGE AB2-CD.JPG,97,,,,Bussanich,Dayna Marie,,,,,,,,,,,index page_no=97
+confirmation_1991,PAGE CD2-EF.JPG,97,,,,DAVILA,VALIER ANDRES,,,,,,,,,,,index page_no=97
+confirmation_1991,PAGE GH2-IJ.JPG,97,,,,Herminio-Diaz,Manuel,,,,,,,,,,,index page_no=97
 confirmation_1991,PAGE 098.JPG,98,May 3 2013,2013,77,Rojas,Luis,Luis,16,Jul 26 1997,"Parroq. de St. Roque Xicaxinco, Tlaxcala","137 Sylvan Ave., Newark, NJ 07104",Audberto Rojas,Ma Luisa Jaramillo,Eduardo Viady,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 098.JPG,98,May 3 2013,2013,78,Ugaz,John Francis,Martin de Porres,17,Apr 29 2000,"Immaculate Heart of Mary, Newark","180 Davis Ave, Kearny, NJ 07032",Juan Ugaz,Jessica Pachas,Carlos Hohl,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 098.JPG,98,May 3 2013,2013,79,Ugaz,Piero Giovanny,Gabriel,16,Apr 29 2000,"Immaculate Heart of Mary, Newark","180 Davis Ave, Kearny, NJ 07032",Juan Ugaz,Jessica Pachas,Cesar Urrutia,Bishop Edgar da Cunha,yes,index Pierro Giovanni; parents/residence expanded from ditto
@@ -1758,6 +2471,11 @@ confirmation_1991,PAGE 098.JPG,98,May 19 2013,2013,89,Suarez,Stephanie,Stephanie
 confirmation_1991,PAGE 098.JPG,98,Apr 19 2014,2014,1,Flores,Stephanie,,26,Apr 19 2014,"St. Peter, Belleville","23 Washington St., Belleville, NJ 07109",Oswaldo Flores,Jenny Reyes,Mary Million,Fr. Ivan Sciberras,,Easter Vigil
 confirmation_1991,PAGE 098.JPG,98,Apr 19 2014,2014,2,Houck,Alicia,Anne,21,May 3 2009,"United Presbyterian Church, Yardville, NJ 08620","42 May Drive, Yardville, NJ 08620",Rodney Hauck,Phyllis Witt,Stephen Valladares,Fr. Ivan Sciberras,yes,Easter Vigil; surname Houck vs Hauck on parents
 confirmation_1991,PAGE 098.JPG,98,Apr 19 2014,2014,3,Tito,Priscila,,18,Apr 19 2014,"St. Peter, Belleville","190 Floyd St., Belleville, NJ 07109",Gilbert Tito,Dalia Mamani,Oscar Rondan & Flor de Maria Bohr,Fr. Ivan Sciberras,yes,Easter Vigil; two sponsors
+confirmation_1991,PAGE AB2-CD.JPG,98,,,,Arroyo,Edwin,,,,,,,,,,,index page_no=98
+confirmation_1991,PAGE AB2-CD.JPG,98,,,,Arroyo,Stalyn Marco,,,,,,,,,,,index page_no=98
+confirmation_1991,PAGE CD2-EF.JPG,98,,,,Fernandez,Rafael,,,,,,,,,,,index page_no=98
+confirmation_1991,PAGE CD2-EF.JPG,98,,,,Flores,Stephanie,,,,,,,,,,,index page_no=98
+confirmation_1991,PAGE GH2-IJ.JPG,98,,,,Houck,Alicia,,,,,,,,,,,index page_no=98
 confirmation_1991,PAGE 099.JPG,99,May 9 2014,2014,1,Alcantara,Jhoan,John,15,Mar 30 2008,"St. Joseph of the Palisades, WNY, NJ","51 Cleveland St, Belleville, NJ 07109",Juan Alcantara,Lourdes Rodriguez,Aurora Rodriguez,Bishop Edgar da Cunha,yes,index Joan
 confirmation_1991,PAGE 099.JPG,99,May 9 2014,2014,2,Alfieri,Justin Brandon,Joseph,15,Sep 26 1999,"Sacred Heart Cathed., Newark, NJ","184 Mill St #A3, Belleville, NJ 07109",Stewart Zweben,Angelica Alfieri,Victoria Battaglia,Bishop Edgar da Cunha,yes,index Atien
 confirmation_1991,PAGE 099.JPG,99,May 9 2014,2014,3,Andrade,Kevin Wilfredo,Stephen,13,Dec 23 2001,"San Bartolo Parish, P. Beleg, Ecuador","591 No. 7th St, Newark, NJ 07107",Nelson Andrade,Olga Pacheco,Nelson Andrade,Bishop Edgar da Cunha,,
@@ -1778,6 +2496,12 @@ confirmation_1991,PAGE 099.JPG,99,May 9 2014,2014,17,Conza,Emely,Teresa,13,Oct 2
 confirmation_1991,PAGE 099.JPG,99,May 9 2014,2014,18,Conza,Kelly Malyn,Camille,15,Oct 24 2000,"Imm. Heart of Mary @ St. Patrick, Elizabeth, NJ","306 Maple St, Kearny, NJ 07032",Efren Conza,Gloria Cobas Diaz,Ana R. Diaz,Bishop Edgar da Cunha,yes,index Danza Kelly Molyn; parents/residence expanded from ditto
 confirmation_1991,PAGE 099.JPG,99,May 9 2014,2014,19,Cuzco,Zamantha Beatriz,Zamentha,15,Sep 11 1999,"St Michael's, Newark, NJ","162 Houston St, Newark, NJ 07104",Fausto Cuzco,Alba Yupanqui,Ana Dos Santos,Bishop Edgar da Cunha,yes,index Duque Samantha Beatriz
 confirmation_1991,PAGE 099.JPG,99,May 9 2014,2014,20,Davila,Xavier Andres,Juan,15,Dec 18 1999,"Virgen de Fatima, Machala, Ecuador","11 Federal St, Belleville, NJ 07109",Wilson Davila,Ruth Romero,Adriana Davila,Bishop Edgar da Cunha,,
+confirmation_1991,PAGE AB2-CD.JPG,99,,,,Alcantara,Joan,,,,,,,,,,,index page_no=99
+confirmation_1991,PAGE AB2-CD.JPG,99,,,,Atien,Justin Brandon,,,,,,,,,,,index page_no=99
+confirmation_1991,PAGE AB2-CD.JPG,99,,,,Andrade,Kevin Wilfredo,,,,,,,,,,,index page_no=99
+confirmation_1991,PAGE AB2-CD.JPG,99,,,,Antonio,Monique M.,,,,,,,,,,,index page_no=99
+confirmation_1991,PAGE AB2-CD.JPG,99,,,,Arteaga,Noah Korny,,,,,,,,,,,index page_no=99
+confirmation_1991,PAGE AB2-CD.JPG,99,,,,Avitabile,David Jude,,,,,,,,,,,index page_no=99
 confirmation_1991,PAGE 100.JPG,100,May 9 2014,2014,21,Diaz,Katherine,Katherine,15,Jun 18 2000,"St. Augustine's, Union City, NJ","128 77th St. Fl 1, North Bergen, NJ 07047",Carlos Diaz,Jaqueline Ramirez,Aleyda Gallego,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 100.JPG,100,May 9 2014,2014,22,Dumeng,Edrick,Nicholas,15,Sep 17 2000,"Parroquia Monserrate, Moca, Puerto Rico","151 Stephens St, Belleville, NJ 07109",Jorge Dumeng,Klarysnell Rivera,Jaime Rolando Parr,Bishop Edgar da Cunha,yes,index Eldrick
 confirmation_1991,PAGE 100.JPG,100,May 9 2014,2014,23,Dumeng,Xaymaraliz,Teresa,14,Sep 6 1998,"Monserrate Parroquia, Moca, Puerto Rico","151 Stephens St, Belleville, NJ 07109",Jorge Dumeng,Klarysnell Rivera,Emelymari Beltran,Bishop Edgar da Cunha,yes,index Raymaraliz
@@ -1798,6 +2522,16 @@ confirmation_1991,PAGE 100.JPG,100,May 9 2014,2014,36,Jugo,Denise,Patricia,15,Se
 confirmation_1991,PAGE 100.JPG,100,May 9 2014,2014,37,Klus,Justin,Damian,14,Sep 23 2000,"St. Joseph's, Passaic, NJ","7 Rutgers Ct. Apt. A-11, Belleville, NJ 07109",Waldemar Klus,Marzena Swider,Damian Klus,Bishop Edgar da Cunha,,
 confirmation_1991,PAGE 100.JPG,100,May 9 2014,2014,38,MacDonald,Sean Padraic,Michael,14,Mar 26 2000,St. Peter's,"20 Plum Ln, Nutley, NJ 07110",Sean Padraic MacDonald,Lymarie Vega,Michael MacDonald,Bishop Edgar da Cunha,yes,index Sean Michael p.101
 confirmation_1991,PAGE 100.JPG,100,May 9 2014,2014,39,Manatala,Mary Soleil,Cecilia,16,Jul 20 1997,"St. Francis Xavier, Antipolo City, Philippines","65 Willet St, Bloomfield, NJ 07003",Oscar B. Manatala,Teresita A. Santiago,Mary Jean Parch (?),Bishop Edgar da Cunha,yes,sponsor Parch/Parcher; index Manaquil Mary Odell
+confirmation_1991,PAGE CD2-EF.JPG,100,,,,DIAZ,KATHERINE,,,,,,,,,,,index page_no=100
+confirmation_1991,PAGE CD2-EF.JPG,100,,,,DUMENG,ELDRICK,,,,,,,,,,,index page_no=100
+confirmation_1991,PAGE CD2-EF.JPG,100,,,,DUMENG,RAYMARALIZ,,,,,,,,,,,index page_no=100
+confirmation_1991,PAGE CD2-EF.JPG,100,,,,Eugene,Lydrviel Alexander III,,,,,,,,,,,index page_no=100
+confirmation_1991,PAGE CD2-EF.JPG,100,,,,Falconi,Geena,,,,,,,,,,,index page_no=100
+confirmation_1991,PAGE CD2-EF.JPG,100,,,,Feliciano,Brenden Prince,,,,,,,,,,,index page_no=100
+confirmation_1991,PAGE CD2-EF.JPG,100,,,,Feliciano,Natalie Nicole,,,,,,,,,,,index page_no=100
+confirmation_1991,PAGE CD2-EF.JPG,100,,,,Flores,Kimberly Nicole,,,,,,,,,,,index page_no=100
+confirmation_1991,PAGE EF2-GH.JPG,100,,,,Geronimo,Robert E,,,,,,,,,,,index page_no=100
+confirmation_1991,PAGE GH2-IJ.JPG,100,,,,Henry,Rachel Marie,,,,,,,,,,,index page_no=100
 confirmation_1991,PAGE 101.JPG,101,May 9 2014,2014,40,Manansala,Mckenzie,Miguel,20,Jun 19 1994,"Our Lady of the Abandoned, Marikina, MM","65 Willet St, Bloomfield, NJ 07003",Oscar B. Manansala,Teresita A. Santiago,Marie Martinez,Bishop Edgar da Cunha,yes,baptism Mariking/Marikina
 confirmation_1991,PAGE 101.JPG,101,May 9 2014,2014,41,Mariscal,Beatriz Ivelisse,Beatrize,13,Apr 27 1999,"St. Augustine's, Union City, NJ","149 Forest St, Belleville, NJ 07109",Adolfo Mariscal,Ivelisse Montalvo,Denise Ann Pagan,Bishop Edgar da Cunha,yes,index Manso
 confirmation_1991,PAGE 101.JPG,101,May 9 2014,2014,42,Martinez,Brianna Aliyah,Josephine,15,Jun 13 1999,"St. Cecilia's, Kearny, NJ","219 Garden Ave, Belleville, NJ 07109",William Martinez,Karina Paz,David Matos,Bishop Edgar da Cunha,yes,index Briana Aliyeh
@@ -1837,6 +2571,8 @@ confirmation_1991,PAGE 102.JPG,102,May 9 2014,2014,75,Vega,Juan,Juan,14,Nov 10 2
 confirmation_1991,PAGE 102.JPG,102,Jun 8 2014,2014,76,Cruz,Eddie,Eddie,33,Jul 3 1992,"Our Lady of Grace, Hoboken, NJ","12 Nolton St., Belleville, NJ 07109",Edilio Cruz,Maria Zapata,Aurora Cabajal,Fr. Ivan Sciberras,,Pentecost Sunday
 confirmation_1991,PAGE 102.JPG,102,Jun 8 2014,2014,77,Cruz,Jessica Sarria,Jessica,27,Aug 23 1987,"St. Rose of Lima, Santiago de Cali, Colombia","12 Nolton St., Belleville, NJ 07109",Jesus Sarria,Amelia Diaz,Aurora Cabajal,Fr. Ivan Sciberras,yes,Pentecost Sunday; index Jessica Samie
 confirmation_1991,PAGE 102.JPG,102,Jun 8 2014,2014,78,Gonzalez,Ricardo,Ricardo,31,Oct 26 1985,"St. Peter & Paul, Brooklyn, NY","232 Stephens St., Belleville, NJ 07109",Richie Gonzalez,Eliza Berrios,Timothy Ramos,Fr. Ivan Sciberras,,Pentecost Sunday
+confirmation_1991,PAGE GH2-IJ.JPG,102,,,,Herrera,Gabriela,,,,,,,,,,,index page_no=102
+confirmation_1991,PAGE GH2-IJ.JPG,102,,,,Jugo,Denise,,,,,,,,,,,index page_no=102
 confirmation_1991,PAGE 103.JPG,103,Jun 8 2014,2014,79,Gonzalez,Zoila Marlene,Zoila Marlene,29,Jul 31 1988,"O.L. of Altagracia, Sto. Domingo, D.R.","232 Stephens St., Belleville, NJ 07109",Juan Acosta,Marlene Rosario,Timothy Ramos,Fr. Ivan Sciberras,,Pentecost Sunday
 confirmation_1991,PAGE 103.JPG,103,Jun 8 2014,2014,80,Kimble,Raymond R.,Raymond,75,,"Dutch Reformed Church, Belleville, NJ","5 Lloyd Pl., Belleville, NJ 07109",Raymond Kimble,Elizabeth Gilbert,Marie Kimble,Fr. Ivan Sciberras,yes,Pentecost Sunday; baptism date blank
 confirmation_1991,PAGE 103.JPG,103,Jun 8 2014,2014,81,Maldonado,Anthony,Peter,47,Apr 22 1967,"St. Cecilia church, Boston, MA 02115","1503 Hamilton St., Belleville, NJ 07109",Felipe Maldonado,Luz Colon,Rosa Maldonado,Fr. Ivan Sciberras,,Pentecost Sunday
