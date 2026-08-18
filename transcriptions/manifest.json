@@ -59,6 +59,24 @@
       "title": "Sick Call Register 1973–2006",
       "file": "sick_call_1973.csv",
       "type": "sick_call"
+    },
+    {
+      "id": "confirmation_2015",
+      "title": "Confirmation 2015–",
+      "file": "confirmation_2015.csv",
+      "type": "confirmation"
+    },
+    {
+      "id": "marriage_1872",
+      "title": "Marriage 1872–1907",
+      "file": "marriage_1872.csv",
+      "type": "marriage"
+    },
+    {
+      "id": "marriage_2009",
+      "title": "Marriage 2009–",
+      "file": "marriage_2009.csv",
+      "type": "marriage"
     }
   ]
 }
