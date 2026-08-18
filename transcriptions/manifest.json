@@ -107,6 +107,96 @@
       "title": "Marriage 2009–",
       "file": "marriage_2009.csv",
       "type": "marriage"
+    },
+    {
+      "id": "marriage_1937",
+      "title": "Marriage 1937–1963 (fragment)",
+      "file": "marriage_1937.csv",
+      "type": "marriage"
+    },
+    {
+      "id": "confirmation_1895",
+      "title": "Confirmation 1895–1944 (year index)",
+      "file": "confirmation_1895.csv",
+      "type": "confirmation"
+    },
+    {
+      "id": "confirmation_1974",
+      "title": "Confirmation 1974–1990 folder (1923 baptism page)",
+      "file": "confirmation_1974.csv",
+      "type": "baptism"
+    },
+    {
+      "id": "death_c_1924",
+      "title": "Death C 1924–1964 (fragment)",
+      "file": "death_c_1924.csv",
+      "type": "death"
+    },
+    {
+      "id": "baptism_2011",
+      "title": "Baptism 2011– (fragment)",
+      "file": "baptism_2011.csv",
+      "type": "baptism"
+    },
+    {
+      "id": "baptism_1965",
+      "title": "Baptism 1965–1972 (name index)",
+      "file": "baptism_1965.csv",
+      "type": "baptism"
+    },
+    {
+      "id": "first_communion_1962",
+      "title": "First Communion 1962–1970 (index fragment)",
+      "file": "first_communion_1962.csv",
+      "type": "first_communion"
+    },
+    {
+      "id": "death_section_e",
+      "title": "Death Section E (cemetery tiers)",
+      "file": "death_section_e.csv",
+      "type": "death"
+    },
+    {
+      "id": "death_index",
+      "title": "Death Registers name index",
+      "file": "death_index.csv",
+      "type": "name_index"
+    },
+    {
+      "id": "death_1895",
+      "title": "Death 1895–1899",
+      "file": "death_1895.csv",
+      "type": "death"
+    },
+    {
+      "id": "confirmation_1957",
+      "title": "Confirmation 1957–1964 (fragment)",
+      "file": "confirmation_1957.csv",
+      "type": "confirmation"
+    },
+    {
+      "id": "marriage_1908",
+      "title": "Marriage 1908–1936",
+      "file": "marriage_1908.csv",
+      "type": "marriage"
+    },
+    {
+      "id": "confirmation_1942",
+      "title": "Confirmation / First Communion 1942–1952",
+      "file": "confirmation_1942.csv",
+      "type": "confirmation"
+    },
+    {
+      "id": "death_section_d",
+      "title": "Death SECTION D (cemetery plots fragment)",
+      "file": "death_section_d.csv",
+      "type": "death"
+    },
+    {
+      "id": "baptism_fragments",
+      "title": "Baptism 1875–1903 / 1904–1921 fragments",
+      "file": "baptism_fragments.csv",
+      "type": "baptism"
     }
   ]
 }

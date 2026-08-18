@@ -34,13 +34,26 @@ register type, and other fields.
 | Confirmation 2015– | 2015–2019 | **complete** — 756 confirmations + index (all Drive scans; pages 4 and 15 were never on Drive) |
 | Confirmation 1991–2014 | 1991–2014 | **complete** — 3,763 confirmations (all assigned scans) |
 | Marriage 1872–1907 | 1872–1908 | **complete** — 456 marriages (all 65 scans) |
-| Marriage 2009– | 2009–2010 | in progress — first page (9 marriages) |
+| Marriage 2009– | 2009–2019 | **complete** — 598 marriages + index (all Drive scans; page 18 was never uploaded) |
 | Baptism 1989–2011 | 1989–2011 | **complete** — 2,015 baptisms (all assigned scans) |
 | First Communion 1953–1961 | 1953–1961 | **complete** — 3,749 communicants (all assigned scans) |
 | Death 1990–2001 | 1990–2001 | **complete** — 2,327 deaths + index (all 75 scans) |
 | Death 2001–2018 | 2001–2018 | **complete** — 2,605 deaths + index (all 62 scans) |
-| Confirmation 1942–1952 | 1942–1952 | pending — on Drive |
-| Death 1895–1899 | 1895–1899 | pending — on Drive |
+| Confirmation 1942–1952 | 1942–1952 | **complete** — 1,852 communicants (all Drive scans; title page has no names) |
+| Confirmation 1957–1964 | 1964 fragment | **complete for Drive scans** — 949 confirmations + index (PAGE 96, 99 and letter tabs) |
+| Death 1895–1899 | 1895–1899 | **complete** — 346 deaths + index (all 26 scans) |
+| Death Registers name index | — | **complete** — 2,125 name→page pointers (all 30 letter-tab scans) |
+| Marriage 1908–1936 | 1908–1936 | **complete** — 802 marriages (all 72 Drive scans) |
+| Marriage 1937–1963 | 1946 fragment | **complete for Drive scans** — 20 marriages (PAGE 58, 60) |
+| Confirmation 1895–1944 | 1895–1944 | **complete for Drive scans** — year/page index (PAGE 000) |
+| Confirmation 1974–1990 folder | 1923 | **complete for Drive scans** — 10 baptisms (PAGE 164 is a misfiled 1923 baptism leaf) |
+| Death C 1924–1964 | 1948–1949 fragment | **complete for Drive scans** — 9 burials (PAGE 46) |
+| Death Section E | ~1929–1970s | **complete** — 552 burials + index (all 33 scans) |
+| Baptism 2011– | 2016–2019 fragment | **complete for Drive scans** — 20 baptisms + name indexes (5 scans) |
+| Baptism 1965–1972 | 1965–1972 | **complete for Drive scans** — 621 name-index entries (all letter tabs; title page has no names) |
+| First Communion 1962–1970 | ~1962–1970 | in progress — 98 name-index entries (PAGE R2-S and Y names from PAGE X-Y) |
+| Death SECTION D | plot-book fragment | **complete for Drive scans** — 161 burials/index rows (all 5 scans) |
+| Baptism 1875–1903 / 1904–1921 | fragments | **complete for Drive scans** — 65 baptisms (PAGE I, 358, 008, 014, 061) |
 
 ## Searching the records
 
