@@ -37,6 +37,17 @@ GROUPS = {
     "marriage_1872.csv": ["marriage_1872_*.csv"],
     "marriage_1908.csv": ["marriage_1908_*.csv"],
     "marriage_2009.csv": ["marriage_2009_*.csv"],
+    "marriage_1937.csv": ["marriage_1937_*.csv"],
+    "confirmation_1895.csv": ["confirmation_1895_*.csv"],
+    "confirmation_1957.csv": ["confirmation_1957_*.csv"],
+    "confirmation_1974.csv": ["confirmation_1974_*.csv"],
+    "baptism_1965.csv": ["baptism_1965_*.csv"],
+    "baptism_2011.csv": ["baptism_2011_*.csv"],
+    "baptism_fragments.csv": ["baptism_frag_*.csv"],
+    "death_index.csv": ["death_index_*.csv"],
+    "death_section_d.csv": ["death_section_d_*.csv"],
+    "death_c_1924.csv": ["death_c_1924_*.csv"],
+    "first_communion_1962.csv": ["first_communion_1962_*.csv"],
 }
 
 
