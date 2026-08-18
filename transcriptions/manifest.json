@@ -140,7 +140,7 @@
     },
     {
       "id": "baptism_1965",
-      "title": "Baptism 1965–1972 (name index fragment)",
+      "title": "Baptism 1965–1972 (name index)",
       "file": "baptism_1965.csv",
       "type": "baptism"
     },
@@ -185,6 +185,18 @@
       "title": "Confirmation / First Communion 1942–1952",
       "file": "confirmation_1942.csv",
       "type": "confirmation"
+    },
+    {
+      "id": "death_section_d",
+      "title": "Death SECTION D (cemetery plots fragment)",
+      "file": "death_section_d.csv",
+      "type": "death"
+    },
+    {
+      "id": "baptism_fragments",
+      "title": "Baptism 1875–1903 / 1904–1921 fragments",
+      "file": "baptism_fragments.csv",
+      "type": "baptism"
     }
   ]
 }
