@@ -16,7 +16,10 @@ TRANSCRIPTIONS = Path(__file__).resolve().parent.parent / "transcriptions"
 
 NAME_COLUMNS = (
     "surname", "given_name", "plot_owner", "name", "child", "father",
-    "mother", "groom", "bride", "sponsors", "witnesses", "officiant",
+    "mother", "mother_maiden", "groom", "bride", "groom_surname",
+    "groom_given", "bride_surname", "bride_given", "groom_parents",
+    "bride_parents", "sponsors", "sponsor", "witnesses", "officiant",
+    "priest", "parents", "nearest_relative",
 )
 
 
