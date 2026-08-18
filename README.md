@@ -38,7 +38,7 @@ register type, and other fields.
 | Baptism 1989–2011 | 1989–2011 | **complete** — 2,015 baptisms (all assigned scans) |
 | First Communion 1953–1961 | 1953–1961 | **complete** — 3,749 communicants (all assigned scans) |
 | Death 1990–2001 | 1990–2001 | **complete** — 2,327 deaths + index (all 75 scans) |
-| Death 2001–2018 | 2001–2018 | in progress — 1,792 deaths so far |
+| Death 2001–2018 | 2001–2018 | **complete** — 2,605 deaths + index (all 62 scans) |
 | Confirmation 1942–1952 | 1942–1952 | pending — on Drive |
 | Death 1895–1899 | 1895–1899 | pending — on Drive |
 
