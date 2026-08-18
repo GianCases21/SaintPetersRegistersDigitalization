@@ -51,7 +51,7 @@ register type, and other fields.
 | Death Section E | ~1929–1970s | **complete** — 552 burials + index (all 33 scans) |
 | Baptism 2011– | 2016–2019 fragment | **complete for Drive scans** — 20 baptisms + name indexes (5 scans) |
 | Baptism 1965–1972 | 1965–1972 | **complete for Drive scans** — 621 name-index entries (all letter tabs; title page has no names) |
-| First Communion 1962–1970 | ~1962–1970 | in progress — 98 name-index entries (PAGE R2-S and Y names from PAGE X-Y) |
+| First Communion 1962–1970 | ~1962–1970 | **complete for Drive scans** — 168 name-index entries (PAGE R2-S and PAGE X-Y) |
 | Death SECTION D | plot-book fragment | **complete for Drive scans** — 161 burials/index rows (all 5 scans) |
 | Baptism 1875–1903 / 1904–1921 | fragments | **complete for Drive scans** — 65 baptisms (PAGE I, 358, 008, 014, 061) |
 
