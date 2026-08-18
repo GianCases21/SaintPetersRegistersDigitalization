@@ -35,9 +35,9 @@ register type, and other fields.
 | Confirmation 1991–2014 | 1991–2004 | in progress — 952 confirmations (pages 2–55) |
 | Marriage 1872–1907 | 1872–1908 | **complete** — 456 marriages (all 65 scans) |
 | Marriage 2009– | 2009–2010 | in progress — first page (9 marriages) |
-| Baptism 1989–2011 | 1989–2011 | in progress — 527 baptisms so far |
-| First Communion 1953–1961 | 1953–1961 | in progress — 2,253 communicants so far |
-| Death 2001–2018 | 2001–2018 | in progress — 468 deaths so far |
+| Baptism 1989–2011 | 1989–2011 | in progress — 742 baptisms so far |
+| First Communion 1953–1961 | 1953–1961 | in progress — 3,382 communicants (later pages + indexes complete) |
+| Death 2001–2018 | 2001–2018 | in progress — 759 deaths so far |
 | Confirmation 1942–1952 | 1942–1952 | pending — on Drive |
 | Death 1895–2001 | 1895–2001 | pending — on Drive |
 
