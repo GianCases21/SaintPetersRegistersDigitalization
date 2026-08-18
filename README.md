@@ -32,12 +32,12 @@ register type, and other fields.
 | Record of Interments 1847–54 | 1847–1854 | **complete** — 225 burials (pages 2–62; later pages are accounts) |
 | Sick Call Register | 1973–2006 | **complete** — 3,213 visits + index |
 | Confirmation 2015– | 2015–2019 | in progress — 307 confirmations so far |
-| Confirmation 1991–2014 | 1991–2004 | in progress — 952 confirmations (pages 2–55) |
+| Confirmation 1991–2014 | 1991–2004 | in progress — 1,050 confirmations so far |
 | Marriage 1872–1907 | 1872–1908 | **complete** — 456 marriages (all 65 scans) |
 | Marriage 2009– | 2009–2010 | in progress — first page (9 marriages) |
-| Baptism 1989–2011 | 1989–2011 | in progress — 742 baptisms so far |
-| First Communion 1953–1961 | 1953–1961 | in progress — 3,382 communicants (later pages + indexes complete) |
-| Death 2001–2018 | 2001–2018 | in progress — 759 deaths so far |
+| Baptism 1989–2011 | 1989–2011 | in progress — 1,353 baptisms (pages 1–60 complete) |
+| First Communion 1953–1961 | 1953–1961 | in progress — 3,433 communicants so far |
+| Death 2001–2018 | 2001–2018 | in progress — 1,011 deaths so far |
 | Confirmation 1942–1952 | 1942–1952 | pending — on Drive |
 | Death 1895–2001 | 1895–2001 | pending — on Drive |
 
