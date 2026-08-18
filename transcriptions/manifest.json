@@ -91,6 +91,12 @@
       "type": "death"
     },
     {
+      "id": "death_1990",
+      "title": "Death 1990–2001",
+      "file": "death_1990.csv",
+      "type": "death"
+    },
+    {
       "id": "marriage_1872",
       "title": "Marriage 1872–1907",
       "file": "marriage_1872.csv",
