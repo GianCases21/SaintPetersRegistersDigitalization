@@ -39,8 +39,13 @@ register type, and other fields.
 | First Communion 1953–1961 | 1953–1961 | **complete** — 3,749 communicants (all assigned scans) |
 | Death 1990–2001 | 1990–2001 | **complete** — 2,327 deaths + index (all 75 scans) |
 | Death 2001–2018 | 2001–2018 | **complete** — 2,605 deaths + index (all 62 scans) |
-| Confirmation 1942–1952 | 1942–1952 | pending — on Drive |
-| Death 1895–1899 | 1895–1899 | pending — on Drive |
+| Confirmation 1942–1952 | 1942–1952 | pending — on Drive (transcribing) |
+| Death 1895–1899 | 1895–1899 | pending — on Drive (transcribing) |
+| Marriage 1908–1936 | 1908–1936 | pending — on Drive (transcribing) |
+| Marriage 1937–1963 | 1946 fragment | **complete for Drive scans** — 20 marriages (PAGE 58, 60) |
+| Confirmation 1895–1944 | 1895–1944 | **complete for Drive scans** — year/page index (PAGE 000) |
+| Confirmation 1974–1990 folder | 1923 | **complete for Drive scans** — 10 baptisms (PAGE 164 is a misfiled 1923 baptism leaf) |
+| Death C 1924–1964 | 1948–1949 fragment | **complete for Drive scans** — 9 burials (PAGE 46) |
 
 ## Searching the records
 

@@ -107,6 +107,30 @@
       "title": "Marriage 2009–",
       "file": "marriage_2009.csv",
       "type": "marriage"
+    },
+    {
+      "id": "marriage_1937",
+      "title": "Marriage 1937–1963 (fragment)",
+      "file": "marriage_1937.csv",
+      "type": "marriage"
+    },
+    {
+      "id": "confirmation_1895",
+      "title": "Confirmation 1895–1944 (year index)",
+      "file": "confirmation_1895.csv",
+      "type": "confirmation"
+    },
+    {
+      "id": "confirmation_1974",
+      "title": "Confirmation 1974–1990 folder (1923 baptism page)",
+      "file": "confirmation_1974.csv",
+      "type": "baptism"
+    },
+    {
+      "id": "death_c_1924",
+      "title": "Death C 1924–1964 (fragment)",
+      "file": "death_c_1924.csv",
+      "type": "death"
     }
   ]
 }
