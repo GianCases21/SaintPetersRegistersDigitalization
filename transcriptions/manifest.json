@@ -67,6 +67,12 @@
       "type": "confirmation"
     },
     {
+      "id": "confirmation_1991",
+      "title": "Confirmation 1991–2014",
+      "file": "confirmation_1991.csv",
+      "type": "confirmation"
+    },
+    {
       "id": "baptism_1989",
       "title": "Baptism 1989–2011",
       "file": "baptism_1989.csv",
