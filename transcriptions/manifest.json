@@ -173,6 +173,12 @@
       "title": "Confirmation 1957–1964 (fragment)",
       "file": "confirmation_1957.csv",
       "type": "confirmation"
+    },
+    {
+      "id": "marriage_1908",
+      "title": "Marriage 1908–1936",
+      "file": "marriage_1908.csv",
+      "type": "marriage"
     }
   ]
 }
