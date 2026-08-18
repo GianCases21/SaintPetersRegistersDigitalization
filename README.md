@@ -34,12 +34,13 @@ register type, and other fields.
 | Confirmation 2015– | 2015–2019 | **complete** — 756 confirmations + index (all Drive scans; pages 4 and 15 were never on Drive) |
 | Confirmation 1991–2014 | 1991–2014 | **complete** — 3,763 confirmations (all assigned scans) |
 | Marriage 1872–1907 | 1872–1908 | **complete** — 456 marriages (all 65 scans) |
-| Marriage 2009– | 2009–2010 | in progress — first page (9 marriages) |
+| Marriage 2009– | 2009–2019 | **complete** — 598 marriages + index (all Drive scans; page 18 was never uploaded) |
 | Baptism 1989–2011 | 1989–2011 | **complete** — 2,015 baptisms (all assigned scans) |
 | First Communion 1953–1961 | 1953–1961 | **complete** — 3,749 communicants (all assigned scans) |
 | Death 1990–2001 | 1990–2001 | **complete** — 2,327 deaths + index (all 75 scans) |
 | Death 2001–2018 | 2001–2018 | **complete** — 2,605 deaths + index (all 62 scans) |
 | Confirmation 1942–1952 | 1942–1952 | pending — on Drive (transcribing) |
+| Confirmation 1957–1964 | 1964 fragment | **complete for Drive scans** — 949 confirmations + index (PAGE 96, 99 and letter tabs) |
 | Death 1895–1899 | 1895–1899 | **complete** — 346 deaths + index (all 26 scans) |
 | Death Registers name index | — | **complete** — 2,125 name→page pointers (all 30 letter-tab scans) |
 | Marriage 1908–1936 | 1908–1936 | pending — on Drive (transcribing) |

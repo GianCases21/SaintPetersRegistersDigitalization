@@ -167,6 +167,12 @@
       "title": "Death 1895–1899",
       "file": "death_1895.csv",
       "type": "death"
+    },
+    {
+      "id": "confirmation_1957",
+      "title": "Confirmation 1957–1964 (fragment)",
+      "file": "confirmation_1957.csv",
+      "type": "confirmation"
     }
   ]
 }
