@@ -47,6 +47,8 @@ register type, and other fields.
 | Confirmation 1974–1990 folder | 1923 | **complete for Drive scans** — 10 baptisms (PAGE 164 is a misfiled 1923 baptism leaf) |
 | Death C 1924–1964 | 1948–1949 fragment | **complete for Drive scans** — 9 burials (PAGE 46) |
 | Baptism 2011– | 2016–2019 fragment | **complete for Drive scans** — 20 baptisms + name indexes (5 scans) |
+| Baptism 1965–1972 | 1965–1972 | in progress — 250 name-index entries (tabs A, F, K, L; remaining tabs still on Drive) |
+| First Communion 1962–1970 | ~1962–1964 | in progress — 92 name-index entries (PAGE R2-S; PAGE X-Y still on Drive) |
 
 ## Searching the records
 

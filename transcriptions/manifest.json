@@ -137,6 +137,18 @@
       "title": "Baptism 2011– (fragment)",
       "file": "baptism_2011.csv",
       "type": "baptism"
+    },
+    {
+      "id": "baptism_1965",
+      "title": "Baptism 1965–1972 (name index fragment)",
+      "file": "baptism_1965.csv",
+      "type": "baptism"
+    },
+    {
+      "id": "first_communion_1962",
+      "title": "First Communion 1962–1970 (index fragment)",
+      "file": "first_communion_1962.csv",
+      "type": "first_communion"
     }
   ]
 }
