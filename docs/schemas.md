@@ -98,6 +98,23 @@ Extra columns: `marriage_date`, `groom_surname`, `groom_given`,
 `groom_parents`, `bride_surname`, `bride_given`, `bride_parents`,
 `witnesses`, `officiant`, `groom_age`, `bride_age`.
 
+## Confirmation lists bound in Baptism 1839–1875 (`confirmation_early`)
+
+Class lists of confirmands written in the back of the baptism book
+(1854–1875): surname, given name, confirmation name, date, bishop/pastor.
+Same extra columns as `confirmation_1991`.
+
+## Funerals 1868 (`funerals_1868`)
+
+A “Register of Funerals” leaf (and attached slip) bound after the baptisms.
+Same extra columns as `death_1895`. Ages written `Y-M-D` are years-months-days.
+
+## Marriage 1840–1871 name index (`marriage_1840_index`)
+
+Letter-tab index of the 1840–1871 marriage book. Paired surnames
+(`Brady - Collins`) store the first name in `surname` and the second in
+`given_name`, with `notes` = `index_pair`. Extra column: `page_no`.
+
 ## Other fragment volumes (indexes / stray pages)
 
 Letter-tab and one-page fragments (Baptism 1875–1903, 1904–1921,
