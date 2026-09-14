@@ -70,6 +70,13 @@ then open [http://localhost:8000](http://localhost:8000) in a browser. Search
 by name, year, and register. (The page can also be hosted for free on GitHub
 Pages: repo Settings → Pages → deploy from the main branch root.)
 
+**Status briefing for leadership** — live counts and next-scan priorities:
+
+```bash
+python3 scripts/manager_report.py
+python3 scripts/manager_report.py --out briefing.md
+```
+
 **Command line:**
 
 ```bash
