@@ -25,8 +25,11 @@ register type, and other fields.
 | St. Joseph 1939 name index | — | **complete** — 148 name→page pointers |
 | Cemetery Plots 1847 | ~1847–1890s | **complete** — 2,463 entries |
 | Reception Into Full Communion | 2009–2012 | **complete** — 5 entries (the whole book) |
-| Baptism 1839–1875 | 1839–1875 | **complete** — 2,514 baptisms |
-| Marriage 1840–1871 | 1840–1871 | **complete** — 612 marriages |
+| Baptism 1839–1875 | 1839–1875 | **complete** — 2,514 baptisms (pages 1–133) |
+| Confirmation 1854–1875 (in Baptism book) | 1854–1875 | **complete** — 911 confirmands (pages 135–147 of the baptism book) |
+| Funerals 1868 (in Baptism book) | 1868 | **complete** — 16 burials (page 134 + attached slip) |
+| Marriage 1840–1871 | 1840–1871 | **complete** — 613 marriages (fuller 59–60 / 75–76 photos replace overlapping 57–58 / 73–74 scans) |
+| Marriage 1840–1871 name index | — | **complete for Drive scans** — 255 groom–bride page pointers (letter tabs on Drive) |
 | First Communion 1895–1941 | 1895–1941 | **complete** — 2,377 communicants |
 | Record of Cemetery 1854–1870 | 1854–1870 | **complete** — 686 burials |
 | Record of Interments 1847–54 | 1847–1854 | **complete** — 225 burials (pages 2–62; later pages are accounts) |
@@ -66,6 +69,13 @@ python3 -m http.server 8000
 then open [http://localhost:8000](http://localhost:8000) in a browser. Search
 by name, year, and register. (The page can also be hosted for free on GitHub
 Pages: repo Settings → Pages → deploy from the main branch root.)
+
+**Status briefing for leadership** — live counts and next-scan priorities:
+
+```bash
+python3 scripts/manager_report.py
+python3 scripts/manager_report.py --out briefing.md
+```
 
 **Command line:**
 

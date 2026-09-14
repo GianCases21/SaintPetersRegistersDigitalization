@@ -156,7 +156,33 @@ CSV header:
 register,source_image,page,marriage_date,year,groom_surname,groom_given,bride_surname,bride_given,witnesses,officiant,needs_review,notes
 ```
 `register` value: `marriage_1840`. Landscape scans are two-page spreads
-unless the filename is a single page (PAGE 1, PAGE 79–87).
+unless the filename is a single page (PAGE 1, PAGE 79–87). Put ages,
+occupations, and parents in `notes`. PAGE 087 is blank (no rows).
+
+### Marriage 1840–1871 name index (`marriage_1840_index`)
+
+Letter-tab scans in `Marriage Registers/1840-1871`. Each line is two
+surnames and a register page number.
+
+CSV header:
+```
+register,source_image,page,surname,given_name,page_no,needs_review,notes
+```
+`register` value: `marriage_1840_index`. `surname` = first of the pair;
+`given_name` = second of the pair; `notes` = `index_pair`. `page` = the
+letter tab (`A`, `Mc`, `N`, …).
+
+### Confirmation lists in the Baptism 1839 book (`confirmation_early`)
+
+PAGES 135–147 of Baptism Registry 1839–1875 are confirmation class lists
+(1854–1875), not baptisms. Same CSV header as `confirmation_1991`.
+`register` value: `confirmation_early`. Keep Latin given names as written.
+
+### Funerals 1868 (`funerals_1868`)
+
+PAGE 134 of the baptism book is headed “1868. Register of Funerals”
+(main page plus an attached slip). Same CSV header as `death_1895`.
+`register` value: `funerals_1868`. Ages like `0-4-0` are years-months-days.
 
 ### First Communion 1895–1941 (`first_communion_1895`)
 

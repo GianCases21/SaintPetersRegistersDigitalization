@@ -197,6 +197,24 @@
       "title": "Baptism 1875–1903 / 1904–1921 fragments",
       "file": "baptism_fragments.csv",
       "type": "baptism"
+    },
+    {
+      "id": "confirmation_early",
+      "title": "Confirmation 1854–1875 (in Baptism 1839 book)",
+      "file": "confirmation_early.csv",
+      "type": "confirmation"
+    },
+    {
+      "id": "funerals_1868",
+      "title": "Funerals 1868 (in Baptism 1839 book)",
+      "file": "funerals_1868.csv",
+      "type": "death"
+    },
+    {
+      "id": "marriage_1840_index",
+      "title": "Marriage 1840–1871 name index",
+      "file": "marriage_1840_index.csv",
+      "type": "name_index"
     }
   ]
 }

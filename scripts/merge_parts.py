@@ -48,6 +48,9 @@ GROUPS = {
     "death_section_d.csv": ["death_section_d_*.csv"],
     "death_c_1924.csv": ["death_c_1924_*.csv"],
     "first_communion_1962.csv": ["first_communion_1962_*.csv"],
+    "confirmation_early.csv": ["confirmation_early_*.csv"],
+    "funerals_1868.csv": ["funerals_1868_*.csv"],
+    "marriage_1840_index.csv": ["mar1840_index_*.csv"],
 }
 
 
