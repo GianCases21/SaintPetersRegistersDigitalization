@@ -233,7 +233,7 @@ start photographing:** `docs/scan_resume.md` (regenerate with
 
 - Put files in the **existing book folder**, not a second copy of the whole archive.
 - Name images `PAGE 012.JPG` (or `PAGE 12-13.JPG` for a two-page spread). Match the names already used in that folder.
-- Upload **individual page images**, not a replacement zip of the entire register. Today's Drive folder is mostly giant zip dumps; a watcher cannot see “page 18 was added” inside a 2 GB zip.
+- **Preferred:** upload individual page images. If you instead replace a register zip, the watcher downloads that new dump and pulls out pages that are not already in the database. Do not upload the duplicate `NEW 2023–2024 UPDATED` zip.
 - One book, one folder. Do not duplicate St. Joseph / Cemetery Plots / First Communion 1895 in a second tree.
 - Skip blank title pages, or put accounts in a subfolder named `_accounts`.
 
@@ -247,10 +247,9 @@ start photographing:** `docs/scan_resume.md` (regenerate with
 
 **Blockers for a Drive watcher today**
 
-1. Drive is organized as **zip archives**, not live page files — the watcher would only see “a zip changed.”
-2. Listing the folder with a public link (`gdown`) works only while the folder is “anyone with the link.” Church records should probably be **private**, which requires the official Google Drive API and a service account.
-3. This project’s GitHub access cannot turn on Actions or store secrets; a repo admin has to enable Actions and add a vision API key.
-4. Detection is not transcription. Publishing without a vision key still writes `transcriptions/pending_scans.md` so new JPGs cannot sit unnoticed.
+1. Listing the folder with a public link (`gdown`) works only while the folder is “anyone with the link.” Church records should probably be **private**, which requires the official Google Drive API and a service account.
+2. This project’s GitHub access cannot store secrets; a repo admin has to add a vision API key (`OPENAI_API_KEY` or `ANTHROPIC_API_KEY`) so new pages are transcribed, not only listed.
+3. Detection is not transcription. Without that key, `transcriptions/pending_scans.md` still lists every new JPG so nothing sits on Drive unnoticed.
 
 Until A–C are in place, the operating model stays: photograph → upload → we transcribe → website updates.
 

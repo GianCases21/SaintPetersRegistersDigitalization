@@ -18,9 +18,9 @@ Shared Drive: https://drive.google.com/drive/folders/1JyB49OP-yAV43iojbGje6cwvLN
 3. Name files `PAGE 012.JPG` (or `PAGE 12-13.JPG` for a two-page spread),
    matching the names already used in that folder. Keep the spaces.
 4. Upload **individual page images** into the existing book folder on Drive
-   (or drop them in `incoming/<register_id>/` in this repo). Do **not** replace
-   the whole register with a new zip — the website watcher cannot see a new
-   page inside a 2 GB zip.
+   (or drop them in `incoming/<register_id>/` in this repo). Replacing a zip
+   with a newer dump also works: the watcher unpacks new `PAGE ….JPG` files.
+   Do not upload the duplicate `NEW 2023–2024 UPDATED` zip.
 5. Skip title pages with no names, totals-only pages, and account/fee pages
    (put accounts in a subfolder named `_accounts` if you still want an archive
    photo).

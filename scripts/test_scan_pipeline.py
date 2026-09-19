@@ -9,6 +9,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from register_catalog import analyze_register, load_manifest, map_drive_path
+from watch_drive import extract_new_images_from_zip, skip_archive
 
 
 def _by_id() -> dict:
@@ -28,6 +29,9 @@ def main() -> None:
         "Confirmation 2015-/PAGE 22.JPG": "confirmation_2015",
         "TITLE.JPG": None,
         "St. Joseph Section 1939/PAGE 067.JPG": "st_joseph_section_1939",
+        "Baptism Registers/Baptism 2011-/PAGE 068.JPG": "baptism_2011",
+        "Marriage Registers/Marriage 1937-1963/PAGE 059.JPG": "marriage_1937",
+        "Death Registers/Death C 1924-1964/PAGE 047.JPG": "death_c_1924",
     }
     failed = 0
     for path, expected in mapping.items():
@@ -58,6 +62,39 @@ def main() -> None:
         failed += 1
     if stats["marriage_2009"]["holes"] != [18]:
         print(f"FAIL marriage_2009 holes {stats['marriage_2009']['holes']}")
+        failed += 1
+
+    if not skip_archive("NEW 2023-2024 UPDATED-20260817T172911Z-1-001.zip"):
+        print("FAIL skip_archive should skip the duplicate 2023 dump")
+        failed += 1
+    if skip_archive("Baptism Registers-20260817T172854Z-1-003.zip"):
+        print("FAIL skip_archive should not skip Baptism Registers.zip")
+        failed += 1
+
+    import tempfile
+    import zipfile
+
+    tmp = Path(tempfile.mkdtemp(prefix="zip_ingest_"))
+    zip_path = tmp / "sample.zip"
+    with zipfile.ZipFile(zip_path, "w") as zf:
+        zf.writestr("Baptism 2011-/PAGE 068.JPG", b"new-page")
+        zf.writestr("Baptism 2011-/PAGE 046.JPG", b"already")
+        zf.writestr("Baptism 2011-/TITLE.JPG", b"skip-me")
+    dest = tmp / "incoming"
+    extracted = extract_new_images_from_zip(
+        zip_path,
+        dest,
+        {"baptism_2011": {"PAGE 046.JPG"}},
+        "Baptism Registers.zip",
+        10,
+    )
+    names = {row["name"] for row in extracted}
+    if names != {"PAGE 068.JPG"}:
+        print(f"FAIL zip extract names {names}")
+        failed += 1
+    copied = dest / "baptism_2011" / "PAGE 068.JPG"
+    if not copied.exists() or copied.read_bytes() != b"new-page":
+        print("FAIL zip extract did not copy PAGE 068.JPG")
         failed += 1
 
     if failed:

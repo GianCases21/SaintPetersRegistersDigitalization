@@ -130,7 +130,8 @@ Start from the last named record in [docs/scan_resume.md](docs/scan_resume.md)
 — that file lists, for each book, the latest date in the database, the last
 person (or couple), the last page on Drive, and where to stand with the camera.
 
-Upload **individual `PAGE ….JPG` files** into the existing book folder (not a
-replacement zip). Overnight, GitHub Actions can list Drive, transcribe new
-pages, and merge them so the search site updates. Details:
+Upload **individual `PAGE ….JPG` files** into the existing book folder on the
+same Drive, or replace a register zip with a dump that includes the new pages.
+Overnight, GitHub Actions lists that Drive, transcribes new pages when a vision
+API key is set, and merges them so the search site updates. Details:
 [docs/drive_ingest.md](docs/drive_ingest.md).

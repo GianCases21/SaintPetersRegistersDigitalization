@@ -5,8 +5,9 @@ Compares the live Drive listing to transcriptions/drive_snapshot.json and to
 source_image names already in the CSVs. New page images can be downloaded into
 incoming/<register_id>/ for ingest_incoming.py.
 
-Zips are recorded but not downloaded (they hide new pages). Upload JPGs into
-the existing book folder instead.
+Loose JPGs are preferred. If a zip on Drive is replaced (new file id / name),
+that archive is downloaded and any PAGE images not already in a CSV are
+extracted. The duplicate “NEW 2023–2024 UPDATED” zip is skipped.
 
 Usage:
     python3 scripts/watch_drive.py
@@ -18,6 +19,8 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+import tempfile
+import zipfile
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -38,6 +41,12 @@ from register_catalog import (  # noqa: E402
 SNAPSHOT = TRANSCRIPTIONS / "drive_snapshot.json"
 PENDING = TRANSCRIPTIONS / "pending_scans.md"
 PENDING_JSON = TRANSCRIPTIONS / "pending_scans.json"
+
+
+def skip_archive(path: str) -> bool:
+    """Duplicate portrait dump of the 1839 book — not a source of new pages."""
+    lower = path.lower()
+    return "new 2023" in lower or "2023-2024 updated" in lower
 
 
 def _utc_now() -> str:
@@ -114,7 +123,55 @@ def classify(files: list[dict], old_ids: set[str], transcribed: dict[str, set[st
     }
 
 
-def write_pending(classified: dict, listed_at: str) -> None:
+def extract_new_images_from_zip(
+    zip_path: Path,
+    dest_root: Path,
+    transcribed: dict[str, set[str]],
+    archive_name: str,
+    max_files: int,
+) -> list[dict]:
+    """Copy PAGE images that are not already transcribed into dest_root/<register_id>/."""
+    found: list[dict] = []
+    dest_root = dest_root.resolve()
+    with zipfile.ZipFile(zip_path) as zf:
+        for info in zf.infolist():
+            if info.is_dir() or "__MACOSX" in info.filename:
+                continue
+            inner = info.filename.replace("\\", "/")
+            name = Path(inner).name
+            if name.startswith(".") or kind_for_name(name) != "image":
+                continue
+            if should_skip_filename(name):
+                continue
+            register_id = map_drive_path(inner) or map_drive_path(f"{archive_name}/{inner}")
+            if not register_id:
+                continue
+            if name.upper() in transcribed.get(register_id, set()):
+                continue
+            dest_dir = dest_root / register_id
+            dest = (dest_dir / name).resolve()
+            try:
+                dest.relative_to(dest_dir.resolve())
+            except ValueError:
+                continue
+            dest_dir.mkdir(parents=True, exist_ok=True)
+            if not dest.exists():
+                with zf.open(info) as src, dest.open("wb") as out:
+                    out.write(src.read())
+            found.append(
+                {
+                    "register_id": register_id,
+                    "name": name,
+                    "path": inner,
+                    "dest": str(dest),
+                }
+            )
+            if len(found) >= max_files:
+                break
+    return found
+
+
+def write_pending(classified: dict, listed_at: str, extracted: list[dict] | None = None) -> None:
     lines = [
         "# Pending scans",
         "",
@@ -127,24 +184,32 @@ def write_pending(classified: dict, listed_at: str) -> None:
     new_images = classified["new_images"]
     new_zips = classified["new_zips"]
     queued = classified["images_not_in_csv"]
+    extracted = extracted or []
 
-    if not new_images and not new_zips and not queued:
+    if not new_images and not new_zips and not queued and not extracted:
         lines += [
             "No new page images. The Drive folder is still the original zip dumps plus",
-            "the logbook. When photographers add `PAGE ….JPG` files next to (not inside)",
-            "those zips, they will show up here and `scripts/ingest_incoming.py` can",
-            "transcribe them into the website.",
+            "the logbook. When photographers add `PAGE ….JPG` files next to those zips,",
+            "or replace a zip with a newer dump that contains new pages, they will show",
+            "up here and `scripts/ingest_incoming.py` can transcribe them into the website.",
             "",
         ]
     if new_zips:
         lines += ["## New or replaced zip archives", ""]
         lines.append(
-            "A watcher cannot see which pages changed inside a zip. Unpack the zip and"
+            "A new zip dump was detected. `watch_drive.py --download-new` unpacks it "
+            "and copies any `PAGE ….JPG` files that are not already in a CSV into `incoming/`."
         )
-        lines.append("upload the new pages as individual JPGs, or drop them in `incoming/<register_id>/`.")
+        lines.append("The duplicate “NEW 2023–2024 UPDATED” zip is skipped.")
         lines.append("")
         for row in new_zips:
-            lines.append(f"- `{row['path']}` — {zip_label(row['path'])}")
+            skipped = " (skipped duplicate dump)" if skip_archive(row["path"]) else ""
+            lines.append(f"- `{row['path']}` — {zip_label(row['path'])}{skipped}")
+        lines.append("")
+    if extracted:
+        lines += ["## New pages extracted from zips", ""]
+        for row in extracted:
+            lines.append(f"- `{row['name']}` → `{row['register_id']}`")
         lines.append("")
     if new_images:
         lines += ["## New page images on Drive", ""]
@@ -181,6 +246,7 @@ def write_pending(classified: dict, listed_at: str) -> None:
                 "new_images": classified["new_images"],
                 "new_zips": classified["new_zips"],
                 "images_not_in_csv": classified["images_not_in_csv"],
+                "extracted_from_zips": extracted,
             },
             indent=2,
         )
@@ -227,13 +293,50 @@ def download_new_images(rows: list[dict], dest_root: Path, max_files: int) -> li
     return saved
 
 
+def download_and_unpack_zips(
+    rows: list[dict],
+    dest_root: Path,
+    transcribed: dict[str, set[str]],
+    max_files: int,
+) -> list[dict]:
+    import gdown
+
+    extracted: list[dict] = []
+    remaining = max_files
+    for row in rows:
+        if remaining <= 0:
+            break
+        if skip_archive(row["path"]):
+            print(f"skip duplicate archive: {row['path']}", file=sys.stderr)
+            continue
+        tmpdir = Path(tempfile.mkdtemp(prefix="drive_zip_"))
+        zip_path = tmpdir / Path(row["name"]).name
+        print(f"downloading zip {row['path']} -> {zip_path}")
+        gdown.download(id=row["id"], output=str(zip_path), quiet=False, resume=True)
+        if not zip_path.exists():
+            print(f"zip download failed: {row['path']}", file=sys.stderr)
+            continue
+        batch = extract_new_images_from_zip(
+            zip_path, dest_root, transcribed, row["path"], remaining
+        )
+        extracted.extend(batch)
+        remaining = max_files - len(extracted)
+        print(f"extracted {len(batch)} new page(s) from {row['name']}")
+    return extracted
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--url", default=DRIVE_URL)
     parser.add_argument("--snapshot", default=str(SNAPSHOT))
     parser.add_argument("--download-new", metavar="DIR", help="download new JPGs into DIR/<register_id>/")
-    parser.add_argument("--max-files", type=int, default=40, help="cap on downloaded new images")
+    parser.add_argument("--max-files", type=int, default=40, help="cap on downloaded/extracted new images")
     parser.add_argument("--offline", action="store_true", help="do not call Drive; rewrite pending from snapshot")
+    parser.add_argument(
+        "--skip-zips",
+        action="store_true",
+        help="do not download/unpack replaced zip archives",
+    )
     args = parser.parse_args()
 
     snapshot_path = Path(args.snapshot)
@@ -257,21 +360,7 @@ def main() -> None:
 
     transcribed = transcribed_names()
     classified = classify(files, old_ids, transcribed)
-    previous_pending = json.loads(PENDING_JSON.read_text(encoding="utf-8")) if PENDING_JSON.exists() else None
-    pending_changed = previous_pending is None or any(
-        previous_pending.get(key) != classified[key]
-        for key in ("new_images", "new_zips", "images_not_in_csv")
-    )
-    if pending_changed or not PENDING.exists():
-        write_pending(classified, listed_at)
-        print(f"Wrote {PENDING}")
-    else:
-        print("Pending queue unchanged")
-    print(
-        f"new images={len(classified['new_images'])} "
-        f"new zips={len(classified['new_zips'])} "
-        f"untranscribed images={len(classified['images_not_in_csv'])}"
-    )
+    extracted: list[dict] = []
 
     if args.download_new:
         dest = Path(args.download_new)
@@ -279,6 +368,29 @@ def main() -> None:
             dest = ROOT / dest
         downloaded = download_new_images(classified["new_images"], dest, args.max_files)
         print(f"downloaded {len(downloaded)} image(s) into {dest}")
+        remaining = max(0, args.max_files - len(downloaded))
+        if not args.skip_zips and remaining and classified["new_zips"]:
+            extracted = download_and_unpack_zips(
+                classified["new_zips"], dest, transcribed, remaining
+            )
+            print(f"extracted {len(extracted)} new page(s) from replaced zips")
+
+    previous_pending = json.loads(PENDING_JSON.read_text(encoding="utf-8")) if PENDING_JSON.exists() else None
+    pending_changed = previous_pending is None or any(
+        previous_pending.get(key) != classified[key]
+        for key in ("new_images", "new_zips", "images_not_in_csv")
+    ) or (extracted and previous_pending.get("extracted_from_zips") != extracted)
+    if pending_changed or not PENDING.exists() or extracted:
+        write_pending(classified, listed_at, extracted)
+        print(f"Wrote {PENDING}")
+    else:
+        print("Pending queue unchanged")
+    print(
+        f"new images={len(classified['new_images'])} "
+        f"new zips={len(classified['new_zips'])} "
+        f"untranscribed images={len(classified['images_not_in_csv'])} "
+        f"extracted={len(extracted)}"
+    )
 
 
 if __name__ == "__main__":
