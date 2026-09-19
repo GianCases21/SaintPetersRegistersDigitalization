@@ -1,0 +1,285 @@
+#!/usr/bin/env python3
+"""List the shared Google Drive folder and queue scans the website does not have.
+
+Compares the live Drive listing to transcriptions/drive_snapshot.json and to
+source_image names already in the CSVs. New page images can be downloaded into
+incoming/<register_id>/ for ingest_incoming.py.
+
+Zips are recorded but not downloaded (they hide new pages). Upload JPGs into
+the existing book folder instead.
+
+Usage:
+    python3 scripts/watch_drive.py
+    python3 scripts/watch_drive.py --download-new incoming
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from datetime import datetime, timezone
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from register_catalog import (  # noqa: E402
+    DRIVE_URL,
+    ROOT,
+    TRANSCRIPTIONS,
+    analyze_register,
+    kind_for_name,
+    load_manifest,
+    map_drive_path,
+    should_skip_filename,
+    zip_label,
+)
+
+SNAPSHOT = TRANSCRIPTIONS / "drive_snapshot.json"
+PENDING = TRANSCRIPTIONS / "pending_scans.md"
+PENDING_JSON = TRANSCRIPTIONS / "pending_scans.json"
+
+
+def _utc_now() -> str:
+    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def list_drive(url: str) -> list[dict]:
+    try:
+        import gdown
+    except ImportError as exc:
+        raise SystemExit("gdown is not installed. Run: pip install -r requirements.txt") from exc
+
+    listed = gdown.download_folder(url, output=str(ROOT / "drive_sample"), skip_download=True, quiet=False)
+    files = []
+    for item in listed or []:
+        file_id = getattr(item, "id", "") or ""
+        rel = getattr(item, "path", "") or str(item)
+        rel = str(rel).replace("\\", "/")
+        files.append(
+            {
+                "id": file_id,
+                "path": rel,
+                "name": Path(rel).name,
+                "kind": kind_for_name(rel),
+            }
+        )
+    files.sort(key=lambda row: row["path"].lower())
+    return files
+
+
+def transcribed_names() -> dict[str, set[str]]:
+    found: dict[str, set[str]] = {}
+    for item in load_manifest():
+        stats = analyze_register(item)
+        found[item["id"]] = {name.upper() for name in stats["images"]}
+    return found
+
+
+def classify(files: list[dict], old_ids: set[str], transcribed: dict[str, set[str]]) -> dict:
+    new_files = []
+    for row in files:
+        if not old_ids:
+            is_new = False
+        elif row["id"]:
+            is_new = row["id"] not in old_ids
+        else:
+            is_new = True
+        payload = {
+            **row,
+            "register_id": map_drive_path(row["path"]),
+            "skip": should_skip_filename(row["name"]),
+            "is_new": is_new,
+        }
+        names = transcribed.get(payload["register_id"] or "", set())
+        payload["already_transcribed"] = row["name"].upper() in names
+        new_files.append(payload)
+
+    images = [
+        row for row in new_files
+        if row["kind"] == "image" and not row["skip"] and not row["already_transcribed"]
+    ]
+    new_images = [row for row in images if row["is_new"]]
+    new_zips = [row for row in new_files if row["kind"] == "zip" and row["is_new"]]
+    unknown = [
+        row for row in new_images
+        if row["is_new"] and not row["register_id"]
+    ]
+    return {
+        "images_not_in_csv": images,
+        "new_images": new_images,
+        "new_zips": new_zips,
+        "unknown_folder": unknown,
+        "files": new_files,
+    }
+
+
+def write_pending(classified: dict, listed_at: str) -> None:
+    lines = [
+        "# Pending scans",
+        "",
+        f"Drive listing at {listed_at}.",
+        "",
+        "The website is updated from CSVs under `transcriptions/`. This file is the",
+        "queue of Drive files that are not in those CSVs yet.",
+        "",
+    ]
+    new_images = classified["new_images"]
+    new_zips = classified["new_zips"]
+    queued = classified["images_not_in_csv"]
+
+    if not new_images and not new_zips and not queued:
+        lines += [
+            "No new page images. The Drive folder is still the original zip dumps plus",
+            "the logbook. When photographers add `PAGE ….JPG` files next to (not inside)",
+            "those zips, they will show up here and `scripts/ingest_incoming.py` can",
+            "transcribe them into the website.",
+            "",
+        ]
+    if new_zips:
+        lines += ["## New or replaced zip archives", ""]
+        lines.append(
+            "A watcher cannot see which pages changed inside a zip. Unpack the zip and"
+        )
+        lines.append("upload the new pages as individual JPGs, or drop them in `incoming/<register_id>/`.")
+        lines.append("")
+        for row in new_zips:
+            lines.append(f"- `{row['path']}` — {zip_label(row['path'])}")
+        lines.append("")
+    if new_images:
+        lines += ["## New page images on Drive", ""]
+        for row in new_images:
+            register = row["register_id"] or "UNKNOWN FOLDER — put this in the book folder"
+            flag = "" if row["register_id"] else " **(needs a book folder)**"
+            lines.append(f"- `{row['path']}` → `{register}`{flag}")
+        lines.append("")
+    elif queued:
+        lines += ["## Images on Drive not yet in a CSV", ""]
+        for row in queued:
+            register = row["register_id"] or "UNKNOWN"
+            lines.append(f"- `{row['path']}` → `{register}`")
+        lines.append("")
+
+    lines += [
+        "## What happens next",
+        "",
+        "```bash",
+        "python3 scripts/watch_drive.py --download-new incoming",
+        "python3 scripts/ingest_incoming.py",
+        "```",
+        "",
+        "With a vision API key (`OPENAI_API_KEY` or `ANTHROPIC_API_KEY`) the ingest",
+        "script transcribes new pages into `transcriptions/parts/` and merges them so",
+        "`index.html` can search the new names. Without a key, the images stay queued.",
+        "",
+    ]
+    PENDING.write_text("\n".join(lines), encoding="utf-8")
+    PENDING_JSON.write_text(
+        json.dumps(
+            {
+                "listed_at": listed_at,
+                "new_images": classified["new_images"],
+                "new_zips": classified["new_zips"],
+                "images_not_in_csv": classified["images_not_in_csv"],
+            },
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+
+def snapshot_payload(files: list[dict], listed_at: str) -> dict:
+    return {
+        "drive_url": DRIVE_URL,
+        "listed_at": listed_at,
+        "files": [{"id": row["id"], "path": row["path"], "kind": row["kind"]} for row in files],
+    }
+
+
+def files_changed(old: dict | None, new_files: list[dict]) -> bool:
+    if not old:
+        return True
+    old_rows = {(row.get("id"), row.get("path")) for row in old.get("files") or []}
+    new_rows = {(row["id"], row["path"]) for row in new_files}
+    return old_rows != new_rows
+
+
+def download_new_images(rows: list[dict], dest_root: Path, max_files: int) -> list[Path]:
+    import gdown
+
+    saved: list[Path] = []
+    for row in rows[:max_files]:
+        register_id = row["register_id"]
+        if not register_id:
+            print(f"skip (unknown register): {row['path']}", file=sys.stderr)
+            continue
+        dest_dir = dest_root / register_id
+        dest_dir.mkdir(parents=True, exist_ok=True)
+        dest = dest_dir / row["name"]
+        if dest.exists():
+            saved.append(dest)
+            continue
+        print(f"downloading {row['path']} -> {dest}")
+        gdown.download(id=row["id"], output=str(dest), quiet=False)
+        if dest.exists():
+            saved.append(dest)
+    return saved
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--url", default=DRIVE_URL)
+    parser.add_argument("--snapshot", default=str(SNAPSHOT))
+    parser.add_argument("--download-new", metavar="DIR", help="download new JPGs into DIR/<register_id>/")
+    parser.add_argument("--max-files", type=int, default=40, help="cap on downloaded new images")
+    parser.add_argument("--offline", action="store_true", help="do not call Drive; rewrite pending from snapshot")
+    args = parser.parse_args()
+
+    snapshot_path = Path(args.snapshot)
+    old = json.loads(snapshot_path.read_text(encoding="utf-8")) if snapshot_path.exists() else None
+    old_ids = {row.get("id") for row in (old or {}).get("files") or [] if row.get("id")}
+
+    if args.offline:
+        if not old:
+            raise SystemExit(f"no snapshot at {snapshot_path}")
+        files = list(old["files"])
+        listed_at = old.get("listed_at") or _utc_now()
+    else:
+        files = list_drive(args.url)
+        listed_at = _utc_now()
+        payload = snapshot_payload(files, listed_at)
+        if files_changed(old, files) or not snapshot_path.exists():
+            snapshot_path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+            print(f"Wrote {snapshot_path} ({len(files)} files)")
+        else:
+            print(f"Drive listing unchanged ({len(files)} files)")
+
+    transcribed = transcribed_names()
+    classified = classify(files, old_ids, transcribed)
+    previous_pending = json.loads(PENDING_JSON.read_text(encoding="utf-8")) if PENDING_JSON.exists() else None
+    pending_changed = previous_pending is None or any(
+        previous_pending.get(key) != classified[key]
+        for key in ("new_images", "new_zips", "images_not_in_csv")
+    )
+    if pending_changed or not PENDING.exists():
+        write_pending(classified, listed_at)
+        print(f"Wrote {PENDING}")
+    else:
+        print("Pending queue unchanged")
+    print(
+        f"new images={len(classified['new_images'])} "
+        f"new zips={len(classified['new_zips'])} "
+        f"untranscribed images={len(classified['images_not_in_csv'])}"
+    )
+
+    if args.download_new:
+        dest = Path(args.download_new)
+        if not dest.is_absolute():
+            dest = ROOT / dest
+        downloaded = download_new_images(classified["new_images"], dest, args.max_files)
+        print(f"downloaded {len(downloaded)} image(s) into {dest}")
+
+
+if __name__ == "__main__":
+    main()

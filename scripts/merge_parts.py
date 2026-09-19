@@ -51,6 +51,7 @@ GROUPS = {
     "confirmation_early.csv": ["confirmation_early_*.csv"],
     "funerals_1868.csv": ["funerals_1868_*.csv"],
     "marriage_1840_index.csv": ["mar1840_index_*.csv"],
+    "reception_full_communion.csv": ["reception_full_communion_*.csv"],
 }
 
 
@@ -62,7 +63,9 @@ def page_key(row: dict) -> tuple:
 
 def main() -> None:
     for out_name, patterns in GROUPS.items():
-        files = sorted({f for pat in patterns for f in PARTS.glob(pat)})
+        stem = out_name[:-4] if out_name.endswith(".csv") else out_name
+        globs = list(patterns) + [f"{stem}_auto_*.csv"]
+        files = sorted({f for pat in globs for f in PARTS.glob(pat)})
         if not files:
             continue
         header: list[str] | None = None

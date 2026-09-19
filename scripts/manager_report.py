@@ -225,6 +225,10 @@ Priority is books that exist on the shelf but are only fragments on Drive:
 
 {scan_lines}
 
+Full per-register **latest date, last named record, last page, and where to
+start photographing:** `docs/scan_resume.md` (regenerate with
+`python3 scripts/scan_resume.py`).
+
 **How to upload so the rest of the pipeline can be automated:**
 
 - Put files in the **existing book folder**, not a second copy of the whole archive.
@@ -237,17 +241,16 @@ Priority is books that exist on the shelf but are only fragments on Drive:
 
 | Phase | What you get | What we need from the parish / IT |
 |---|---|---|
-| **A. Detect new scans** | A daily list: “these new pages are not in the database yet.” | Upload pages as individual JPGs (above). Optional: GitHub Actions enabled on the repo. |
-| **B. Transcribe new scans** | New pages become CSV rows overnight, flagged if the reading is uncertain. | A vision-model API key and a small budget. A Google **service account** invited to the Drive folder if the folder is made private. |
-| **C. Publish + review** | Website updates itself. Someone spot-checks rows marked needs review. | Name a reviewer. Decide whether flagged rows show immediately (labeled) or wait. |
+| **A. Detect new scans** | A daily list: “these new pages are not in the database yet.” `scripts/watch_drive.py` plus `.github/workflows/ingest-drive.yml`. | Upload pages as individual JPGs (above). Enable GitHub Actions on the repo. |
+| **B. Transcribe new scans** | New pages become CSV rows overnight, flagged `needs_review=yes`. | A vision-model API key (`OPENAI_API_KEY` or `ANTHROPIC_API_KEY`) and a small budget. A Google **service account** invited to the Drive folder if the folder is made private. |
+| **C. Publish + review** | Website updates itself. Someone spot-checks rows marked needs review. | Name a reviewer. Merges to `main` publish GitHub Pages. |
 
 **Blockers for a Drive watcher today**
 
 1. Drive is organized as **zip archives**, not live page files — the watcher would only see “a zip changed.”
-2. There is **no scheduled job** in the repo yet (no GitHub Actions workflow).
-3. Listing the folder with a public link (`gdown`) works only while the folder is “anyone with the link.” Church records should probably be **private**, which requires the official Google Drive API and a service account.
-4. This project’s GitHub access cannot turn on Actions or store secrets; a repo admin has to add those.
-5. Detection is not transcription. Publishing without a vision key and a review rule would put unverified names on the site.
+2. Listing the folder with a public link (`gdown`) works only while the folder is “anyone with the link.” Church records should probably be **private**, which requires the official Google Drive API and a service account.
+3. This project’s GitHub access cannot turn on Actions or store secrets; a repo admin has to enable Actions and add a vision API key.
+4. Detection is not transcription. Publishing without a vision key still writes `transcriptions/pending_scans.md` so new JPGs cannot sit unnoticed.
 
 Until A–C are in place, the operating model stays: photograph → upload → we transcribe → website updates.
 

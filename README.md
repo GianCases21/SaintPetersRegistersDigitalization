@@ -77,6 +77,17 @@ python3 scripts/manager_report.py
 python3 scripts/manager_report.py --out briefing.md
 ```
 
+**Where to photograph next** — latest date, last named record, and last page
+for every register:
+
+```bash
+python3 scripts/scan_resume.py
+```
+
+See [docs/scan_resume.md](docs/scan_resume.md). New Drive pages are ingested
+with `scripts/watch_drive.py` and `scripts/ingest_incoming.py`
+([docs/drive_ingest.md](docs/drive_ingest.md)).
+
 **Command line:**
 
 ```bash
@@ -101,6 +112,8 @@ New registers are added to the web UI by listing their CSV in
 ```bash
 pip install -r requirements.txt
 python3 scripts/download_drive.py   # downloads scans from Google Drive
+python3 scripts/watch_drive.py --download-new incoming   # detect + fetch NEW pages
+python3 scripts/ingest_incoming.py  # transcribe incoming/ into the website CSVs
 ```
 
 ## Review workflow
@@ -108,4 +121,16 @@ python3 scripts/download_drive.py   # downloads scans from Google Drive
 Every transcribed row carries a `needs_review` flag and a `source_image`
 reference so a human reviewer can pull up the original scan and confirm
 uncertain readings. The `St. Peter's Registers Logbook` in the Drive tracks
-which registers have been reviewed.
+which registers have been reviewed. Machine-ingested pages are always flagged
+`needs_review=yes` until a person checks them.
+
+## Photographing new pages
+
+Start from the last named record in [docs/scan_resume.md](docs/scan_resume.md)
+— that file lists, for each book, the latest date in the database, the last
+person (or couple), the last page on Drive, and where to stand with the camera.
+
+Upload **individual `PAGE ….JPG` files** into the existing book folder (not a
+replacement zip). Overnight, GitHub Actions can list Drive, transcribe new
+pages, and merge them so the search site updates. Details:
+[docs/drive_ingest.md](docs/drive_ingest.md).
