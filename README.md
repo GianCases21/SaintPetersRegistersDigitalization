@@ -112,8 +112,7 @@ New registers are added to the web UI by listing their CSV in
 ```bash
 pip install -r requirements.txt
 python3 scripts/download_drive.py   # downloads scans from Google Drive
-python3 scripts/watch_drive.py --download-new incoming   # detect + fetch NEW pages
-python3 scripts/ingest_incoming.py  # transcribe incoming/ into the website CSVs
+python3 scripts/auto_ingest.py --download-new incoming   # watch Drive, fetch, transcribe
 ```
 
 ## Review workflow

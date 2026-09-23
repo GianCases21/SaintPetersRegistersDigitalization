@@ -23,46 +23,14 @@ jobs:
           python-version: "3.12"
       - name: Install
         run: pip install -r requirements.txt
-      - name: Check mapping and resume stats
+      - name: Check mapping and ingest tests
         run: python3 scripts/test_scan_pipeline.py
-      - name: List Drive and fetch new pages
-        run: python3 scripts/watch_drive.py --download-new incoming
-      - name: Transcribe new pages
+      - name: Watch Drive, fetch new pages, transcribe
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python3 scripts/ingest_incoming.py
-      - name: Refresh photographer guide
-        run: python3 scripts/scan_resume.py
-      - name: Commit website updates
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add transcriptions docs/scan_resume.md
-          if git diff --cached --quiet; then
-            echo "No ingest changes"
-          else
-            git commit -m "Ingest new register scans from Google Drive"
-            git push
-          fi
-
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - name: Install
-        run: pip install -r requirements.txt
-      - name: Check mapping and resume stats
-        run: python3 scripts/test_scan_pipeline.py
-      - name: List Drive and download new pages
-        run: python3 scripts/watch_drive.py --download-new incoming
-      - name: Transcribe new pages
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python3 scripts/ingest_incoming.py
-      - name: Refresh photographer guide
-        run: python3 scripts/scan_resume.py
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python3 scripts/auto_ingest.py --download-new incoming
       - name: Commit website updates
         run: |
           git config user.name "github-actions[bot]"

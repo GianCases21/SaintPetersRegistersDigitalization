@@ -8,8 +8,10 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from register_catalog import analyze_register, load_manifest, map_drive_path
-from watch_drive import extract_new_images_from_zip, skip_archive
+from drive_fingerprint import parse_interstitial
+from ingest_incoming import stub_rows
+from register_catalog import analyze_register, csv_header, load_manifest, map_drive_path
+from watch_drive import classify, extract_new_images_from_zip, skip_archive
 
 
 def _by_id() -> dict:
@@ -95,6 +97,29 @@ def main() -> None:
     copied = dest / "baptism_2011" / "PAGE 068.JPG"
     if not copied.exists() or copied.read_bytes() != b"new-page":
         print("FAIL zip extract did not copy PAGE 068.JPG")
+        failed += 1
+
+    html = '''<span class="uc-name-size"><a href="/open?id=abc">Book.zip</a> (1.9G)</span>
+<input type="hidden" name="uuid" value="u-1">'''
+    parsed = parse_interstitial(html)
+    if parsed["label"] != "1.9G" or parsed["uuid"] != "u-1":
+        print(f"FAIL parse_interstitial {parsed}")
+        failed += 1
+
+    classified = classify(
+        [{"id": "zip1", "path": "Book.zip", "name": "Book.zip", "kind": "zip", "size": 200}],
+        old_ids={"zip1"},
+        transcribed={},
+        old_sizes={"zip1": 100},
+    )
+    if not classified["new_zips"] or not classified["size_changed_zips"]:
+        print(f"FAIL size-changed zip not detected {classified['new_zips']}")
+        failed += 1
+
+    header = csv_header("baptism_2011") or []
+    stubs = stub_rows("baptism_2011", "PAGE 068.JPG", header)
+    if not stubs or stubs[0].get("source_image") != "PAGE 068.JPG" or stubs[0].get("needs_review") != "yes":
+        print(f"FAIL stub_rows {stubs}")
         failed += 1
 
     if failed:

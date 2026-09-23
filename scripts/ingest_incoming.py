@@ -2,9 +2,9 @@
 """Turn new page images in incoming/<register_id>/ into website CSV rows.
 
 Images whose filenames are already a source_image in that register are skipped.
-With OPENAI_API_KEY or ANTHROPIC_API_KEY, each new page is transcribed (every
-auto row is flagged needs_review=yes). Without a key, the files are listed in
-transcriptions/pending_scans.md for a person or later CI run.
+With OPENAI_API_KEY, ANTHROPIC_API_KEY, or GEMINI_API_KEY, each new page is
+transcribed (every auto row is flagged needs_review=yes). Without a key, the
+files are listed in transcriptions/pending_scans.md.
 
 Usage:
     python3 scripts/ingest_incoming.py
@@ -44,6 +44,28 @@ PARTS = TRANSCRIPTIONS / "parts"
 PENDING = TRANSCRIPTIONS / "pending_scans.md"
 
 SKIP_VALUES = {"register", "source_image", "needs_review"}
+
+
+def vision_ready() -> bool:
+    return bool(
+        os.environ.get("OPENAI_API_KEY")
+        or os.environ.get("ANTHROPIC_API_KEY")
+        or os.environ.get("GEMINI_API_KEY")
+        or os.environ.get("GOOGLE_API_KEY")
+        or os.environ.get("INGEST_STUB")
+    )
+
+
+def vision_name() -> str:
+    if os.environ.get("INGEST_STUB"):
+        return "stub"
+    if os.environ.get("OPENAI_API_KEY"):
+        return "openai"
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        return "anthropic"
+    if os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY"):
+        return "gemini"
+    return "missing"
 
 
 def discover_images(incoming: Path) -> list[tuple[str, Path]]:
@@ -248,13 +270,72 @@ def anthropic_transcribe(image_bytes: bytes, prompt: str) -> str:
     return "".join(part.get("text", "") for part in parts if part.get("type") == "text")
 
 
+def gemini_transcribe(image_bytes: bytes, prompt: str) -> str:
+    key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+    if not key:
+        raise RuntimeError("GEMINI_API_KEY missing")
+    model = os.environ.get("GEMINI_VISION_MODEL", "gemini-2.0-flash")
+    body = {
+        "contents": [
+            {
+                "parts": [
+                    {"text": prompt},
+                    {
+                        "inline_data": {
+                            "mime_type": "image/jpeg",
+                            "data": base64.b64encode(image_bytes).decode("ascii"),
+                        }
+                    },
+                ]
+            }
+        ],
+        "generationConfig": {"temperature": 0},
+    }
+    url = (
+        "https://generativelanguage.googleapis.com/v1beta/models/"
+        f"{model}:generateContent?key={key}"
+    )
+    req = urllib.request.Request(
+        url,
+        data=json.dumps(body).encode("utf-8"),
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=180) as resp:
+            payload = json.loads(resp.read().decode("utf-8"))
+    except urllib.error.HTTPError as exc:
+        detail = exc.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"Gemini HTTP {exc.code}: {detail[:500]}") from exc
+    parts = (((payload.get("candidates") or [{}])[0].get("content") or {}).get("parts") or [])
+    return "".join(part.get("text", "") for part in parts)
+
+
+def stub_rows(register_id: str, filename: str, header: list[str]) -> list[dict]:
+    row = {key: "" for key in header}
+    row["register"] = register_id
+    row["source_image"] = filename
+    row["needs_review"] = "yes"
+    row["notes"] = "stub ingest — replace by a real vision transcription"
+    if "surname" in row:
+        row["surname"] = "Stub"
+        row["given_name"] = Path(filename).stem
+    if "year" in row:
+        row["year"] = "1900"
+    return [row]
+
+
 def transcribe_image(path: Path, register_id: str, header: list[str]) -> list[dict]:
+    if os.environ.get("INGEST_STUB"):
+        return stub_rows(register_id, path.name, header)
     prompt = build_prompt(register_id, header, path.name)
     image_bytes = resize_jpeg(path)
     if os.environ.get("OPENAI_API_KEY"):
         text = openai_transcribe(image_bytes, prompt)
     elif os.environ.get("ANTHROPIC_API_KEY"):
         text = anthropic_transcribe(image_bytes, prompt)
+    elif os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY"):
+        text = gemini_transcribe(image_bytes, prompt)
     else:
         raise RuntimeError("no vision API key")
     return parse_csv_text(text, header, register_id, path.name)
@@ -296,20 +377,15 @@ def append_pending(queued: list[tuple[str, Path]], errors: list[str]) -> None:
     PENDING.write_text(existing.rstrip() + "\n" + "\n".join(extra) + "\n", encoding="utf-8")
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--incoming", default=str(INCOMING))
-    parser.add_argument("--dry-run", action="store_true")
-    args = parser.parse_args()
-
-    incoming = Path(args.incoming)
+def run_ingest(incoming: Path, dry_run: bool = False) -> dict:
     if not incoming.is_absolute():
         incoming = ROOT / incoming
 
-    has_key = bool(os.environ.get("OPENAI_API_KEY") or os.environ.get("ANTHROPIC_API_KEY"))
+    has_key = vision_ready()
     queued: list[tuple[str, Path]] = []
     written = 0
     errors: list[str] = []
+    rows_added = 0
 
     for register_id, path in discover_images(incoming):
         if already_transcribed(register_id, path.name):
@@ -319,7 +395,7 @@ def main() -> None:
         if not header:
             errors.append(f"{path.name}: no CSV header for {register_id}")
             continue
-        if not has_key or args.dry_run:
+        if not has_key or dry_run:
             queued.append((register_id, path))
             print(f"queued (no API key or dry-run): {register_id} {path.name}")
             continue
@@ -335,6 +411,7 @@ def main() -> None:
             continue
         dest = write_part(register_id, path.name, header, rows)
         written += 1
+        rows_added += len(rows)
         print(f"wrote {dest} ({len(rows)} rows)")
 
     if written:
@@ -345,10 +422,29 @@ def main() -> None:
     print(f"transcribed_pages={written} queued={len(queued)} errors={len(errors)}")
     if not has_key and queued:
         print(
-            "Set OPENAI_API_KEY or ANTHROPIC_API_KEY to transcribe queued pages "
-            "into the website CSVs.",
+            "Set OPENAI_API_KEY, ANTHROPIC_API_KEY, or GEMINI_API_KEY to transcribe "
+            "queued pages into the website CSVs.",
             file=sys.stderr,
         )
+    return {
+        "transcribed_pages": written,
+        "rows_added": rows_added,
+        "queued": len(queued),
+        "errors": len(errors),
+        "vision": vision_name(),
+        "queued_files": [f"{rid}/{path.name}" for rid, path in queued],
+    }
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--incoming", default=str(INCOMING))
+    parser.add_argument("--dry-run", action="store_true")
+    args = parser.parse_args()
+    incoming = Path(args.incoming)
+    if not incoming.is_absolute():
+        incoming = ROOT / incoming
+    run_ingest(incoming, dry_run=args.dry_run)
 
 
 if __name__ == "__main__":
