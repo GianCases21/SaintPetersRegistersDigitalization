@@ -131,6 +131,8 @@ person (or couple), the last page on Drive, and where to stand with the camera.
 
 Upload **individual `PAGE ….JPG` files** into the existing book folder on the
 same Drive, or replace a register zip with a dump that includes the new pages.
-Overnight, GitHub Actions lists that Drive, transcribes new pages when a vision
-API key is set, and merges them so the search site updates. Details:
+Overnight, GitHub Actions lists that Drive (including zip size changes),
+adds each new page to the search site, and transcribes names with GitHub
+Copilot (no extra secret) or an optional `OPENAI_API_KEY` /
+`ANTHROPIC_API_KEY` / `GEMINI_API_KEY`. Details:
 [docs/drive_ingest.md](docs/drive_ingest.md).

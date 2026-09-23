@@ -34,6 +34,7 @@ def main() -> None:
     parser.add_argument("--download-new", default="incoming")
     parser.add_argument("--skip-fingerprint", action="store_true")
     parser.add_argument("--skip-zips", action="store_true")
+    parser.add_argument("--offline", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
@@ -47,6 +48,8 @@ def main() -> None:
         watch_cmd.append("--skip-fingerprint")
     if args.skip_zips:
         watch_cmd.append("--skip-zips")
+    if args.offline:
+        watch_cmd.append("--offline")
     subprocess.run(watch_cmd, check=True)
 
     incoming = Path(args.download_new)
@@ -71,6 +74,7 @@ def main() -> None:
         "transcribed_pages": ingest["transcribed_pages"],
         "rows_added": ingest["rows_added"],
         "pending_pages": ingest["queued"],
+        "published_pending": ingest.get("published_pending", 0),
         "errors": ingest["errors"],
         "vision": vision_name(),
         "queued_files": ingest["queued_files"],

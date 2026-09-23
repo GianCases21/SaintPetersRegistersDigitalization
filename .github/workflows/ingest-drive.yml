@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  copilot-requests: write
 
 concurrency:
   group: ingest-drive
@@ -21,12 +22,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
       - name: Install
         run: pip install -r requirements.txt
+      - name: Install Copilot CLI
+        run: npm install -g @github/copilot
       - name: Check mapping and ingest tests
         run: python3 scripts/test_scan_pipeline.py
       - name: Watch Drive, fetch new pages, transcribe
         env:
+          GITHUB_TOKEN: ${{ github.token }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}

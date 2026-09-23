@@ -250,9 +250,9 @@ def write_pending(classified: dict, listed_at: str, extracted: list[dict] | None
         "python3 scripts/ingest_incoming.py",
         "```",
         "",
-        "With a vision API key (`OPENAI_API_KEY` or `ANTHROPIC_API_KEY`) the ingest",
-        "script transcribes new pages into `transcriptions/parts/` and merges them so",
-        "`index.html` can search the new names. Without a key, the images stay queued.",
+        "The ingest job publishes each new page to `transcriptions/new_scans.csv`",
+        "(visible on the website) and transcribes names with Copilot or an optional",
+        "`OPENAI_API_KEY` / `ANTHROPIC_API_KEY` / `GEMINI_API_KEY`.",
         "",
     ]
     PENDING.write_text("\n".join(lines), encoding="utf-8")
