@@ -10,8 +10,6 @@ from __future__ import annotations
 import re
 from typing import Any
 
-import requests
-
 SIZE_RE = re.compile(r'class="uc-name-size"[^>]*>.*?\(([^)]+)\)', re.S)
 UUID_RE = re.compile(r'name="uuid"\s+value="([^"]+)"')
 
@@ -30,6 +28,8 @@ def parse_interstitial(html: str) -> dict[str, str]:
 
 def fingerprint_file(file_id: str, timeout: int = 30) -> dict[str, Any]:
     """Return {size, label} for a public Drive file. size may be None."""
+    import requests
+
     session = requests.Session()
     session.headers["User-Agent"] = "SaintPetersRegistersIngest/1.0"
     first = session.get(
