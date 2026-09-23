@@ -8,8 +8,20 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from register_catalog import analyze_register, load_manifest, map_drive_path
-from watch_drive import extract_new_images_from_zip, skip_archive
+from drive_fingerprint import parse_interstitial
+from ingest_incoming import (
+    copilot_headers,
+    copilot_request_body,
+    pending_scan_row,
+    remove_new_scan,
+    stub_rows,
+    upsert_new_scans,
+    vision_name,
+    vision_ready,
+    write_new_scans,
+)
+from register_catalog import analyze_register, csv_header, load_manifest, map_drive_path, register_title
+from watch_drive import classify, extract_new_images_from_zip, skip_archive
 
 
 def _by_id() -> dict:
@@ -96,6 +108,104 @@ def main() -> None:
     if not copied.exists() or copied.read_bytes() != b"new-page":
         print("FAIL zip extract did not copy PAGE 068.JPG")
         failed += 1
+
+    html = '''<span class="uc-name-size"><a href="/open?id=abc">Book.zip</a> (1.9G)</span>
+<input type="hidden" name="uuid" value="u-1">'''
+    parsed = parse_interstitial(html)
+    if parsed["label"] != "1.9G" or parsed["uuid"] != "u-1":
+        print(f"FAIL parse_interstitial {parsed}")
+        failed += 1
+
+    classified = classify(
+        [{"id": "zip1", "path": "Book.zip", "name": "Book.zip", "kind": "zip", "size": 200}],
+        old_ids={"zip1"},
+        transcribed={},
+        old_sizes={"zip1": 100},
+    )
+    if not classified["new_zips"] or not classified["size_changed_zips"]:
+        print(f"FAIL size-changed zip not detected {classified['new_zips']}")
+        failed += 1
+
+    header = csv_header("baptism_2011") or []
+    stubs = stub_rows("baptism_2011", "PAGE 068.JPG", header)
+    if not stubs or stubs[0].get("source_image") != "PAGE 068.JPG" or stubs[0].get("needs_review") != "yes":
+        print(f"FAIL stub_rows {stubs}")
+        failed += 1
+
+    if "Baptism 2011" not in register_title("baptism_2011"):
+        print(f"FAIL register_title {register_title('baptism_2011')!r}")
+        failed += 1
+
+    pending = pending_scan_row("baptism_2011", "PAGE 068.JPG")
+    if pending["page"] != "68" or "New scan" not in pending["name"] or "Baptism 2011" not in pending["book"]:
+        print(f"FAIL pending_scan_row {pending}")
+        failed += 1
+
+    import os
+    import tempfile as _tempfile
+
+    old_skip = os.environ.get("INGEST_SKIP_COPILOT")
+    old_token = os.environ.get("GITHUB_TOKEN")
+    os.environ["INGEST_SKIP_COPILOT"] = "1"
+    os.environ.pop("GITHUB_TOKEN", None)
+    os.environ.pop("COPILOT_GITHUB_TOKEN", None)
+    os.environ.pop("GH_TOKEN", None)
+    os.environ.pop("OPENAI_API_KEY", None)
+    os.environ.pop("ANTHROPIC_API_KEY", None)
+    os.environ.pop("GEMINI_API_KEY", None)
+    os.environ.pop("GOOGLE_API_KEY", None)
+    os.environ.pop("INGEST_STUB", None)
+    if vision_ready() or vision_name() != "missing":
+        print(f"FAIL vision without keys: ready={vision_ready()} name={vision_name()}")
+        failed += 1
+    os.environ.pop("INGEST_SKIP_COPILOT", None)
+    os.environ["GITHUB_TOKEN"] = "ghs_test_token"
+    if not vision_ready() or vision_name() != "copilot":
+        print(f"FAIL copilot vision: ready={vision_ready()} name={vision_name()}")
+        failed += 1
+    body = copilot_request_body(b"jpeg-bytes", "transcribe")
+    if "data:image/jpeg;base64," not in body["messages"][0]["content"][1]["image_url"]["url"]:
+        print(f"FAIL copilot_request_body {body}")
+        failed += 1
+    headers = copilot_headers("ghs_test_token")
+    if headers.get("copilot-vision-request") != "true" or "Bearer " not in headers.get("Authorization", ""):
+        print(f"FAIL copilot_headers {headers}")
+        failed += 1
+    if old_skip is None:
+        os.environ.pop("INGEST_SKIP_COPILOT", None)
+    else:
+        os.environ["INGEST_SKIP_COPILOT"] = old_skip
+    if old_token is None:
+        os.environ.pop("GITHUB_TOKEN", None)
+    else:
+        os.environ["GITHUB_TOKEN"] = old_token
+
+    scratch = Path(_tempfile.mkdtemp(prefix="new_scans_"))
+    fake = scratch / "PAGE 099.JPG"
+    fake.write_bytes(b"x")
+    from ingest_incoming import NEW_SCANS
+
+    previous = NEW_SCANS.read_text(encoding="utf-8") if NEW_SCANS.exists() else None
+    try:
+        write_new_scans([])
+        added = upsert_new_scans([("baptism_2011", fake)])
+        if added != 1:
+            print(f"FAIL upsert_new_scans added={added}")
+            failed += 1
+        added_again = upsert_new_scans([("baptism_2011", fake)])
+        if added_again != 0:
+            print(f"FAIL upsert_new_scans should be idempotent, added={added_again}")
+            failed += 1
+        remove_new_scan("baptism_2011", "PAGE 099.JPG")
+        leftover = [row for row in (NEW_SCANS.read_text(encoding="utf-8").splitlines()) if "PAGE 099" in row]
+        if leftover:
+            print(f"FAIL remove_new_scan left {leftover}")
+            failed += 1
+    finally:
+        if previous is None:
+            NEW_SCANS.unlink(missing_ok=True)
+        else:
+            NEW_SCANS.write_text(previous, encoding="utf-8")
 
     if failed:
         raise SystemExit(f"{failed} check(s) failed")

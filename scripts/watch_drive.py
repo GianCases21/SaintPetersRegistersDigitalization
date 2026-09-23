@@ -26,6 +26,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+from drive_fingerprint import fingerprint_files  # noqa: E402
 from register_catalog import (  # noqa: E402
     DRIVE_URL,
     ROOT,
@@ -85,11 +86,24 @@ def transcribed_names() -> dict[str, set[str]]:
     return found
 
 
-def classify(files: list[dict], old_ids: set[str], transcribed: dict[str, set[str]]) -> dict:
+def classify(
+    files: list[dict],
+    old_ids: set[str],
+    transcribed: dict[str, set[str]],
+    old_sizes: dict[str, int] | None = None,
+) -> dict:
+    old_sizes = old_sizes or {}
     new_files = []
     for row in files:
+        size_changed = False
+        old_size = old_sizes.get(row.get("id") or "")
+        new_size = row.get("size")
+        if old_size and new_size and int(old_size) != int(new_size):
+            size_changed = True
         if not old_ids:
             is_new = False
+        elif size_changed:
+            is_new = True
         elif row["id"]:
             is_new = row["id"] not in old_ids
         else:
@@ -99,6 +113,7 @@ def classify(files: list[dict], old_ids: set[str], transcribed: dict[str, set[st
             "register_id": map_drive_path(row["path"]),
             "skip": should_skip_filename(row["name"]),
             "is_new": is_new,
+            "size_changed": size_changed,
         }
         names = transcribed.get(payload["register_id"] or "", set())
         payload["already_transcribed"] = row["name"].upper() in names
@@ -110,6 +125,7 @@ def classify(files: list[dict], old_ids: set[str], transcribed: dict[str, set[st
     ]
     new_images = [row for row in images if row["is_new"]]
     new_zips = [row for row in new_files if row["kind"] == "zip" and row["is_new"]]
+    size_changed_zips = [row for row in new_zips if row.get("size_changed")]
     unknown = [
         row for row in new_images
         if row["is_new"] and not row["register_id"]
@@ -118,6 +134,7 @@ def classify(files: list[dict], old_ids: set[str], transcribed: dict[str, set[st
         "images_not_in_csv": images,
         "new_images": new_images,
         "new_zips": new_zips,
+        "size_changed_zips": size_changed_zips,
         "unknown_folder": unknown,
         "files": new_files,
     }
@@ -233,9 +250,9 @@ def write_pending(classified: dict, listed_at: str, extracted: list[dict] | None
         "python3 scripts/ingest_incoming.py",
         "```",
         "",
-        "With a vision API key (`OPENAI_API_KEY` or `ANTHROPIC_API_KEY`) the ingest",
-        "script transcribes new pages into `transcriptions/parts/` and merges them so",
-        "`index.html` can search the new names. Without a key, the images stay queued.",
+        "The ingest job publishes each new page to `transcriptions/new_scans.csv`",
+        "(visible on the website) and transcribes names with Copilot or an optional",
+        "`OPENAI_API_KEY` / `ANTHROPIC_API_KEY` / `GEMINI_API_KEY`.",
         "",
     ]
     PENDING.write_text("\n".join(lines), encoding="utf-8")
@@ -245,6 +262,7 @@ def write_pending(classified: dict, listed_at: str, extracted: list[dict] | None
                 "listed_at": listed_at,
                 "new_images": classified["new_images"],
                 "new_zips": classified["new_zips"],
+                "size_changed_zips": classified.get("size_changed_zips") or [],
                 "images_not_in_csv": classified["images_not_in_csv"],
                 "extracted_from_zips": extracted,
             },
@@ -259,15 +277,27 @@ def snapshot_payload(files: list[dict], listed_at: str) -> dict:
     return {
         "drive_url": DRIVE_URL,
         "listed_at": listed_at,
-        "files": [{"id": row["id"], "path": row["path"], "kind": row["kind"]} for row in files],
+        "files": [
+            {
+                "id": row["id"],
+                "path": row["path"],
+                "kind": row["kind"],
+                "size": row.get("size"),
+                "label": row.get("label") or "",
+            }
+            for row in files
+        ],
     }
 
 
 def files_changed(old: dict | None, new_files: list[dict]) -> bool:
     if not old:
         return True
-    old_rows = {(row.get("id"), row.get("path")) for row in old.get("files") or []}
-    new_rows = {(row["id"], row["path"]) for row in new_files}
+    old_rows = {
+        (row.get("id"), row.get("path"), row.get("size"))
+        for row in old.get("files") or []
+    }
+    new_rows = {(row["id"], row["path"], row.get("size")) for row in new_files}
     return old_rows != new_rows
 
 
@@ -337,11 +367,21 @@ def main() -> None:
         action="store_true",
         help="do not download/unpack replaced zip archives",
     )
+    parser.add_argument(
+        "--skip-fingerprint",
+        action="store_true",
+        help="do not probe Drive zip byte sizes",
+    )
     args = parser.parse_args()
 
     snapshot_path = Path(args.snapshot)
     old = json.loads(snapshot_path.read_text(encoding="utf-8")) if snapshot_path.exists() else None
     old_ids = {row.get("id") for row in (old or {}).get("files") or [] if row.get("id")}
+    old_sizes = {
+        row["id"]: int(row["size"])
+        for row in (old or {}).get("files") or []
+        if row.get("id") and row.get("size")
+    }
 
     if args.offline:
         if not old:
@@ -350,6 +390,8 @@ def main() -> None:
         listed_at = old.get("listed_at") or _utc_now()
     else:
         files = list_drive(args.url)
+        if not args.skip_fingerprint:
+            files = fingerprint_files(files)
         listed_at = _utc_now()
         payload = snapshot_payload(files, listed_at)
         if files_changed(old, files) or not snapshot_path.exists():
@@ -359,7 +401,7 @@ def main() -> None:
             print(f"Drive listing unchanged ({len(files)} files)")
 
     transcribed = transcribed_names()
-    classified = classify(files, old_ids, transcribed)
+    classified = classify(files, old_ids, transcribed, old_sizes)
     extracted: list[dict] = []
 
     if args.download_new:

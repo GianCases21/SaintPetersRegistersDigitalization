@@ -2,9 +2,10 @@
 """Turn new page images in incoming/<register_id>/ into website CSV rows.
 
 Images whose filenames are already a source_image in that register are skipped.
-With OPENAI_API_KEY or ANTHROPIC_API_KEY, each new page is transcribed (every
-auto row is flagged needs_review=yes). Without a key, the files are listed in
-transcriptions/pending_scans.md for a person or later CI run.
+Vision providers, in order: OPENAI_API_KEY, ANTHROPIC_API_KEY, GEMINI_API_KEY,
+then GitHub Copilot (GITHUB_TOKEN / Copilot CLI). Every auto row is flagged
+needs_review=yes. Pages that cannot be read yet are listed on the website via
+transcriptions/new_scans.csv.
 
 Usage:
     python3 scripts/ingest_incoming.py
@@ -36,14 +37,73 @@ from register_catalog import (  # noqa: E402
     kind_for_name,
     load_manifest,
     map_drive_path,
+    pages_from_filename,
+    register_title,
     should_skip_filename,
 )
 
 INCOMING = ROOT / "incoming"
 PARTS = TRANSCRIPTIONS / "parts"
 PENDING = TRANSCRIPTIONS / "pending_scans.md"
+NEW_SCANS = TRANSCRIPTIONS / "new_scans.csv"
+NEW_SCANS_HEADER = [
+    "register",
+    "source_image",
+    "name",
+    "page",
+    "book",
+    "notes",
+    "needs_review",
+]
 
 SKIP_VALUES = {"register", "source_image", "needs_review"}
+COPILOT_CHAT_URL = "https://api.githubcopilot.com/chat/completions"
+
+
+def copilot_token() -> str:
+    return (
+        os.environ.get("COPILOT_GITHUB_TOKEN")
+        or os.environ.get("GITHUB_TOKEN")
+        or os.environ.get("GH_TOKEN")
+        or ""
+    )
+
+
+def copilot_cli_path() -> str:
+    import shutil
+
+    return shutil.which(os.environ.get("COPILOT_CLI", "copilot")) or ""
+
+
+def copilot_usable() -> bool:
+    if os.environ.get("INGEST_SKIP_COPILOT"):
+        return False
+    return bool(copilot_token() or copilot_cli_path())
+
+
+def vision_ready() -> bool:
+    return bool(
+        os.environ.get("OPENAI_API_KEY")
+        or os.environ.get("ANTHROPIC_API_KEY")
+        or os.environ.get("GEMINI_API_KEY")
+        or os.environ.get("GOOGLE_API_KEY")
+        or os.environ.get("INGEST_STUB")
+        or copilot_usable()
+    )
+
+
+def vision_name() -> str:
+    if os.environ.get("INGEST_STUB"):
+        return "stub"
+    if os.environ.get("OPENAI_API_KEY"):
+        return "openai"
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        return "anthropic"
+    if os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY"):
+        return "gemini"
+    if copilot_usable():
+        return "copilot"
+    return "missing"
 
 
 def discover_images(incoming: Path) -> list[tuple[str, Path]]:
@@ -248,13 +308,234 @@ def anthropic_transcribe(image_bytes: bytes, prompt: str) -> str:
     return "".join(part.get("text", "") for part in parts if part.get("type") == "text")
 
 
+def gemini_transcribe(image_bytes: bytes, prompt: str) -> str:
+    key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+    if not key:
+        raise RuntimeError("GEMINI_API_KEY missing")
+    model = os.environ.get("GEMINI_VISION_MODEL", "gemini-2.0-flash")
+    body = {
+        "contents": [
+            {
+                "parts": [
+                    {"text": prompt},
+                    {
+                        "inline_data": {
+                            "mime_type": "image/jpeg",
+                            "data": base64.b64encode(image_bytes).decode("ascii"),
+                        }
+                    },
+                ]
+            }
+        ],
+        "generationConfig": {"temperature": 0},
+    }
+    url = (
+        "https://generativelanguage.googleapis.com/v1beta/models/"
+        f"{model}:generateContent?key={key}"
+    )
+    req = urllib.request.Request(
+        url,
+        data=json.dumps(body).encode("utf-8"),
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=180) as resp:
+            payload = json.loads(resp.read().decode("utf-8"))
+    except urllib.error.HTTPError as exc:
+        detail = exc.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"Gemini HTTP {exc.code}: {detail[:500]}") from exc
+    parts = (((payload.get("candidates") or [{}])[0].get("content") or {}).get("parts") or [])
+    return "".join(part.get("text", "") for part in parts)
+
+
+def copilot_headers(token: str) -> dict[str, str]:
+    return {
+        "Authorization": f"Bearer {token}",
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+        "Copilot-Integration-Id": os.environ.get(
+            "COPILOT_INTEGRATION_ID", "copilot-developer-cli"
+        ),
+        "copilot-vision-request": "true",
+        "Editor-Version": os.environ.get("COPILOT_EDITOR_VERSION", "vscode/1.104.0"),
+        "Editor-Plugin-Version": "SaintPetersRegistersIngest/1.0",
+        "User-Agent": "SaintPetersRegistersIngest/1.0",
+    }
+
+
+def copilot_request_body(image_bytes: bytes, prompt: str) -> dict:
+    model = os.environ.get("COPILOT_VISION_MODEL", "gpt-4o")
+    return {
+        "model": model,
+        "temperature": 0,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {"type": "text", "text": prompt},
+                    {
+                        "type": "image_url",
+                        "image_url": {
+                            "url": "data:image/jpeg;base64,"
+                            + base64.b64encode(image_bytes).decode("ascii")
+                        },
+                    },
+                ],
+            }
+        ],
+    }
+
+
+def copilot_http_transcribe(image_bytes: bytes, prompt: str) -> str:
+    token = copilot_token()
+    if not token:
+        raise RuntimeError("GITHUB_TOKEN missing for Copilot")
+    url = os.environ.get("COPILOT_API_URL", COPILOT_CHAT_URL)
+    req = urllib.request.Request(
+        url,
+        data=json.dumps(copilot_request_body(image_bytes, prompt)).encode("utf-8"),
+        headers=copilot_headers(token),
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=180) as resp:
+            payload = json.loads(resp.read().decode("utf-8"))
+    except urllib.error.HTTPError as exc:
+        detail = exc.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"Copilot HTTP {exc.code}: {detail[:500]}") from exc
+    choices = payload.get("choices") or []
+    if choices:
+        message = choices[0].get("message") or {}
+        content = message.get("content") or ""
+        if isinstance(content, list):
+            return "".join(part.get("text", "") for part in content if isinstance(part, dict))
+        return str(content)
+    raise RuntimeError(f"Copilot response had no choices: {str(payload)[:300]}")
+
+
+def copilot_cli_transcribe(path: Path, prompt: str) -> str:
+    cli = copilot_cli_path()
+    if not cli:
+        raise RuntimeError("copilot CLI is not installed")
+    image = path.resolve()
+    full = f"{prompt}\n\nThe register page image is attached here: @{image}\nReturn ONLY CSV."
+    cmd = [cli, "-p", full, "-s", "--no-ask-user"]
+    try:
+        proc = subprocess.run(
+            cmd,
+            capture_output=True,
+            text=True,
+            timeout=180,
+            check=False,
+        )
+    except FileNotFoundError as exc:
+        raise RuntimeError("copilot CLI is not installed") from exc
+    if proc.returncode != 0:
+        err = (proc.stderr or proc.stdout or "").strip()
+        raise RuntimeError(f"copilot CLI {proc.returncode}: {err[:500]}")
+    return proc.stdout
+
+
+def copilot_transcribe(image_bytes: bytes, prompt: str, path: Path) -> str:
+    errors: list[str] = []
+    if copilot_cli_path():
+        try:
+            return copilot_cli_transcribe(path, prompt)
+        except Exception as exc:  # noqa: BLE001
+            errors.append(f"cli: {exc}")
+    if copilot_token():
+        try:
+            return copilot_http_transcribe(image_bytes, prompt)
+        except Exception as exc:  # noqa: BLE001
+            errors.append(f"http: {exc}")
+    raise RuntimeError("copilot failed: " + " | ".join(errors or ["no token or CLI"]))
+
+
+def load_new_scans() -> list[dict]:
+    if not NEW_SCANS.exists():
+        return []
+    with NEW_SCANS.open(newline="", encoding="utf-8") as fh:
+        return list(csv.DictReader(fh))
+
+
+def write_new_scans(rows: list[dict]) -> None:
+    with NEW_SCANS.open("w", newline="", encoding="utf-8") as fh:
+        writer = csv.DictWriter(fh, fieldnames=NEW_SCANS_HEADER)
+        writer.writeheader()
+        for row in rows:
+            writer.writerow({key: row.get(key, "") for key in NEW_SCANS_HEADER})
+
+
+def pending_scan_row(register_id: str, filename: str) -> dict:
+    pages = pages_from_filename(filename)
+    return {
+        "register": register_id,
+        "source_image": filename,
+        "name": f"New scan — {filename}",
+        "page": ", ".join(str(n) for n in pages),
+        "book": register_title(register_id),
+        "notes": "Detected on Drive; names fill in after automatic transcription",
+        "needs_review": "yes",
+    }
+
+
+def upsert_new_scans(queued: list[tuple[str, Path]]) -> int:
+    existing = load_new_scans()
+    seen = {
+        (row.get("register"), (row.get("source_image") or "").upper()) for row in existing
+    }
+    added = 0
+    for register_id, path in queued:
+        key = (register_id, path.name.upper())
+        if key in seen:
+            continue
+        existing.append(pending_scan_row(register_id, path.name))
+        seen.add(key)
+        added += 1
+    write_new_scans(existing)
+    return added
+
+
+def remove_new_scan(register_id: str, filename: str) -> None:
+    remaining = [
+        row
+        for row in load_new_scans()
+        if not (
+            row.get("register") == register_id
+            and (row.get("source_image") or "").upper() == filename.upper()
+        )
+    ]
+    write_new_scans(remaining)
+
+
+def stub_rows(register_id: str, filename: str, header: list[str]) -> list[dict]:
+    row = {key: "" for key in header}
+    row["register"] = register_id
+    row["source_image"] = filename
+    row["needs_review"] = "yes"
+    row["notes"] = "stub ingest — replace by a real vision transcription"
+    if "surname" in row:
+        row["surname"] = "Stub"
+        row["given_name"] = Path(filename).stem
+    if "year" in row:
+        row["year"] = "1900"
+    return [row]
+
+
 def transcribe_image(path: Path, register_id: str, header: list[str]) -> list[dict]:
+    if os.environ.get("INGEST_STUB"):
+        return stub_rows(register_id, path.name, header)
     prompt = build_prompt(register_id, header, path.name)
     image_bytes = resize_jpeg(path)
     if os.environ.get("OPENAI_API_KEY"):
         text = openai_transcribe(image_bytes, prompt)
     elif os.environ.get("ANTHROPIC_API_KEY"):
         text = anthropic_transcribe(image_bytes, prompt)
+    elif os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY"):
+        text = gemini_transcribe(image_bytes, prompt)
+    elif copilot_usable():
+        text = copilot_transcribe(image_bytes, prompt, path)
     else:
         raise RuntimeError("no vision API key")
     return parse_csv_text(text, header, register_id, path.name)
@@ -296,20 +577,15 @@ def append_pending(queued: list[tuple[str, Path]], errors: list[str]) -> None:
     PENDING.write_text(existing.rstrip() + "\n" + "\n".join(extra) + "\n", encoding="utf-8")
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--incoming", default=str(INCOMING))
-    parser.add_argument("--dry-run", action="store_true")
-    args = parser.parse_args()
-
-    incoming = Path(args.incoming)
+def run_ingest(incoming: Path, dry_run: bool = False) -> dict:
     if not incoming.is_absolute():
         incoming = ROOT / incoming
 
-    has_key = bool(os.environ.get("OPENAI_API_KEY") or os.environ.get("ANTHROPIC_API_KEY"))
+    has_key = vision_ready()
     queued: list[tuple[str, Path]] = []
     written = 0
     errors: list[str] = []
+    rows_added = 0
 
     for register_id, path in discover_images(incoming):
         if already_transcribed(register_id, path.name):
@@ -319,7 +595,7 @@ def main() -> None:
         if not header:
             errors.append(f"{path.name}: no CSV header for {register_id}")
             continue
-        if not has_key or args.dry_run:
+        if not has_key or dry_run:
             queued.append((register_id, path))
             print(f"queued (no API key or dry-run): {register_id} {path.name}")
             continue
@@ -335,20 +611,44 @@ def main() -> None:
             continue
         dest = write_part(register_id, path.name, header, rows)
         written += 1
+        rows_added += len(rows)
+        remove_new_scan(register_id, path.name)
         print(f"wrote {dest} ({len(rows)} rows)")
 
     if written:
         merge_parts()
         subprocess.run([sys.executable, str(ROOT / "scripts" / "scan_resume.py")], check=False)
 
+    published = upsert_new_scans(queued) if queued else 0
     append_pending(queued, errors)
     print(f"transcribed_pages={written} queued={len(queued)} errors={len(errors)}")
     if not has_key and queued:
         print(
-            "Set OPENAI_API_KEY or ANTHROPIC_API_KEY to transcribe queued pages "
-            "into the website CSVs.",
+            "No vision provider. New pages are listed on the website as "
+            "'New scan — filename'. Set OPENAI_API_KEY, ANTHROPIC_API_KEY, or "
+            "GEMINI_API_KEY, or run in GitHub Actions with Copilot, to fill names.",
             file=sys.stderr,
         )
+    return {
+        "transcribed_pages": written,
+        "rows_added": rows_added,
+        "queued": len(queued),
+        "published_pending": published,
+        "errors": len(errors),
+        "vision": vision_name(),
+        "queued_files": [f"{rid}/{path.name}" for rid, path in queued],
+    }
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--incoming", default=str(INCOMING))
+    parser.add_argument("--dry-run", action="store_true")
+    args = parser.parse_args()
+    incoming = Path(args.incoming)
+    if not incoming.is_absolute():
+        incoming = ROOT / incoming
+    run_ingest(incoming, dry_run=args.dry_run)
 
 
 if __name__ == "__main__":

@@ -355,6 +355,13 @@ def load_manifest() -> list[dict]:
     return list(data["registers"])
 
 
+def register_title(register_id: str) -> str:
+    for item in load_manifest():
+        if item["id"] == register_id:
+            return item["title"]
+    return register_id
+
+
 def load_rows(csv_name: str) -> list[dict]:
     path = TRANSCRIPTIONS / csv_name
     if not path.exists():

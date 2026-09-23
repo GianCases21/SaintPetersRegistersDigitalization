@@ -121,6 +121,7 @@
     line-height: 1.45;
   }
   .counts { margin-top: 6px; font-size: 0.82rem; font-family: Verdana, sans-serif; }
+  .ingest-status { margin: 0 4px 8px; font-size: 0.82rem; color: var(--muted); font-family: Verdana, sans-serif; }
   @media (max-width: 760px) {
     .search-card { grid-template-columns: 1fr; }
   }
@@ -153,6 +154,7 @@
     If a search shows only ~17 records, hard-refresh the page (Ctrl+Shift+R / Cmd+Shift+R); your browser was holding an old copy of the data.
   </p>
   <p id="summary" class="summary">Loading records&hellip;</p>
+  <p id="ingest-status" class="ingest-status"></p>
   <p id="counts" class="counts"></p>
   <div class="results" id="results"></div>
 </main>
@@ -202,10 +204,40 @@ async function loadAll() {
     sel.appendChild(opt);
     byReg.push(reg.title + ': ' + rows.length);
   }
+  try {
+    const pendingReg = { id: 'new_scans', title: 'New scans (awaiting names)', file: 'new_scans.csv', type: 'pending_scans' };
+    const pendingText = await (await fetch('transcriptions/new_scans.csv' + v)).text();
+    const pendingRows = parseCSV(pendingText);
+    for (const row of pendingRows) {
+      row._register = pendingReg;
+      allRows.push(row);
+    }
+    if (pendingRows.length) {
+      const opt = document.createElement('option');
+      opt.value = 'new_scans';
+      opt.textContent = pendingReg.title + ' (' + pendingRows.length + ')';
+      sel.appendChild(opt);
+      byReg.push(pendingReg.title + ': ' + pendingRows.length);
+    }
+  } catch (err) { /* file may not exist on older deploys */ }
   document.getElementById('summary').textContent =
     allRows.length + ' records loaded from ' + manifest.registers.length + ' register(s). Enter a search above, or press Search to browse everything.';
   const countsEl = document.getElementById('counts');
   if (countsEl) countsEl.textContent = byReg.join('  ·  ');
+  const statusEl = document.getElementById('ingest-status');
+  if (statusEl) {
+    try {
+      const st = await (await fetch('transcriptions/ingest_status.json' + v)).json();
+      const bits = [];
+      if (st.checked_on) bits.push('Drive last checked ' + st.checked_on);
+      if (st.transcribed_pages) bits.push(st.transcribed_pages + ' new page(s) added');
+      if (st.pending_pages) bits.push(st.pending_pages + ' new scan(s) waiting to be read');
+      if (st.vision && st.vision !== 'missing' && st.vision !== 'stub') bits.push('auto-transcribe on (' + st.vision + ')');
+      statusEl.textContent = bits.join(' · ') || 'Watching the shared Drive for new scans.';
+    } catch (err) {
+      statusEl.textContent = 'Watching the shared Drive for new scans.';
+    }
+  }
 }
 
 function render(rows) {
