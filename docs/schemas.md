@@ -68,13 +68,17 @@ Extra columns: `entry_no`, `residence`, `birth_date`, `birth_place`,
 `baptism_date`, `father`, `mother_maiden`, `sponsors`, `priest`,
 `confirmation`. Marriage notes go in `notes`.
 
-## Confirmation 1942–1952 / 1991–2014 / 2015– (`confirmation_1942`, `confirmation_1991`, `confirmation_2015`)
+## Confirmation 1991–2014 / 2015– (`confirmation_1991`, `confirmation_2015`)
 
 Extra columns: `confirmation_date`, `entry_no`, `confirmation_name`,
 `age`, `baptism_date`, `baptism_place`, `residence`, `father`, `mother`,
-`sponsor`, `minister`. The 1942–1952 book is a First Communion Register
-form; some classes are confirmation, some first communion (`notes` has
-`event=`).
+`sponsor`, `minister`.
+
+## First Communion 1942–1952 (`confirmation_1942`)
+
+Same columns as the confirmation books. The physical volume is a First
+Communion register; every named row has `event=first_communion` in
+`notes`. The Drive folder is still named Confirmation 1942.
 
 ## Death 1895–1899 (`death_1895`)
 

@@ -126,6 +126,27 @@ def main() -> None:
     if map_drive_path("Marriage 1937-1963/index/PAGE B.JPG") != "marriage_1937_index":
         print(f"FAIL map marriage 1937 index {map_drive_path('Marriage 1937-1963/index/PAGE B.JPG')!r}")
         failed += 1
+    if "First Communion 1942" not in register_title("confirmation_1942"):
+        print(f"FAIL confirmation_1942 title {register_title('confirmation_1942')!r}")
+        failed += 1
+    if stats["confirmation_1942"].get("type") != "first_communion":
+        print(f"FAIL confirmation_1942 type {stats['confirmation_1942'].get('type')!r}")
+        failed += 1
+    fc1942 = list(_csv.DictReader(open("transcriptions/confirmation_1942.csv", newline="", encoding="utf-8")))
+    not_fc = [r for r in fc1942 if "event=first_communion" not in (r.get("notes") or "")]
+    if not_fc:
+        print(f"FAIL confirmation_1942 has {len(not_fc)} rows that are not first communion")
+        failed += 1
+    if "Baptism 1923" not in register_title("confirmation_1974"):
+        print(f"FAIL confirmation_1974 title {register_title('confirmation_1974')!r}")
+        failed += 1
+    misfiled = list(_csv.DictReader(open("transcriptions/confirmation_1974.csv", newline="", encoding="utf-8")))
+    if any(not (r.get("baptism_date") or "").strip() for r in misfiled):
+        print("FAIL confirmation_1974 row missing baptism_date")
+        failed += 1
+    if any((r.get("year") or "") != "1923" and "1923" not in (r.get("baptism_date") or "") for r in misfiled):
+        print("FAIL confirmation_1974 expected 1923 baptisms")
+        failed += 1
 
     if not skip_archive("NEW 2023-2024 UPDATED-20260817T172911Z-1-001.zip"):
         print("FAIL skip_archive should skip the duplicate 2023 dump")

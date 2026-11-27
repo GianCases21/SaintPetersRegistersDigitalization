@@ -240,6 +240,26 @@ async function loadAll() {
   }
 }
 
+function isIndexRow(row) {
+  const notes = (row.notes || '').toLowerCase();
+  const src = (row.source_image || '').toUpperCase();
+  return notes.includes('index_pair') || notes.includes('index page_no') || notes.startsWith('index') || src.startsWith('INDEX');
+}
+
+function registerBadge(row) {
+  const notes = (row.notes || '').toLowerCase();
+  if (notes.includes('event=first_communion')) return 'First Communion 1942–1952';
+  if (notes.includes('event=confirmation') && (row.register || '') === 'confirmation_1942') return 'Confirmation 1942–1952';
+  if ((row.register || '') === 'baptism_1875') return 'Baptism 1875–1903';
+  if ((row.register || '') === 'baptism_1904') return 'Baptism 1904–1921';
+  if ((row.register || '') === 'confirmation_1974') return 'Baptism 1923 (misfiled in Confirmation 1974–1990 folder)';
+  let title = row._register.title;
+  if (isIndexRow(row) && row._register.type !== 'name_index' && !/index/i.test(title)) {
+    title = title.replace(/\s*\([^)]*\)\s*$/, '') + ' · name index';
+  }
+  return title;
+}
+
 function render(rows) {
   const out = document.getElementById('results');
   out.innerHTML = '';
@@ -265,7 +285,7 @@ function render(rows) {
     nameEl.textContent = displayName;
     const regBadge = document.createElement('span');
     regBadge.className = 'reg';
-    regBadge.textContent = row._register.title;
+    regBadge.textContent = registerBadge(row);
     nameEl.appendChild(regBadge);
     if ((row.needs_review || '').toLowerCase() === 'yes') {
       const rv = document.createElement('span');

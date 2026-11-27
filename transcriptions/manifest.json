@@ -128,7 +128,7 @@
     },
     {
       "id": "confirmation_1974",
-      "title": "Confirmation 1974–1990 folder (1923 baptism page)",
+      "title": "Baptism 1923 (misfiled in Confirmation 1974–1990 folder)",
       "file": "confirmation_1974.csv",
       "type": "baptism"
     },
@@ -188,9 +188,9 @@
     },
     {
       "id": "confirmation_1942",
-      "title": "Confirmation / First Communion 1942–1952",
+      "title": "First Communion 1942–1952",
       "file": "confirmation_1942.csv",
-      "type": "confirmation"
+      "type": "first_communion"
     },
     {
       "id": "death_section_d",

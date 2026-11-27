@@ -62,7 +62,7 @@ COVERAGE = {
     "death_1895": "Complete for Drive scans.",
     "confirmation_1957": "FRAGMENT — PAGE 96, 99, and letter tabs on Drive.",
     "marriage_1908": "Complete for Drive scans (all 72 pages).",
-    "confirmation_1942": "Complete named pages. Title page has no names.",
+    "confirmation_1942": "First Communion register 1942–1952 (printed as a communion book; every named row is first communion).",
     "death_section_d": "FRAGMENT — 5 cemetery-plot scans.",
     "baptism_fragments": "FRAGMENT — stray leaves from 1875–1903 and 1904–1921.",
 }
