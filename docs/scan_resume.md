@@ -34,43 +34,46 @@ API key is configured, transcribed into the website CSVs. See
 Priority is volumes that exist on the shelf but are missing most of their pages
 on Drive, then known single-page holes.
 
-1. **Baptism 1875–1903 / 1904–1921 fragments** — last in DB: Bogert, Francis (Apr 9 1898) on PAGE 358.JPG.
+1. **Marriage 1964–2009 (fragment)** — last in DB: Anthony D. Sever & Carita M. Pendergast (Feb 8 1964) on PAGE 1.JPG.
+   Start: NOT ON DRIVE. Kevin’s Marriage Registers zip never included this book. Page 1 (Suppa & Zarconi through Sever & Pendergast, Jan–Feb 1964) is in the database from a parish photo. Photograph the rest of Marriage 1964–2009 from page 2 to the end, as PAGE 002.JPG etc., into a Drive folder named `Marriage 1964-2009` (or `incoming/marriage_1964/`).
+
+2. **Baptism 1875–1903 / 1904–1921 fragments** — last in DB: Bogert, Francis (Apr 9 1898) on PAGE 358.JPG.
    Start: FRAGMENT. Photograph the rest of Baptism 1875–1903 and Baptism 1904–1921. Already on Drive: PAGE I, 008, 014, 061, 358. Do not redo those five. PAGE 358 is an 1898 leaf of the 1875–1903 book (last named: Bogert, Francis, 9 Apr 1898). PAGE 061 is a 1916 leaf of the 1904–1921 book (last named: Oldham, William, 21 May 1916).
 
-2. **Marriage 1937–1963 (fragment)** — last in DB: James Jr. Perrone & Madeline F. Rogers (1963) on PAGE 197.JPG.
+3. **Marriage 1937–1963 (fragment)** — last in DB: James Jr. Perrone & Madeline F. Rogers (1963) on PAGE 197.JPG.
    Start: FRAGMENT. Photograph the whole 1937–1963 marriage book. Drive originally had PAGE 58 and PAGE 60; page 197 (Buontempo & Minasian through Perrone & Rogers, 1963) is now in the database from a parish photo. Fill PAGE 59, pages 1–57, 61–196, and 198 to the end.
 
-3. **Death C 1924–1964 (fragment)** — last in DB: Flynn, Baby Girl (1949) on PAGE 46.JPG.
+4. **Death C 1924–1964 (fragment)** — last in DB: Flynn, Baby Girl (1949) on PAGE 46.JPG.
    Start: FRAGMENT. Only PAGE 46 is on Drive. Photograph the rest of Death C 1924–1964.
 
-4. **Confirmation 1895–1944 (year index)** — last in DB: index/tabs only (—) on PAGE 000.JPG.
+5. **Confirmation 1895–1944 (year index)** — last in DB: index/tabs only (—) on PAGE 000.JPG.
    Start: FRAGMENT — year/page index only (PAGE 000). Photograph the actual class lists of Confirmation 1895–1944.
 
-5. **Confirmation 1957–1964 (fragment)** — last in DB: Li Mandri, Richard (Jun 7 1964) on PAGE 99.JPG.
+6. **Confirmation 1957–1964 (fragment)** — last in DB: Li Mandri, Richard (Jun 7 1964) on PAGE 99.JPG.
    Start: FRAGMENT. Drive only has PAGE 96, PAGE 99, and letter tabs. Photograph the rest of Confirmation 1957–1964, including pages 97–98.
 
-6. **Confirmation 1974–1990 folder (1923 baptism page)** — last in DB: O'Toole, Hugh (Oct 21 1923) on PAGE 164.JPG.
+7. **Confirmation 1974–1990 folder (1923 baptism page)** — last in DB: O'Toole, Hugh (Oct 21 1923) on PAGE 164.JPG.
    Start: The Drive folder currently holds a misfiled 1923 baptism leaf (PAGE 164), not the 1974–1990 confirmation book. Photograph the real confirmation volume from the beginning.
 
-7. **First Communion 1962–1970 (index)** — last in DB: index/tabs only (—) on PAGE R2-S.JPG, PAGE X-Y.JPG.
+8. **First Communion 1962–1970 (index)** — last in DB: index/tabs only (—) on PAGE R2-S.JPG, PAGE X-Y.JPG.
    Start: FRAGMENT — two index scans only (R2–S and X–Y). Photograph the actual class pages of First Communion 1962–1970.
 
-8. **First Communion 2014–** — no scans on Drive yet.
+9. **First Communion 2014–** — no scans on Drive yet.
    Start: The Drive folder for this book was empty. If the volume is on the shelf, photograph from the first named class (usually page 1) using PAGE 001.JPG naming, and upload into a folder named `First Communion 2014-` (or `incoming/first_communion_2014/`).
 
-9. **Baptism 2011– (fragment)** — last in DB: Hernandez, Gianna Marie (Apr 20 2019) on PAGE 067.JPG.
+10. **Baptism 2011– (fragment)** — last in DB: Hernandez, Gianna Marie (Apr 20 2019) on PAGE 067.JPG.
    Start: FRAGMENT of the current baptism book. Drive only has PAGE 046, PAGE 067, and three index tabs. Photograph pages 1–45, 47–66, and 68 to the end. On page 46 the last named child is Moncayo, Ariana (23 Jul 2016). On page 67 the last named child is Hernandez, Gianna Marie (20 Apr 2019, entry 15) — continue from the next blank line / page 68.
 
-10. **Baptism 1965–1972 (name index)** — last in DB: index/tabs only (—) on PAGE A.JPG, PAGE F.JPG, PAGE K.JPG….
+11. **Baptism 1965–1972 (name index)** — last in DB: index/tabs only (—) on PAGE A.JPG, PAGE F.JPG, PAGE K.JPG….
    Start: FRAGMENT — letter-tab name index only. Photograph the actual baptism pages of the 1965–1972 book (and any missing letter tabs).
 
-11. **Death SECTION D (cemetery plots fragment)** — last in DB: LUKOWIAK, JAMES (Dec 22 1973) on PAGE 102-103.JPG.
+12. **Death SECTION D (cemetery plots fragment)** — last in DB: LUKOWIAK, JAMES (Dec 22 1973) on PAGE 102-103.JPG.
    Start: FRAGMENT. Five cemetery-plot scans only. Photograph the rest of Death SECTION D.
 
-12. **Confirmation 2015–** — last in DB: YEYE, JUSTIN RAFAEL (Jun 14 2019) on PAGE 21.JPG.
+13. **Confirmation 2015–** — last in DB: YEYE, JUSTIN RAFAEL (Jun 14 2019) on PAGE 21.JPG.
    Start: Re-shoot pages 4 and 15 (never on Drive). Then continue the current book after Yeye, Justin Rafael (14 Jun 2019, page 21, entry 59).
 
-13. **Marriage 2009–** — last in DB: JORGE IVAN VELASQUEZ GARCIA & CLAUDIA INES VARGAS PIEROTTI (Oct 19 2019) on PAGE 23.JPG.
+14. **Marriage 2009–** — last in DB: JORGE IVAN VELASQUEZ GARCIA & CLAUDIA INES VARGAS PIEROTTI (Oct 19 2019) on PAGE 23.JPG.
    Start: Re-shoot page 18 if it has marriages (never uploaded). Then continue the current book after Velasquez Garcia & Vargas Pierotti on page 23 (19 Oct 2019, entry 13).
 
 ## Every register
@@ -100,6 +103,7 @@ photographed by page, not by burial date.
 | Marriage 1872–1907 | complete for Drive | Jan 29 1908 | Augustus Barber & Matilda Zeigler | PAGE 114-115.JPG | none known |
 | Marriage 2009– | complete for Drive | Oct 19 2019 | JORGE IVAN VELASQUEZ GARCIA & CLAUDIA INES VARGAS PIEROTTI | PAGE 23.JPG | page 18 |
 | Marriage 1937–1963 (fragment) | fragment | 1963 | James Jr. Perrone & Madeline F. Rogers | PAGE 197.JPG | page 59 |
+| Marriage 1964–2009 (fragment) | fragment | Feb 8 1964 | Anthony D. Sever & Carita M. Pendergast | PAGE 1.JPG | photograph everything except 1 |
 | Marriage 1937–1963 name index | complete for Drive | — | (index only) | PAGE A.JPG, PAGE B.JPG, PAGE B2.JPG… | none known |
 | Confirmation 1895–1944 (year index) | fragment | — | (index only) | PAGE 000.JPG | photograph everything except PAGE 000.JPG |
 | Confirmation 1974–1990 folder (1923 baptism page) | fragment | Oct 21 1923 | O'Toole, Hugh | PAGE 164.JPG | photograph everything except 164 |
@@ -318,6 +322,17 @@ photographed by page, not by burial date.
 - **Start photographing:** FRAGMENT. Photograph the whole 1937–1963 marriage book. Drive originally had PAGE 58 and PAGE 60; page 197 (Buontempo & Minasian through Perrone & Rogers, 1963) is now in the database from a parish photo. Fill PAGE 59, pages 1–57, 61–196, and 198 to the end.
 - **Upload to:** the existing Drive folder for this book, as `PAGE ….JPG`, or `incoming/marriage_1937/PAGE ….JPG`.
 
+### Marriage 1964–2009 (fragment)
+
+- **Register id:** `marriage_1964` (folder name for `incoming/marriage_1964/`)
+- **Status:** fragment
+- **Records in the website:** 11 named entries, from 1 scan(s)
+- **Last named record:** Anthony D. Sever & Carita M. Pendergast — Feb 8 1964
+- **Last page on Drive:** PAGE 1.JPG
+- **Already photographed (do not redo):** `PAGE 1.JPG`
+- **Start photographing:** NOT ON DRIVE. Kevin’s Marriage Registers zip never included this book. Page 1 (Suppa & Zarconi through Sever & Pendergast, Jan–Feb 1964) is in the database from a parish photo. Photograph the rest of Marriage 1964–2009 from page 2 to the end, as PAGE 002.JPG etc., into a Drive folder named `Marriage 1964-2009` (or `incoming/marriage_1964/`).
+- **Upload to:** the existing Drive folder for this book, as `PAGE ….JPG`, or `incoming/marriage_1964/PAGE ….JPG`.
+
 ### Marriage 1937–1963 name index
 
 - **Register id:** `marriage_1937_index` (folder name for `incoming/marriage_1937_index/`)
@@ -443,7 +458,7 @@ photographed by page, not by burial date.
 - **Records in the website:** 802 named entries, from 72 scan(s)
 - **Last named record:** Andrew Colannino & Anne Catherine Mistrario — Dec 13 1936
 - **Last page on Drive:** PAGE 84.JPG
-- **Start photographing:** Complete for the scans on Drive. Continue later marriages in Marriage 1937–1963 (that book is still a fragment).
+- **Start photographing:** Complete for the scans on Drive. Continue later marriages in Marriage 1937–1963, then Marriage 1964–2009 (both still fragments).
 - **Upload to:** the existing Drive folder for this book, as `PAGE ….JPG`, or `incoming/marriage_1908/PAGE ….JPG`.
 
 ### Confirmation / First Communion 1942–1952

@@ -333,6 +333,13 @@ put occupation / status / Protestant / widow notes in `notes`.
 Continuation of the printed marriage register. Same CSV header as
 `marriage_1872`. `register` value: `marriage_1908`.
 
+### Marriage 1964–2009 (`marriage_1964`)
+
+Printed marriage register, two-page spread (parties / baptisms on the
+left, parents / witnesses / date / officiant on the right). Same CSV
+header as `marriage_1872`. `register` value: `marriage_1964`. This book
+was never in Kevin’s Drive dump; page 1 came from a parish photo.
+
 ### Marriage 2009– (`marriage_2009`)
 
 Modern printed marriage register plus letter-tab name index. Same CSV

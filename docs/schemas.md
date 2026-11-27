@@ -92,7 +92,7 @@ Extra columns: `entry_no`, `age`, `nearest_relative`, `relative_address`,
 Extra columns: `entry_no`, `communion_date`, `age`, `birth_date`,
 `birth_place`, `baptism_date`, `baptism_place`, `residence`, `parents`.
 
-## Marriage 1872–1907 / 1908–1936 / 2009– (`marriage_1872`, `marriage_1908`, `marriage_2009`)
+## Marriage 1872–1907 / 1908–1936 / 1964–2009 / 2009– (`marriage_1872`, `marriage_1908`, `marriage_1964`, `marriage_2009`)
 
 Extra columns: `marriage_date`, `groom_surname`, `groom_given`,
 `groom_parents`, `bride_surname`, `bride_given`, `bride_parents`,
@@ -120,7 +120,7 @@ Letter-tab index of the 1840–1871 marriage book. Paired surnames
 Letter-tab and one-page fragments (Baptism 1875–1903, 1904–1921,
 1965–1972, 2011; Confirmation 1895–1944, 1957–1964, 1974–1990;
 Death C 1924–1964 and SECTION D; First Communion 1962–1970;
-Marriage 1937–1963) use the matching register schema above, or a
+Marriage 1937–1963, 1964–2009) use the matching register schema above, or a
 name-index row (`notes` = `index page_no=N`) when the scan is only a tab.
 
 ## Death name index (`death_index`)
