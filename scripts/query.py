@@ -20,6 +20,7 @@ NAME_COLUMNS = (
     "groom_given", "bride_surname", "bride_given", "groom_parents",
     "bride_parents", "sponsors", "sponsor", "witnesses", "officiant",
     "priest", "parents", "nearest_relative", "confirmation_name",
+    "notes",
 )
 
 

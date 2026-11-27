@@ -45,9 +45,10 @@ register type, and other fields.
 | Confirmation 1942–1952 | 1942–1952 | **complete** — 1,852 communicants (all Drive scans; title page has no names) |
 | Confirmation 1957–1964 | 1964 fragment | **complete for Drive scans** — 949 confirmations + index (PAGE 96, 99 and letter tabs) |
 | Death 1895–1899 | 1895–1899 | **complete** — 346 deaths + index (all 26 scans) |
-| Death Registers name index | — | **complete** — 2,125 name→page pointers (all 30 letter-tab scans) |
+| Death Registers name index | — | **complete** — 312 individual name→page pointers (groom–bride pairs moved to the 1937 marriage index) |
+| Marriage 1937–1963 name index | — | **complete for letter tabs** — 1,813 groom–bride page pointers |
 | Marriage 1908–1936 | 1908–1936 | **complete** — 802 marriages (all 72 Drive scans) |
-| Marriage 1937–1963 | 1946 fragment | **complete for Drive scans** — 20 marriages (PAGE 58, 60) |
+| Marriage 1937–1963 | 1946 fragment + page 197 | **partial** — 31 marriages (PAGE 58, 60, 197) |
 | Confirmation 1895–1944 | 1895–1944 | **complete for Drive scans** — year/page index (PAGE 000) |
 | Confirmation 1974–1990 folder | 1923 | **complete for Drive scans** — 10 baptisms (PAGE 164 is a misfiled 1923 baptism leaf) |
 | Death C 1924–1964 | 1948–1949 fragment | **complete for Drive scans** — 9 burials (PAGE 46) |

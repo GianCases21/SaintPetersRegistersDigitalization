@@ -57,7 +57,8 @@ COVERAGE = {
     "baptism_1965": "Name index letter tabs only. Title page has no names.",
     "first_communion_1962": "FRAGMENT — two index scans (R2–S and X–Y).",
     "death_section_e": "Complete for Drive scans.",
-    "death_index": "Complete letter-tab death index (30 scans).",
+    "death_index": "Letter-tab death index (individual names). Groom–bride pairs from those tabs are in Marriage 1937–1963 name index.",
+    "marriage_1937_index": "Groom–bride letter-tab index of the 1937–1963 marriage book (was mixed into the death index).",
     "death_1895": "Complete for Drive scans.",
     "confirmation_1957": "FRAGMENT — PAGE 96, 99, and letter tabs on Drive.",
     "marriage_1908": "Complete for Drive scans (all 72 pages).",
@@ -73,7 +74,7 @@ SCAN_NEXT = [
     ),
     (
         "Marriage 1937–1963",
-        "Only pages 58 and 60 are on Drive. Photograph the remaining volume.",
+        "Pages 58, 60, and 197 are in the database. Photograph the remaining volume.",
     ),
     (
         "Death C 1924–1964",

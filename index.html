@@ -254,8 +254,11 @@ function render(rows) {
     const given = row.given_name || '', sur = row.surname || '';
     const groom = ((row.groom_given || '') + ' ' + (row.groom_surname || '')).trim();
     const bride = ((row.bride_given || '') + ' ' + (row.bride_surname || '')).trim();
-    const displayName = (given || sur) ? (given + ' ' + sur).trim()
-      : (groom || bride) ? (groom + (groom && bride ? ' & ' : '') + bride)
+    const isPair = (row.notes || '').toLowerCase().includes('index_pair');
+    const displayName = (groom || bride)
+      ? (groom + (groom && bride ? ' & ' : '') + bride)
+      : (isPair && sur && given) ? (sur + ' & ' + given)
+      : (given || sur) ? (given + ' ' + sur).trim()
       : (row.plot_owner || row.name || '(name not recorded)');
     const nameEl = document.createElement('div');
     nameEl.className = 'name';
@@ -299,7 +302,7 @@ function search() {
   const rows = allRows.filter(row => {
     if (reg && row._register.id !== reg) return false;
     if (name) {
-      const hay = NAME_COLS.map(c => row[c] || '').join(' ').toLowerCase();
+      const hay = NAME_COLS.map(c => row[c] || '').concat([row.notes || '']).join(' ').toLowerCase();
       if (!hay.includes(name)) return false;
     }
     if (year) {
