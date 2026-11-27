@@ -126,6 +126,14 @@ name-index row (`notes` = `index page_no=N`) when the scan is only a tab.
 ## Death name index (`death_index`)
 
 Letter-tab indexes at the root of the Death Registers folder. Columns:
-`surname`, `given_name`, `page_no`. Paired names (`Austin - Romkowski`)
-store the first name in `surname` and the second in `given_name`, with
-`notes` = `index_pair`.
+`surname`, `given_name`, `page_no`. These rows are **individual** names
+pointing at death-register pages.
+
+Groom–bride pairs that were photographed on the same letter tabs belong
+to the 1937–1963 marriage book and live in `marriage_1937_index.csv`
+(`notes` = `index_pair`).
+
+## Marriage 1937–1963 name index (`marriage_1937_index`)
+
+Same columns as `marriage_1840_index`: `surname` (groom), `given_name`
+(bride), `page_no`, `notes` = `index_pair`.

@@ -81,6 +81,7 @@ PATH_RULES: list[tuple[str, tuple[str, ...]]] = [
     ("confirmation_1895", ("confirmation 1895",)),
     ("confirmation_1974", ("confirmation 1974",)),
     ("marriage_2009", ("marriage 2009",)),
+    ("marriage_1937_index", ("marriage 1937", "index")),
     ("marriage_1937", ("marriage 1937",)),
     ("marriage_1908", ("marriage 1908",)),
     ("marriage_1872", ("marriage 1872",)),
@@ -203,10 +204,15 @@ PHOTOGRAPHY = {
         "that is missing from Drive (we have A, F, H, I, M, Mc2–N, P, R, V, W, Y)."
     ),
     "marriage_1937": (
-        "FRAGMENT. Photograph the whole 1937–1963 marriage book. Drive only has "
-        "PAGE 58 and PAGE 60. Fill PAGE 59 and every page before 58 and after 60. "
-        "After Collumb & Gartland (30 Dec 1946, end of 1946 on page 60), continue "
-        "with the first 1947 marriage."
+        "FRAGMENT. Photograph the whole 1937–1963 marriage book. Drive originally "
+        "had PAGE 58 and PAGE 60; page 197 (Buontempo & Minasian through Perrone & "
+        "Rogers, 1963) is now in the database from a parish photo. Fill PAGE 59, "
+        "pages 1–57, 61–196, and 198 to the end."
+    ),
+    "marriage_1937_index": (
+        "Groom–bride letter-tab index of the 1937–1963 marriage book. Those tabs "
+        "were stored in the Death Registers folder and had been mixed into the "
+        "death index; they now search as this marriage index."
     ),
     "marriage_2009": (
         "Re-shoot page 18 if it has marriages (never uploaded). Then continue the "
@@ -289,7 +295,9 @@ PHOTOGRAPHY = {
         "Complete for Drive. Later deaths are in the 20th-century death books."
     ),
     "death_index": (
-        "Letter-tab death index (30 scans). Photograph any missing tabs."
+        "Letter-tab death index (individual names only). Photograph any missing "
+        "tabs. Do not re-enter the groom–bride pairs — those belong to Marriage "
+        "1937–1963."
     ),
     "first_communion_1895": (
         "Complete for named pages on Drive. PAGE 183 is totals only — skip. "

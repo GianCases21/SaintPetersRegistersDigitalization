@@ -37,8 +37,8 @@ on Drive, then known single-page holes.
 1. **Baptism 1875–1903 / 1904–1921 fragments** — last in DB: Bogert, Francis (Apr 9 1898) on PAGE 358.JPG.
    Start: FRAGMENT. Photograph the rest of Baptism 1875–1903 and Baptism 1904–1921. Already on Drive: PAGE I, 008, 014, 061, 358. Do not redo those five. PAGE 358 is an 1898 leaf of the 1875–1903 book (last named: Bogert, Francis, 9 Apr 1898). PAGE 061 is a 1916 leaf of the 1904–1921 book (last named: Oldham, William, 21 May 1916).
 
-2. **Marriage 1937–1963 (fragment)** — last in DB: John Aloysius Collumb & Elizabeth Delaney Gartland (Dec 30 1946) on PAGE 60.JPG.
-   Start: FRAGMENT. Photograph the whole 1937–1963 marriage book. Drive only has PAGE 58 and PAGE 60. Fill PAGE 59 and every page before 58 and after 60. After Collumb & Gartland (30 Dec 1946, end of 1946 on page 60), continue with the first 1947 marriage.
+2. **Marriage 1937–1963 (fragment)** — last in DB: James Jr. Perrone & Madeline F. Rogers (1963) on PAGE 197.JPG.
+   Start: FRAGMENT. Photograph the whole 1937–1963 marriage book. Drive originally had PAGE 58 and PAGE 60; page 197 (Buontempo & Minasian through Perrone & Rogers, 1963) is now in the database from a parish photo. Fill PAGE 59, pages 1–57, 61–196, and 198 to the end.
 
 3. **Death C 1924–1964 (fragment)** — last in DB: Flynn, Baby Girl (1949) on PAGE 46.JPG.
    Start: FRAGMENT. Only PAGE 46 is on Drive. Photograph the rest of Death C 1924–1964.
@@ -99,7 +99,8 @@ photographed by page, not by burial date.
 | Death 1990–2001 | complete for Drive | Jul 28 2001 | PALUMBO, DOROTHY | PAGE 50.JPG | none known |
 | Marriage 1872–1907 | complete for Drive | Jan 29 1908 | Augustus Barber & Matilda Zeigler | PAGE 114-115.JPG | none known |
 | Marriage 2009– | complete for Drive | Oct 19 2019 | JORGE IVAN VELASQUEZ GARCIA & CLAUDIA INES VARGAS PIEROTTI | PAGE 23.JPG | page 18 |
-| Marriage 1937–1963 (fragment) | fragment | Dec 30 1946 | John Aloysius Collumb & Elizabeth Delaney Gartland | PAGE 60.JPG | page 59 |
+| Marriage 1937–1963 (fragment) | fragment | 1963 | James Jr. Perrone & Madeline F. Rogers | PAGE 197.JPG | page 59 |
+| Marriage 1937–1963 name index | complete for Drive | — | (index only) | PAGE A.JPG, PAGE B.JPG, PAGE B2.JPG… | none known |
 | Confirmation 1895–1944 (year index) | fragment | — | (index only) | PAGE 000.JPG | photograph everything except PAGE 000.JPG |
 | Confirmation 1974–1990 folder (1923 baptism page) | fragment | Oct 21 1923 | O'Toole, Hugh | PAGE 164.JPG | photograph everything except 164 |
 | Death C 1924–1964 (fragment) | fragment | 1949 | Flynn, Baby Girl | PAGE 46.JPG | photograph everything except 46 |
@@ -107,7 +108,7 @@ photographed by page, not by burial date.
 | Baptism 1965–1972 (name index) | fragment | — | (index only) | PAGE A.JPG, PAGE F.JPG, PAGE K.JPG… | photograph everything except PAGE A.JPG, PAGE F.JPG, PAGE K.JPG, PAGE L.JPG, PAGE Mc.JPG, PAGE N.JPG, PAGE P2.JPG, PAGE Q.JPG, PAGE S.JPG, PAGE S2.JPG, PAGE V.JPG, PAGE W.JPG, PAGE X.JPG, PAGE Y.JPG, PAGE Z.JPG |
 | First Communion 1962–1970 (index) | fragment | — | (index only) | PAGE R2-S.JPG, PAGE X-Y.JPG | photograph everything except PAGE R2-S.JPG, PAGE X-Y.JPG |
 | Death Section E (cemetery tiers) | complete for Drive | Jan 2 1980 | Cammarata, Louise | PAGE 40-41.JPG | none known |
-| Death Registers name index | complete for Drive | — | (index only) | PAGE A.JPG, PAGE B.JPG, PAGE B2.JPG… | none known |
+| Death Registers name index | complete for Drive | — | (index only) | PAGE A.JPG, PAGE B.JPG, PAGE C.JPG… | none known |
 | Death 1895–1899 | complete for Drive | Feb 26 1899 | McIntyre, John | PAGE 7.JPG | none known |
 | Confirmation 1957–1964 (fragment) | fragment | Jun 7 1964 | Li Mandri, Richard | PAGE 99.JPG | page 97, page 98 |
 | Marriage 1908–1936 | complete for Drive | Dec 13 1936 | Andrew Colannino & Anne Catherine Mistrario | PAGE 84.JPG | none known |
@@ -309,13 +310,23 @@ photographed by page, not by burial date.
 
 - **Register id:** `marriage_1937` (folder name for `incoming/marriage_1937/`)
 - **Status:** fragment
-- **Records in the website:** 20 named entries, from 2 scan(s)
-- **Last named record:** John Aloysius Collumb & Elizabeth Delaney Gartland — Dec 30 1946
-- **Last page on Drive:** PAGE 60.JPG
+- **Records in the website:** 31 named entries, from 3 scan(s)
+- **Last named record:** James Jr. Perrone & Madeline F. Rogers — 1963
+- **Last page on Drive:** PAGE 197.JPG
 - **Known missing pages:** 59
-- **Already photographed (do not redo):** `PAGE 58.JPG`, `PAGE 60.JPG`
-- **Start photographing:** FRAGMENT. Photograph the whole 1937–1963 marriage book. Drive only has PAGE 58 and PAGE 60. Fill PAGE 59 and every page before 58 and after 60. After Collumb & Gartland (30 Dec 1946, end of 1946 on page 60), continue with the first 1947 marriage.
+- **Already photographed (do not redo):** `PAGE 197.JPG`, `PAGE 58.JPG`, `PAGE 60.JPG`
+- **Start photographing:** FRAGMENT. Photograph the whole 1937–1963 marriage book. Drive originally had PAGE 58 and PAGE 60; page 197 (Buontempo & Minasian through Perrone & Rogers, 1963) is now in the database from a parish photo. Fill PAGE 59, pages 1–57, 61–196, and 198 to the end.
 - **Upload to:** the existing Drive folder for this book, as `PAGE ….JPG`, or `incoming/marriage_1937/PAGE ….JPG`.
+
+### Marriage 1937–1963 name index
+
+- **Register id:** `marriage_1937_index` (folder name for `incoming/marriage_1937_index/`)
+- **Status:** complete for Drive
+- **Records in the website:** 0 named entries + 1,813 index rows, from 29 scan(s)
+- **Last named record:** none (index/tabs only)
+- **Last page on Drive:** PAGE A.JPG, PAGE B.JPG, PAGE B2.JPG…
+- **Start photographing:** Groom–bride letter-tab index of the 1937–1963 marriage book. Those tabs were stored in the Death Registers folder and had been mixed into the death index; they now search as this marriage index.
+- **Upload to:** the existing Drive folder for this book, as `PAGE ….JPG`, or `incoming/marriage_1937_index/PAGE ….JPG`.
 
 ### Confirmation 1895–1944 (year index)
 
@@ -397,10 +408,10 @@ photographed by page, not by burial date.
 
 - **Register id:** `death_index` (folder name for `incoming/death_index/`)
 - **Status:** complete for Drive
-- **Records in the website:** 0 named entries + 2,125 index rows, from 30 scan(s)
+- **Records in the website:** 0 named entries + 312 index rows, from 24 scan(s)
 - **Last named record:** none (index/tabs only)
-- **Last page on Drive:** PAGE A.JPG, PAGE B.JPG, PAGE B2.JPG…
-- **Start photographing:** Letter-tab death index (30 scans). Photograph any missing tabs.
+- **Last page on Drive:** PAGE A.JPG, PAGE B.JPG, PAGE C.JPG…
+- **Start photographing:** Letter-tab death index (individual names only). Photograph any missing tabs. Do not re-enter the groom–bride pairs — those belong to Marriage 1937–1963.
 - **Upload to:** the existing Drive folder for this book, as `PAGE ….JPG`, or `incoming/death_index/PAGE ….JPG`.
 
 ### Death 1895–1899

@@ -63,8 +63,8 @@ def main() -> None:
 
     expect("baptism_1839", "last_name", "Early, John")
     expect("baptism_1839", "last_date_text", "1875")
-    expect("marriage_1937", "last_name", "Collumb")
-    expect("marriage_1937", "last_name", "Gartland")
+    expect("marriage_1937", "last_name", "Perrone")
+    expect("marriage_1937", "last_name", "Rogers")
     expect("baptism_2011", "last_name", "Hernandez, Gianna Marie")
     expect("confirmation_2015", "last_name", "Yeye")
     expect("marriage_2009", "last_name", "Velasquez")
@@ -74,6 +74,57 @@ def main() -> None:
         failed += 1
     if stats["marriage_2009"]["holes"] != [18]:
         print(f"FAIL marriage_2009 holes {stats['marriage_2009']['holes']}")
+        failed += 1
+
+    import csv as _csv
+
+    death_pairs = [
+        row for row in _csv.DictReader(open("transcriptions/death_index.csv", newline="", encoding="utf-8"))
+        if "index_pair" in (row.get("notes") or "")
+    ]
+    if death_pairs:
+        print(f"FAIL death_index still has {len(death_pairs)} marriage index_pair rows")
+        failed += 1
+
+    mar_idx = list(_csv.DictReader(open("transcriptions/marriage_1937_index.csv", newline="", encoding="utf-8")))
+    if any(r.get("register") != "marriage_1937_index" for r in mar_idx):
+        print("FAIL marriage_1937_index register column")
+        failed += 1
+    if not any(
+        (r.get("surname") or "").lower() == "buontempo" and "minasian" in (r.get("given_name") or "").lower()
+        for r in mar_idx
+    ):
+        print("FAIL marriage_1937_index missing Buontempo & Minasian")
+        failed += 1
+    if not any(
+        "ruggiero" in (r.get("given_name") or "").lower() and "giorgio" in (r.get("surname") or "").lower()
+        for r in mar_idx
+    ):
+        print("FAIL marriage_1937_index missing Di Giorgio & Di Ruggiero")
+        failed += 1
+
+    mar = list(_csv.DictReader(open("transcriptions/marriage_1937.csv", newline="", encoding="utf-8")))
+    if not any(
+        (r.get("groom_surname") or "").lower() == "buontempo" and (r.get("bride_surname") or "").lower() == "minasian"
+        for r in mar
+    ):
+        print("FAIL marriage_1937 missing Buontempo & Minasian page 197")
+        failed += 1
+    if not any(
+        "ruggiero" in (r.get("bride_surname") or "").lower()
+        for r in mar
+    ):
+        print("FAIL marriage_1937 missing Di Ruggiero")
+        failed += 1
+    if any(r.get("register") != "marriage_1937" for r in mar):
+        print("FAIL marriage_1937 register column")
+        failed += 1
+
+    if "Marriage 1937" not in register_title("marriage_1937_index"):
+        print(f"FAIL marriage_1937_index title {register_title('marriage_1937_index')!r}")
+        failed += 1
+    if map_drive_path("Marriage 1937-1963/index/PAGE B.JPG") != "marriage_1937_index":
+        print(f"FAIL map marriage 1937 index {map_drive_path('Marriage 1937-1963/index/PAGE B.JPG')!r}")
         failed += 1
 
     if not skip_archive("NEW 2023-2024 UPDATED-20260817T172911Z-1-001.zip"):
@@ -206,6 +257,37 @@ def main() -> None:
             NEW_SCANS.unlink(missing_ok=True)
         else:
             NEW_SCANS.write_text(previous, encoding="utf-8")
+
+    for item in load_manifest():
+        csv_path = Path("transcriptions") / item["file"]
+        if not csv_path.exists():
+            print(f"FAIL missing CSV {csv_path}")
+            failed += 1
+            continue
+        with csv_path.open(newline="", encoding="utf-8") as fh:
+            placed = list(_csv.DictReader(fh))
+        allowed = {item["id"]}
+        if item["id"] == "baptism_fragments":
+            allowed.update({"baptism_1875", "baptism_1904"})
+        wrong_reg = [row for row in placed if (row.get("register") or "") not in allowed]
+        if wrong_reg:
+            print(f"FAIL {item['id']} has {len(wrong_reg)} rows with the wrong register id")
+            failed += 1
+        if item["type"] == "marriage" and item["id"] != "marriage_1937":
+            missing_names = [
+                row for row in placed
+                if not ((row.get("groom_surname") or row.get("groom") or "").strip() or (row.get("bride_surname") or row.get("bride") or "").strip())
+                and "index" not in (row.get("notes") or "").lower()
+            ]
+            # allow empty title pages already filtered by having no name fields
+            if len(missing_names) > 20:
+                print(f"FAIL {item['id']} has {len(missing_names)} marriage rows with no couple names")
+                failed += 1
+        if item["id"] not in {"marriage_1840_index", "marriage_1937_index"}:
+            sneaky = [row for row in placed if "index_pair" in (row.get("notes") or "")]
+            if sneaky:
+                print(f"FAIL {item['id']} still contains {len(sneaky)} index_pair marriage-index rows")
+                failed += 1
 
     if failed:
         raise SystemExit(f"{failed} check(s) failed")
