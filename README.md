@@ -42,7 +42,7 @@ register type, and other fields.
 | First Communion 1953–1961 | 1953–1961 | **complete** — 3,749 communicants (all assigned scans) |
 | Death 1990–2001 | 1990–2001 | **complete** — 2,327 deaths + index (all 75 scans) |
 | Death 2001–2018 | 2001–2018 | **complete** — 2,605 deaths + index (all 62 scans) |
-| Confirmation 1942–1952 | 1942–1952 | **complete** — 1,852 communicants (all Drive scans; title page has no names) |
+| First Communion 1942–1952 | 1942–1952 | **complete** — 1,852 first communions (Drive folder still named Confirmation 1942; title page has no names) |
 | Confirmation 1957–1964 | 1964 fragment | **complete for Drive scans** — 949 confirmations + index (PAGE 96, 99 and letter tabs) |
 | Death 1895–1899 | 1895–1899 | **complete** — 346 deaths + index (all 26 scans) |
 | Death Registers name index | — | **complete** — 312 individual name→page pointers (groom–bride pairs moved to the 1937 marriage index) |
@@ -50,7 +50,7 @@ register type, and other fields.
 | Marriage 1908–1936 | 1908–1936 | **complete** — 802 marriages (all 72 Drive scans) |
 | Marriage 1937–1963 | 1946 fragment + page 197 | **partial** — 31 marriages (PAGE 58, 60, 197) |
 | Confirmation 1895–1944 | 1895–1944 | **complete for Drive scans** — year/page index (PAGE 000) |
-| Confirmation 1974–1990 folder | 1923 | **complete for Drive scans** — 10 baptisms (PAGE 164 is a misfiled 1923 baptism leaf) |
+| Baptism 1923 (in Confirmation 1974–1990 folder) | 1923 | **complete for Drive scans** — 10 baptisms (PAGE 164 is a misfiled 1923 baptism leaf; the real 1974–1990 confirmation book is not on Drive) |
 | Death C 1924–1964 | 1948–1949 fragment | **complete for Drive scans** — 9 burials (PAGE 46) |
 | Death Section E | ~1929–1970s | **complete** — 552 burials + index (all 33 scans) |
 | Baptism 2011– | 2016–2019 fragment | **complete for Drive scans** — 20 baptisms + name indexes (5 scans) |

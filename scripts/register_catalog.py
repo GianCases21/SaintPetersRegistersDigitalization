@@ -258,7 +258,8 @@ PHOTOGRAPHY = {
         "Confirmation 2015–."
     ),
     "confirmation_1942": (
-        "Complete for named pages on Drive. Title page has no names — skip it."
+        "This volume is a First Communion register (every named page is "
+        "first communion, 1942–1952). Title page has no names — skip it."
     ),
     "confirmation_1957": (
         "FRAGMENT. Drive only has PAGE 96, PAGE 99, and letter tabs. Photograph "

@@ -49,7 +49,7 @@ on Drive, then known single-page holes.
 5. **Confirmation 1957–1964 (fragment)** — last in DB: Li Mandri, Richard (Jun 7 1964) on PAGE 99.JPG.
    Start: FRAGMENT. Drive only has PAGE 96, PAGE 99, and letter tabs. Photograph the rest of Confirmation 1957–1964, including pages 97–98.
 
-6. **Confirmation 1974–1990 folder (1923 baptism page)** — last in DB: O'Toole, Hugh (Oct 21 1923) on PAGE 164.JPG.
+6. **Baptism 1923 (misfiled in Confirmation 1974–1990 folder)** — last in DB: O'Toole, Hugh (Oct 21 1923) on PAGE 164.JPG.
    Start: The Drive folder currently holds a misfiled 1923 baptism leaf (PAGE 164), not the 1974–1990 confirmation book. Photograph the real confirmation volume from the beginning.
 
 7. **First Communion 1962–1970 (index)** — last in DB: index/tabs only (—) on PAGE R2-S.JPG, PAGE X-Y.JPG.
@@ -102,7 +102,7 @@ photographed by page, not by burial date.
 | Marriage 1937–1963 (fragment) | fragment | 1963 | James Jr. Perrone & Madeline F. Rogers | PAGE 197.JPG | page 59 |
 | Marriage 1937–1963 name index | complete for Drive | — | (index only) | PAGE A.JPG, PAGE B.JPG, PAGE B2.JPG… | none known |
 | Confirmation 1895–1944 (year index) | fragment | — | (index only) | PAGE 000.JPG | photograph everything except PAGE 000.JPG |
-| Confirmation 1974–1990 folder (1923 baptism page) | fragment | Oct 21 1923 | O'Toole, Hugh | PAGE 164.JPG | photograph everything except 164 |
+| Baptism 1923 (misfiled in Confirmation 1974–1990 folder) | fragment | Oct 21 1923 | O'Toole, Hugh | PAGE 164.JPG | photograph everything except 164 |
 | Death C 1924–1964 (fragment) | fragment | 1949 | Flynn, Baby Girl | PAGE 46.JPG | photograph everything except 46 |
 | Baptism 2011– (fragment) | fragment | Apr 20 2019 | Hernandez, Gianna Marie | PAGE 067.JPG | photograph everything except 46, 67 |
 | Baptism 1965–1972 (name index) | fragment | — | (index only) | PAGE A.JPG, PAGE F.JPG, PAGE K.JPG… | photograph everything except PAGE A.JPG, PAGE F.JPG, PAGE K.JPG, PAGE L.JPG, PAGE Mc.JPG, PAGE N.JPG, PAGE P2.JPG, PAGE Q.JPG, PAGE S.JPG, PAGE S2.JPG, PAGE V.JPG, PAGE W.JPG, PAGE X.JPG, PAGE Y.JPG, PAGE Z.JPG |
@@ -112,7 +112,7 @@ photographed by page, not by burial date.
 | Death 1895–1899 | complete for Drive | Feb 26 1899 | McIntyre, John | PAGE 7.JPG | none known |
 | Confirmation 1957–1964 (fragment) | fragment | Jun 7 1964 | Li Mandri, Richard | PAGE 99.JPG | page 97, page 98 |
 | Marriage 1908–1936 | complete for Drive | Dec 13 1936 | Andrew Colannino & Anne Catherine Mistrario | PAGE 84.JPG | none known |
-| Confirmation / First Communion 1942–1952 | complete for Drive | May 24 1953 | McNick, John J. | PAGE 92-93.JPG | none known |
+| First Communion 1942–1952 | complete for Drive | Jun 14 1953 | McNick, John J. | PAGE 92-93.JPG | none known |
 | Death SECTION D (cemetery plots fragment) | fragment | Dec 22 1973 | LUKOWIAK, JAMES | PAGE 102-103.JPG | photograph everything except 90, 91, 94, 95, 96, 97, 102, 103 |
 | Baptism 1875–1903 / 1904–1921 fragments | fragment | Apr 9 1898 | Bogert, Francis | PAGE 358.JPG | photograph everything except 8, 14, 61, 358 |
 | Confirmation 1854–1875 (in Baptism 1839 book) | complete for Drive | Jul 2 1854 | Hogan, Daniel | PAGE 147.JPG | none known |
@@ -339,7 +339,7 @@ photographed by page, not by burial date.
 - **Start photographing:** FRAGMENT — year/page index only (PAGE 000). Photograph the actual class lists of Confirmation 1895–1944.
 - **Upload to:** the existing Drive folder for this book, as `PAGE ….JPG`, or `incoming/confirmation_1895/PAGE ….JPG`.
 
-### Confirmation 1974–1990 folder (1923 baptism page)
+### Baptism 1923 (misfiled in Confirmation 1974–1990 folder)
 
 - **Register id:** `confirmation_1974` (folder name for `incoming/confirmation_1974/`)
 - **Status:** fragment
@@ -446,14 +446,14 @@ photographed by page, not by burial date.
 - **Start photographing:** Complete for the scans on Drive. Continue later marriages in Marriage 1937–1963 (that book is still a fragment).
 - **Upload to:** the existing Drive folder for this book, as `PAGE ….JPG`, or `incoming/marriage_1908/PAGE ….JPG`.
 
-### Confirmation / First Communion 1942–1952
+### First Communion 1942–1952
 
 - **Register id:** `confirmation_1942` (folder name for `incoming/confirmation_1942/`)
 - **Status:** complete for Drive
 - **Records in the website:** 1,852 named entries, from 45 scan(s)
-- **Last named record:** McNick, John J. — May 24 1953
+- **Last named record:** McNick, John J. — Jun 14 1953
 - **Last page on Drive:** PAGE 92-93.JPG
-- **Start photographing:** Complete for named pages on Drive. Title page has no names — skip it.
+- **Start photographing:** This volume is a First Communion register (every named page is first communion, 1942–1952). Title page has no names — skip it.
 - **Upload to:** the existing Drive folder for this book, as `PAGE ….JPG`, or `incoming/confirmation_1942/PAGE ….JPG`.
 
 ### Death SECTION D (cemetery plots fragment)

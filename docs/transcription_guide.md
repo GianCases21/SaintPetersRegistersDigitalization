@@ -225,13 +225,13 @@ register,source_image,page,entry_no,surname,given_name,residence,birth_date,birt
 `register` value: `baptism_1989`. Put marriage notes in `notes`. Index
 rows: leave dates blank; put the target page in `notes` as `index page_no=N`.
 
-### Confirmation 1942–1952 (`confirmation_1942`)
+### First Communion 1942–1952 (`confirmation_1942`)
 
-Printed First Communion Register header; some spreads are confirmation
-classes, others first communion. Columns typically: baptism date/place,
-name, age, residence. Landscape scans are two-page spreads
-(`PAGE 10-11.JPG`). Put the printed class date in `confirmation_date`
-and note `event=first_communion` or `event=confirmation` in `notes`.
+Printed First Communion Register. Every named page currently on Drive is
+first communion. Columns typically: baptism date/place, name, age,
+residence. Landscape scans are two-page spreads (`PAGE 10-11.JPG`). Put
+the printed class date in `confirmation_date` and `event=first_communion`
+in `notes`.
 
 CSV header:
 ```
