@@ -81,6 +81,7 @@ PATH_RULES: list[tuple[str, tuple[str, ...]]] = [
     ("confirmation_1895", ("confirmation 1895",)),
     ("confirmation_1974", ("confirmation 1974",)),
     ("marriage_2009", ("marriage 2009",)),
+    ("marriage_1964", ("marriage 1964",)),
     ("marriage_1937_index", ("marriage 1937", "index")),
     ("marriage_1937", ("marriage 1937",)),
     ("marriage_1908", ("marriage 1908",)),
@@ -148,6 +149,7 @@ KNOWN_HOLES = {
 
 FRAGMENTS = {
     "marriage_1937",
+    "marriage_1964",
     "confirmation_1895",
     "confirmation_1974",
     "death_c_1924",
@@ -209,6 +211,13 @@ PHOTOGRAPHY = {
         "Rogers, 1963) is now in the database from a parish photo. Fill PAGE 59, "
         "pages 1–57, 61–196, and 198 to the end."
     ),
+    "marriage_1964": (
+        "NOT ON DRIVE. Kevin’s Marriage Registers zip never included this book. "
+        "Page 1 (Suppa & Zarconi through Sever & Pendergast, Jan–Feb 1964) is in "
+        "the database from a parish photo. Photograph the rest of Marriage "
+        "1964–2009 from page 2 to the end, as PAGE 002.JPG etc., into a Drive "
+        "folder named `Marriage 1964-2009` (or `incoming/marriage_1964/`)."
+    ),
     "marriage_1937_index": (
         "Groom–bride letter-tab index of the 1937–1963 marriage book. Those tabs "
         "were stored in the Death Registers folder and had been mixed into the "
@@ -225,7 +234,7 @@ PHOTOGRAPHY = {
     ),
     "marriage_1908": (
         "Complete for the scans on Drive. Continue later marriages in "
-        "Marriage 1937–1963 (that book is still a fragment)."
+        "Marriage 1937–1963, then Marriage 1964–2009 (both still fragments)."
     ),
     "baptism_2011": (
         "FRAGMENT of the current baptism book. Drive only has PAGE 046, PAGE 067, "
@@ -342,6 +351,7 @@ PHOTOGRAPHY = {
 }
 
 PRIORITY_ORDER = [
+    "marriage_1964",
     "baptism_fragments",
     "marriage_1937",
     "death_c_1924",

@@ -38,6 +38,7 @@ GROUPS = {
     "marriage_1908.csv": ["marriage_1908_*.csv"],
     "marriage_2009.csv": ["marriage_2009_*.csv"],
     "marriage_1937.csv": ["marriage_1937_*.csv"],
+    "marriage_1964.csv": ["marriage_1964_*.csv"],
     "marriage_1937_index.csv": ["mar1937_index_*.csv"],
     "confirmation_1895.csv": ["confirmation_1895_*.csv"],
     "confirmation_1957.csv": ["confirmation_1957_*.csv"],

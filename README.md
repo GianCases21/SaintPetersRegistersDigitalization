@@ -49,6 +49,7 @@ register type, and other fields.
 | Marriage 1937–1963 name index | — | **complete for letter tabs** — 1,813 groom–bride page pointers |
 | Marriage 1908–1936 | 1908–1936 | **complete** — 802 marriages (all 72 Drive scans) |
 | Marriage 1937–1963 | 1946 fragment + page 197 | **partial** — 31 marriages (PAGE 58, 60, 197) |
+| Marriage 1964–2009 | 1964 fragment | **not on Drive** — 11 marriages from a parish photo of page 1 (Kevin never uploaded this book; photograph page 2 to the end) |
 | Confirmation 1895–1944 | 1895–1944 | **complete for Drive scans** — year/page index (PAGE 000) |
 | Confirmation 1974–1990 folder | 1923 | **complete for Drive scans** — 10 baptisms (PAGE 164 is a misfiled 1923 baptism leaf) |
 | Death C 1924–1964 | 1948–1949 fragment | **complete for Drive scans** — 9 burials (PAGE 46) |

@@ -43,6 +43,8 @@ def main() -> None:
         "St. Joseph Section 1939/PAGE 067.JPG": "st_joseph_section_1939",
         "Baptism Registers/Baptism 2011-/PAGE 068.JPG": "baptism_2011",
         "Marriage Registers/Marriage 1937-1963/PAGE 059.JPG": "marriage_1937",
+        "Marriage 1964-2009/PAGE 002.JPG": "marriage_1964",
+        "incoming/marriage_1964/PAGE 002.JPG": "marriage_1964",
         "Death Registers/Death C 1924-1964/PAGE 047.JPG": "death_c_1924",
     }
     failed = 0
@@ -125,6 +127,28 @@ def main() -> None:
         failed += 1
     if map_drive_path("Marriage 1937-1963/index/PAGE B.JPG") != "marriage_1937_index":
         print(f"FAIL map marriage 1937 index {map_drive_path('Marriage 1937-1963/index/PAGE B.JPG')!r}")
+        failed += 1
+    if "Marriage 1964" not in register_title("marriage_1964"):
+        print(f"FAIL marriage_1964 title {register_title('marriage_1964')!r}")
+        failed += 1
+    mar64 = list(_csv.DictReader(open("transcriptions/marriage_1964.csv", newline="", encoding="utf-8")))
+    if any(r.get("register") != "marriage_1964" for r in mar64):
+        print("FAIL marriage_1964 register column")
+        failed += 1
+    if not any(
+        (r.get("groom_surname") or "").lower() == "suppa" and (r.get("bride_surname") or "").lower() == "zarconi"
+        for r in mar64
+    ):
+        print("FAIL marriage_1964 missing Suppa & Zarconi page 1")
+        failed += 1
+    if not any(
+        "corsaro" in (r.get("groom_surname") or "").lower() and "conforti" in (r.get("bride_surname") or "").lower()
+        for r in mar64
+    ):
+        print("FAIL marriage_1964 missing Del Corsaro & Conforti")
+        failed += 1
+    if len(mar64) != 11:
+        print(f"FAIL marriage_1964 expected 11 page-1 rows, got {len(mar64)}")
         failed += 1
 
     if not skip_archive("NEW 2023-2024 UPDATED-20260817T172911Z-1-001.zip"):

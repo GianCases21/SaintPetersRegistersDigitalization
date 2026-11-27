@@ -50,6 +50,7 @@ COVERAGE = {
     "marriage_1872": "Complete for Drive scans (all 65 pages).",
     "marriage_2009": "All Drive scans. Page 18 was never uploaded.",
     "marriage_1937": "FRAGMENT — only PAGE 58 and 60 are on Drive.",
+    "marriage_1964": "NOT ON DRIVE. Page 1 (11 marriages, Jan–Feb 1964) is from a parish photo. Photograph the rest of Marriage 1964–2009.",
     "confirmation_1895": "FRAGMENT — year/page index only (PAGE 000).",
     "confirmation_1974": "FRAGMENT — PAGE 164 is a misfiled 1923 baptism leaf.",
     "death_c_1924": "FRAGMENT — only PAGE 46 is on Drive.",
@@ -68,6 +69,10 @@ COVERAGE = {
 }
 
 SCAN_NEXT = [
+    (
+        "Marriage 1964–2009",
+        "Kevin never uploaded this book. Page 1 is in the database from a parish photo. Photograph page 2 through the end.",
+    ),
     (
         "Baptism 1875–1903 and 1904–1921",
         "Only a handful of stray pages are on Drive. Photograph the rest of both books.",

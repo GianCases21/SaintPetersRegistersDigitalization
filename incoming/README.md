@@ -12,6 +12,7 @@ Register ids match `transcriptions/manifest.json` (also listed in
 
 - `incoming/baptism_2011/PAGE 068.JPG`
 - `incoming/marriage_1937/PAGE 001.JPG`
+- `incoming/marriage_1964/PAGE 002.JPG`
 - `incoming/confirmation_2015/PAGE 4.JPG`
 
 Then:
